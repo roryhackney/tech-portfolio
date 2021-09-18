@@ -1,0 +1,166 @@
+/*CSS color variables*/
+:root {
+    --black: #080808;
+    --blue-darkest: #000222;
+    --orange-dark: #D27200;
+    --yellow: #FFCB3B;
+    --yellow-lightest: #FDF2D2;
+    --white: #F7F7F7;
+}
+
+/*base styles and selectors*/
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: Volkhov, Garamond, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Asap, Arial, sans-serif;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+/*styles for shared page styles*/
+header {
+    background-color: #dfdfdf;
+    padding: 10px;
+    overflow: hidden;
+}
+
+header .logo {
+    float: left;
+    height: 64px;
+    width: 64px;
+}
+
+header .site-title {
+    font-weight: bold;
+    font-size: 1.625rem;
+    display: inline-block;
+    padding: 0 8px;
+    height: 60px;
+    line-height: 60px;
+}
+
+/*menu toggle button*/
+header .menu-toggle {
+    border-radius: 5px;
+    background-color: var(--blue-darkest);
+    width: 60px;
+    height: 60px;
+    float: right;
+    padding: 17px 0;
+    margin: 2px 0;
+}
+
+header .menu-toggle hr {
+    width: 34px;
+    margin: 0 auto;
+    background-color: var(--yellow);
+    height: 2px;
+}
+
+header .menu-toggle hr:nth-of-type(2) {
+    margin: 10px auto;
+}
+
+header .site-tagline {
+    padding-top: 5px;
+    clear: both;
+    text-align: center;
+    font-size: 1.125rem;
+}
+
+header nav ul {
+    width: 180px;
+    margin: 10px auto 0 auto;
+    display: none;
+}
+
+header nav li {
+    width: 180px;
+    height: 44px;
+    background-color: var(--yellow-lightest);
+    list-style-type: none;
+    font-size: 1.125rem;
+    border-bottom: 1px solid var(--blue-darkest);
+    overflow: hidden;
+}
+
+header nav li a {
+    color: var(--blue-darkest);
+    background-color: var(--yellow-lightest);
+    border-width: 7px 10px;
+    border-style: solid;
+    border-color: var(--yellow-lightest);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+}
+
+header nav li a:hover {
+    color: var(--black);
+    background-color: lightblue;
+}
+
+header nav .active-page a {
+    color: var(--white);
+    background-color: var(--blue-darkest);
+}
+
+header nav .active-page a:hover {
+    background-color: var(--black);
+    color: white;
+}
+
+main {
+    padding: 10px;
+}
+
+@media only screen and (min-width: 481px) {
+    header {
+        padding: 15px;
+    }
+
+    header .logo {
+        height: 100px;
+        width: 100px;
+    }
+
+    header .site-title {
+        line-height: 85px;
+    }
+
+    header .menu-toggle {
+        display: none;
+    }
+
+    header .site-tagline {
+        clear: none;
+        text-align: left;
+        padding: 0 108px;
+    }
+
+    header nav ul {
+        display: block;
+        float: right;
+        width: auto;
+    }
+
+    header nav li {
+        float: left;
+        display: block;
+    }
+}
