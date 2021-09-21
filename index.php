@@ -22,15 +22,19 @@
             (max-width:768px) 100px,
             125px"
             >
-            <p class="site-title">Rory Hackney</p>
-            <div class="menu-toggle">
+            <div class="mobile-hidden left">
+                <p class="site-title">Rory Hackney</p>
+                <p class="site-tagline">Web Developer and Designer</p>
+            </div>
+            <p class="site-title mobile-only">Rory Hackney</p>
+            <div class="menu-toggle mobile-only" id="menu-toggle" onclick="menuToggle()">
                 <hr />
                 <hr />
                 <hr />
             </div>
-            <p class="site-tagline">Web Developer and Designer</p>
+            <p class="site-tagline mobile-only">Web Developer and Designer</p>
             <nav>
-                <ul>
+                <ul id="nav">
                     <li class="active-page"><a href="index.php">Home</a></li>
                     <li><a href="portfolio.php">Portfolio</a></li>
                     <li><a href="hire-me.php">Hire Me</a></li>
@@ -40,6 +44,16 @@
         </header>
         <main>
             <h1>Home</h1>
-        </main>    
+        </main>
+        <script>
+            function menuToggle() {
+                let nav = document.getElementById("nav");
+                if(nav.style.display !== "block") {
+                    nav.style.display = "block";
+                } else {
+                    nav.style.display = "none";
+                }
+            }
+        </script>
     </body>
 </html>
