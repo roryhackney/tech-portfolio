@@ -1,25 +1,17 @@
 /*CSS color variables*/
 :root {
     --black: #080808;
+    --black-true: #000000;
     --blue-darkest: #000222;
     --orange-dark: #D27200;
+    --orange-darkest: #422400;
     --yellow: #FFCB3B;
     --yellow-light: #ffe08c;
     --yellow-lightest: #FDF2D2;
+    --gray-warm-light: #eae9b8;
+    --gray-warm-mid: #d1c091;
     --white: #F7F7F7;
-}
-
-.mobile-hidden {
-    display: none !important;
-}
-
-.left {float: left;}
-
-/*base styles and selectors*/
-h1 {
-    width: 100%;
-    text-align: center;
-    font-family: Volkhov, Garamond, serif;
+    --white-true: #ffffff;
 }
 
 * {
@@ -38,9 +30,26 @@ body {
     background-color: var(--white);
 }
 
+img {
+    max-width: 100%;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: Volkhov, Garamond, serif;
+}
+
+.mobile-hidden {
+    display: none !important;
+}
+
+.left {float: left;}
+
+
 /*styles for shared page styles*/
 header {
-    background-color: #dfdfdf;
+    background-color: var(--gray-warm-mid);
     padding: 10px;
     overflow: hidden;
 }
@@ -98,13 +107,13 @@ header nav ul {
     border: 1px solid var(--yellow-light);
     border-radius: 5px;
     border-bottom-width: 0;
+    background-color: var(--yellow-lightest);
     display: none;
 }
 
 header nav li {
-    width: 178px;
+    width: 100%;
     height: 44px;
-    background-color: var(--yellow-lightest);
     list-style-type: none;
     font-size: 1.125rem;
     border-bottom: 2px solid var(--yellow-light);
@@ -112,42 +121,60 @@ header nav li {
 }
 
 header nav li a {
-    color: var(--blue-darkest);
     background-color: var(--yellow-lightest);
     border-width: 7px 10px;
     border-style: solid;
     border-color: var(--yellow-lightest);
-    text-decoration: none;
+    color: var(--blue-darkest);
     display: block;
-    text-align: center;
     line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
 }
 
+/*TODO: change hover color*/
 header nav li a:hover {
     color: var(--black);
-    background-color: lightblue;
+    background-color: var(--yellow-light);
+    border-color: var(--yellow-light);
 }
 
 header nav .active-page a {
     color: var(--white);
-    background-color: var(--blue-darkest);
+    background-color: var(--orange-darkest);
     margin-left: 0;
 }
 
 header nav .active-page a:hover {
     background-color: var(--black);
-    color: white;
+    color: var(--white-true);
+    border-color: var(--black-true);
 }
 
 /*main content styles*/
 
-main {
+.hero-container {
+    width: 100%;
+    position: relative;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    top: 0;
     padding: 10px;
+    max-width: 100%;
 }
 
 /*TABLET STYLES//////////////////////////////////////////*/
 
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 580px) {
     .mobile-only {
         display: none !important;
     }
@@ -180,20 +207,23 @@ main {
     }
 
     header nav ul {
-        display: block;
-        float: right;
-        width: auto;
-        margin-top: 55px;
         border: none;
+        width: auto;
+        display: inline-block;
+        background-color: unset;
     }
 
     header nav li {
-        float: left;
         display: block;
+        float: left;
         width: 90px;
-        height: 30px;
+        height: 32px;
         border-radius: 5px;
         margin: 0 5px;
+        border-width: 0;
+    }
+
+    header nav li a {
         border-style: solid;
         border-width: 2px 0 2px 0;
         border-color: var(--yellow-lightest);
@@ -201,24 +231,72 @@ main {
         border-top-color: var(--white);
     }
 
-    header nav li a {
-        border-width: 0;
+    header nav .active-page a {
+        border-color: var(--blue-darkest);
     }
 
-    header nav .active-page {
-        border-color: var(--blue-darkest);
+    header nav li a:hover {
+        background-color: var(--yellow-light);
+        border-top-color: var(--yellow);
+        border-bottom-color: var(--yellow-lightest);
+    }
+
+    /*main body styles*/
+    .hero-text {
+        width: 650px;
+        padding: 15px;
+        left: 50%;
+        transform: translate(-50%, 0);
     }
 }
 
-/*DESKTOP STYLES//////////////////////////*/
+@media only screen and (min-width: 766px) {
+    header nav ul {
+        float: right;
+        margin-top: 55px;
+        display: block;
+    }
+}
 
-@media only screen and (min-width: 769px) {
+/*LAPTOP STYLES//////////////////////////*/
+
+@media only screen and (min-width:861px) {
     header {
-        padding: 15px 90px;
+        padding: 15px 30px;
     }
 
     header .logo {
         width: 125px;
         height: 125px;
     }
+
+    header nav ul {
+        margin-top: 50px;
+    }
+
+    header nav li {
+        height: 44px;
+        width: 100px;
+    }
+
+    header nav li a {
+        line-height: 40px;
+    }
 }
+
+/*DESKTOP STYLES//////////////////////////*/
+
+@media only screen and (min-width: 1080px) {
+    header {
+        padding: 15px 11vw;
+    }
+
+    .hero-text {
+        font-size: 1.125rem;
+    }
+}
+
+/*TODO:
+max img size: 2000px wide
+double img size for retina shit ??
+do logo as svg?

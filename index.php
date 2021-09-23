@@ -7,7 +7,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Volkhov&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/f524b8448d.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/home.css">
         <title>Home | Rory Hackney, Web Developer and Designer</title>
     </head>
     <body>
@@ -18,8 +19,8 @@
             srcset="images/logo-small.png 64w,
             images/logo-medium.png 100w,
             images/logo-large.png 125w"
-            sizes="(max-width:480px) 64px,
-            (max-width:768px) 100px,
+            sizes="(max-width: 579px) 64px,
+            (max-width:860px) 100px,
             125px"
             >
             <div class="mobile-hidden left">
@@ -44,7 +45,30 @@
         </header>
         <main>
             <h1>Home</h1>
+            <div class="hero-container">
+                <picture class="hero">
+                    <!--2001px, 1600px, 1200px, 800px, 480px-->
+                    <source
+                        media="(min-width:800px)"
+                        srcset="images/home-hero-large.jpg 1200w,
+                        images/home-hero-larger.jpg 1599w,
+                        images/home-hero-largest.jpg 2001w">
+                    <source
+                        media="(min-width:480px)"
+                        srcset="images/home-hero-medium.jpg 800w">
+                    <img src="images/home-hero-small.jpg"
+                    alt="Photo of Rory Hackney over a background of a computer displaying code next to a sketchbook filled with design work.">
+                </picture>
+                <p class="hero-text">Web developer passionate about making the web more accessible by creating intuitive, mobile friendly, quality websites that combine functionality with creativity.</p>
+                <a class="button" href="portfolio.php">Portfolio</a>
+                <a class="button" href="hire-me.php">Hire Now</a>
+            </div>
         </main>
+
+
+
+
+
         <script>
             function menuToggle() {
                 let nav = document.getElementById("nav");
