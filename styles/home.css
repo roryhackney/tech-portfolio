@@ -15,29 +15,13 @@
 }
 
 .hero-container .button {
-    text-decoration: none;
-    border: 2px solid var(--yellow);
-    border-radius: 10px;
-    background-color: var(--yellow-light);
-    height: 44px;
-    width: 100px;
     position: absolute;
     bottom: 89px;
-    display: block;
-    color: var(--blue-darkest);
     right: 30px;
-    text-align: center;
-    line-height: 44px;
-    font-size: 1.125rem;
 }
 
 .hero-container .button:last-of-type {
     bottom: 30px;
-}
-
-.hero-container .button:hover {
-    background-color: var(--yellow-lightest);
-    border-color: var(--yellow-light);
 }
 
 /*TABLET STYLES//////////////////////////////////////////*/

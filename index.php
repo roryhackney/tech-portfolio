@@ -1,3 +1,13 @@
+<?php
+    $currentYear = date("Y");
+    $copyYear = "";
+    if ($currentYear - 2021 > 0) {
+        $copyYear = "2021-" . $currentYear;
+    } else {
+        $copyYear = "2021";
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
@@ -63,12 +73,87 @@
                 <a class="button" href="portfolio.php">Portfolio</a>
                 <a class="button" href="hire-me.php">Hire Now</a>
             </div>
+            <div class="main-content">
+                <h2>What I Do</h2>
+                <section class="content-block">
+                    <h3>Web Design</h3>
+                    <p>I analyze business needs and design websites to match. Deliverables: wireframes, visual designs, interactive prototypes, site structure, content planning, and project documentation.</p>
+                    <img class="small-image" src="images/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                </section>
+                <section class="content-block">
+                    <h3>Web Development</h3>
+                    <p>I implement web design and functionality using code. Deliverables: accessible web pages, responsive styles, forms, databases, HTML, CSS, JavaScript, PHP, and SQL files, which combine to create a full website.</p>
+                    <img class="small-image" src="images/home-body-small.jpg" alt="Screenshots of HTML, CSS, JavaScript, PHP, and SQL code.">
+                </section>
+                <div class="buttons-row">
+                    <a class="button" href="hire-me.php#resume">Resume</a>
+                    <a class="button" href="portfolio.php">Portfolio</a>
+                </div>
+                <h2>My Skills</h2>
+                <section class="content-block">
+                    <h3>Languages and Software</h3>
+                    <ul>
+                        <div class="column-3">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Bulma</li>
+                        </div>
+                        <div class="column-3">
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>SQL</li>
+                        </div>
+                        <div class="column-3">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                            <li>GitHub</li>
+                        </div>
+                    </ul>
+                    <img class="small-image" src="images/home-body-small.jpg" alt="Placeholder">
+                </section>
+                <section class="content-block">
+                    <h3>Knowledge and Skills</h3>
+                    <ul>
+                        <div class="column-2">
+                            <li>Info Architecture</li>
+                            <li>Wireframing</li>
+                            <li>Visual Design</li>
+                            <li>Prototyping</li>
+                            <li>Version Control</li>
+                        </div>
+                        <div class="column-2">
+                            <li>Web Design and Development</li>
+                            <li>Programming</li>
+                            <li>Database Design and Development</li>
+                        </div>
+                    </ul>
+                    <img class="small-image" src="images/home-body-small.jpg" alt="Placeholder">
+                </section>
+                <div class="buttons-row">
+                    <a class="button" href="portfolio.php">Portfolio</a>
+                    <a class="button" href="hire-me.php">Hire Me</a>
+                </div>
+                <h2>My Recent Work</h2>
+                <section class="content-block">
+                    <h3>Project 1</h3>
+                    <img class="small-image" src="images/home-body-small.jpg" alt="Placeholder">
+                    <span>Tags, categories, etc</span>
+                    <span>Date published</span>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste nesciunt volup! Incidunt odit commodi laborus descia.</p>
+                </section>
+            </div>
         </main>
-
-
-
-
-
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="portfolio.php">Portfolio</a></li>
+                    <li><a href="hire-me.php">Hire Me</a></li>
+                    <li><a href="about-me.php">About Me</a></li>
+                </ul>
+            </nav>
+            <p>Site content &copy; Rory Hackney <?php echo $copyYear; ?>.</p>
+        </footer>
         <script>
             function menuToggle() {
                 let nav = document.getElementById("nav");
