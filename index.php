@@ -54,6 +54,7 @@
             </nav>
         </header>
         <main>
+            <!--TODO: figure out src switching for 650 / 380 px responsive small images in mobile up to 650w-->
             <h1>Home</h1>
             <div class="hero-container">
                 <picture class="hero">
@@ -78,12 +79,20 @@
                 <section class="content-block">
                     <h3>Web Design</h3>
                     <p>I analyze business needs and design websites to match. Deliverables: wireframes, visual designs, interactive prototypes, site structure, content planning, and project documentation.</p>
-                    <img class="small-image" src="images/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                    <picture class="small-image">
+                        <source media="(min-width: 401px)"
+                        srcset="images/home-body-medium.jpg 650w">
+                        <img src="images/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                    </picture>
                 </section>
                 <section class="content-block">
                     <h3>Web Development</h3>
                     <p>I implement web design and functionality using code. Deliverables: accessible web pages, responsive styles, forms, databases, HTML, CSS, JavaScript, PHP, and SQL files, which combine to create a full website.</p>
-                    <img class="small-image" src="images/home-body-small.jpg" alt="Screenshots of HTML, CSS, JavaScript, PHP, and SQL code.">
+                    <picture class="small-image">
+                        <source media="(min-width: 401px)"
+                        srcset="images/home-body-medium.jpg 650w">
+                        <img src="images/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                    </picture>
                 </section>
                 <div class="buttons-row">
                     <a class="button" href="hire-me.php#resume">Resume</a>
@@ -109,7 +118,11 @@
                             <li>GitHub</li>
                         </div>
                     </ul>
-                    <img class="small-image" src="images/home-body-small.jpg" alt="Placeholder">
+                    <picture class="small-image">
+                        <source media="(min-width: 401px)"
+                        srcset="images/home-body-medium.jpg 650w">
+                        <img src="images/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                    </picture>
                 </section>
                 <section class="content-block">
                     <h3>Knowledge and Skills</h3>
@@ -122,12 +135,16 @@
                             <li>Version Control</li>
                         </div>
                         <div class="column-2">
-                            <li>Web Design and Development</li>
+                            <li>Web Design <br/> and Development</li>
                             <li>Programming</li>
-                            <li>Database Design and Development</li>
+                            <li>Database Design <br/> and Development</li>
                         </div>
                     </ul>
-                    <img class="small-image" src="images/home-body-small.jpg" alt="Placeholder">
+                    <picture class="small-image">
+                        <source media="(min-width: 401px)"
+                        srcset="images/home-body-medium.jpg 650w">
+                        <img src="images/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                    </picture>
                 </section>
                 <div class="buttons-row">
                     <a class="button" href="portfolio.php">Portfolio</a>
@@ -136,7 +153,11 @@
                 <h2>My Recent Work</h2>
                 <section class="content-block">
                     <h3>Project 1</h3>
-                    <img class="small-image" src="images/home-body-small.jpg" alt="Placeholder">
+                    <picture class="small-image">
+                        <source media="(min-width: 401px)"
+                        srcset="images/home-body-medium.jpg 650w">
+                        <img src="images/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                    </picture>
                     <span>Tags, categories, etc</span>
                     <span>Date published</span>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste nesciunt volup! Incidunt odit commodi laborus descia.</p>
