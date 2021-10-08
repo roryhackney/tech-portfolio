@@ -18,57 +18,45 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Volkhov&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/f524b8448d.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/old-styles.css">
         <link rel="stylesheet" href="styles/home.css">
         <title>Home | Rory Hackney, Web Developer and Designer</title>
     </head>
     <body>
         <header>
-            <nav class="navbar" role="navigation" aria-label="main navigation">
-                <div class="navbar-brand">
-                    <a href="index.php">
-                        <img alt="Circular logo - RH"
-                        src="images/logo-small.png"
-                        srcset="images/logo-small.png 64w,
-                        images/logo-medium.png 100w,
-                        images/logo-large.png 125w"
-                        sizes="(max-width: 768px) 64px,
-                        (max-width:1024px) 100px,
-                        125px">
-                    </a>
-                    <p class="title is-1 is-block-mobile is-hidden-tablet">Rory Hackney</p>
-                    <div class="is-hidden-mobile is-block-tablet is-pulled-left">
-                        <p class="title is-1">Rory Hackney</p>
-                        <p class="subtitle">Web Developer and Designer</p>
-                    </div>
-                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu" id="menu-toggle" onclick="menuToggle()">
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                    </a>
-                    <p class="subtitle is-block-mobile is-hidden-tablet">Web Developer and Designer</p>
-                </div>
-                <div id="navbar-menu" class="navbar-menu">
-                    <div class="navbar-end">
-                        <div class="navbar-item">
-                            <a class="button is-primary is-active" href="index.php">Home</a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="button is-primary" href="portfolio.php">Portfolio</a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="button is-primary" href="hire-me.php">Hire Me</a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="button is-primary" href="about-me.php">About Me</a>
-                        </div>
-                    </div>
-                </div>
+            <img class="logo"
+            alt="Rory Hackney's logo: yellow letters RH over a dark blue circle."
+            src="images/logo-small.png"
+            srcset="images/logo-small.png 64w,
+            images/logo-medium.png 100w,
+            images/logo-large.png 125w"
+            sizes="(max-width: 579px) 64px,
+            (max-width:860px) 100px,
+            125px"
+            >
+            <div class="mobile-hidden left">
+                <p class="site-title">Rory Hackney</p>
+                <p class="site-tagline">Web Developer and Designer</p>
+            </div>
+            <p class="site-title mobile-only">Rory Hackney</p>
+            <div class="menu-toggle mobile-only" id="menu-toggle" onclick="menuToggle()">
+                <hr />
+                <hr />
+                <hr />
+            </div>
+            <p class="site-tagline mobile-only">Web Developer and Designer</p>
+            <nav>
+                <ul id="nav">
+                    <li class="active-page"><a href="index.php">Home</a></li>
+                    <li><a href="portfolio.php">Portfolio</a></li>
+                    <li><a href="hire-me.php">Hire Me</a></li>
+                    <li><a href="about-me.php">About Me</a></li>
+                </ul>
             </nav>
         </header>
         <main>
             <!--TODO: figure out src switching for 650 / 380 px responsive small images in mobile up to 650w-->
-            <h1 class="title is-2">Home</h1>
+            <h1>Home</h1>
             <div class="hero-container">
                 <picture class="hero">
                     <!--2001px, 1600px, 1200px, 800px, 480px-->
@@ -193,7 +181,7 @@
         </footer>
         <script>
             function menuToggle() {
-                let nav = document.getElementById("navbar-menu");
+                let nav = document.getElementById("nav");
                 if(nav.style.display !== "block") {
                     nav.style.display = "block";
                 } else {
