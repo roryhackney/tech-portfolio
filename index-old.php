@@ -39,13 +39,13 @@
                 <p class="site-tagline">Web Developer and Designer</p>
             </div>
             <p class="site-title mobile-only">Rory Hackney</p>
-            <div class="menu-toggle mobile-only" id="menu-toggle" onclick="menuToggle()">
+            <div class="menu-toggle mobile-only" id="menu-toggle" role="button" aria-label="menu" onclick="menuToggle()">
                 <hr />
                 <hr />
                 <hr />
             </div>
             <p class="site-tagline mobile-only">Web Developer and Designer</p>
-            <nav>
+            <nav role="navigation" aria-label="main navigation">
                 <ul id="nav">
                     <li class="active-page"><a href="index.php">Home</a></li>
                     <li><a href="portfolio.php">Portfolio</a></li>

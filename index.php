@@ -6,6 +6,8 @@
     } else {
         $copyYear = "2021";
     }
+
+    include 'process-form.php';
 ?>
 
 <!DOCTYPE html>
@@ -19,56 +21,44 @@
         <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Volkhov&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/f524b8448d.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/my-styles.css">
         <link rel="stylesheet" href="styles/home.css">
         <title>Home | Rory Hackney, Web Developer and Designer</title>
     </head>
     <body>
-        <header>
-            <nav class="navbar" role="navigation" aria-label="main navigation">
-                <div class="navbar-brand">
-                    <a href="index.php">
-                        <img alt="Circular logo - RH"
-                        src="images/logo-small.png"
-                        srcset="images/logo-small.png 64w,
-                        images/logo-medium.png 100w,
-                        images/logo-large.png 125w"
-                        sizes="(max-width: 768px) 64px,
-                        (max-width:1024px) 100px,
-                        125px">
-                    </a>
-                    <p class="title is-1 is-block-mobile is-hidden-tablet">Rory Hackney</p>
-                    <div class="is-hidden-mobile is-block-tablet is-pulled-left">
-                        <p class="title is-1">Rory Hackney</p>
-                        <p class="subtitle">Web Developer and Designer</p>
-                    </div>
-                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu" id="menu-toggle" onclick="menuToggle()">
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                    </a>
-                    <p class="subtitle is-block-mobile is-hidden-tablet">Web Developer and Designer</p>
-                </div>
-                <div id="navbar-menu" class="navbar-menu">
-                    <div class="navbar-end">
-                        <div class="navbar-item">
-                            <a class="button is-primary is-active" href="index.php">Home</a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="button is-primary" href="portfolio.php">Portfolio</a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="button is-primary" href="hire-me.php">Hire Me</a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="button is-primary" href="about-me.php">About Me</a>
-                        </div>
-                    </div>
-                </div>
+    <header>
+            <img class="logo"
+            alt="Rory Hackney's logo: yellow letters RH over a dark blue circle."
+            src="images/logo-small.png"
+            srcset="images/logo-small.png 64w,
+            images/logo-medium.png 100w,
+            images/logo-large.png 125w"
+            sizes="(max-width: 579px) 64px,
+            (max-width:860px) 100px,
+            125px"
+            >
+            <div class="mobile-hidden left">
+                <p class="site-title">Rory Hackney</p>
+                <p class="site-tagline">Web Developer and Designer</p>
+            </div>
+            <p class="site-title mobile-only">Rory Hackney</p>
+            <div class="menu-toggle mobile-only" id="menu-toggle" onclick="menuToggle()">
+                <hr />
+                <hr />
+                <hr />
+            </div>
+            <p class="site-tagline mobile-only">Web Developer and Designer</p>
+            <nav>
+                <ul id="nav">
+                    <li class="active-page"><a href="index.php">Home</a></li>
+                    <li><a href="portfolio.php">Portfolio</a></li>
+                    <li><a href="hire-me.php">Hire Me</a></li>
+                    <li><a href="about-me.php">About Me</a></li>
+                </ul>
             </nav>
         </header>
         <main>
-            <!--TODO: figure out src switching for 650 / 380 px responsive small images in mobile up to 650w-->
-            <h1 class="title is-2">Home</h1>
+            <h1 class="title is-3 has-text-centered">Home</h1>
             <div class="hero-container">
                 <picture class="hero">
                     <!--2001px, 1600px, 1200px, 800px, 480px-->
@@ -88,27 +78,49 @@
                 <a class="button" href="hire-me.php">Hire Now</a>
             </div>
             <div class="main-content">
-                <h2>What I Do</h2>
-                <div class="level">
-                    <section class="content-block">
-                        <h3>Web Design</h3>
+                <h2 class="title is-4 has-text-centered">What I Do</h2>
+                <div class="columns is-multiline">
+                    <div class="column is-half-tablet is-one-third-desktop">
+                        <h3 class="title is-5">Web Design</h3>
                         <p>I analyze business needs and design websites to match. Deliverables: wireframes, visual designs, interactive prototypes, site structure, content planning, and project documentation.</p>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
                             srcset="images/home-body-medium.jpg 650w">
                             <img src="images/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
                         </picture>
-                    </section>
-                    <section class="content-block">
-                        <h3>Web Development</h3>
+                    </div>
+                    <div class="column is-half-tablet is-one-third-desktop">
+                        <h3 class="title is-5">Web Development</h3>
                         <p>I implement web design and functionality using code. Deliverables: accessible web pages, responsive styles, forms, databases, HTML, CSS, JavaScript, PHP, and SQL files, which combine to create a full website.</p>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
                             srcset="images/home-body-medium.jpg 650w">
                             <img src="images/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
                         </picture>
-                    </section>
-                </div>
+                    </div>
+                    <div class="column desktop-only is-one-third-desktop">
+                        <h2 class="title is-4 has-text-centered">Thank you!</h2>
+                        <p>Thanks for checking out my work! If you've got a project or job you think suits me, contact me here or on <a href="https://www.linkedin.com/in/roryhackney">LinkedIn</a>.</p>
+                        <h3 class="title is-5">Contact Me</h3>
+                        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+                            <div class="field">
+                                <label class="label" for="name">Name</label>
+                                <div class="control">
+                                    <input class="input" type="text" id="name" name="name" maxlength="250" required value="<?php echo $name;?>">
+                                </div>
+                            </div>
+                            <span class="error"><?php echo $nameError;?></span>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" maxlength="250" required value="<?php echo $email;?>">
+                            <span class="error"><?php echo $emailError;?></span>
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" maxlength="250" value="<?php echo $subject;?>">
+                            <span class="error"><?php echo $subjectError;?></span>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" maxlength="600" required><?php echo $message;?></textarea>
+                            <span class="error"><?php echo $messageError;?></span>
+                            <button class="button" type="submit">Submit</button>
+                        </form>
 
                 <div class="buttons-row">
                     <a class="button" href="hire-me.php#resume">Resume</a>
@@ -193,7 +205,7 @@
         </footer>
         <script>
             function menuToggle() {
-                let nav = document.getElementById("navbar-menu");
+                let nav = document.getElementById("nav");
                 if(nav.style.display !== "block") {
                     nav.style.display = "block";
                 } else {
