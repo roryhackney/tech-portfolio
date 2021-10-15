@@ -26,10 +26,10 @@
         <header>
             <img class="logo"
             alt="Rory Hackney's logo: yellow letters RH over a dark blue circle."
-            src="images/logo-small.png"
-            srcset="images/logo-small.png 64w,
-            images/logo-medium.png 100w,
-            images/logo-large.png 125w"
+            src="assets/logo-small.png"
+            srcset="assets/logo-small.png 64w,
+            assets/logo-medium.png 100w,
+            assets/logo-large.png 125w"
             sizes="(max-width: 579px) 64px,
             (max-width:860px) 100px,
             125px"
@@ -62,13 +62,13 @@
                     <!--2001px, 1600px, 1200px, 800px, 480px-->
                     <source
                         media="(min-width:800px)"
-                        srcset="images/home-hero-large.jpg 1200w,
-                        images/home-hero-larger.jpg 1599w,
-                        images/home-hero-largest.jpg 2001w">
+                        srcset="assets/home-hero-large.jpg 1200w,
+                        assets/home-hero-larger.jpg 1599w,
+                        assets/home-hero-largest.jpg 2001w">
                     <source
                         media="(min-width:480px)"
-                        srcset="images/home-hero-medium.jpg 800w">
-                    <img src="images/home-hero-small.jpg"
+                        srcset="assets/home-hero-medium.jpg 800w">
+                    <img src="assets/home-hero-small.jpg"
                     alt="Photo of Rory Hackney over a background of a computer displaying code next to a sketchbook filled with design work.">
                 </picture>
                 <p class="hero-text">Web developer passionate about making the web more accessible by creating intuitive, mobile friendly, quality websites that combine functionality with creativity.</p>
@@ -83,8 +83,8 @@
                         <p>I analyze business needs and design websites to match. Deliverables: wireframes, visual designs, interactive prototypes, site structure, content planning, and project documentation.</p>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="images/home-body-medium.jpg 650w">
-                            <img src="images/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                            srcset="assets/home-body-medium.jpg 650w">
+                            <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
                         </picture>
                     </section>
                     <section class="content-block">
@@ -92,8 +92,8 @@
                         <p>I implement web design and functionality using code. Deliverables: accessible web pages, responsive styles, forms, databases, HTML, CSS, JavaScript, PHP, and SQL files, which combine to create a full website.</p>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="images/home-body-medium.jpg 650w">
-                            <img src="images/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                            srcset="assets/home-body-medium.jpg 650w">
+                            <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
                         </picture>
                     </section>
                 </div>
@@ -124,8 +124,8 @@
                     </ul>
                     <picture class="small-image">
                         <source media="(min-width: 401px)"
-                        srcset="images/home-body-medium.jpg 650w">
-                        <img src="images/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                        srcset="assets/home-body-medium.jpg 650w">
+                        <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
                     </picture>
                 </section>
                 <section class="content-block">
@@ -146,8 +146,8 @@
                     </ul>
                     <picture class="small-image">
                         <source media="(min-width: 401px)"
-                        srcset="images/home-body-medium.jpg 650w">
-                        <img src="images/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                        srcset="assets/home-body-medium.jpg 650w">
+                        <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
                     </picture>
                 </section>
                 <div class="buttons-row">
@@ -159,8 +159,8 @@
                     <h3>Project 1</h3>
                     <picture class="small-image">
                         <source media="(min-width: 401px)"
-                        srcset="images/home-body-medium.jpg 650w">
-                        <img src="images/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                        srcset="assets/home-body-medium.jpg 650w">
+                        <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
                     </picture>
                     <span>Tags, categories, etc</span>
                     <span>Date published</span>

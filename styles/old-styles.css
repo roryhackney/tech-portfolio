@@ -206,7 +206,6 @@ main .main-content {
     padding: 10px;
 }
 
-sadsaafssasadsa;
 .content-block {
     max-width: 650px;
     margin: 0 auto;
@@ -227,6 +226,7 @@ sadsaafssasadsa;
 }
 
 .buttons-row .button {
+    width: 100px;
     float: left;
     margin: 0 25px;
 }
@@ -362,7 +362,6 @@ footer p {
         display: block;
     }
 
-ssffssdfszczc;
     .content-block {
         width: calc(50% - 15px);
         max-width: 650px;
