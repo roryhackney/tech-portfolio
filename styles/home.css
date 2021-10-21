@@ -14,38 +14,38 @@
     --white-true: #ffffff;
 }
 
-.hero-container .button {
+.home .hero-container .button {
     position: absolute;
     bottom: 89px;
     right: 30px;
 }
 
-.hero-container .button:last-of-type {
+.home .hero-container .button:last-of-type {
     bottom: 30px;
 }
 
 /*TABLET STYLES//////////////////////////////////////////*/
 
 @media only screen and (min-width: 580px) {
-    .hero-container .button {
+    .home .hero-container .button {
         bottom: 100px;
         right: 225px;
     }
 
-    .hero-container .button:last-of-type {
+    .home .hero-container .button:last-of-type {
         bottom: 100px;
         right: 100px;
     }
 }
 
 @media only screen and (min-width:1080px) {
-    .hero-container .button {
+    .home .hero-container .button {
         bottom: 11vw;
         right: 25vw;
         margin-right: 150px;
     }
 
-    .hero-container .button:last-of-type {
+    .home .hero-container .button:last-of-type {
         bottom: 11vw;
         right: 25vw;
         margin-right: 0;

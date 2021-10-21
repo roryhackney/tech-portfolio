@@ -211,7 +211,6 @@ main .main-content {
     margin: 0 auto;
 }
 
-/*TODO: 650px small image, center uls in content block*/
 .small-image {
     margin: 5px auto;
     max-width: 650px;
@@ -435,7 +434,4 @@ footer p {
     }
 }
 
-/*TODO:
-max img size: 2000px wide
-double img size for retina shit ??
-do logo as svg?
+/*TODO: max img size: 2000px wide, double img size for retina shit ??, do logo as svg?*/
