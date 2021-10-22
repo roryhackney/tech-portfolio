@@ -66,7 +66,7 @@
                             <div class="column is-half">
                                 <h3 class="title is-6 mb-0">Languages and Software</h3>
                                 <div class="columns is-mobile">
-                                    <div class="column is-one-third">
+                                    <div class="column is-one-third pb-0">
                                         <ul>
                                             <li>HTML</li>
                                             <li>CSS</li>
@@ -74,7 +74,7 @@
                                             <li title="CSS Framework">Bulma</li>
                                         </ul>
                                     </div>
-                                    <div class="column is-one-third">
+                                    <div class="column is-one-third pb-0">
                                         <ul>
                                             <li>JavaScript</li>
                                             <li>PHP</li>
@@ -82,7 +82,7 @@
                                             <li>SQL</li>
                                         </ul>
                                     </div>
-                                    <div class="column is-one-third">
+                                    <div class="column is-one-third pb-0">
                                         <ul>
                                             <li>Figma</li>
                                             <li>Photoshop</li>
@@ -97,10 +97,10 @@
                                     <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
                                 </picture>
                             </div>
-                            <div class="column is-half">
+                            <div class="column is-half pb-0">
                                 <h3 class="title is-6 mb-0">Knowledge and Skills</h3>
                                 <div class="columns is-mobile">
-                                    <div class="column is-half">
+                                    <div class="column is-half pb-0">
                                         <ul>
                                             <li>Info Architecture</li>
                                             <li>Wireframing</li>
@@ -109,7 +109,7 @@
                                             <li>Version Control</li>
                                         </ul>
                                     </div>
-                                    <div class="column is-half">
+                                    <div class="column is-half pb-0">
                                         <ul>
                                             <li>Web Design <br/> and Development</li>
                                             <li>Programming</li>
@@ -155,7 +155,7 @@
                                     <span>Tags, categories, etc</span>
                                     <span class="is-pulled-right">Date published</span>
                                 </div>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste nesciunt volup! Incidunt odit commodi laborus descia.</p>
+                                <p class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste nesciunt volup! Incidunt odit commodi laborus descia.</p>
                             </div>
                             <div class="column is-half">
                                 <h3 class="title is-6 mb-0">Project 2</h3>
@@ -168,7 +168,7 @@
                                     <span>Tags, categories, etc</span>
                                     <span class="is-pulled-right">Date published</span>
                                 </div>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste nesciunt volup! Incidunt odit commodi laborus descia.</p>
+                                <p class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste nesciunt volup! Incidunt odit commodi laborus descia.</p>
                             </div>
                             <div class="column is-half">
                                 <h3 class="title is-6 mb-0">Project 3</h3>
@@ -181,7 +181,7 @@
                                     <span>Tags, categories, etc</span>
                                     <span class="is-pulled-right">Date published</span>
                                 </div>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste nesciunt volup! Incidunt odit commodi laborus descia.</p>
+                                <p class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste nesciunt volup! Incidunt odit commodi laborus descia.</p>
                             </div>
                             <div class="column is-half is-hidden-mobile">
                                 <h3 class="title is-6 mb-0">Project 4</h3>
@@ -194,7 +194,7 @@
                                     <span>Tags, categories, etc</span>
                                     <span class="is-pulled-right">Date published</span>
                                 </div>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste nesciunt volup! Incidunt odit commodi laborus descia.</p>
+                                <p class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste nesciunt volup! Incidunt odit commodi laborus descia.</p>
                             </div>
                             <div class="column is-full">
                                 <div class="buttons-row">
@@ -202,7 +202,7 @@
                                     <a class="button" href="hire-me.php">Hire Now</a>
                                 </div>
                                 <p class="has-text-centered is-hidden-touch">Thanks for dropping by!</p>
-                                <a href="" class="is-block has-text-centered is-hidden-touch">Back to top</a>
+                                <a href="" class="is-block has-text-centered is-hidden-touch pb-3">Back to top</a>
                             </div>
                         </div>
                     </div>

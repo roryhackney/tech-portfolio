@@ -21,7 +21,7 @@
                         <div class="columns is-multiline">
                             <div class="column is-full">
                                 <h2 class="title is-6 mb-0">My education and certifications</h2>
-                                <p>I received my BFA from the Minneapolis College of Art and Design in 2016, and for the past few years I’ve been studying web development in school and out. I moved to Seattle February 2020 and graduated with a Certificate in Web Development and Design September 2021 from Seattle Central College.</p>
+                                <p class="content">I received my BFA from the Minneapolis College of Art and Design in 2016, and for the past few years I’ve been studying web development in school and out. I moved to Seattle February 2020 and graduated with a Certificate in Web Development and Design September 2021 from Seattle Central College.</p>
                                 <picture class="large-image">
                                     <!--400 like small-image on mobile, then 760 on tablet, 900/1240/1600> on desktop-->
                                     <source media="(min-width: 1551px)" srcset="assets/home-body-largest.jpg"> <!--1550-max-->
@@ -34,7 +34,7 @@
                             <div class="column is-half">
                                 <h2 class="title is-6 mb-0">My top priorities when building websites</h2>
                                 <ul>
-                                    <li>Web accessibility for all</li>
+                                    <li>Accessible, user friendly design</li>
                                     <li>Responsive, mobile first layouts</li>
                                     <li>High quality code and best practices</li>
                                     <li>Useful, creative, consistent design</li>
@@ -49,7 +49,7 @@
                             <div class="column is-half">
                                 <h2 class="title is-6 mb-0">My favorite languages and software</h2>
                                 <div class="columns is-mobile">
-                                    <div class="column is-one-third">
+                                    <div class="column is-one-third pb-0">
                                         <ul>
                                             <li>HTML</li>
                                             <li>CSS</li>
@@ -57,7 +57,7 @@
                                             <li title="CSS Framework">Bulma</li>
                                         </ul>
                                     </div>
-                                    <div class="column is-one-third">
+                                    <div class="column is-one-third pb-0">
                                         <ul>
                                             <li>JavaScript</li>
                                             <li>PHP</li>
@@ -65,7 +65,7 @@
                                             <li>SQL</li>
                                         </ul>
                                     </div>
-                                    <div class="column is-one-third">
+                                    <div class="column is-one-third pb-0">
                                         <ul>
                                             <li>Figma</li>
                                             <li>Photoshop</li>
@@ -95,7 +95,7 @@
                                 </picture>
                             </div>
                             <div class="column is-full">
-                                <p>In addition to coding, I enjoy producing diagrams, design documents, and case studies. I spend my free time making art for fun, petting cats, and learning more about web development and design.</p>
+                                <p class="content">In addition to coding, I enjoy producing diagrams, design documents, and case studies. I spend my free time making art for fun, petting cats, and learning more about web development and design.</p>
                                 <picture class="large-image">
                                     <source media="(min-width: 1551px)" srcset="assets/home-body-largest.jpg">
                                     <source media="(min-width:1081px)" srcset="assets/home-body-larger.jpg">
@@ -110,7 +110,7 @@
                                     <a class="button" href="hire-me.php">Hire Now</a>
                                 </div>
                                 <p class="has-text-centered is-hidden-touch">Thanks for dropping by!</p>
-                                <a href="" class="is-block has-text-centered is-hidden-touch">Back to top</a>
+                                <a href="" class="is-block has-text-centered is-hidden-touch pb-3">Back to top</a>
                             </div>
                         </div>
                     </div>

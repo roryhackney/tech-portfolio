@@ -22,6 +22,7 @@ html {
 
 body {
     font-family: Asap, Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 h1, h2, h3 {
@@ -129,6 +130,14 @@ header nav .active-page a:hover {
     color: var(--white-true);
 }
 
+header nav #nav-dropitem {
+    display: none;
+}
+
+header nav .nav-dropdown:hover + #nav-dropitem {
+    display: block;
+}
+
 /*must change class name if want use*/
 /* .button {
     display: block;
@@ -156,10 +165,11 @@ header nav .active-page a:hover {
     position: relative;
 }
 
-.hero {
+.hero, .hero img {
     width: 100%;
     height: auto;
     max-width: 2000px;
+    margin: 0 auto;
 }
 
 .hero-text {
@@ -175,25 +185,29 @@ main .main-content {
 }
 
 .buttons-row {
-    width: 300px;
+    width: 200px;
     margin: 10px auto 15px auto;
     height: 44px;
     display: block;
 }
 
-.buttons-row .button {
-    width: 100px;
-    float: left;
-    margin: 0 25px;
+.buttons-row.three {
+    width: 300px;
 }
 
-.small-image {
+.buttons-row .button {
+    width: 80px;
+    float: left;
+    margin: 0 10px;
+}
+
+.small-image, .small-image img {
     width: 100%;
     max-width: 760px;
     margin: 0 auto;
 }
 
-.large-image {
+.large-image, .large-image img {
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
@@ -217,6 +231,13 @@ footer ul {
 
 .home .hero-container .button:last-of-type {
     bottom: 30px;
+}
+
+.resume {
+    display: block;
+    height: 372px;
+    width: 300px;
+    margin: 0 auto;
 }
 
 /*TABLET STYLES//////////////////////////////////////////*/
@@ -284,6 +305,19 @@ footer ul {
 
     main .main-content {
         padding: 15px;
+    }
+
+    .buttons-row {
+        width: 300px;
+    }
+
+    .buttons-row.three {
+        width: 450px;
+    }
+    
+    .buttons-row .button {
+        margin: 0 25px;
+        width: 100px;
     }
 
     footer {

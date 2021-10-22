@@ -32,6 +32,12 @@ switch($page) {
         $currentPage = 'about';
         $h1 = 'About Me';
         break;
+    case '/tech-portfolio/hire-me.php':
+        $bodyClass = 'hire';
+        $title = 'Hire Me';
+        $currentPage = 'hire';
+        $h1 = 'Hire Me';
+        break;
 }
 
 /*contact form validation*/
@@ -133,7 +139,8 @@ function validate($input) {
                 <ul id="nav">
                     <li <?php if($currentPage == 'home') {echo 'class="active-page"';}?>><a href="index.php">Home</a></li>
                     <li <?php if($currentPage == 'portfolio') {echo 'class="active-page"';}?>><a href="portfolio.php">Portfolio</a></li>
-                    <li <?php if($currentPage == 'hire') {echo 'class="active-page"';}?>><a href="hire-me.php">Hire Me</a></li>
+                    <li <?php if($currentPage == 'hire') {echo 'class="active-page"';}?>><a href="hire-me.php">Hire Me<span><i class="fas fa-angle-down"></i></span></a></li> <!--id="nav-dropdown"-->
+                    <ul><li><a href="resume.php">Resume</a></li></ul> <!--id="nav-dropitem"-->
                     <li <?php if($currentPage == 'about') {echo 'class="active-page"';}?>><a href="about-me.php">About Me</a></li>
                 </ul>
             </nav>

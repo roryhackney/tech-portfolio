@@ -2,8 +2,8 @@
                         <h2 class="title is-5 has-text-centered">Thank you!</h2>
                         <div class="columns is-multiline">
                             <div class="column is-half-tablet is-full-desktop">
-                                <p>Thanks for checking out my work! If you've got a project or job you think suits me, contact me here or on <a href="https://www.linkedin.com/in/roryhackney">LinkedIn</a>.</p>
-                                <h2 class="title is-5 has-text-centered mb-1 mt-3">Contact Me</h3>
+                                <p class="content">Thanks for checking out my work! If you've got a project or job you think suits me, contact me here or on <a href="https://www.linkedin.com/in/roryhackney">LinkedIn</a>.</p>
+                                <h2 id="contact" class="title is-5 has-text-centered mb-1 mt-3">Contact Me</h3>
                                 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
                                     <div class="field">
                                         <label class="label" for="name">Name</label>
@@ -62,7 +62,7 @@
                                 <div class="level is-mobile">
                                     <div class="level-left">
                                         <span class="level-item"><i class="fas fa-2x fa-file-alt"></i></span>
-                                        <span class="level-item"><a href="assets/resume.pdf">Resume</a></span>
+                                        <span class="level-item"><a href="resume.php">Resume</a></span>
                                     </div>
                                 </div>
                             </div>
