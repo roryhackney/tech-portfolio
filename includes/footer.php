@@ -25,6 +25,17 @@
                     nav.style.display = "none";
                 }
             }
+
+            function submenuToggle() {
+                if(window.matchMedia("(min-width:769px)").matches) {
+                    let dropdown = document.getElementById("nav-dropitem-tablet");
+                    if(dropdown.style.display !== "block") {
+                        dropdown.style.display = "block";
+                    } else {
+                        dropdown.style.display = "none";
+                    }
+                }
+            }
         </script>
     </body>
 </html>

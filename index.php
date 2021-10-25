@@ -1,17 +1,12 @@
 <?php include 'includes/header.php'; ?>
             <div class="hero-container">
                 <picture class="hero">
-                    <!--2001px, 1600px, 1200px, 800px, 480px-->
-                    <source
-                        media="(min-width:801px)"
-                        srcset="assets/home-hero-large.jpg 1200w,
-                        assets/home-hero-larger.jpg 1599w,
-                        assets/home-hero-largest.jpg 2001w">
-                    <source
-                        media="(min-width:481px)"
-                        srcset="assets/home-hero-medium.jpg 800w">
-                    <img src="assets/home-hero-small.jpg"
-                    alt="Photo of Rory Hackney over a background of a computer displaying code next to a sketchbook filled with design work.">
+                    <!--2000px, 1600px, 1200px, 800px, 480px-->
+                    <source media="(min-width:1601px)" srcset="assets/home-hero-largest.jpg">
+                    <source media="(min-width:1201px)" srcset="assets/home-hero-larger.jpg">
+                    <source media="(min-width:801px)" srcset="assets/home-hero-large.jpg">
+                    <source media="(min-width:481px)" srcset="assets/home-hero-medium.jpg">
+                    <img src="assets/home-hero-small.jpg" alt="Photo of Rory Hackney over a background of a computer displaying code next to a sketchbook filled with design work.">
                 </picture>
                 <p class="hero-text">Web developer passionate about making the web more accessible by creating intuitive, mobile friendly, quality websites that combine functionality with creativity.</p>
                 <a class="button" href="portfolio.php">Portfolio</a>

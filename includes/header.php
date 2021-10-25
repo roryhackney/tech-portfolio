@@ -139,8 +139,15 @@ function validate($input) {
                 <ul id="nav">
                     <li <?php if($currentPage == 'home') {echo 'class="active-page"';}?>><a href="index.php">Home</a></li>
                     <li <?php if($currentPage == 'portfolio') {echo 'class="active-page"';}?>><a href="portfolio.php">Portfolio</a></li>
-                    <li <?php if($currentPage == 'hire') {echo 'class="active-page"';}?>><a href="hire-me.php">Hire Me<span><i class="fas fa-angle-down"></i></span></a></li> <!--id="nav-dropdown"-->
-                    <ul><li><a href="resume.php">Resume</a></li></ul> <!--id="nav-dropitem"-->
+                    <li <?php if($currentPage == 'hire') {echo 'class="active-page"';}?> onmouseover="submenuToggle()" onmouseout="submenuToggle()">
+                        <a href="hire-me.php">Hire Me <span><i class="fas fa-angle-down"></i></span></a> <!--id="nav-dropdown"-->
+                        <ul id="nav-dropitem-tablet" class="is-hidden-mobile">
+                            <li><a href="resume.php">Resume</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-dropitem-mobile is-hidden-tablet <?php if($currentPage == 'resume') {echo 'active-page';}?>">
+                        <a href="resume.php">Resume</a>
+                    </li>
                     <li <?php if($currentPage == 'about') {echo 'class="active-page"';}?>><a href="about-me.php">About Me</a></li>
                 </ul>
             </nav>

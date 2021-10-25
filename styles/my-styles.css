@@ -130,13 +130,24 @@ header nav .active-page a:hover {
     color: var(--white-true);
 }
 
-header nav #nav-dropitem {
-    display: none;
+header nav .nav-dropitem-mobile {
+    background-color: var(--yellow-light);
+    position: relative;
+    left: 25px;
 }
 
-header nav .nav-dropdown:hover + #nav-dropitem {
-    display: block;
+header nav #nav-dropitem-tablet {
+    background-color: var(--yellow-light);
+    position: absolute;
+    margin: 0 auto;
+    border-radius: 0 0 5px 5px;
+    display: none;
+    transform: translate(-8px, 0);
 }
+
+/*header nav .nav-dropdown:hover + #nav-dropitem {
+    display: block;
+} */
 
 /*must change class name if want use*/
 /* .button {
@@ -209,7 +220,7 @@ main .main-content {
 
 .large-image, .large-image img {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1240px;
     margin: 0 auto;
 }
 

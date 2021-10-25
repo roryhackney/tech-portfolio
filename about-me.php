@@ -1,17 +1,12 @@
 <?php include 'includes/header.php'; ?>
             <div class="hero-container">
                 <picture class="hero">
-                    <!--2001px, 1600px, 1200px, 800px, 480px-->
-                    <source
-                        media="(min-width:801px)"
-                        srcset="assets/home-hero-large.jpg 1200w,
-                        assets/home-hero-larger.jpg 1599w,
-                        assets/home-hero-largest.jpg 2001w">
-                    <source
-                        media="(min-width:481px)"
-                        srcset="assets/home-hero-medium.jpg 800w">
-                    <img src="assets/home-hero-small.jpg"
-                    alt="">
+                    <!--2000px, 1600px, 1200px, 800px, 480px-->
+                    <source media="(min-width:1601px)" srcset="assets/home-hero-largest.jpg">
+                    <source media="(min-width:1201px)" srcset="assets/home-hero-larger.jpg">
+                    <source media="(min-width:801px)" srcset="assets/home-hero-large.jpg">
+                    <source media="(min-width:481px)" srcset="assets/home-hero-medium.jpg">
+                    <img src="assets/home-hero-small.jpg" alt="">
                 </picture>
                 <p class="hero-text">I’m a web developer passionate about making the web more accessible by creating intuitive, mobile friendly, quality websites that combine functionality with creativity.</p>
             </div>
@@ -23,11 +18,9 @@
                                 <h2 class="title is-6 mb-0">My education and certifications</h2>
                                 <p class="content">I received my BFA from the Minneapolis College of Art and Design in 2016, and for the past few years I’ve been studying web development in school and out. I moved to Seattle February 2020 and graduated with a Certificate in Web Development and Design September 2021 from Seattle Central College.</p>
                                 <picture class="large-image">
-                                    <!--400 like small-image on mobile, then 760 on tablet, 900/1240/1600> on desktop-->
-                                    <source media="(min-width: 1551px)" srcset="assets/home-body-largest.jpg"> <!--1550-max-->
-                                    <source media="(min-width:1081px)" srcset="assets/home-body-larger.jpg"> <!--1081-1550-->
-                                    <source media="(min-width:790px)" srcset="assets/home-body-large.jpg"> <!--790 - 1080-->
-                                    <source media="(min-width: 401px)" srcset="assets/home-body-medium.jpg"> <!--401 to 789-->
+                                    <source media="(min-width:961px)" srcset="assets/home-body-larger.jpg"> <!--961 - max 2000-->
+                                    <source media="(min-width:791px)" srcset="assets/home-body-large.jpg"> <!--791 - 960-->
+                                    <source media="(min-width: 421px)" srcset="assets/home-body-medium.jpg"> <!--421 to 791-->
                                     <img src="assets/home-body-small.jpg" alt="Rory Hackney standing in front of two graduation certificates framed on a wall.">
                                 </picture>
                             </div>
@@ -97,10 +90,9 @@
                             <div class="column is-full">
                                 <p class="content">In addition to coding, I enjoy producing diagrams, design documents, and case studies. I spend my free time making art for fun, petting cats, and learning more about web development and design.</p>
                                 <picture class="large-image">
-                                    <source media="(min-width: 1551px)" srcset="assets/home-body-largest.jpg">
-                                    <source media="(min-width:1081px)" srcset="assets/home-body-larger.jpg">
-                                    <source media="(min-width:790px)" srcset="assets/home-body-large.jpg">
-                                    <source media="(min-width: 401px)" srcset="assets/home-body-medium.jpg">
+                                    <source media="(min-width:961px)" srcset="assets/home-body-larger.jpg"> <!--961 - max 2000-->
+                                    <source media="(min-width:791px)" srcset="assets/home-body-large.jpg"> <!--791 - 960-->
+                                    <source media="(min-width: 421px)" srcset="assets/home-body-medium.jpg"> <!--421 to 791-->
                                     <img src="assets/home-body-small.jpg" alt="Rory Hackney standing in front of two graduation certificates framed on a wall.">
                                 </picture>
                             </div>
