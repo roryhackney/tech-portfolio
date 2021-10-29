@@ -20,7 +20,7 @@
                             </div>
                             <div class="column is-half">
                                 <h2 class="title is-5 has-text-centered">My Resume</h2>
-                                <a href="assets/resume.php"><img class="resume" src="assets/resume.jpg"></a>
+                                <a href="assets/resume.php"><img class="resume-img" src="assets/resume.jpg"></a>
                                 <div class="level mt-4 is-mobile">
                                     <a class="level-item" href="resume.php">HTML Resume</a>
                                     <a class="level-item" href="assets/resume.pdf" target="_blank">Print/PDF</a>

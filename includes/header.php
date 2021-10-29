@@ -38,6 +38,18 @@ switch($page) {
         $currentPage = 'hire';
         $h1 = 'Hire Me';
         break;
+    case '/tech-portfolio/portfolio.php':
+        $bodyClass = 'portfolio';
+        $title = 'Portfolio';
+        $currentPage = 'portfolio';
+        $h1 = 'Portfolio';
+        break;
+    case '/tech-portfolio/resume.php':
+        $bodyClass = 'resume';
+        $title = 'Resume';
+        $currentPage = 'resume';
+        $h1 = 'Resume';
+        break;
 }
 
 /*contact form validation*/
@@ -129,7 +141,7 @@ function validate($input) {
                 <p class="site-tagline">Web Developer and Designer</p>
             </div>
             <p class="site-title mobile-only">Rory Hackney</p>
-            <div class="menu-toggle mobile-only" id="menu-toggle" onclick="menuToggle()">
+            <div class="menu-toggle mobile-only" id="menu-toggle">
                 <hr />
                 <hr />
                 <hr />
@@ -139,7 +151,7 @@ function validate($input) {
                 <ul id="nav">
                     <li <?php if($currentPage == 'home') {echo 'class="active-page"';}?>><a href="index.php">Home</a></li>
                     <li <?php if($currentPage == 'portfolio') {echo 'class="active-page"';}?>><a href="portfolio.php">Portfolio</a></li>
-                    <li <?php if($currentPage == 'hire') {echo 'class="active-page"';}?> onmouseover="submenuToggle()" onmouseout="submenuToggle()">
+                    <li <?php if($currentPage == 'hire') {echo 'class="active-page"';}?> id="submenu-toggle">
                         <a href="hire-me.php">Hire Me <span><i class="fas fa-angle-down"></i></span></a> <!--id="nav-dropdown"-->
                         <ul id="nav-dropitem-tablet" class="is-hidden-mobile">
                             <li><a href="resume.php">Resume</a></li>

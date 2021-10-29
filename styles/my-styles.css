@@ -244,12 +244,49 @@ footer ul {
     bottom: 30px;
 }
 
-.resume {
+.hire .resume-img {
     display: block;
     height: 372px;
     width: 300px;
     margin: 0 auto;
 }
+
+.resume .absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.resume .hero-text {
+    position: static;
+}
+
+.resume .hero-container .button {
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 100px;
+    padding: 0;
+    text-align: center;
+    height: 44px;
+    line-height: 44px;
+}
+
+.resume .hero-container .button:nth-of-type(3) {
+    margin: 0 auto;
+}
+
+.resume .resume-div {
+    background-color: beige;
+    color: var(--black-true);
+}
+
+.resume .resume-div.dark-mode {
+    background-color: var(--black);
+    color: white;
+}
+
+/*TODO: how to get resume hero buttons to display as designed, and still within the hero*/
 
 /*TABLET STYLES//////////////////////////////////////////*/
 @media only screen and (min-width: 769px) {
@@ -310,6 +347,9 @@ footer ul {
     .hero-text {
         width: 650px;
         padding: 15px;
+    }
+
+    .hero-text:not(.resume .hero-text) {
         left: 50%;
         transform: translate(-50%, 0);
     }
@@ -344,6 +384,10 @@ footer ul {
     .home .hero-container .button:last-of-type {
         bottom: 100px;
         right: 100px;
+    }
+
+    .resume .hero-text {
+        margin: 0 auto;
     }
 }
 
@@ -404,6 +448,7 @@ footer ul {
         right: 25vw;
         margin-right: 0;
     }
+
 }
 
 /*TODO: Change small image max width and res to 760px

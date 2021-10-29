@@ -16,26 +16,6 @@
                 </div>
             </div>
         </footer>
-        <script>
-            function menuToggle() {
-                let nav = document.getElementById("nav");
-                if(nav.style.display !== "block") {
-                    nav.style.display = "block";
-                } else {
-                    nav.style.display = "none";
-                }
-            }
-
-            function submenuToggle() {
-                if(window.matchMedia("(min-width:769px)").matches) {
-                    let dropdown = document.getElementById("nav-dropitem-tablet");
-                    if(dropdown.style.display !== "block") {
-                        dropdown.style.display = "block";
-                    } else {
-                        dropdown.style.display = "none";
-                    }
-                }
-            }
-        </script>
+        <script src="script.js" type="text/javascript" defer></script>
     </body>
 </html>
