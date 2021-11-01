@@ -41,7 +41,7 @@
             </div>
             <div class="main-content">
                 <div id="resume-div" class="resume-div">
-                    <h2 class="title is-5 has-text-centered">Rory Hackney</h2>
+                    <h2>Rory Hackney</h2>
                     <p>Web Developer and Designer</p>
                     <h3>Objective</h3>
                     <p>Web Developer seeking job with lots to do and even more to learn.</p>
@@ -50,6 +50,12 @@
                         <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
                             <ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li><li>GitHub</li></ul>
                         </div>
+                        <p>Professional Summary</p>
+                        <p>Full stack web developer passionate about using design and code to build accessible websites that help small businesses to save time
+                            and increase profits. Passionate about challenging projects, learning new skills, and improving every day. 5+ years experience assisting
+                            customers, as well as 2 years experience with precise bookkeeping and FUCK and background in design, BFA in Art, and Certificate in Web Dev
+                            focusing on coding skills, usability, and database development.
+                            Precise, detail-oriented, organized, teamwork, takes direction well, eager to learn, hardworking, efficient, determined</p>  
                     </div>
                 </div>
             </div>

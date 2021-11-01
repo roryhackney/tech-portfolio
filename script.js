@@ -1,38 +1,72 @@
 
 "use strict";
 window.addEventListener("load", function(event) {
-    document.getElementById("menu-toggle").addEventListener("click", menuToggle);
+    //Nav mobile menu toggle and submenu toggle
+    let menuToggle = document.getElementById("menu-toggle");
+    if(menuToggle) {
+        menuToggle.addEventListener("click", menuToggler);
+    }
     let submenuToggle = document.getElementById("submenu-toggle");
-    submenuToggle.addEventListener("onmouseover", submenuToggle);
-    submenuToggle.addEventListener("onmouseout", submenuToggle);
+    if(submenuToggle) {
+        submenuToggle.addEventListener("mouseenter", submenuToggler);
+        submenuToggle.addEventListener("mouseleave", submenuToggler);
+    }
 
+    //Dark/Light mode toggle on Resume page
     let modeButtonResume = document.getElementById("mode-toggle");
+    if(modeButtonResume) {
+        modeButtonResume.addEventListener("click", toggleDarkMode);
+    }
     let modeButtonResume2 = document.getElementById("mode-toggle-mobile");
-    modeButtonResume.addEventListener("click", toggleDarkMode);
-    modeButtonResume2.addEventListener("click", toggleDarkMode);
+    if(modeButtonResume2) {
+        modeButtonResume2.addEventListener("click", toggleDarkMode);
+    }
 
+    //Responsive mobile/tablet/desktop buttons on resume page (affect resume div only)
     let layoutButtonMobile = document.getElementById("mobile-button");
+    if(layoutButtonMobile) {
+        layoutButtonMobile.addEventListener("click", function() {loadLayout("Mobile")});
+    }
     let layoutButtonMobile2 = document.getElementById("mobile-button-mobile");
-    layoutButtonMobile.addEventListener("click", function() {loadLayout("Mobile")});
-    layoutButtonMobile2.addEventListener("click", function() {loadLayout("Mobile")});
+    if(layoutButtonMobile2) {
+        layoutButtonMobile2.addEventListener("click", function() {loadLayout("Mobile")});
+    }
 
     let layoutButtonTablet = document.getElementById("tablet-button");
+    if(layoutButtonTablet) {
+        layoutButtonTablet.addEventListener("click", function() {loadLayout("Tablet")});
+    }
     let layoutButtonTablet2 = document.getElementById("tablet-button-mobile");
-    layoutButtonTablet.addEventListener("click", function() {loadLayout("Tablet")});
-    layoutButtonTablet2.addEventListener("click", function() {loadLayout("Tablet")});
+    if(layoutButtonTablet2) {
+        layoutButtonTablet2.addEventListener("click", function() {loadLayout("Tablet")});
+    }
 
     let layoutButtonDesktop = document.getElementById("desktop-button");
+    if(layoutButtonDesktop) {
+        layoutButtonDesktop.addEventListener("click", function() {loadLayout("Desktop")});
+    }
     let layoutButtonDesktop2 = document.getElementById("desktop-button-mobile");
-    layoutButtonDesktop.addEventListener("click", function() {loadLayout("Desktop")});
-    layoutButtonDesktop2.addEventListener("click", function() {loadLayout("Desktop")});
+    if(layoutButtonDesktop2) {
+        layoutButtonDesktop2.addEventListener("click", function() {loadLayout("Desktop")});
+    }
 
+    //If the current page is resume.php, and the viewport is at least 769px wide, hide the button for the current viewport (tablet or desktop)
     //TODO: if this page === resume.php....
     if(this.window.matchMedia("(min-width: 769px)").matches) {
         //TODO: add is-hidden class to the appropriate button (tablet or desktop, depending)
         //TODO: then add appropriate classes to the resume div
+        if(this.window.matchMedia("(min-width: 1024px)").matches) {
+            if(layoutButtonDesktop) {
+                layoutButtonDesktop.classList.add("is-hidden");
+            }
+        } else {
+            if(layoutButtonTablet) {
+                layoutButtonTablet.classList.add("is-hidden");
+            }
+        }
     }
 
-    function menuToggle() {
+    function menuToggler() {
         let nav = document.getElementById("nav");
         if(nav.style.display !== "block") {
             nav.style.display = "block";
@@ -41,7 +75,7 @@ window.addEventListener("load", function(event) {
         }
     }
 
-    function submenuToggle() {
+    function submenuToggler() {
         if(window.matchMedia("(min-width:769px)").matches) {
             let dropdown = document.getElementById("nav-dropitem-tablet");
             if(dropdown.style.display !== "block") {

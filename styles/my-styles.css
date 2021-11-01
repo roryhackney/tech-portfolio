@@ -418,7 +418,7 @@ footer ul {
 
 /*DESKTOP STYLES//////////////////////////*/
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1024px) {
     header {
         padding: 15px 10vw;
     }

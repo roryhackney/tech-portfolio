@@ -152,7 +152,7 @@ function validate($input) {
                     <li <?php if($currentPage == 'home') {echo 'class="active-page"';}?>><a href="index.php">Home</a></li>
                     <li <?php if($currentPage == 'portfolio') {echo 'class="active-page"';}?>><a href="portfolio.php">Portfolio</a></li>
                     <li <?php if($currentPage == 'hire') {echo 'class="active-page"';}?> id="submenu-toggle">
-                        <a href="hire-me.php">Hire Me <span><i class="fas fa-angle-down"></i></span></a> <!--id="nav-dropdown"-->
+                        <a href="hire-me.php">Hire Me <span><i class="fas fa-angle-down"></i></span></a>
                         <ul id="nav-dropitem-tablet" class="is-hidden-mobile">
                             <li><a href="resume.php">Resume</a></li>
                         </ul>

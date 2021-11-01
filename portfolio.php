@@ -17,6 +17,7 @@
                             <div class="column is-full">
                                 <h2 class="title is-5 has-text-centered">Recent Projects</h2>
                             </div>
+                            <?php ?>
                             <div class="column is-half">
                                 <h3 class="title is-6 mb-0">Project 1</h3>
                                 <picture class="small-image">
