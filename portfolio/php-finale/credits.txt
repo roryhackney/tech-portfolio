@@ -1,0 +1,14 @@
+Credits
+
+First of all, thank you to my professor Olga Szemetylo from Seattle Central for teaching me so much about PHP, input validation, efficient CSS styling, and so much more. You made a new and difficult subject not just easier, but exciting.
+
+Image Credits
+Thank you to Unsplash and its photographers.
+
+Thank you to Catrina Carrigan for the iced tea image in my daily coffee page.
+Thank you to Caleb Russel for the latte image in my coffee page.
+Thank you to Nathan Dumlao for the drip coffee image.
+Thanks to Victor Rutka for the frappucino image.
+Thanks to Niklas du Paya for the refresher image.
+Thanks to Luke Porter for the cappucino image.
+Thanks to Gerson Cifuentes for the americano image.
