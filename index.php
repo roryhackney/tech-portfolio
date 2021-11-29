@@ -24,8 +24,8 @@
                                 <p>I analyze business needs and design websites to match. Deliverables: wireframes, visual designs, interactive prototypes, site structure, content planning, and project documentation.</p>
                                 <picture class="small-image is-hidden-tablet">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                    srcset="assets/home-body-web-design-medium.jpg">
+                                    <img src="assets/home-body-web-design-small.jpg" alt="Website designs for an online shop's product and checkout pages, created using Figma.">
                                 </picture>
                             </div>
                             <div class="column is-half">
@@ -33,22 +33,22 @@
                                 <p>I implement web design and functionality using code. Deliverables: accessible web pages, responsive styles, forms, databases, HTML, CSS, JavaScript, PHP, and SQL files, which combine to create a full website.</p>
                                 <picture class="small-image is-hidden-tablet">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                    srcset="assets/home-body-web-development-medium.jpg">
+                                    <img src="assets/home-body-web-development-small.jpg" alt="HTML code on a white background next to a finished website for a massage therapist.">
                                 </picture>
                             </div>
                             <div class="column is-half is-hidden-mobile">
                                 <picture class="small-image">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                    srcset="assets/home-body-web-design-medium.jpg">
+                                    <img src="assets/home-body-web-design-small.jpg" alt="Website designs for an online shop's product and checkout pages, created using Figma.">
                                 </picture>
                             </div>
                             <div class="column is-half is-hidden-mobile">
                                 <picture class="small-image">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                    srcset="assets/home-body-web-development-medium.jpg">
+                                    <img src="assets/home-body-web-development-small.jpg" alt="HTML code on a white background next to a finished website for a massage therapist.">
                                 </picture>
                             </div>
                             <div class="column is-full">
@@ -88,8 +88,8 @@
                                 </div>
                                 <picture class="small-image is-hidden-tablet">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                    srcset="assets/home-body-skills-php-code-medium.jpg">
+                                    <img src="assets/home-body-skills-php-code-small.jpg" alt="PHP code for random images and dynamically generated navigation.">
                                 </picture>
                             </div>
                             <div class="column is-half pb-0">
@@ -114,22 +114,22 @@
                                 </div>
                                 <picture class="small-image is-hidden-tablet">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                    srcset="assets/home-body-skills-database-erd-medium.jpg">
+                                    <img src="assets/home-body-skills-database-erd-small.jpg" alt="Screenshot of various tables and fields from a database.">
                                 </picture>
                             </div>
                             <div class="column is-half is-hidden-mobile">
                                 <picture class="small-image">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                    srcset="assets/home-body-skills-php-code-medium.jpg">
+                                    <img src="assets/home-body-skills-php-code-small.jpg" alt="PHP code for random images and dynamically generated navigation.">
                                 </picture>
                             </div>
                             <div class="column is-half is-hidden-mobile">
                                 <picture class="small-image">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                    srcset="assets/home-body-skills-database-erd-medium.jpg">
+                                    <img src="assets/home-body-skills-database-erd-small.jpg" alt="Screenshot of various tables and fields from a database.">
                                 </picture>
                             </div>
                             <div class="column is-full">

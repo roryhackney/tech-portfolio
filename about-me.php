@@ -35,8 +35,8 @@
                                 </ul>
                                 <picture class="small-image is-hidden-tablet">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                    srcset="assets/about-body-priorities-mobile-first-design-medium.jpg">
+                                    <img src="assets/about-body-priorities-mobile-first-design-small.jpg" alt="Website design in Figma shown for mobile, tablet, and then desktop layouts.">
                                 </picture>
                             </div>
                             <div class="column is-half">
@@ -69,22 +69,22 @@
                                 </div>
                                 <picture class="small-image is-hidden-tablet">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                    srcset="assets/about-body-languages-sql-code-medium.jpg">
+                                    <img src="assets/about-body-languages-sql-code-small.jpg" alt="SQL code for a view of a relational database.">
                                 </picture>
                             </div>
                             <div class="column is-half is-hidden-mobile">
                                 <picture class="small-image">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                    srcset="assets/about-body-priorities-mobile-first-design-medium.jpg">
+                                    <img src="assets/about-body-priorities-mobile-first-design-small.jpg" alt="Website design in Figma shown for mobile, tablet, and then desktop layouts.">
                                 </picture>
                             </div>
                             <div class="column is-half is-hidden-mobile">
                                 <picture class="small-image">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                    srcset="assets/about-body-languages-sql-code-medium.jpg">
+                                    <img src="assets/about-body-languages-sql-code-small.jpg" alt="SQL code for a view of a relational database.">
                                 </picture>
                             </div>
                             <div class="column is-full">

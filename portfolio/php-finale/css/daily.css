@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  height: 100%;
+}
+
+div {
+  width: 75%;
+  margin: 0 auto;
+  background-color: lightgreen;
+  height: 100%;
+  border: 5px solid white;
+}
+
+h1 {
+  padding: 10px;
+  background-color: lightgray;
+  border-bottom: 2px solid black;
+  margin-bottom: 5px;
+}
+
+p, a {
+  font-family: Arial, sans-serif;
+  padding: 0 0 5px 0;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.src {
+  padding: 5px;
+  font-style: italic;
+}
+
+img {
+  width: 500px;
+  max-width: 500px;
+  border: 2px solid black;
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.tuesday div {
+  background-color: sandybrown;
+}
+
+.wednesday div {
+  background-color: lightpink;
+}
+
+.thursday div {
+  background-color: lightsteelblue;
+}
+
+.friday div {
+  background-color: thistle;
+}
+
+.saturday div {
+  background-color: wheat;
+}
+
+.sunday div {
+  background-color: darksalmon;
+}

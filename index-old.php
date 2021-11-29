@@ -55,7 +55,6 @@
             </nav>
         </header>
         <main>
-            <!--TODO: figure out src switching for 650 / 380 px responsive small images in mobile up to 650w-->
             <h1>Home</h1>
             <div class="hero-container">
                 <picture class="hero">

@@ -1,0 +1,278 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.active {
+  color: green;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+body {
+  background-color: hsl(30, 20%, 95%);
+}
+
+.home {
+  background-color: beige;
+}
+
+.about {
+  background-color: lightgrey;
+}
+
+.daily aside {
+  text-align: center;
+  background-color: lavender;
+  padding: 10px 0;
+}
+
+/*etc for other bodyClasses*/
+
+.center {
+  text-align: center;
+}
+
+header {
+  margin-bottom: 20px;
+  background: lightblue;
+  overflow: hidden;
+  padding-bottom: 20px;
+  /* floating elements wont display properly without overflow: hidden */
+}
+
+.innerHeader {
+  width: 940px;
+  margin: 20px auto 0 auto;
+}
+
+#logo {
+  width: 150px;
+  float: left;
+}
+
+nav ul {
+  float: right;
+  margin-top: 20px;
+}
+
+nav li {
+  float: left;
+  margin-left: 15px;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: brown;
+}
+
+#wrapper {
+  clear: both;
+  width: 940px;
+  margin: 0 auto;
+}
+
+main {
+  width: 580px;
+  float: left;
+}
+
+aside {
+  width: 340px;
+  float: right;
+  /* background-color: lightblue; */
+  margin-top: 15px;
+}
+
+aside img {
+  margin: 10px auto 15px auto;
+  max-width: 400px;
+}
+
+footer {
+  height: 50px;
+  line-height: 50px;
+  border-top: 1px dotted tan;
+  clear: both;
+}
+
+footer li {
+  float: left;
+  margin-right: 30px;
+  list-style-type: none;
+}
+
+img {
+  max-width: 200px;
+  display: block;
+}
+
+blockquote {
+  font-size: 1.4em;
+  margin: 20px 100px;
+}
+
+.home h1 {
+  font-size: 3em;
+  font-weight: 200;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 200;
+  margin-bottom: 12px;
+}
+
+p {margin-bottom: 20px;}
+
+/*gallery CSS*/
+
+.gallery #wrapper {
+  width: 1100px;
+}
+
+.gallery main {
+  width: 760px;
+}
+
+table {
+  border: 1px solid tan;
+  width: 750px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.kittens td:nth-child(1),
+.kittens td:nth-child(2),
+.kittens td:nth-child(4) {
+  width: 150px;
+}
+
+.kittens td:nth-child(2) {
+  padding-left: 20px;
+}
+
+/*form css*/
+
+  form {
+    max-width: 580px;
+    margin-bottom: 20px;
+  }
+  ul {
+    list-style-type: none;
+  }
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"] {
+    width: 100%;
+  }
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin: 5px;
+  }
+  input[type="submit"] {
+    margin: 5px;
+    float: left;
+    border: 1px solid black;
+    background-color: lightblue;
+    padding: 5px;
+  }
+  form a {
+    float: right;
+  }
+
+  fieldset {
+    padding: 10px 15px 10px 10px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  textarea {
+    width: 100%;
+    height: 120px;
+  }
+  span {
+    display: block;
+    color: red;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+
+  /*DAILY css*/
+  .daily {
+    text-align: center;
+    height: 100%;
+  }
+
+  .daily main {
+    margin: 0 auto;
+    background-color: lightgreen;
+    height: 100%;
+    border: 5px solid white;
+  }
+
+  .daily h1 {
+    padding: 10px;
+    background-color: lightgray;
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+  }
+
+  .daily p, .daily a {
+    font-family: Arial, sans-serif;
+    padding: 0 0 5px 0;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .daily .src {
+    padding: 5px;
+    font-style: italic;
+  }
+
+  .daily img {
+    width: 500px;
+    max-width: 500px;
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .daily ul {
+    list-style-type: none;
+  }
+
+  .tuesday main {
+    background-color: sandybrown;
+  }
+
+  .wednesday main {
+    background-color: lightpink;
+  }
+
+  .thursday main {
+    background-color: lightsteelblue;
+  }
+
+  .friday main {
+    background-color: thistle;
+  }
+
+  .saturday main {
+    background-color: wheat;
+  }
+
+  .sunday main {
+    background-color: darksalmon;
+  }
+
+
+  .dinos ul {
+    padding: 5px 0;
+  }

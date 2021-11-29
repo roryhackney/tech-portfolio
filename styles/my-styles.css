@@ -420,7 +420,7 @@ footer ul {
 
 @media only screen and (min-width: 1024px) {
     header {
-        padding: 15px 10vw;
+        padding: 15px 5vw;
     }
 
     .hero-text {
@@ -429,11 +429,11 @@ footer ul {
     }
 
     main .main-content {
-        padding: 15px 10vw;
+        padding: 15px 5vw;
     }
 
     footer {
-        padding: 15px 10vw;
+        padding: 15px 5vw;
     }
 
     /*page specific styles*/
@@ -451,4 +451,4 @@ footer ul {
 
 }
 
-/*TODO: Change small image max width and res to 760px
+/*TODO: Start completely over on resume hero buttons, they look like SHIT, get them to align at the bottom of the hero, not the top.*/

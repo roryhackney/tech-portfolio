@@ -1,0 +1,182 @@
+/*Styles for IT261 Website*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(250, 90%, 5%);
+  font-family: Arial, sans-serif;
+}
+
+.inner main {
+  background: yellow;
+}
+
+/*Background-color, height, width, and floats for containers, no content yet*/
+
+header {
+  background-color: hsl(290, 100%, 10%);
+}
+
+header p {
+  float: right;
+  font-size: 3em;
+  font-family: Georgia, serif;
+  color: white;
+  line-height: 150px;
+}
+
+.row {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#logo {
+  width: 100px;
+  margin: 20px 0 15px 0;
+}
+
+nav {
+  height: 50px;
+  line-height: 50px;
+  background-color: white;
+}
+
+nav ul {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+nav li {
+  float: left;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: hsl(290, 10%, 90%);
+  color: black;
+  display: block;
+  border: 2px solid white;
+  height: 50px;
+  padding: 0 5px;
+  min-width: 120px;
+}
+
+nav a:hover {
+  background-color: hsl(290, 13%, 82%);
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+main {
+  width: 62%;
+  float: left;
+  background-color: hsl(210, 50%, 80%);
+  padding: 10px 20px;
+}
+
+main h1 {
+  font-family: Georgia, serif;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+main #wrap {
+  border: 2px solid black;
+  width: 95%;
+  margin: 0 auto;
+  height: 300px;
+}
+
+main #spacer {
+  clear: both;
+  padding-top: 15px;
+}
+
+main #selfie {
+  border: 2px solid black;
+  width: 50%;
+  float: left;
+}
+
+main p {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+  width: 45%;
+  margin: 0 5px;
+  padding: 8px;
+  background-color: hsl(215, 80%, 88%);
+}
+
+main #art {
+  border: 2px solid black;
+  width: 45%;
+  float: right;
+  margin: 20px 5px 0 5px;
+}
+
+aside {
+  width: 35%;
+  float: right;
+  background-color: hsl(330, 80%, 85%);
+  padding: 10px 0;
+}
+
+aside h2 {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+aside ul {
+  list-style-type: none;
+  padding-left: 30px;
+}
+
+aside img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 5px auto;
+  border: 2px solid black;
+}
+
+aside img:hover {
+  opacity: 70%;
+}
+
+aside .caption {
+  color: black;
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  height: 300px;
+  background-color: hsl(290, 100%, 10%);
+  clear: both;
+}
+
+.copyright {
+  height: 50px;
+  line-height: 50px;
+  background-color: hsl(290, 10%, 90%);
+}
+
+.copyright li {
+  float: left;
+  list-style-type: none;
+  margin-right: 30px;
+}
