@@ -30,7 +30,7 @@ include 'includes/header.php';
 ?>
 
 <div id="wrapper">
-<main>
+<main id="detail-main">
   <h2>Welcome to <?php echo $DinoName; ?>'s Page!</h2>
   <?php
     if($Feedback == '') {
@@ -48,7 +48,7 @@ include 'includes/header.php';
   ?>
 </main>
 
-<aside>
+<aside id="detail-aside">
   <?php
     if($Feedback == '') {
       echo '<img src="' . $DinoImg . '" alt="' . $DinoName . '">';

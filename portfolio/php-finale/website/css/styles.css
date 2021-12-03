@@ -46,17 +46,19 @@ header {
 
 .innerHeader {
   width: 940px;
+  max-width: 100vw;
   margin: 20px auto 0 auto;
 }
 
 #logo {
-  width: 150px;
+  width: 125px;
   float: left;
 }
 
 nav ul {
   float: right;
   margin-top: 20px;
+  padding-right: 50px;
 }
 
 nav li {
@@ -67,22 +69,39 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: brown;
+  color: rgb(54, 6, 6);
+  font-size: 1.25rem;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+.subnav a {
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: rgb(124, 13, 13);
+}
+
+nav .active:hover {
+  color: rgb(38, 177, 38);
 }
 
 #wrapper {
   clear: both;
   width: 940px;
+  max-width: 100vw;
   margin: 0 auto;
 }
 
 main {
   width: 580px;
+  max-width: 100vw;
   float: left;
 }
 
 aside {
   width: 340px;
+  max-width: 100vw;
   float: right;
   /* background-color: lightblue; */
   margin-top: 15px;
@@ -98,6 +117,12 @@ footer {
   line-height: 50px;
   border-top: 1px dotted tan;
   clear: both;
+}
+
+footer ul {
+  width: 940px;
+  margin: 0 auto;
+  max-width: 100vw;
 }
 
 footer li {
@@ -134,23 +159,32 @@ p {margin-bottom: 20px;}
 
 .gallery #wrapper {
   width: 1100px;
+  max-width: 100vw;
 }
 
 .gallery main {
   width: 760px;
+  max-width: 100vw;
 }
 
 table {
   border: 1px solid tan;
   width: 750px;
+  max-width: 100vw;
   padding: 20px;
   margin-bottom: 10px;
+}
+
+table img {
+  width: 100%;
+  max-width: 200px;
 }
 
 .kittens td:nth-child(1),
 .kittens td:nth-child(2),
 .kittens td:nth-child(4) {
   width: 150px;
+  max-width: 25%;
 }
 
 .kittens td:nth-child(2) {
@@ -272,7 +306,28 @@ table {
     background-color: darksalmon;
   }
 
+/*DINOS css*/
 
   .dinos ul {
     padding: 5px 0;
+  }
+
+  .dinos img {
+    width: 400px;
+    max-width: 100vw;
+  }
+  
+  @media screen and (max-width: 900px) {
+    #detail-aside {
+      width: 100vw;
+    }
+
+    #detail-main {
+      width: 100vw;
+    }
+
+    #detail-main > * {
+      width: fit-content;
+      margin: 0 auto;
+    }
   }

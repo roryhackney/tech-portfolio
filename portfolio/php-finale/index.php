@@ -5,18 +5,18 @@
     <title>PHP Finale | Portal Page</title>
     <link href="css/styles.css" type="text/css" rel="stylesheet">
   </head>
-  <body>
+  <body class="portal">
 
     <header>
       <div class="row">
-        <img id="logo" src="images/logo.png" alt="logo">
+        <a href="index.php"><img id="logo" src="images/logo.png" alt="logo"></a>
         <p>Rory Hackney</p>
       </div>
     </header>
 
     <nav>
       <ul>
-        <li><a href="index.php">Portal Page</a></li>
+        <li><a class="here" href="index.php">Portal Page</a></li>
         <li><a href="website/contact.php">Contact Form</a></li>
         <li><a href="currency-form.php">Currency Converter</a></li>
         <li><a href="daily-art.php">Daily Challenge</a></li>
@@ -40,7 +40,8 @@
         <div id="spacer">
           <a href="final/index.php">
             <div id="wrap">
-              Final Project: User Management, Dino Database, Contact Form, Daily Art, and more...
+              <img src="images/final.jpg" alt="Screenshot of a login screen">
+              <span>Final Project: User Management, Database Content, Contact Form, and more...</span>
             </div>
           </a>
         </div><!--end of spacer-->
@@ -51,25 +52,26 @@
             <li><a href="website/gallery.php">Kitten Gallery</a></li>
             <li><a href="database-people/people.php">Database: Heroes</a></li>
             <li><a href="exercises/daily-coffee.php">Daily Coffee</a></li>
-            <img src="images/portfoliotable.jpg" alt="Portfolio database table">
         </ul>
+        <a href="images/portfoliotable.jpg" target="_blank">
+          <img src="images/portfoliotable.jpg" alt="Portfolio database table">
+        </a>
       </aside>
     </div> <!--end wrapper-->
-<!--TODO: set aside imgs to max 400px wide, kitten gallery imgs to max 200px wide, daily art imgs to 500px wide-->
     <footer>
       <div class="copyright">
         <div class="row">
           <ul>
             <li>Copyright 2020-<?php echo date('Y');?></li>
             <li>All Rights Reserved</li>
-            <li><a href="../index.php">Web design by Rory Hackney</a></li>
-            <!--TODO: change validation urls to roryhackney.com/php-finale/index.php-->
-            <li><a href="https://validator.w3.org/check?uri=https://www.roryhackney.com/tech-portfolio/php-finale/index.php" target="_blank">Validated HTML</a></li>
-            <li><a href="https://jigsaw.w3.org/css-validator/validator?uri=https://www.roryhackney.com/it261/index.php" target="_blank">Validated CSS</a></li>
+            <li><a href="https://www.linkedin.com/in/roryhackney">Web design by Rory Hackney</a></li>
+            <li><a href="https://www.roryhackney.com/portfolio.php">Back to Portfolio</a></li>
+            <li><a href="https://www.roryhackney.com/hire-me.php">Hire Me</a></li>
+            <li><a href="<?php echo "https://validator.w3.org/check?uri=https://www.roryhackney.com" . htmlspecialchars($_SERVER['REQUEST_URI']); ?>" target="_blank">Valid HTML</a></li>
+            <li><a href="<?php echo "https://jigsaw.w3.org/css-validator/validator?uri=https://www.roryhackney.com" . htmlspecialchars($_SERVER['REQUEST_URI']); ?>" target="_blank">Valid CSS</a></li>
           </ul>
         </div> <!--end row-->
       </div> <!--end copyright-->
     </footer>
-
   </body>
 </html>

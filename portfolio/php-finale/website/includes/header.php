@@ -2,18 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <!--                     -->
     <title><?php echo $title; ?></title>
     <link href="css/styles.css" type="text/css" rel="stylesheet">
   </head>
   <body class="<?php echo $bodyClass, ' ', $dailyClass; ?>">
     <header>
       <div class="innerHeader">
-        <img id="logo" src="images/logo.jpg" alt="logo">
+        <a href="../index.php"><img id="logo" src="images/logo.png" alt="logo"></a>
         <nav>
           <ul>
             <!-- call nav display function -->
             <?php echo makeLinks($nav); ?>
+          </ul>
+          <ul class="subnav">
+            <?php echo makeLinks($nav2); ?>
           </ul>
         </nav>
       </div><!--close div .innerHeader-->

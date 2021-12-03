@@ -33,7 +33,7 @@
       break;
     case 'dinos.php':
       $title = 'Dinosaurs Page';
-      $pageHeading = 'Dinosaurs Page';
+      $pageHeading = 'Welcome to the Dinosaurs Page';
       $center = 'center';
       $bodyClass = 'dinos inner';
       break;
@@ -44,8 +44,8 @@
       $bodyClass = 'contact inner';
       break;
     case 'gallery.php':
-      $title = 'Gallery (Kittens) Page';
-      $pageHeading = 'Welcome to Our Kittens Page!';
+      $title = 'Kittens Gallery Page';
+      $pageHeading = 'Welcome to the Kittens Page!';
       $bodyClass = 'gallery inner';
       break;
     case 'thx.php':
@@ -55,12 +55,18 @@
   }//end switch
 
 //create nav array
-  $nav['index.php'] = 'Home';
-  $nav['about.php'] = 'About';
-  $nav['daily.php'] = 'Daily';
-  $nav['dinos.php'] = 'Dinosaurs';
-  $nav['contact.php'] = 'Contact';
-  $nav['gallery.php'] = 'Gallery';
+  // $nav['index.php'] = 'Home';
+  // $nav['about.php'] = 'About';
+  // $nav['daily.php'] = 'Daily';
+  $nav['../index.php'] = 'Portal Page';
+  $nav['contact.php'] = 'Contact Form';
+  $nav['dinos.php'] = 'Dinosaurs DB';
+  $nav['gallery.php'] = 'Cat Gallery';
+  
+  $nav2['../currency-form.php'] = 'Currency Form';
+  $nav2['../daily-art.php'] = 'Daily Art';
+  $nav2['../fuel-calculator.php'] = 'Mileage Form';
+  $nav2['../database-people/people.php'] = 'Hero DB';
 //end nav array
 
 //create nav display function
@@ -79,6 +85,7 @@
   //declare some image arrays
   $images = ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg', 'image6.jpg'];
   $kittenImages = array('kitten1.jpg', 'kitten2.jpg', 'kitten3.jpg', 'kitten4.jpg', 'kitten5.jpg', 'kitten6.jpg', 'kitten7.jpg');
+  $dinoImages = ['avimi.jpg', 'deino.jpg', 'erket.jpg', 'hylae.jpg', 'iguan.jpg', 'khaan.jpg', 'neuqe.jpg', 'nqweb.jpg', 'utahr.jpg', 'zephy.jpg'];
 
 //create random images function
   function randomImage($imageArray) {

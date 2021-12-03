@@ -12,13 +12,14 @@ body {
 }
 
 .inner main {
-  background: yellow;
+  background-color: sandybrown;
 }
 
 /*Background-color, height, width, and floats for containers, no content yet*/
 
 header {
   background-color: hsl(290, 100%, 10%);
+  height: 150px;
 }
 
 header p {
@@ -37,6 +38,8 @@ header p {
 #logo {
   width: 100px;
   margin: 20px 0 15px 0;
+  border: 1px solid gray;
+  border-radius: 90px;
 }
 
 nav {
@@ -48,6 +51,16 @@ nav {
 nav ul {
   width: 1200px;
   margin: 0 auto;
+  max-width: 100vw;
+}
+
+nav .here {
+  background-color: hsl(0, 0%, 10%);
+  color: white;
+}
+
+nav .here:hover {
+  background-color: black;
 }
 
 nav li {
@@ -92,9 +105,28 @@ main h1 {
 
 main #wrap {
   border: 2px solid black;
-  width: 95%;
   margin: 0 auto;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
   height: 300px;
+  width: 600px;
+}
+
+main #wrap img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 600px;
+  height: 300px;
+}
+
+main #wrap span {
+  position: absolute;
+  top: 200px;
+  left: 5px;
+  color: black;
+  z-index: 2;
 }
 
 main #spacer {
@@ -105,6 +137,7 @@ main #spacer {
 main #selfie {
   border: 2px solid black;
   width: 50%;
+  max-width: 600px;
   float: left;
 }
 
@@ -145,9 +178,8 @@ aside ul {
 
 aside img {
   display: block;
-  width: 100%;
-  max-width: 400px;
-  margin: 5px auto;
+  width: calc(100% - 20px);
+  margin: 10px;
   border: 2px solid black;
 }
 
@@ -179,4 +211,109 @@ footer {
   float: left;
   list-style-type: none;
   margin-right: 30px;
+}
+
+/*CURRENCY FORM css*/
+.currency-form .main-wrapper {
+  background-color: hsl(0, 5%, 95%);
+  padding: 10px 0;
+}
+.currency-form form {
+  width: 350px;
+  margin: 0 auto;
+  font-family: helvetica;
+  background-color: white;
+}
+
+.currency-form h1 {
+  text-align: center;
+  font-family: helvetica;
+}
+
+.currency-form .green {
+  color: green;
+  text-align: center;
+}
+
+.currency-form .red {
+  color: red;
+  text-align: center;
+}
+
+.currency-form ul {
+  list-style-type: none;
+}
+
+.currency-form input {
+  margin-bottom: 10px;
+}
+
+.currency-form input[type="text"] {
+  width: 100%;
+}
+
+.currency-form input[type="submit"] {
+  float: left;
+  padding: 2px;
+  margin: 5px;
+}
+
+.currency-form p a {
+  float: right;
+  margin: 5px;
+}
+
+.currency-form fieldset {
+  color: #666;
+  padding: 10px 15px 10px 10px;
+}
+
+.currency-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.currency-form .box {
+  width: 600px;
+  margin: 20px auto;
+  background-color: beige;
+  padding: 20px;
+  border: 1px solid green;
+  font-family: helvetica;
+}
+
+.currency-form select {
+  margin-bottom: 10px;
+}
+
+.currency-form span {
+  display: block;
+  color: red;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1050px) {
+  .copyright {
+    height: 100px;
+  }
+
+  .portal main #art, .portal main p, .portal main #wrap {
+    width: 100%;
+    max-width: 600px;
+    margin: 5px auto;
+  }
+
+  .portal main #selfie {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 10px auto;
+    display: block;
+    float: unset;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .copyright {
+    height: 150px;
+  }
 }

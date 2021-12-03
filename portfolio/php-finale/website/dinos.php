@@ -6,6 +6,7 @@
     <div id="wrapper">
       <h1 class="<?php echo $center; ?>"><?php echo $pageHeading; ?></h1>
       <main>
+        <?php randomImage($dinoImages); ?>
         <?php
           $sql = 'SELECT * FROM Dinos';
           $connect = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
