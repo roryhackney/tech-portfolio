@@ -5,21 +5,21 @@
   text-align: center;
 }
 
-html {
-  height: 100%;
-}
-
 body {
   background-color: black;
-  height: 100%;
+}
+
+header div {
+  height: 145px;
 }
 
 div {
   width: 75%;
   margin: 0 auto;
-  background-color: lightgreen;
-  height: 100%;
+  background-color: rgb(186, 233, 186);
   border: 5px solid white;
+  overflow: hidden;
+  padding: 5px 10px;
 }
 
 h1 {
@@ -29,11 +29,61 @@ h1 {
   margin-bottom: 5px;
 }
 
-p, a {
+p, a, span {
   font-family: Arial, sans-serif;
   padding: 0 0 5px 0;
   width: 75%;
   margin: 0 auto;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(39, 37, 37);
+}
+
+a:visited {
+  color: rgb(87, 25, 73);
+}
+
+span {
+  font-size: 2rem;
+  font-weight: bold;
+  float: right;
+  text-align: right;
+  line-height: 145px;
+}
+
+li {
+  min-width: 90px;
+}
+
+nav ul {
+  width: 75%;
+  margin: 0 auto;
+  background-color: rgb(210, 234, 243);
+  overflow: hidden;
+}
+
+nav ul li {
+  display: block;
+  float: left;
+  border: 1px solid white;
+  background-color: rgb(161, 204, 221);
+}
+
+nav .here {
+  background-color: rgb(185, 185, 185);
+}
+
+nav a {
+  color: black;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: block;
 }
 
 .src {
@@ -42,31 +92,67 @@ p, a {
 }
 
 img {
-  width: 500px;
+  width: 100%;
   max-width: 500px;
   border: 2px solid black;
   display: block;
   margin: 0 auto;
 }
 
+.coffee img {
+  max-width: 300px;
+}
+
+#logo {
+  width: 125px;
+  max-width: 125px;
+  border: none;
+  float: left;
+}
+
 ul {
   list-style-type: none;
 }
 
+.daily-links {
+  width: 100%;
+}
+
+.daily-links li {
+  padding: 5px;
+  margin: 5px;
+  width: 13%;
+  float: left;
+}
+
+footer {
+  display: block;
+  width: 100%;
+  clear: both;
+  overflow: hidden;
+  background-color: rgb(161, 204, 221);
+  border-top: 2px solid white;
+}
+
+footer li {
+  float: left;
+  margin: 5px 10px;
+}
+
 .tuesday div {
-  background-color: sandybrown;
+  background-color: rgb(231, 189, 152);
 }
 
 .wednesday div {
-  background-color: lightpink;
+  background-color: rgb(235, 195, 201);
 }
 
 .thursday div {
-  background-color: lightsteelblue;
+  background-color: rgb(208, 221, 238);
 }
 
 .friday div {
-  background-color: thistle;
+  background-color: rgb(228, 207, 228);
 }
 
 .saturday div {
@@ -74,5 +160,13 @@ ul {
 }
 
 .sunday div {
-  background-color: darksalmon;
+  background-color: rgb(248, 211, 198);
+}
+
+@media screen and (max-width: 750px) {
+  span {
+    float: none;
+    line-height: 40px;
+    margin-top: 10px;
+  }
 }

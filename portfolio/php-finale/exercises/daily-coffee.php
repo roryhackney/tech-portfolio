@@ -76,20 +76,54 @@ switch($today) {
   <head>
     <meta charset="utf-8">
     <title>Switch Page</title>
+    <link href="../css/daily.css" type="text/css" rel="stylesheet">
   </head>
-  <body>
-    <h1><?php echo $coffee; ?></h1>
-    <p><?php echo $content; ?></p>
-    <p>Click below to find out what awesome flavors we have each day!</p>
-    <ul>
-      <li><a href="switch.php?today=Monday">Monday</a></li>
-      <li><a href="switch.php?today=Tuesday">Tuesday</a></li>
-      <li><a href="switch.php?today=Wednesday">Wednesday</a></li>
-      <li><a href="switch.php?today=Thursday">Thursday</a></li>
-      <li><a href="switch.php?today=Friday">Friday</a></li>
-      <li><a href="switch.php?today=Saturday">Saturday</a></li>
-      <li><a href="switch.php?today=Sunday">Sunday</a></li>
-    </ul>
-    <img src="images/<?php echo $pic; ?>" alt="<?php echo $alt; ?>" width="300px" height="300px">
+  <body class="coffee">
+    <header>
+      <div class="row">
+        <a href="index.php"><img id="logo" src="../images/logo.png" alt="logo"></a>
+        <span>Rory Hackney</span>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../index.php">Portal Page</a></li>
+        <li><a href="../website/contact.php">Contact Form</a></li>
+        <li><a href="../currency-form.php">Currency Converter</a></li>
+        <li><a href="../daily-art.php">Daily Challenge</a></li>
+        <li><a href="../website/dinos.php">Database: Dinosaurs</a></li>
+        <li><a href="../fuel-calculator.php">Mileage Calculator</a></li>
+        <li><a href="../website/gallery.php">Kitten Gallery</a></li>
+        <li><a href="../database-people/people.php">Database: Heroes</a></li>
+        <li class="here"><a href="daily-coffee.php">Daily Coffee</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h1>Daily Coffee: <?php echo $coffee; ?></h1>
+      <img src="images/<?php echo $pic; ?>" alt="<?php echo $alt; ?>">
+      <p><?php echo $content; ?></p>
+      <p>Click below to find out what awesome flavors we have each day!</p>
+      <ul class="daily-links">
+        <li><a href="daily-coffee.php?today=Monday">Monday</a></li>
+        <li><a href="daily-coffee.php?today=Tuesday">Tuesday</a></li>
+        <li><a href="daily-coffee.php?today=Wednesday">Wednesday</a></li>
+        <li><a href="daily-coffee.php?today=Thursday">Thursday</a></li>
+        <li><a href="daily-coffee.php?today=Friday">Friday</a></li>
+        <li><a href="daily-coffee.php?today=Saturday">Saturday</a></li>
+        <li><a href="daily-coffee.php?today=Sunday">Sunday</a></li>
+      </ul>
+      <footer>
+        <ul>
+          <li>Copyright 2020-<?php echo date('Y');?></li>
+          <li>All Rights Reserved</li>
+          <li><a href="https://www.linkedin.com/in/roryhackney" target="_blank">Web development by Rory Hackney</a></li>
+          <li><a href="https://www.roryhackney.com/php-finale">PHP Finale Home</a></li>
+          <li><a href="https://www.roryhackney.com/portfolio.php">Back to Portfolio</a></li>
+          <li><a href="https://www.roryhackney.com/hire-me.php">Hire Me</a></li>
+          <li><a href="<?php echo "https://validator.w3.org/check?uri=https://www.roryhackney.com" . htmlspecialchars($_SERVER['REQUEST_URI']); ?>" target="_blank">Valid HTML</a></li>
+          <li><a href="<?php echo "https://jigsaw.w3.org/css-validator/validator?uri=https://www.roryhackney.com" . htmlspecialchars($_SERVER['REQUEST_URI']); ?>" target="_blank">Valid CSS</a></li>
+        </ul>
+      </footer>
+    </div>
   </body>
 </htmL>

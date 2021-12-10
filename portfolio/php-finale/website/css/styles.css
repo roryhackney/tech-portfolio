@@ -6,6 +6,7 @@
 
 .active {
   color: green;
+  text-decoration: underline;
 }
 
 .bold {

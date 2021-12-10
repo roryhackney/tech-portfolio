@@ -121,6 +121,10 @@ main #wrap img {
   height: 300px;
 }
 
+main #wrap img:hover {
+  opacity: 60%;
+}
+
 main #wrap span {
   position: absolute;
   top: 200px;
@@ -315,5 +319,9 @@ footer {
 @media screen and (max-width: 600px) {
   .copyright {
     height: 150px;
+  }
+  
+  main #wrap img {
+    opacity: 60%;
   }
 }

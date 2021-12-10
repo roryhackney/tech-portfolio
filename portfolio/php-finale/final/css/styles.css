@@ -1,7 +1,6 @@
-/*my screen res: 1920 x 1080 (I will not be adjusting design for different screens within the scope of this project)
-color scheme: warm yellows and soft pinks, with blue touches to stand out (subtle, pastel)*/
+/* color scheme: warm yellows and soft pinks, with blue to stand out
 
-/* /////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////
 ////////////DEFAULT PAGE STYLES////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////// */
 
@@ -16,7 +15,6 @@ html {
   min-height: 100%;
   font-size: 125%;
 }
-
 
 header {
   height: 100px;
@@ -105,7 +103,7 @@ main {
   padding: 10px;
   background-color: #f1bfd4;
   border-right: 3px solid #8f8793;
-  min-height: 782px;
+  min-height: 500px;
   overflow: hidden;
 }
 
@@ -123,7 +121,7 @@ aside {
   width: 30%;
   float: right;
   padding: 10px;
-  min-height: 650px;
+  min-height: 500px;
   background-color: #f1d684;
   overflow: hidden;
 }
@@ -146,7 +144,7 @@ img {max-width: 100%;}
 footer {
   clear: both;
   border-top: 2px solid hsl(280, 8%, 58%);
-  height: 50px;
+  height: 100px;
   line-height: 50px;
   background-color: #ece5ae;
 }
@@ -160,8 +158,8 @@ footer li {
   float: left;
   list-style-type: none;
   padding: 0 5px;
-  width: 20%;
   text-align: center;
+  margin: 0 20px;
 }
 
 /*FORMS*/
@@ -191,13 +189,15 @@ input {
 ////////////////////PAGE SPECIFIC STYLES//////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////// */
 
-.home {
-  /*index page*/
-}
+/* index page */
+/* .home {
+  
+} */
 
-#me {
-  /*div holding info about me on index page*/
-}
+/*div holding info about me on index page*/
+/* #me {
+
+} */
 
 #me img {
   width: 50%;
@@ -241,9 +241,10 @@ input {
   max-height: 500px;
 }
 
-.contact {
-  /*contact form page*/
-}
+/*contact form page*/
+/* .contact {
+
+} */
 
 .contact label {
   font-weight: bold;
