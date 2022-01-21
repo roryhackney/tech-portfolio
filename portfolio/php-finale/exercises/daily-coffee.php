@@ -75,6 +75,7 @@ switch($today) {
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Switch Page</title>
     <link href="../css/daily.css" type="text/css" rel="stylesheet">
   </head>

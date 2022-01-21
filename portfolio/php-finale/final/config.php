@@ -137,7 +137,7 @@ if(isset($_POST['contact'])) {
 
 //image array (for random)
 
-$images = ['background.jpg', 'char.jpg', 'comics.jpg', 'digital.jpg', 'environment.jpg', 'hatching.jpg', 'ink.jpg', 'lineart.jpg', 'lineless.jpg', 'reference.jpg', 'value.jpg', 'watercolor.jpg'];
+$images = ['background.jpg', 'comics.jpg', 'environment.jpg', 'ink.jpg', 'lineart.jpg', 'value.jpg', 'watercolor.jpg'];
 
 //nav array
 $myNav['index.php'] = 'Home';

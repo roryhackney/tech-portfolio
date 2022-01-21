@@ -17,38 +17,38 @@ html {
 }
 
 header {
-  height: 100px;
   background-color: #ece5ae;
+  overflow: hidden;
 }
 
 .success {
   /*Welcome message when user first logs in*/
-  width: 250px;
+  width: 175px;
   float: left;
   height: 100px;
   text-align: center;
   line-height: 30px;
   padding: 20px 0;
+  margin: 25px 0 25px 25px;
 }
 
 #head {
-  width: 60%;
+  width: calc(100% - 400px);
   text-align: center;
-  padding: 20px 10px 10px 10px;
   float: left;
-  height: 100px;
+  margin: 39px 0;
+  padding: 0 10px;
 }
 
 .welcome-logout {
   /*Message showing user they are logged in and a link to log out*/
-  width: 250px;
+  width: 175px;
   float: right;
   height: 100px;
   text-align: center;
   padding: 20px 0;
   background-color: #fff8c3;
-  border: 10px solid #ece5ae;
-  border-width: 10px 50px;
+  margin: 25px 25px 25px 0;
 }
 
 a {
@@ -61,6 +61,8 @@ nav {
   font-family: Verdana, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: bold;
+  border: 2px solid #8f8793;
+  border-width: 2px 0;
 }
 
 nav li {
@@ -69,8 +71,6 @@ nav li {
   width: 20%;
   min-width: 150px;
   margin: 0 auto;
-  border: 2px solid #8f8793;
-  border-width: 2px 0;
   list-style-type: none;
   background-color: white;
 }
@@ -78,7 +78,8 @@ nav li {
 nav a {
   display: block;
   width: 100%;
-  padding: 5px 0;
+  height: 50px;
+  line-height: 50px;
   text-decoration: none;
   color: black;
 }
@@ -95,7 +96,7 @@ nav a:hover {
 
 #wrapper {
   width: 70%;
-  min-width: 600px;
+  /* min-width: 600px; */
   margin: 0 auto;
 }
 
@@ -134,17 +135,18 @@ img {max-width: 100%;}
 
 #homeimg {
   /*div holding random img on home page */
-  width: 900px;
-  max-width: 100%;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  margin: 10px auto;
 }
 
 .random {
   /*randomly generated image*/
   display: block;
   margin: 0 auto;
-  max-height: 500px;
-}
+  max-width: 828px;
+  width: 100%;
+} 
 
 footer {
   clear: both;
@@ -169,6 +171,10 @@ footer li {
 }
 
 /*FORMS*/
+
+form {
+  overflow: hidden;
+}
 
 fieldset {
   width: 75%;
@@ -196,66 +202,79 @@ input {
 ////////////////////PAGE SPECIFIC STYLES//////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////// */
 
-/* index page */
-/* .home {
-  
-} */
-
-/*div holding info about me on index page*/
-/* #me {
-
-} */
-
 #me img {
-  width: 50%;
+  width: calc(50% - 10px);
   min-width: 300px;
+  max-width: 500px;
+  margin-right: 5px;
   float: left;
-  padding-right: 5px;
 }
 
 #me p {
-  float: right;
-  width: 50%;
+  width: calc(50% - 10px);
+  min-width: 350px;
+  max-width: 550px;
   border: 2px solid #8f8793;
-  border-radius: 3px;
-  padding: 5px;
-  margin-top: 125px;
+  border-radius: 5px;
+  padding: 10px;
+  float: right;
+  margin-left: 5px;
 }
 
+/*about page*/
 .about img {
   border: 1px solid black;
   background-color: lightgray;
 }
 
+/*daily/best practices page*/
 .daily img {
-  /*daily/best practices page*/
   display: block;
-  max-width: 600px;
   width: 90%;
   margin: 0 auto;
 }
 
-.portfolio ul {
-  list-style-type: none;
-  margin-left: 25px;
-  margin-top: 10px;
+.daily img.img-600 {
+  max-width: 600px;
 }
 
-.view img{
-  /*product-view page*/
+.daily img.img-595 {
+  max-width: 595px;
+}
+
+.daily img.img-300 {
+  max-width: 300px;
+}
+
+.daily img.img-306 {
+  max-width: 306px;
+}
+
+/*portfolio page*/
+.portfolio b {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 1.15rem;
+  padding-top: 10px;
+  display: block;
+}
+
+.portfolio aside p {
+  padding-bottom: 5px;
+}
+
+/*portfolio-view page*/
+.view img {
   display: block;
   max-width: 600px;
-  width: 90%;
-  margin: 0 auto;
+  margin: 5px auto;
   background-color: white;
-  max-height: 500px;
+}
+
+.view p, .view li {
+  padding-bottom: 5px;
 }
 
 /*contact form page*/
-/* .contact {
-
-} */
-
 .contact label {
   font-weight: bold;
   clear: both;
@@ -382,4 +401,101 @@ input {
     clear: both;
     font-style: italic;
     text-align: center;
+}
+
+@media screen and (max-width: 1500px) {
+  #me img, #me p {
+    width: 100%;
+    margin: 10px auto;
+    float: none;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1265px) {
+  .view img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  #wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  header #head {
+   margin: 0;
+   padding-bottom: 10px;
+   padding-top: 10px;
+ }
+
+  #me img {
+    max-width: 400px;
+  }
+
+  nav {
+    border: 2px solid black;
+    width: 50%;
+    min-width: 160px;
+    margin: 0 auto;
+  }
+
+  nav li {
+    width: 100%;
+    float: none;
+    border: 5px solid #8f8793;
+    border-width: 2px 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  main, aside {
+    width: 100%;
+    min-height: unset;
+    min-width: unset;
+    float: none;
+  }
+
+  header h1 {
+    font-size: 1.65rem;
+  }
+
+  .view main a {
+    display: block;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  header #head {
+    width: 100%;
+    display: block;
+    float: none;
+  }
+  
+  header .success {
+    width: 100%;
+    display: contents;
+    float: none;
+  }
+
+  header .welcome-logout {
+    width: 100%;
+    display: block;
+    float: none;
+    padding: 5px;
+    height: auto;
+  }
+
+  #me img, #me p {
+    min-width: unset;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  footer ul {
+    min-width: unset;
+  }
 }

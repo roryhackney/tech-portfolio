@@ -42,8 +42,7 @@ include 'includes/header.php';
 </main>
 <aside>
   <h4>Note:</h4>
-  <p>Custom work not described here can absolutely be done: simply describe your project when submitting the <a href="contact.php">Contact form.</a></p>
-  <p>Examples: holiday cards, pet drawings, printables (mugs, shirts, etc), and much more!</p>
-  </aside>
-<?php
-  include 'includes/footer.php';
+  <p>Custom work not described here can absolutely be done: simply describe your project when submitting the <a href="contact.php">Contact Form.</a></p>
+  <p>Examples: art of loved ones, pet drawings, print-ready files, and much more!</p>
+</aside>
+<?php include 'includes/footer.php';

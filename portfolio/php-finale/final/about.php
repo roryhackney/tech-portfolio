@@ -17,6 +17,7 @@ include 'includes/header.php';
 ?>
 <main>
   <h2><?php echo $pageHeading; ?></h2>
+  <p>See the database table stuctures and data used for this project.</p>
   <h3>Users Table</h3>
   <img src="images/userstable.jpg" alt="MySQL table of Users">
   <h3>Portfolio Table</h3>
