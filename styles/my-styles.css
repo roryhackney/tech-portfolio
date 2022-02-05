@@ -1,6 +1,6 @@
 /*CSS color variables*/
 :root {
-    --black: #080808;
+    /* --black: #080808;
     --black-true: #000000;
     --blue-darkest: #000222;
     --orange-dark: #D27200;
@@ -11,7 +11,27 @@
     --gray-warm-light: #eae9b8;
     --gray-warm-mid: #d1c091;
     --white: #F7F7F7;
-    --white-true: #ffffff;
+    --white-true: #ffffff; */
+
+    --white: #ffffff;
+    --black: #000000;
+    --blue-darkest: #000222;
+    --off-white: #FFF5F1;
+    --off-white-darker: #FFF5D0;
+    --yellow: #FFE190;
+    --yellow-strong: #FFD35A;
+    --yellow-strong-light: #FFEF61;
+    --yellow-light: #FDFFAD;
+    --brown-dull: #E0C499;
+    --brown-dull-light: #F2DFC1;
+    --red: #9F3817;
+    --red-light: #FF532D;
+    --brown-dark: #250B02;
+    --brown-light: #6E4128;
+    --gray: #55433E;
+    --brown: #4D281C;
+
+    /*on dark bgs, hover should be lighter; on light bgs, hover should be darker.*/
 }
 
 /*Remove color styles for nav, etc - use Bulma spacing control if possible at least from mobile up*/
@@ -23,10 +43,12 @@ html {
 body {
     font-family: Asap, Arial, sans-serif;
     overflow-x: hidden;
+    background-color: var(--off-white);
 }
 
 h1, h2, h3 {
-   font-family: Volkhov, Garamond, serif;
+    font-family: Volkhov, Garamond, serif;
+    color: var(--brown);
 }
 
 a {
@@ -46,12 +68,19 @@ a.button {
 header {
     padding: 10px;
     overflow: hidden;
+    background-color: var(--brown);
 }
 
 header .logo {
     float: left;
     height: 64px;
     width: 64px;
+    border: 1px solid var(--off-white);
+    border-radius: 90px;
+} 
+
+header .logo:hover {
+    filter: brightness(115%);
 }
 
 header .site-title {
@@ -62,12 +91,17 @@ header .site-title {
     height: 60px;
     line-height: 60px;
     float: left;
+    color: var(--yellow-strong);
+}
+
+header .site-title:hover {
+    color: var(--yellow-strong-light);
 }
 
 /*menu toggle button*/
 header .menu-toggle {
     border-radius: 5px;
-    background-color: var(--blue-darkest);
+    background-color: var(--yellow-strong);
     width: 60px;
     height: 60px;
     float: right;
@@ -75,10 +109,14 @@ header .menu-toggle {
     margin: 2px 0;
 }
 
+header .menu-toggle:hover {
+    background-color: var(--yellow-strong-light);
+}
+
 header .menu-toggle hr {
     width: 34px;
     margin: 0 auto;
-    background-color: var(--yellow);
+    background-color: var(--brown);
     height: 2px;
 }
 
@@ -93,12 +131,12 @@ header .site-tagline {
     clear: both;
     text-align: center;
     font-size: 1.125rem;
+    color: var(--off-white);
 }
 
 header nav ul {
     width: 180px;
     margin: 10px auto;
-    border: 1px solid var(--yellow-light);
     border-radius: 5px;
     display: none;
 }
@@ -108,7 +146,7 @@ header nav li {
     height: 44px;
     list-style-type: none;
     font-size: 1.125rem;
-    border-bottom: 2px solid var(--yellow-light);
+    border: 1px 1px 2px 1px solid var(--yellow);
     overflow: hidden;
 }
 
@@ -118,16 +156,21 @@ header nav li a {
     text-decoration: none;
     text-align: center;
     height: 100%;
+    color: var(--black);
+    background-color: var(--yellow);
+}
+
+header nav li a:hover {
+    background-color: var(--yellow-light);
 }
 
 header nav .active-page a {
-    color: var(--white);
-    background-color: var(--orange-darkest);
+    color: var(--black);
+    background-color: var(--brown-dull);
 }
 
 header nav .active-page a:hover {
-    background-color: var(--black);
-    color: var(--white-true);
+    background-color: var(--brown-dull-light);
 }
 
 header nav .nav-dropitem-mobile {

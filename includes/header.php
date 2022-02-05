@@ -14,37 +14,37 @@ $page = $_SERVER["PHP_SELF"];
 $page = validate($page);
 /*TODO: change case to root folder once moved to main site*/
 switch($page) {
-    case '/tech-portfolio/index.php':
+    case '/index.php':
         $bodyClass = 'home';
         $title = 'Home';
         $currentPage = 'home';
         $h1 = 'Home';
         break;
-    case '/tech-portfolio/thanks.php':
+    case '/thanks.php':
         $bodyClass = 'thanks';
         $title = 'Thank You';
         $currentPage = '';
         $h1 = 'Thank You';
         break;
-    case '/tech-portfolio/about-me.php':
+    case '/about-me.php':
         $bodyClass = 'about';
         $title = 'About Me';
         $currentPage = 'about';
         $h1 = 'About Me';
         break;
-    case '/tech-portfolio/hire-me.php':
+    case '/hire-me.php':
         $bodyClass = 'hire';
         $title = 'Hire Me';
         $currentPage = 'hire';
         $h1 = 'Hire Me';
         break;
-    case '/tech-portfolio/portfolio.php':
+    case '/portfolio.php':
         $bodyClass = 'portfolio';
         $title = 'Portfolio';
         $currentPage = 'portfolio';
         $h1 = 'Portfolio';
         break;
-    case '/tech-portfolio/resume.php':
+    case '/resume.php':
         $bodyClass = 'resume';
         $title = 'Resume';
         $currentPage = 'resume';
@@ -126,7 +126,7 @@ function validate($input) {
     </head>
     <body class=<?php echo $bodyClass;?>>
         <header>
-            <img class="logo"
+            <a href="index.php"><img class="logo"
             alt="Rory Hackney's logo: yellow letters RH over a dark blue circle."
             src="assets/logo-small.png"
             srcset="assets/logo-small.png 64w,
@@ -135,12 +135,12 @@ function validate($input) {
             sizes="(max-width: 579px) 64px,
             (max-width:860px) 100px,
             125px"
-            >
+            ></a>
             <div class="mobile-hidden left">
                 <p class="site-title">Rory Hackney</p>
                 <p class="site-tagline">Web Developer and Designer</p>
             </div>
-            <p class="site-title mobile-only">Rory Hackney</p>
+            <a href="index.php"><p class="site-title mobile-only">Rory Hackney</p></a>
             <div class="menu-toggle mobile-only" id="menu-toggle">
                 <hr />
                 <hr />
@@ -152,7 +152,7 @@ function validate($input) {
                     <li <?php if($currentPage == 'home') {echo 'class="active-page"';}?>><a href="index.php">Home</a></li>
                     <li <?php if($currentPage == 'portfolio') {echo 'class="active-page"';}?>><a href="portfolio.php">Portfolio</a></li>
                     <li <?php if($currentPage == 'hire') {echo 'class="active-page"';}?> id="submenu-toggle">
-                        <a href="hire-me.php">Hire Me <span><i class="fas fa-angle-down"></i></span></a>
+                        <a href="hire-me.php">Hire Me <span class="is-hidden-mobile"><i class="fas fa-angle-down"></i></span></a>
                         <ul id="nav-dropitem-tablet" class="is-hidden-mobile">
                             <li><a href="resume.php">Resume</a></li>
                         </ul>

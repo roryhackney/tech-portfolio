@@ -25,9 +25,6 @@
         <li><a href="fuel-calculator.php">Mileage Calculator</a></li>
       </ul>
     </nav>
- 
-<!--TODO: go through files, delete extraneous, polish roughs, add links to most important, reorganize files, fix links-->
-<!--TODO: main site complete, go through final/... login and registration done, but not mobile-->
 
     <div class="wrapper">
       <main>
