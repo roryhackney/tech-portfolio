@@ -45,7 +45,7 @@
                                 <p class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste nesciunt volup! Incidunt odit commodi laborus descia.</p>
                             </div>
                             <div class="column is-full">
-                                <div class="buttons-row three">
+                                <div class="buttons-row">
                                     <a class="button" href="assets/resume.php">Resume</a>
                                     <a class="button" href="hire-me.php">Hire Now</a>
                                 </div>

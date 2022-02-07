@@ -137,7 +137,7 @@ function validate($input) {
             125px"
             ></a>
             <div class="mobile-hidden left">
-                <p class="site-title">Rory Hackney</p>
+                <a href="index.php"><p class="site-title">Rory Hackney</p></a>
                 <p class="site-tagline">Web Developer and Designer</p>
             </div>
             <a href="index.php"><p class="site-title mobile-only">Rory Hackney</p></a>

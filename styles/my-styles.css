@@ -16,16 +16,19 @@
     --white: #ffffff;
     --black: #000000;
     --blue-darkest: #000222;
+    --blue: #080D5F;
+    --blue-light: #123592;
     --off-white: #FFF5F1;
     --off-white-darker: #FFF5D0;
     --yellow: #FFE190;
     --yellow-strong: #FFD35A;
-    --yellow-strong-light: #FFEF61;
+    --yellow-strong-light: #FFF06D;
     --yellow-light: #FDFFAD;
-    --brown-dull: #E0C499;
-    --brown-dull-light: #F2DFC1;
-    --red: #9F3817;
-    --red-light: #FF532D;
+    --brown-dull: #E5CF8C;
+    --brown-dull-light: #EBD89D;
+    --red: #BD2319;
+    --red-dark: #960000;
+    --red-light: #D93620;
     --brown-dark: #250B02;
     --brown-light: #6E4128;
     --gray: #55433E;
@@ -51,12 +54,44 @@ h1, h2, h3 {
     color: var(--brown);
 }
 
+h1 {
+    margin: 15px;
+}
+
 a {
     text-decoration: underline;
+    color: var(--blue-light);
+}
+
+a:hover {
+    color: var(--blue);
 }
 
 a.button {
     text-decoration: none;
+}
+
+.button {
+    background-color: var(--brown);
+    color: var(--off-white);
+    border-color: var(--brown-dark);
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: var(--brown-dark);
+    color: var(--white);
+    border-color: var(--black);
+}
+
+.button.urgent {
+    background-color: var(--red);
+    border-color: var(--brown-light);
+}
+
+.button.urgent:hover {
+    background-color: var(--red-dark);
+    border-color: var(--brown);
 }
 
 .mobile-hidden {
@@ -146,7 +181,8 @@ header nav li {
     height: 44px;
     list-style-type: none;
     font-size: 1.125rem;
-    border: 1px 1px 2px 1px solid var(--yellow);
+    border: 2px solid var(--yellow-strong);
+    background-color: var(--yellow);
     overflow: hidden;
 }
 
@@ -157,35 +193,61 @@ header nav li a {
     text-align: center;
     height: 100%;
     color: var(--black);
-    background-color: var(--yellow);
 }
 
 header nav li a:hover {
+    color: var(--black);
+}
+
+header nav li:hover {
     background-color: var(--yellow-light);
+}
+
+header nav .active-page {
+    background-color: var(--brown-dull);
 }
 
 header nav .active-page a {
     color: var(--black);
-    background-color: var(--brown-dull);
 }
 
-header nav .active-page a:hover {
+header nav .active-page:hover {
     background-color: var(--brown-dull-light);
 }
 
 header nav .nav-dropitem-mobile {
-    background-color: var(--yellow-light);
-    position: relative;
-    left: 25px;
+    height: 34px;
+    width: 150px;
+    margin: 0 auto;
+    background-color: var(--yellow-strong);
+}
+
+header nav .nav-dropitem-mobile a {
+    line-height: 34px;
+}
+
+header nav .nav-dropitem-mobile:hover {
+    background-color: var(--yellow-strong-light);
 }
 
 header nav #nav-dropitem-tablet {
-    background-color: var(--yellow-light);
     position: absolute;
     margin: 0 auto;
-    border-radius: 0 0 5px 5px;
     display: none;
-    transform: translate(-8px, 0);
+}
+
+header nav #nav-dropitem-tablet li {
+    height: 34px;
+    border: none;
+    background-color: var(--yellow-strong);
+}
+
+header nav #nav-dropitem-tablet a {
+    line-height: 34px;
+}
+
+header nav #nav-dropitem-tablet li:hover {
+    background-color: var(--yellow-strong-light);
 }
 
 /*header nav .nav-dropdown:hover + #nav-dropitem {
@@ -213,6 +275,9 @@ header nav #nav-dropitem-tablet {
 } */
 
 /*main content styles*/
+main {
+    overflow: hidden;
+}
 
 .hero-container {
     width: 100%;
@@ -235,7 +300,11 @@ header nav #nav-dropitem-tablet {
 
 main .main-content {
     width: 100%;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
+}
+
+a picture:hover {
+    filter: brightness(105%);
 }
 
 .buttons-row {
@@ -267,13 +336,40 @@ main .main-content {
     margin: 0 auto;
 }
 
+.aside {
+    background-color: var(--yellow);
+    padding-bottom: 50px;
+}
+
+.contact-icons svg {
+    color: var(--brown);
+}
+
+.contact-icons svg:hover {
+    color: var(--black);
+}
+
 footer {
     padding: 10px;
+    background-color: var(--brown);
+    color: var(--off-white);
 }
 
 footer ul {
     width: fit-content;
     margin: 0 auto;
+}
+
+footer a {
+    color: var(--off-white);
+}
+
+footer a:hover {
+    color: var(--white);
+}
+
+footer p {
+    margin-top: 10px;
 }
 
 /*page specific styles*/
@@ -378,11 +474,10 @@ footer ul {
         width: unset;
         border-radius: 5px;
         margin: 0 5px;
-        padding: 0 10px;
     }
 
     header nav li a {
-        border-bottom: 2px solid var(--yellow-light);
+        padding: 0 10px;
     }
 
     /*main content styles*/
@@ -398,7 +493,7 @@ footer ul {
     }
 
     main .main-content {
-        padding: 15px;
+        padding: 30px 15px 0 15px;
     }
 
     .buttons-row {
@@ -416,6 +511,10 @@ footer ul {
 
     footer {
         padding: 15px;
+    }
+
+    footer p {
+        margin: 0;
     }
 
     /*page specific styles*/
@@ -451,7 +550,7 @@ footer ul {
     }
 
     main .main-content {
-        padding: 15px 30px;
+        padding: 30px 30px 0 30px;
     }
 
     footer {
@@ -472,7 +571,11 @@ footer ul {
     }
 
     main .main-content {
-        padding: 15px 5vw;
+        padding: 30px 5vw 0 5vw;
+    }
+
+    .aside {
+        margin-bottom: 50px;
     }
 
     footer {
