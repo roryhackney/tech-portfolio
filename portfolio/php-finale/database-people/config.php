@@ -5,8 +5,6 @@ define('DEBUG', 'TRUE'); //defines constant as we do want to see errors
 
 include 'credentials.php';
 
-
-//for hw:
 //REMEMBER: this is placed at the bottom of config file
 function myError($myFile, $myLine, $errorMessage){
   if(defined('DEBUG') && DEBUG) {

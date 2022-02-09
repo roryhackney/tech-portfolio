@@ -59,8 +59,7 @@
             </div>
 <?php include 'includes/footer.php'; ?>
 
-<!--
-    PORTFOLIO PIECES
+<!--TODO:    PORTFOLIO PIECES
     
     Card
     

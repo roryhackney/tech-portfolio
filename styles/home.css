@@ -24,7 +24,7 @@
     bottom: 30px;
 }
 
-/*TABLET STYLES//////////////////////////////////////////*/
+/*TABLET STYLES*/
 
 @media only screen and (min-width: 580px) {
     .home .hero-container .button {

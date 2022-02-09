@@ -36,7 +36,6 @@ echo '<br><br>';
 //or do it with concat
 echo $firstName . ' ' . $lastName;
 echo '<br>_________________________________________<br><br>';
-///////////////////////////////////////////////////////////
 //ARRAYS
 
 //indexed array

@@ -12,7 +12,6 @@ if ($currentYear - 2021 > 0) {
 /*page specific info*/
 $page = $_SERVER["PHP_SELF"];
 $page = validate($page);
-/*TODO: change case to root folder once moved to main site*/
 switch($page) {
     case '/index.php':
         $bodyClass = 'home';
@@ -137,7 +136,7 @@ function validate($input) {
             125px"
             ></a>
             <div class="mobile-hidden left">
-                <a href="index.php"><p class="site-title">Rory Hackney</p></a>
+                <a class="no-underline" href="index.php"><p class="site-title">Rory Hackney</p></a>
                 <p class="site-tagline">Web Developer and Designer</p>
             </div>
             <a href="index.php"><p class="site-title mobile-only">Rory Hackney</p></a>

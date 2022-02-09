@@ -1,18 +1,5 @@
 /*CSS color variables*/
 :root {
-    /* --black: #080808;
-    --black-true: #000000;
-    --blue-darkest: #000222;
-    --orange-dark: #D27200;
-    --orange-darkest: #422400;
-    --yellow: #FFCB3B;
-    --yellow-light: #ffe08c;
-    --yellow-lightest: #FDF2D2;
-    --gray-warm-light: #eae9b8;
-    --gray-warm-mid: #d1c091;
-    --white: #F7F7F7;
-    --white-true: #ffffff; */
-
     --white: #ffffff;
     --black: #000000;
     --blue-darkest: #000222;
@@ -36,8 +23,6 @@
 
     /*on dark bgs, hover should be lighter; on light bgs, hover should be darker.*/
 }
-
-/*Remove color styles for nav, etc - use Bulma spacing control if possible at least from mobile up*/
 
 html {
     font-size: 16px;
@@ -98,7 +83,13 @@ a.button {
     display: none !important;
 }
 
-.left {float: left;}
+.left {
+    float: left;
+}
+
+.no-underline {
+    text-decoration: none;
+}
 
 header {
     padding: 10px;
@@ -249,30 +240,6 @@ header nav #nav-dropitem-tablet a {
 header nav #nav-dropitem-tablet li:hover {
     background-color: var(--yellow-strong-light);
 }
-
-/*header nav .nav-dropdown:hover + #nav-dropitem {
-    display: block;
-} */
-
-/*must change class name if want use*/
-/* .button {
-    display: block;
-    text-decoration: none;
-    border: 2px solid var(--yellow);
-    border-radius: 10px;
-    background-color: var(--yellow-light);
-    height: 44px;
-    width: 100px;
-    color: var(--blue-darkest);
-    text-align: center;
-    line-height: 44px;
-    font-size: 1.125rem;
-}
-
-.button:hover {
-    background-color: var(--yellow-lightest);
-    border-color: var(--yellow-light);
-} */
 
 /*main content styles*/
 main {
@@ -425,9 +392,10 @@ footer p {
     color: white;
 }
 
-/*TODO: how to get resume hero buttons to display as designed, and still within the hero*/
+/*TODO: simplify resume page buttons and links, you can add an html resume or w/e later, focus on finishing the portfolio*/
 
-/*TABLET STYLES//////////////////////////////////////////*/
+/*TABLET STYLES*/
+
 @media only screen and (min-width: 769px) {
     .mobile-only {
         display: none !important;
@@ -533,7 +501,7 @@ footer p {
     }
 }
 
-/*LAPTOP STYLES//////////////////////////*/
+/*LAPTOP STYLES*/
 
 @media only screen and (min-width:861px) {
     header {
@@ -558,7 +526,7 @@ footer p {
     }
 }
 
-/*DESKTOP STYLES//////////////////////////*/
+/*DESKTOP STYLES*/
 
 @media only screen and (min-width: 1024px) {
     header {
@@ -594,7 +562,4 @@ footer p {
         right: 25vw;
         margin-right: 0;
     }
-
 }
-
-/*TODO: Start completely over on resume hero buttons, they look like SHIT, get them to align at the bottom of the hero, not the top.*/

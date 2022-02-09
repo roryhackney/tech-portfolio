@@ -222,17 +222,8 @@
             </div>
 <?php include 'includes/footer.php'; ?>
 
-<!--
-    TODO:
-        1. Back up old files.
-        2. Back up content from Wordpress site.
-        3. Remove Wordpress.
-        4. Reorganize old files; put other assignments in another folder for now.
-        5. Delete tech-portfolio; reupload php-finale and tech-portfolio as the base folder ie roryhackney.com
-        6. Change URLs and switch cases to correct URL.
--->
 
-<!--Wordpress content:
+<!--TODO: Wordpress content:
 
 (HEADER HERO):
 Technology Plus Art Equals… Rory Hackney, a full stack web developer and designer
