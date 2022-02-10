@@ -148,6 +148,7 @@ function validate($input) {
             <p class="site-tagline mobile-only">Web Developer and Designer</p>
             <nav>
                 <ul id="nav">
+                    <li id="dark-mode-toggle">Dark Mode</li>
                     <li <?php if($currentPage == 'home') {echo 'class="active-page"';}?>><a href="index.php">Home</a></li>
                     <li <?php if($currentPage == 'portfolio') {echo 'class="active-page"';}?>><a href="portfolio.php">Portfolio</a></li>
                     <li <?php if($currentPage == 'hire') {echo 'class="active-page"';}?> id="submenu-toggle">

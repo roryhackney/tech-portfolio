@@ -34,6 +34,10 @@ body {
     background-color: var(--off-white);
 }
 
+body.dark-mode {
+    background-color: var(--brown);
+}
+
 h1, h2, h3 {
     font-family: Volkhov, Garamond, serif;
     color: var(--brown);
@@ -177,7 +181,7 @@ header nav li {
     overflow: hidden;
 }
 
-header nav li a {
+header nav li a, #dark-mode-toggle {
     display: block;
     line-height: 44px;
     text-decoration: none;
@@ -186,7 +190,12 @@ header nav li a {
     color: var(--black);
 }
 
-header nav li a:hover {
+#dark-mode-toggle {
+    margin: 5px 0;
+    height: 44px;
+}
+
+header nav li a:hover, #dark-mode-toggle {
     color: var(--black);
 }
 
@@ -378,21 +387,13 @@ footer p {
     line-height: 44px;
 }
 
-.resume .hero-container .button:nth-of-type(3) {
-    margin: 0 auto;
-}
-
 .resume .resume-div {
-    background-color: beige;
-    color: var(--black-true);
+    background-color: var(--off-white-darker);
+    color: var(--black);
+    padding: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
 }
-
-.resume .resume-div.dark-mode {
-    background-color: var(--black);
-    color: white;
-}
-
-/*TODO: simplify resume page buttons and links, you can add an html resume or w/e later, focus on finishing the portfolio*/
 
 /*TABLET STYLES*/
 
@@ -444,8 +445,12 @@ footer p {
         margin: 0 5px;
     }
 
-    header nav li a {
+    header nav li a, #dark-mode-toggle {
         padding: 0 10px;
+    }
+
+    #dark-mode-toggle {
+        margin: 0 5px;
     }
 
     /*main content styles*/
@@ -561,5 +566,10 @@ footer p {
         bottom: 11vw;
         right: 25vw;
         margin-right: 0;
+    }
+
+    .resume .hero-container .columns {
+        max-width: 900px;
+        margin: 0 auto;
     }
 }

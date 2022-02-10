@@ -73,7 +73,6 @@
                                         <ul>
                                             <li>HTML</li>
                                             <li>CSS</li>
-                                            <li>SASS</li>
                                             <li title="CSS Framework">Bulma</li>
                                         </ul>
                                     </div>
@@ -81,8 +80,8 @@
                                         <ul>
                                             <li>JavaScript</li>
                                             <li>PHP</li>
-                                            <li>Python</li>
                                             <li>SQL</li>
+                                            <li>Python</li>
                                         </ul>
                                     </div>
                                     <div class="column is-one-third pb-0">

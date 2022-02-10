@@ -16,7 +16,7 @@
                         <div class="columns is-multiline">
                             <div class="column is-full">
                                 <h2 class="title is-5 has-text-centered">You've found them.</h2>
-                                <p class="content">Rory Hackney is a web developer passionate about making the web more accessible by creating intuitive, mobile friendly, quality websites that combine functionality with creativity.</p>
+                                <p class="content">Rory Hackney is a web developer passionate about making the web more accessible by creating intuitive, mobile friendly, high quality websites that combine functionality with creativity.</p>
                             </div>
                             <div class="column is-half">
                                 <h2 class="title is-5 has-text-centered">My Resume</h2>
@@ -37,7 +37,6 @@
                                                 <ul>
                                                     <li>HTML</li>
                                                     <li>CSS</li>
-                                                    <li>SASS</li>
                                                     <li title="CSS Framework">Bulma</li>
                                                 </ul>
                                             </div>
@@ -45,8 +44,8 @@
                                                 <ul>
                                                     <li>JavaScript</li>
                                                     <li>PHP</li>
-                                                    <li>Python</li>
                                                     <li>SQL</li>
+                                                    <li>Python</li>
                                                 </ul>
                                             </div>
                                             <div class="column is-one-third pb-0">

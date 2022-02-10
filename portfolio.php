@@ -8,7 +8,7 @@
                     <source media="(min-width:481px)" srcset="assets/home-hero-medium.jpg">
                     <img src="assets/home-hero-small.jpg" alt="Photo of Rory Hackney over a background of a computer displaying code next to a sketchbook filled with design work.">
                 </picture>
-                <p class="hero-text">Check out my recent work - web development, design, and mixed projects, along with a peek into my process.</p>
+                <p class="hero-text">Check out my recent work - web development, design, and mixed projects, along with peeks into my process and case studies.</p>
             </div>
             <div class="main-content">
                 <div class="columns is-multiline">
