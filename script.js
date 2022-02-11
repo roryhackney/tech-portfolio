@@ -1,4 +1,3 @@
-
 "use strict";
 window.addEventListener("load", function(event) {
     //Nav mobile menu toggle and submenu toggle
@@ -11,6 +10,11 @@ window.addEventListener("load", function(event) {
         submenuToggle.addEventListener("mouseenter", submenuToggler);
         submenuToggle.addEventListener("mouseleave", submenuToggler);
     }
+
+    let darkModeToggle = document.getElementById("dark-mode-toggle");
+    if(darkModeToggle) {
+        darkModeToggle.addEventListener("click", darkModeToggler);
+    } 
 
     function menuToggler() {
         let nav = document.getElementById("nav");
@@ -29,6 +33,17 @@ window.addEventListener("load", function(event) {
             } else {
                 dropdown.style.display = "none";
             }
+        }
+    }
+
+    function darkModeToggler() {
+        let body = document.getElementsByTagName("body")[0];
+        if(body.classList.contains("dark-mode")) {
+            body.classList.remove("dark-mode");
+            darkModeToggle.innerHTML = "Dark Mode";
+        } else {
+            body.classList.add("dark-mode");
+            darkModeToggle.innerHTML = "Light Mode";
         }
     }
 });

@@ -5,9 +5,12 @@
     --blue-darkest: #000222;
     --blue: #080D5F;
     --blue-light: #123592;
+    --blue-lighter: #9CD5FF;
+    --blue-lightest: #CAF5FF;
     --off-white: #FFF5F1;
     --off-white-darker: #FFF5D0;
     --yellow: #FFE190;
+    --yellow-strong-dark: #FCB937;
     --yellow-strong: #FFD35A;
     --yellow-strong-light: #FFF06D;
     --yellow-light: #FDFFAD;
@@ -16,6 +19,8 @@
     --red: #BD2319;
     --red-dark: #960000;
     --red-light: #D93620;
+    --red-lighter: #FF9078;
+    --red-lightest: #ffa883;
     --brown-dark: #250B02;
     --brown-light: #6E4128;
     --gray: #55433E;
@@ -32,16 +37,22 @@ body {
     font-family: Asap, Arial, sans-serif;
     overflow-x: hidden;
     background-color: var(--off-white);
+    color: var(--black);
 }
 
 body.dark-mode {
-    background-color: var(--brown);
+    background-color: var(--black);
+    color: var(--off-white);
 }
 
-h1, h2, h3 {
+h1, h2, h3, .title {
     font-family: Volkhov, Garamond, serif;
     color: var(--brown);
 }
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode .title {
+    color: var(--off-white-darker);
+} 
 
 h1 {
     margin: 15px;
@@ -52,8 +63,16 @@ a {
     color: var(--blue-light);
 }
 
+.dark-mode a {
+    color: var(--blue-lighter);
+}
+
 a:hover {
     color: var(--blue);
+}
+
+.dark-mode a:hover {
+    color: var(--blue-lightest);
 }
 
 a.button {
@@ -67,10 +86,22 @@ a.button {
     border-radius: 5px;
 }
 
+.dark-mode .button:not(.hero-container .button) {
+    background-color: var(--yellow-strong);
+    color: var(--brown-dark);
+    border-color: var(--yellow-strong-dark);
+}
+
 .button:hover {
     background-color: var(--brown-dark);
     color: var(--white);
     border-color: var(--black);
+}
+
+.dark-mode .button:not(.hero-container .button):hover {
+    background-color: var(--yellow-strong-light);
+    color: var(--black);
+    border-color: var(--yellow-strong-dark);
 }
 
 .button.urgent {
@@ -78,9 +109,19 @@ a.button {
     border-color: var(--brown-light);
 }
 
+.dark-mode .button.urgent {
+    background-color: var(--red-lighter);
+    border-color: var(--red-light);
+}
+
 .button.urgent:hover {
     background-color: var(--red-dark);
     border-color: var(--brown);
+}
+
+.dark-mode .button.urgent:hover {
+    background-color: var(--red-lightest);
+    border-color: var(--red-light);
 }
 
 .mobile-hidden {
@@ -193,6 +234,12 @@ header nav li a, #dark-mode-toggle {
 #dark-mode-toggle {
     margin: 5px 0;
     height: 44px;
+    background-color: var(--red-lighter);
+    border-color: var(--red-light);
+}
+
+#dark-mode-toggle:hover {
+    background-color: var(--red-lightest);
 }
 
 header nav li a:hover, #dark-mode-toggle {
@@ -274,6 +321,10 @@ main {
     max-width: 100%;
 }
 
+.dark-mode .hero-text {
+    color: var(--black);
+}
+
 main .main-content {
     width: 100%;
     padding: 10px 10px 0 10px;
@@ -317,13 +368,27 @@ a picture:hover {
     padding-bottom: 50px;
 }
 
+.dark-mode .aside {
+    background-color: var(--brown);
+}
+
 .contact-icons svg {
     color: var(--brown);
+}
+
+.dark-mode .contact-icons svg {
+    color: var(--yellow-strong);
 }
 
 .contact-icons svg:hover {
     color: var(--black);
 }
+
+.dark-mode .contact-icons svg:hover {
+    color: var(--yellow-strong-light);
+}
+
+
 
 footer {
     padding: 10px;
@@ -393,6 +458,11 @@ footer p {
     padding: 5px;
     margin-bottom: 10px;
     overflow: hidden;
+}
+
+.dark-mode .resume-div {
+    background-color: var(--brown-dark);
+    color: var(--off-white);
 }
 
 /*TABLET STYLES*/
@@ -480,6 +550,16 @@ footer p {
     .buttons-row .button {
         margin: 0 25px;
         width: 100px;
+    }
+
+    form .input, form .textarea {
+        background-color: var(--off-white);
+        color: var(--black);
+    }
+
+    .dark-mode form .input, .dark-mode form .textarea {
+        background-color: var(--black);
+        color: var(--off-white);
     }
 
     footer {

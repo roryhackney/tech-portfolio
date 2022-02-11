@@ -98,6 +98,18 @@ if($_SERVER["REQUEST_METHOD"] === "POST") {
         $message = wordwrap($message, 70);
         mail($to, $mySubject, $message, $headers);
         header("Location: thanks.php");
+    } else {
+        echo '
+        <script type="text/javascript">
+            "use strict";
+            window.addEventListener("load", function(event) {
+                scrollToForm();
+                function scrollToForm() {
+                    let form = document.getElementById("form");
+                    form.scrollIntoView();
+                }
+            });
+        </script>';
     }
 }
 

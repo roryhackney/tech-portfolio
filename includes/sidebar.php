@@ -4,7 +4,7 @@
                             <div class="column is-half-tablet is-full-desktop">
                                 <p class="content">Thanks for checking out my work! If you've got a project or job you think suits me, contact me here or on <a href="https://www.linkedin.com/in/roryhackney" target="_blank">LinkedIn</a>.</p>
                                 <h2 id="contact" class="title is-5 has-text-centered mb-1 mt-3">Contact Me</h3>
-                                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+                                <form id="form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
                                     <div class="field">
                                         <label class="label" for="name">Name</label>
                                         <div class="control">
