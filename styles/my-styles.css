@@ -31,6 +31,12 @@
 
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
+    background-color: var(--off-white);
+}
+
+html.dark-mode {
+    background-color: var(--black);
 }
 
 body {
@@ -40,7 +46,7 @@ body {
     color: var(--black);
 }
 
-body.dark-mode {
+.dark-mode body {
     background-color: var(--black);
     color: var(--off-white);
 }
@@ -79,14 +85,14 @@ a.button {
     text-decoration: none;
 }
 
-.button {
+.button, .dark-mode .hero-container .button {
     background-color: var(--brown);
     color: var(--off-white);
     border-color: var(--brown-dark);
     border-radius: 5px;
 }
 
-.dark-mode .button:not(.hero-container .button) {
+.dark-mode .button {
     background-color: var(--yellow-strong);
     color: var(--brown-dark);
     border-color: var(--yellow-strong-dark);
@@ -120,8 +126,8 @@ a.button {
 }
 
 .dark-mode .button.urgent:hover {
-    background-color: var(--red-lightest);
-    border-color: var(--red-light);
+    background-color: var(--red-lightest)!important; 
+    border-color: var(--red-light)!important;
 }
 
 .mobile-hidden {
@@ -231,6 +237,10 @@ header nav li a, #dark-mode-toggle {
     color: var(--black);
 }
 
+.dark-mode header nav li a, .dark-mode header nav li a:hover {
+    color: var(--black);
+}
+
 #dark-mode-toggle {
     margin: 5px 0;
     height: 44px;
@@ -325,13 +335,29 @@ main {
     color: var(--black);
 }
 
+.hero-text a {
+    color: var(--black);
+}
+
+.hero-text a:hover {
+    color: var(--black);
+}
+
 main .main-content {
     width: 100%;
     padding: 10px 10px 0 10px;
 }
 
-a picture:hover {
+a picture:hover, .resume-img {
     filter: brightness(105%);
+}
+
+.dark-mode a picture, .dark-mode .resume-img {
+    filter: brightness(75%);
+}
+
+.dark-mode a picture:hover, .dark-mode .resume-img:hover {
+    filter: brightness(80%);
 }
 
 .buttons-row {
@@ -401,11 +427,11 @@ footer ul {
     margin: 0 auto;
 }
 
-footer a {
+footer a, .dark-mode footer a {
     color: var(--off-white);
 }
 
-footer a:hover {
+footer a:hover, .dark-mode footer a:hover {
     color: var(--white);
 }
 
@@ -557,9 +583,17 @@ footer p {
         color: var(--black);
     }
 
+    form .label {
+        color: var(--brown);
+    }
+
     .dark-mode form .input, .dark-mode form .textarea {
         background-color: var(--black);
         color: var(--off-white);
+    }
+
+    .dark-mode form .label {
+        color: var(--off-white-darker);
     }
 
     footer {

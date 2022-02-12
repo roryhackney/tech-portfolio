@@ -54,29 +54,31 @@ DUE Feb. 28
 
 2/10 - Test CSS of portfolio site, add styles for dark mode and set it up for full site, not just resume
 
-2/11 - Edit portfolio projects page to link to and have content for all ready to go portfolio pieces. Create html pages for all finished projects and link them to google docs, figma files, and finished sites as needed.
+2/11 - Finish dark mode styles, edit portfolio projects page to link to and have content for all ready to go portfolio pieces. Create html pages for all finished projects and link them to google docs, figma files, and finished sites as needed.
 
 2/12 - Create images, videos, and any other content needed for base site and portfolio projects. Create multiple sizes and compress. Upload and test in all screens.
 
-2/13-2/14 OFF
+2/13 - Continue setting up pages for completed sites and insert new images and assets. Look over resources folder and old assets and use as needed. Start editing unfinished projects.
+
+2/14 OFF
 
 2/15-2/16 - Edit and refine unfinished/unpolished portfolio projects, starting with the easiest to complete. Make mobile friendly where possible. Link back to base portfolio site. Create html pages to present the work for each. Edit and refine old text content to more accurately reflect project.
 
-2/17 OFF
+2/17 - Check in - how likely are you to finish polishing projects? What's the minimum needed to present? What can you continue editing after the portfolio is completed? What needs to be done now?
 
 2/18-2/19 - Continue polishing and presenting old projects. Ensure all projects are easily found on the portfolio page and are easy to return from. Look over site to ensure everything holds together.
 
-2/20 OFF
+2/20 - Get all projects uploaded and with presentation pages, even if they're not fully optimized and perfected. Time to move on.
 
 2/21 - Create images, videos, and other content for any projects missing items. Finish portfolio.
 
 2/22-2/23 - Refine and upload resume and skills content, edit site content and github/linkedin to match. Make list of skills, certifications, and goals to learn during the job hunt
 
-2/24 OFF
+2/24 - Look back over site - is there anything still to be done? If not, go back and work on unfinished projects some more.
 
 2/25-2/26 - Test on browsers, devices, crush bugs
 
-2/27 OFF
+2/27 - Work on projects that still need polish. Fix up whole site and test all links and validation of HTML, CSS, and color contrast.
 
 2/28 - Finalize content edits and share. Make note of things to add or change during the job hunt period.
 

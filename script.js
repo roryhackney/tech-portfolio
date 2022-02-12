@@ -1,5 +1,12 @@
 "use strict";
-window.addEventListener("load", function(event) {
+window.addEventListener("DOMContentLoaded", function(event) {
+    //Persistent dark mode styles
+    if(localStorage.getItem("storedDarkMode")) {
+        if(localStorage.getItem("storedDarkMode") == "dark") {
+            let html = document.getElementsByTagName("html")[0];
+            html.classList.add("dark-mode");
+        }
+    }
     //Nav mobile menu toggle and submenu toggle
     let menuToggle = document.getElementById("menu-toggle");
     if(menuToggle) {
@@ -10,11 +17,11 @@ window.addEventListener("load", function(event) {
         submenuToggle.addEventListener("mouseenter", submenuToggler);
         submenuToggle.addEventListener("mouseleave", submenuToggler);
     }
-
+    //Nav dark mode toggle
     let darkModeToggle = document.getElementById("dark-mode-toggle");
     if(darkModeToggle) {
         darkModeToggle.addEventListener("click", darkModeToggler);
-    } 
+    }
 
     function menuToggler() {
         let nav = document.getElementById("nav");
@@ -37,12 +44,14 @@ window.addEventListener("load", function(event) {
     }
 
     function darkModeToggler() {
-        let body = document.getElementsByTagName("body")[0];
-        if(body.classList.contains("dark-mode")) {
-            body.classList.remove("dark-mode");
+        let html = document.getElementsByTagName("html")[0];
+        if(html.classList.contains("dark-mode")) {
+            localStorage.setItem("storedDarkMode", "light");
+            html.classList.remove("dark-mode");
             darkModeToggle.innerHTML = "Dark Mode";
         } else {
-            body.classList.add("dark-mode");
+            localStorage.setItem("storedDarkMode", "dark");
+            html.classList.add("dark-mode");
             darkModeToggle.innerHTML = "Light Mode";
         }
     }
