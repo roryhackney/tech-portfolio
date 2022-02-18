@@ -390,7 +390,7 @@ Posted on August 24, 2021	Posted in tags...
 
 Back in June, I launched The Bookshelf (a book search and reviews site) together with Hannah Eberts, designer,
 and Dominick Nelson, back end developer. My role was to integrate the two with a nice looking front end aided by Bulma,
-a CSS framework that made my job a whole lot easier.
+a CSS framework that speed up the project while keeping the design consistent and high quality.
 
 Background
 The Bookshelf was a project we planned and built together, using everything we’d learned to deploy a nice looking, useful web app

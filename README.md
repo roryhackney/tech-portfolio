@@ -56,9 +56,9 @@ DUE Feb. 28
 
 2/11 - Finish dark mode styles, edit portfolio projects page to link to and have content for all ready to go portfolio pieces. Create html pages for all finished projects and link them to google docs, figma files, and finished sites as needed.
 
-2/12 - Create images, videos, and any other content needed for base site and portfolio projects. Create multiple sizes and compress. Upload and test in all screens.
+2/12 - Complete PHP-Finale page. Create images, videos, and any other content needed for base site and portfolio projects. Create multiple sizes and compress. Upload and test in all screens.
 
-2/13 - Continue setting up pages for completed sites and insert new images and assets. Look over resources folder and old assets and use as needed. Start editing unfinished projects.
+2/13 - Continue setting up pages for completed sites and insert new images and assets. Look over resources folder and old assets and use as needed. Start editing unfinished projects. Add class for dark images, and change lightness of images on dark mode.
 
 2/14 OFF
 
@@ -66,17 +66,21 @@ DUE Feb. 28
 
 2/17 - Check in - how likely are you to finish polishing projects? What's the minimum needed to present? What can you continue editing after the portfolio is completed? What needs to be done now?
 
+Catch-up:
+Complete PHP-Finale page, create Bookshelf page, create what images you can.
+Add class for dark images, change DM img lightness.
+
 2/18-2/19 - Continue polishing and presenting old projects. Ensure all projects are easily found on the portfolio page and are easy to return from. Look over site to ensure everything holds together.
 
 2/20 - Get all projects uploaded and with presentation pages, even if they're not fully optimized and perfected. Time to move on.
 
-2/21 - Create images, videos, and other content for any projects missing items. Finish portfolio.
+2/21 - Create images, videos, and other content for any projects missing items, as well as for the site itself. Finish portfolio.
 
 2/22-2/23 - Refine and upload resume and skills content, edit site content and github/linkedin to match. Make list of skills, certifications, and goals to learn during the job hunt
 
 2/24 - Look back over site - is there anything still to be done? If not, go back and work on unfinished projects some more.
 
-2/25-2/26 - Test on browsers, devices, crush bugs
+2/25-2/26 - Test on browsers, devices, crush bugs. Ensure any tap/hover effects work appropriately, esp. on tablet.
 
 2/27 - Work on projects that still need polish. Fix up whole site and test all links and validation of HTML, CSS, and color contrast.
 
@@ -85,14 +89,14 @@ DUE Feb. 28
 ------------------------------------------------
 Content needed
 
-Favicon files
+<!--Favicon files-->
 Home Page: hero images, portfolio projects content
 About Page: hero img, education and certifications image, free time/other skills img.
 Hire Me: hero img, updated resume image, updated skills, portfolio projects content
-Resume: hero text, hero buttons, hero images, resume (html, pdf, plain)
+Resume: <!--hero text, hero buttons,--> hero images, resume (html, pdf, plain)
 Portfolio: hero image, projects content
 
-PHP-Finale (project completed): presentation page and content, images, video, description, skills and languages used
+PHP-Finale (project completed): <!--presentation page and content-->, images, video, <!--description, skills and languages used-->
 
 Rachel Yamagiwa Massage (presentation written):_prototype: mobile styles, polish presentation content, images, video, skills and languages used, links to design docs, add links back to portfolio
 

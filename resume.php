@@ -23,11 +23,11 @@
             </div>
             <div class="main-content">
                 <div id="resume-div" class="resume-div">
-                    <h2>Rory Hackney</h2>
+                    <h2 class="title is-5 has-text-centered">Rory Hackney</h2>
                     <p>Web Developer and Designer</p>
-                    <h3>Objective</h3>
+                    <h3 class="title is-6 mb-0">Objective</h3>
                     <p>Web Developer seeking job with lots to do and even more to learn.</p>
-                    <h3>Skills</h3>
+                    <h3 class="title is-6 mb-0">Skills</h3>
                     <div class="columns is-multiline is-mobile">
                         <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
                             <ul>

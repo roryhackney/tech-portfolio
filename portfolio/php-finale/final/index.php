@@ -22,12 +22,12 @@ include 'includes/header.php';
   <div id="me">
     <h3>About Me</h3>
     <img src="images/me.jpg" alt="photo of Rory Hackney">
-    <p>My name's Rory Hackney, and I'm an artist and web developer from Seattle, Washington. I have a BFA in Comic Art, a passion for design and storytelling, and growing skills in code. My practice focuses on comics, web development, and design. I currently have skills in HTML, CSS, PHP, and Python, and I'm looking forward to learning more every day. To see projects I've worked on, check out my <a href="https://github.com/roryhackney">Github</a>. To see more of my art, check out my <a href="https://www.rorystories.com/">portfolio</a>. You can also connect with me on <a href="https://www.linkedin.com/in/roryhackney/">LinkedIn</a>.</p>
+    <p>My name's Rory Hackney, and I'm an artist and web developer from Seattle, Washington. I have a BFA in Comic Art, a passion for design and storytelling, and growing skills in code. My practice focuses on comics, web development, and design. I currently have skills in HTML, CSS, PHP, and Python, and I'm looking forward to learning more every day. To see projects I've worked on, check out my <a href="https://github.com/roryhackney">GitHub</a>. To see more of my art, check out my <a href="https://www.rorystories.com/">portfolio</a>. You can also connect with me on <a href="https://www.linkedin.com/in/roryhackney/">LinkedIn</a>.</p>
   </div>
 </main>
 <aside>
   <h4>Note:</h4>
-  <p>This website uses PHP to dynamically generate content. You can see the code on my <a href="https://github.com/roryhackney">Github</a>.</p>
+  <p>This website uses PHP to dynamically generate content. You can see the code on my <a href="https://github.com/roryhackney">GitHub</a>.</p>
   </aside>
 <?php
   include 'includes/footer.php';

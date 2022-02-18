@@ -153,7 +153,7 @@
                                 <p class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste nesciunt volup! Incidunt odit commodi laborus descia.</p>
                             </div>
                             <div class="column is-full">
-                                <div class="buttons-row three">
+                                <div class="">
                                     <a class="button" href="portfolio.php">Portfolio</a>
                                     <a class="button is-hidden-desktop" href="mailto:roryhackney@gmail.com">Email</a>
                                     <a class="button is-hidden-touch" href="#contact">Contact</a>

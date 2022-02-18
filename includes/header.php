@@ -49,6 +49,18 @@ switch($page) {
         $currentPage = 'resume';
         $h1 = 'Resume';
         break;
+    case '/php-finale.php':
+        $bodyClass = 'portfolio-detail';
+        $title = 'PHP Finale';
+        $currentPage = 'portfolio';
+        $h1 = 'PHP Finale';
+        break;
+    case '/the-book-shelf.php':
+        $bodyClass = 'portfolio-detail';
+        $title = 'The Book Shelf';
+        $currentPage = 'portfolio';
+        $h1 = 'The Book Shelf';
+        break;
 }
 
 /*contact form validation*/

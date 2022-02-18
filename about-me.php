@@ -15,7 +15,7 @@
                     <div class="column is-full-tablet is-two-thirds-desktop">
                         <div class="columns is-multiline">
                             <div class="column is-full">
-                                <h2 class="title is-6 mb-0">My education and certifications</h2>
+                                <h2 class="title is-5 mb-0">My education and certifications</h2>
                                 <p class="content">For the past few years I’ve been studying web development in school and out. I recently graduated with a Certificate in Web Development and Design September 2021 from Seattle Central College. In 2016, I received my BFA from the Minneapolis College of Art and Design.</p>
                                 <picture class="large-image">
                                     <source media="(min-width:961px)" srcset="assets/home-body-larger.jpg"> <!--961 - max 2000-->
@@ -25,7 +25,7 @@
                                 </picture>
                             </div>
                             <div class="column is-half">
-                                <h2 class="title is-6 mb-0">My top priorities when building websites</h2>
+                                <h2 class="title is-5 mb-0">My top priorities when building websites</h2>
                                 <ul>
                                     <li>Accessible, user friendly design</li>
                                     <li>Responsive, mobile first layouts</li>
@@ -40,7 +40,7 @@
                                 </picture>
                             </div>
                             <div class="column is-half">
-                                <h2 class="title is-6 mb-0">My favorite languages and software</h2>
+                                <h2 class="title is-5 mb-0">My favorite languages and software</h2>
                                 <div class="columns is-mobile">
                                     <div class="column is-one-third pb-0">
                                         <ul>

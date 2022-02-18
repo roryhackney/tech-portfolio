@@ -24,6 +24,7 @@
     --brown-dark: #250B02;
     --brown-light: #6E4128;
     --gray: #55433E;
+    --gray-light: #ccb5ad;
     --brown: #4D281C;
 
     /*on dark bgs, hover should be lighter; on light bgs, hover should be darker.*/
@@ -154,7 +155,11 @@ header .logo {
     width: 64px;
     border: 1px solid var(--off-white);
     border-radius: 90px;
-} 
+}
+
+.dark-mode header .logo {
+    border-color: var(--black);
+}
 
 header .logo:hover {
     filter: brightness(115%);
@@ -352,12 +357,24 @@ a picture:hover, .resume-img {
     filter: brightness(105%);
 }
 
-.dark-mode a picture, .dark-mode .resume-img {
-    filter: brightness(75%);
+.dark-image:hover {
+    filter: brightness(110%);
 }
 
+.dark-mode a picture, .dark-mode .resume-img {
+    filter: brightness(90%);
+}
+
+.dark-mode .dark-image {
+    filter: brightness(100%);
+} 
+
 .dark-mode a picture:hover, .dark-mode .resume-img:hover {
-    filter: brightness(80%);
+    filter: brightness(95%);
+}
+
+.dark-mode .dark-image:hover {
+    filter: brightness(110%);
 }
 
 .buttons-row {
@@ -389,6 +406,28 @@ a picture:hover, .resume-img {
     margin: 0 auto;
 }
 
+.project-card span {
+    font-size: .875rem;
+    color: var(--gray);
+}
+
+.dark-mode .project-card span {
+    color: var(--gray-light);
+}
+
+.project-card a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.dark-mode .project-card a {
+    color: var(--off-white);
+}
+
+.dark-mode .project-card a:hover {
+    color: var(--off-white);
+}
+
 .aside {
     background-color: var(--yellow);
     padding-bottom: 50px;
@@ -413,8 +452,6 @@ a picture:hover, .resume-img {
 .dark-mode .contact-icons svg:hover {
     color: var(--yellow-strong-light);
 }
-
-
 
 footer {
     padding: 10px;
@@ -448,6 +485,53 @@ footer p {
 
 .home .hero-container .button:last-of-type {
     bottom: 30px;
+}
+
+.portfolio-detail .hero-container .button {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.portfolio-detail .hero-container .button:first-of-type {
+    right: 155px;
+}
+
+.portfolio-detail .block ul {
+    margin-left: 10px;
+}
+
+.portfolio-detail .block ul li {
+    list-style-type: disc;
+}
+
+.portfolio-detail .has-text-centered {
+    display: block;
+}
+
+.portfolio-detail .my-main {
+    max-width: 650px;
+    margin: 0 auto;    
+}
+
+.portfolio-detail .tags-div {
+    margin: 10px auto;
+    width: fit-content;
+    background-color: var(--yellow);
+    text-align: center;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dark-mode .portfolio-detail .tags-div {
+    background-color: var(--brown);
+    color: var(--off-white);
+}
+
+.portfolio-detail ul .small-image img {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .hire .resume-img {
@@ -489,6 +573,13 @@ footer p {
 .dark-mode .resume-div {
     background-color: var(--brown-dark);
     color: var(--off-white);
+}
+
+@media only screen and (min-width: 500px) {
+    .portfolio-detail .tags-div {
+        float: left;
+        margin: 10px;
+    }
 }
 
 /*TABLET STYLES*/
@@ -605,14 +696,18 @@ footer p {
     }
 
     /*page specific styles*/
-    .home .hero-container .button {
+    .home .hero-container .button, .portfolio-detail .hero-container .button:first-of-type {
         bottom: 100px;
         right: 225px;
     }
 
-    .home .hero-container .button:last-of-type {
+    .home .hero-container .button:last-of-type, .portfolio-detail .hero-container .button {
         bottom: 100px;
         right: 100px;
+    }
+
+    .portfolio-detail .desktop-margin {
+        margin-top: 20px;
     }
 
     .resume .hero-text {
@@ -670,13 +765,13 @@ footer p {
     }
 
     /*page specific styles*/
-    .home .hero-container .button {
+    .home .hero-container .button, .portfolio-detail .hero-container .button:first-of-type {
         bottom: 11vw;
         right: 25vw;
         margin-right: 150px;
     }
 
-    .home .hero-container .button:last-of-type {
+    .home .hero-container .button:last-of-type, .portfolio-detail .hero-container .button {
         bottom: 11vw;
         right: 25vw;
         margin-right: 0;
@@ -685,5 +780,29 @@ footer p {
     .resume .hero-container .columns {
         max-width: 900px;
         margin: 0 auto;
+    }
+}
+
+/*STUPID BIG STYLES*/
+@media only screen and (min-width: 1500px) {
+    .portfolio-detail .my-main {
+        max-width: 760px;
+        margin: 0 auto;    
+    }
+
+    .portfolio-detail .my-main img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .portfolio-detail .my-main ul {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .portfolio-detail .desktop-margin {
+        margin-top: 50px;
     }
 }
