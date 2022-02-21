@@ -37,12 +37,12 @@
                             </div>
                             <div class="column is-half">
                                 <div class="project-card">
-                                    <h3 class="title is-6 mb-0">The Book Shelf</h3>
-                                    <picture class="small-image">
+                                    <a href="the-book-shelf.php"><h3 class="title is-6 mb-0">The Book Shelf</h3></a>
+                                    <a href="the-book-shelf.php"><picture class="small-image">
                                         <source media="(min-width: 401px)"
                                         srcset="assets/home-body-medium.jpg 760w">
                                         <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
-                                    </picture>
+                                    </picture></a>
                                     <div>
                                         <span>Bulma, Frontend Web Development</span>
                                         <span class="is-pulled-right">Date published</span>

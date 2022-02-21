@@ -56,7 +56,7 @@ switch($page) {
         $h1 = 'PHP Finale';
         break;
     case '/the-book-shelf.php':
-        $bodyClass = 'portfolio-detail';
+        $bodyClass = 'portfolio-detail not-revised';
         $title = 'The Book Shelf';
         $currentPage = 'portfolio';
         $h1 = 'The Book Shelf';

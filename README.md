@@ -74,6 +74,8 @@ Add class for dark images, change DM img lightness.
 
 2/20 - Get all projects uploaded and with presentation pages, even if they're not fully optimized and perfected. Time to move on.
 
+Catch up: site and project images, presentation videos. Complete Bookshelf page. Upload other projects and create basic pages for them as well. Add return to portfolio link to them. Finish portfolio page and include portfolio examples anywhere needed.
+
 2/21 - Create images, videos, and other content for any projects missing items, as well as for the site itself. Finish portfolio.
 
 2/22-2/23 - Refine and upload resume and skills content, edit site content and github/linkedin to match. Make list of skills, certifications, and goals to learn during the job hunt

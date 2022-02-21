@@ -8,7 +8,10 @@
                     <source media="(min-width:481px)" srcset="assets/home-hero-medium.jpg">
                     <img src="assets/home-hero-small.jpg" alt="Photo of Rory Hackney over a background of a computer displaying code next to a sketchbook filled with design work.">
                 </picture>
-                <p class="hero-text">A book search and review search site built in a three-person team using Bulma, JavaScript, PHP, and SQL. Features include user accounts, forms that add to the database, dark mode, search, and a clean, mobile friendly design.</p>
+                <p class="hero-text">A book search and review search site built in a three-person team
+using Bulma, JavaScript, PHP, and SQL. Features include user
+accounts, forms, a database, dark mode, search, and a clean, mobile
+friendly design made with a CSS framework.</p>
                 <a class="button" href="portfolio.php">Portfolio</a>
                 <a class="button" href="resume.php">Resume</a>
             </div>
@@ -20,41 +23,83 @@
                         <div class="tags-div">
                             <h3 class="title is-6 mb-2">Tags</h3>
                             <ul>
-                                <li>Bulma, Asana, PHP, SQL</li>
-                                <li>Frontend Web Development</li>
+                                <li>HTML, CSS, JavaScript</li>
+                                <li>PHP, SQL, <span title="CSS Framework">Bulma,</span> <span title="Project Management">Asana</span></li>
+                                <li>Team Built<li>
+                                <li>Frontend Web Development<li>
+                                <li>User Login, Registration<li>
                                 <li>Mobile Friendly</li>
-                                <li>Database Development</li>
-                                <li>User Login, Registration</li>
-                                <li>Daily Content</li>
-                                Team Built
                             </ul>
                         </div>
                         <div class="block">
-                            <p>PHP Finale was a complex, quarter-long project that taught me a great deal about PHP and back end web development. I built calculators, validated user input, created forms, used databases both for dynamic kitten content and user management, and used CSS to make the whole thing user friendly and colorful.</p>
+                            <p class="desktop-margin">I launched The Book Shelf (a book search and reviews site) together with <a href="https://www.linkedin.com/in/hannah-eberts" target="_blank">Hannah Eberts</a>, designer, and <a href="https://www.linkedin.com/in/dominick-nelson-a96758a6" target="_blank">Dominick Nelson</a>, back end developer. As the front end developer, I combined their work with a nice UI aided by Bulma, which helped us to complete the project on time without sacrificing the quality or consistency of the design.</p>
                         </div>
+                        <picture class="small-image">
+                            <source media="(min-width: 401px)"
+                            srcset="assets/book-shelf-design-reviews-medium.jpg 760w">
+                            <img src="assets/book-shelf-design-reviews-small.jpg" alt="The Book Shelf website displays several book reviews over a light blue and yellow design.">
+                        </picture>
                         <div class="block">
-                            <p>I recently updated it to make the project mobile friendly and more streamlined, upgrading the code and removing distractions, and making the site easier to navigate. If you'd like to poke around, check out the live site at <a href="portfolio/php-finale">PHP Finale</a>, view my code on <a href="https://github.com/roryhackney/php-finale">GitHub</a>, or check out the video below.</p>
+                            <p>The Book Shelf was built to provide a space for people to add their favorite books, look at reviews, and find information. We planned the website together, from brainstorming first ideas to a week by week project timeline made in Asana. We also added user accounts, complex searches, dark mode, and a popup to save favorites, using a mix of PHP, JavaScript, and SQL to make the site interactive, functional, and persistent.</p>
+                        </div>
+                        <picture class="small-image">
+                            <source media="(min-width: 401px)"
+                            srcset="assets/book-shelf-dark-form-medium.jpg 760w">
+                            <img src="assets/book-shelf-dark-form-small.jpg" alt="Form for submitting a book to the database in dark mode.">
+                        </picture>
+                        <div class="block">
+                            <p>In the end, we had an awesome digital bookshelf we could all be proud of.</p>
+                        </div>
+                        <div class="columns">
+                            <div class="column is-half">
+                                <picture class="small-image">
+                                    <source media="(min-width: 401px)"
+                                    srcset="assets/home-body-medium.jpg 760w">
+                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                </picture>
+                            </div>
+                            <div class="column">
+                                <picture class="small-image">
+                                    <source media="(min-width: 401px)"
+                                    srcset="assets/book-shelf-light-books-medium.jpg 760w">
+                                    <img src="assets/book-shelf-light-books-small.jpg" alt="The Book Shelf displaying saved searches and book listings on a light color scheme.">
+                                </picture>
+                            </div>
                         </div>
                         <p>INSERT VIDEO HERE</p>
-                        <p>INSERT SOME SCREENSHOTS IDK</p>
                         <div class="block">
-                            <h3 class="title is-6 mb-0">List of Features</h3>
                             <ul>
-                                <li>Contact form with input validation, saved input, and emailed data</li>
-                                <li>Kitten gallery</li>
-                                <li>Artist portfolio and contact form using databases and validation</li>
-                                <li>Daily art challenges, best practices, and daily coffee</li>
-                                <li>Currency conversion form, and mileage calculator</li>
+                                <h3 class="title is-6 mb-0">List of Features</h3>
+                                <li>Add, search, or view books and reviews</li>
+                                <li>Persistent dark mode</li>
+                                <picture class="small-image">
+                                    <source media="(min-width: 401px)"
+                                    srcset="assets/home-body-medium.jpg 760w">
+                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                </picture>
+                                <li>Search by keyword, author, genre, title, or all</li>
+                                <li>Logo animation</li>
+                                <li>User login and registration</li>
+                                <li>Modal popup to save favorites</li>
+                                <picture class="small-image">
+                                    <source media="(min-width: 401px)"
+                                    srcset="assets/home-body-medium.jpg 760w">
+                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                </picture>
                                 <li>Responsive (device friendly) design</li>
-                                <li>Dinosaur database integration and detail page made with SQL and PHP</li>
-                                <li>User login and registration database integration and secure forms</li>
-                                <li>Lots of styles, with multiple mobile friendly designs</li>
-                                <li>PHP variables, arrays, includes, and functions, including randomImages() and makeNav()</li>
+                                <li>10% chance of a 'prize' popup</li>
+                                <li>Page timer in footer</li>
+                                <li>Cohesive design created using Bulma (CSS framework)</li>
+                                <picture class="small-image">
+                                    <source media="(min-width: 401px)"
+                                    srcset="assets/home-body-medium.jpg 760w">
+                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                </picture>
                             </ul>
                         </div>
                         <div class="buttons-row three">
-                            <a class="button" href="portfolio/php-finale">Live Site</a>
-                            <a class="button" href="https://github.com/roryhackney/php-finale" target="_blank">GitHub</a>
+                            <a class="button" href="http://the-book-shelf.xyz" target="_blank">Live Site</a>
+                            <a class="button" href="https://github.com/nicknelson97/IT163-Group-1" target="_blank">GitHub</a>
                             <a class="button urgent" href="hire-me.php">Hire Now</a>
                         </div>
                         <a href="portfolio.php" class="has-text-centered">Back to Portfolio</a>

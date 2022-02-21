@@ -388,26 +388,19 @@ Thanks for checking out my work! My Resume Hire Me
 How We Built The Bookshelf
 Posted on August 24, 2021	Posted in tags...
 
-Back in June, I launched The Bookshelf (a book search and reviews site) together with Hannah Eberts, designer,
-and Dominick Nelson, back end developer. My role was to integrate the two with a nice looking front end aided by Bulma,
-a CSS framework that speed up the project while keeping the design consistent and high quality.
+I launched The Book Shelf (a book search and reviews site) together with Hannah Eberts,
+designer, and Dominick Nelson, back end developer. As the front end developer, I combined
+the two with a nice UI aided by Bulma, which helped us to complete the project on time
+without sacrificing the quality or consistency of the design.
 
-Background
-The Bookshelf was a project we planned and built together, using everything we’d learned to deploy a nice looking, useful web app
-for people who liked reading as much as we did. It would host information on whatever books people added to the database, as well as
-reviews, and of course the whole thing had to be searchable. In the end, we integrated user accounts, a database, dark mode, and a
-fun little popup that enables searches on your favorite books.
+The Book Shelf was built to provide a space for people to add their favorite books, look
+at reviews, and find information. We planned the website together, from brainstorming
+first ideas to a week by week project timeline made in Asana. We also added user accounts,
+complex searches, dark mode, and a popup to save favorites, using a mix of PHP, JavaScript,
+and SQL to make the site interactive, functional, and persistent.
 
-How We Did It
-We started out by planning the functionality and breaking the project down into weekly sprints on Asana, a project management app.
-We split up our tasks by role (mine being front end) and did a bunch of research to solidify our design. On the backend, Dominick
-set up the database and complex search functionality, while Hannah created a polished UI design.
+In the end, we had an awesome digital bookshelf we could all be proud of.
 
-Based off that, I discovered and integrated Bulma to give our site a responsive, clean design, and built JavaScript functions to add
-interactivity for mobile menus and user interaction. We entered a ton of data into the database, built functions and crushed bugs,
-learned new skills and improved old ones, added new features and polished our site.
-
-In the end, we had an awesome web app we could all be proud of. Live Site GitHub
 [The Bookshelf Books Page – Dark Mode]
 [The Bookshelf Reviews Page - Mobile]
 
