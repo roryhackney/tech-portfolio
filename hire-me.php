@@ -98,62 +98,13 @@
                                     <a class="button" href="https://www.linkedin.com/in/roryhackney" target="_blank">LinkedIn</a>
                                     <a class="button" href="resume.php">Resume</a>
                                 </div>
-                                <h2 class="title is-5 has-text-centered">My Recent Work</h2>
-                            </div>
-                            <div class="column is-half">
-                                <h3 class="title is-6 mb-0">Project 1</h3>
-                                <picture class="small-image">
-                                    <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
-                                </picture>
-                                <div>
-                                    <span>Tags, categories, etc</span>
-                                    <span class="is-pulled-right">Date published</span>
-                                </div>
-                                <p class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste nesciunt volup! Incidunt odit commodi laborus descia.</p>
-                            </div>
-                            <div class="column is-half">
-                                <h3 class="title is-6 mb-0">Project 2</h3>
-                                <picture class="small-image">
-                                    <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
-                                </picture>
-                                <div>
-                                    <span>Tags, categories, etc</span>
-                                    <span class="is-pulled-right">Date published</span>
-                                </div>
-                                <p class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste nesciunt volup! Incidunt odit commodi laborus descia.</p>
-                            </div>
-                            <div class="column is-half">
-                                <h3 class="title is-6 mb-0">Project 3</h3>
-                                <picture class="small-image">
-                                    <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
-                                </picture>
-                                <div>
-                                    <span>Tags, categories, etc</span>
-                                    <span class="is-pulled-right">Date published</span>
-                                </div>
-                                <p class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste nesciunt volup! Incidunt odit commodi laborus descia.</p>
-                            </div>
-                            <div class="column is-half is-hidden-mobile">
-                                <h3 class="title is-6 mb-0">Project 4</h3>
-                                <picture class="small-image">
-                                    <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
-                                </picture>
-                                <div>
-                                    <span>Tags, categories, etc</span>
-                                    <span class="is-pulled-right">Date published</span>
-                                </div>
-                                <p class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste nesciunt volup! Incidunt odit commodi laborus descia.</p>
                             </div>
                             <div class="column is-full">
-                                <div class="">
+                                <h2 class="title is-5 has-text-centered">My Recent Work</h2>
+                            </div>
+                            <?php include "includes/projects.php"; ?>
+                            <div class="column is-full">
+                                <div class="buttons-row three">
                                     <a class="button" href="portfolio.php">Portfolio</a>
                                     <a class="button is-hidden-desktop" href="mailto:roryhackney@gmail.com">Email</a>
                                     <a class="button is-hidden-touch" href="#contact">Contact</a>

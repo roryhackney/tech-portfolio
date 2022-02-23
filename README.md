@@ -80,6 +80,12 @@ Catch up: site and project images, presentation videos. Complete Bookshelf page.
 
 2/22-2/23 - Refine and upload resume and skills content, edit site content and github/linkedin to match. Make list of skills, certifications, and goals to learn during the job hunt
 
+Add CSS for dark-mode dark-image picture: not a picture
+
+Add links to higher res imgs from imgs of work ie a picture or remove all. Consistency.
+
+Catch up: upload remaining projects, insert imgs. Add resume, get review.
+
 2/24 - Look back over site - is there anything still to be done? If not, go back and work on unfinished projects some more.
 
 2/25-2/26 - Test on browsers, devices, crush bugs. Ensure any tap/hover effects work appropriately, esp. on tablet.

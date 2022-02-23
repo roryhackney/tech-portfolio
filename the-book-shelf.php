@@ -2,16 +2,16 @@
             <div class="hero-container">
                 <picture class="hero">
                     <!--2000px, 1600px, 1200px, 800px, 480px-->
-                    <source media="(min-width:1601px)" srcset="assets/home-hero-largest.jpg">
-                    <source media="(min-width:1201px)" srcset="assets/home-hero-larger.jpg">
-                    <source media="(min-width:801px)" srcset="assets/home-hero-large.jpg">
-                    <source media="(min-width:481px)" srcset="assets/home-hero-medium.jpg">
-                    <img src="assets/home-hero-small.jpg" alt="Photo of Rory Hackney over a background of a computer displaying code next to a sketchbook filled with design work.">
+                    <source media="(min-width:1601px)" srcset="assets/book-shelf-hero-largest.jpg">
+                    <source media="(min-width:1201px)" srcset="assets/book-shelf-hero-larger.jpg">
+                    <source media="(min-width:801px)" srcset="assets/book-shelf-hero-large.jpg">
+                    <source media="(min-width:481px)" srcset="assets/book-shelf-hero-medium.jpg">
+                    <img src="assets/book-shelf-hero-small.jpg" alt="Screenshot of a website with books and reviews, currently displaying a form to save favorite searches.">
                 </picture>
                 <p class="hero-text">A book search and review search site built in a three-person team
-using Bulma, JavaScript, PHP, and SQL. Features include user
-accounts, forms, a database, dark mode, search, and a clean, mobile
-friendly design made with a CSS framework.</p>
+                using Bulma, JavaScript, PHP, and SQL. Features include user
+                accounts, forms, a database, dark mode, search, and a clean, mobile
+                friendly design made with a CSS framework.</p>
                 <a class="button" href="portfolio.php">Portfolio</a>
                 <a class="button" href="resume.php">Resume</a>
             </div>
@@ -42,7 +42,7 @@ friendly design made with a CSS framework.</p>
                         <div class="block">
                             <p>The Book Shelf was built to provide a space for people to add their favorite books, look at reviews, and find information. We planned the website together, from brainstorming first ideas to a week by week project timeline made in Asana. We also added user accounts, complex searches, dark mode, and a popup to save favorites, using a mix of PHP, JavaScript, and SQL to make the site interactive, functional, and persistent.</p>
                         </div>
-                        <picture class="small-image">
+                        <picture class="small-image dark-image">
                             <source media="(min-width: 401px)"
                             srcset="assets/book-shelf-dark-form-medium.jpg 760w">
                             <img src="assets/book-shelf-dark-form-small.jpg" alt="Form for submitting a book to the database in dark mode.">

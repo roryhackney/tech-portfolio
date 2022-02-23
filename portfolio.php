@@ -17,14 +17,13 @@
                             <div class="column is-full">
                                 <h2 class="title is-5 has-text-centered">Recent Projects</h2>
                             </div>
-                            <?php ?>
                             <div class="column is-half">
                                 <div class="project-card">
                                     <a href="php-finale.php"><h3 class="title is-6 mb-0">PHP Finale</h3></a>
                                     <a href="php-finale.php"><picture class="small-image dark-image">
                                         <source media="(min-width: 401px)"
                                         srcset="assets/php-finale-card-medium.jpg 760w">
-                                        <img src="assets/php-finale-card-small.jpg" alt="Website built primarily with PHP, HTML, and CSS.">
+                                        <img src="assets/php-finale-card-small.jpg" alt="Screenshot of a website built with PHP, showing a photo of Rory and links to various pages.">
                                     </picture></a>
                                     <div>
                                         <span>PHP, Backend Web Development</span>
@@ -40,14 +39,16 @@
                                     <a href="the-book-shelf.php"><h3 class="title is-6 mb-0">The Book Shelf</h3></a>
                                     <a href="the-book-shelf.php"><picture class="small-image">
                                         <source media="(min-width: 401px)"
-                                        srcset="assets/home-body-medium.jpg 760w">
-                                        <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                        srcset="assets/book-shelf-card-medium.jpg 760w">
+                                        <img src="book-shelf-card-small.jpg" alt="Screenshot of a website with books and reviews, currently displaying a form to save favorite searches.">
                                     </picture></a>
                                     <div>
                                         <span>Bulma, Frontend Web Development</span>
-                                        <span class="is-pulled-right">Date published</span>
+                                        <span class="is-pulled-right">Jun 2021</span>
                                     </div>
-                                    <p class="hero-text">A book search and review search site built in a three-person team using Bulma, JavaScript, PHP, and SQL. Features include user accounts, forms that add to the database, dark mode, search, and a clean, mobile friendly design.</p>
+                                    <a href="the-book-shelf.php">
+                                        <p class="content">A book search and review search site built in a three-person team using Bulma, JavaScript, PHP, and SQL. Features include user accounts, forms that add to the database, dark mode, search, and a clean, mobile friendly design.</p>
+                                    </a>
                                 </div>
                             </div>
                             <div class="column is-full">

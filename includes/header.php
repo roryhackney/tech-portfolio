@@ -50,13 +50,13 @@ switch($page) {
         $h1 = 'Resume';
         break;
     case '/php-finale.php':
-        $bodyClass = 'portfolio-detail';
+        $bodyClass = 'portfolio-detail dark-hero';
         $title = 'PHP Finale';
         $currentPage = 'portfolio';
         $h1 = 'PHP Finale';
         break;
     case '/the-book-shelf.php':
-        $bodyClass = 'portfolio-detail not-revised';
+        $bodyClass = 'portfolio-detail dark-hero';
         $title = 'The Book Shelf';
         $currentPage = 'portfolio';
         $h1 = 'The Book Shelf';
@@ -151,7 +151,7 @@ function validate($input) {
         <link rel="stylesheet" href="styles/my-styles.css">
         <title><?php echo $title . ' | Rory Hackney, Web Developer and Designer'; ?></title>
     </head>
-    <body class=<?php echo $bodyClass;?>>
+    <body class="<?php echo $bodyClass;?>">
         <header>
             <a href="index.php"><img class="logo"
             alt="Rory Hackney's logo: yellow letters RH over a dark blue circle."
