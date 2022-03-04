@@ -97,25 +97,34 @@ Catch up: upload remaining projects, insert imgs. Add resume, get review.
 ------------------------------------------------
 Content needed
 
-<!--Favicon files-->
-Home Page: hero images, portfolio projects content
+Home Page: hero images
 About Page: hero img, education and certifications image, free time/other skills img.
-Hire Me: hero img, updated resume image, updated skills, portfolio projects content
-Resume: <!--hero text, hero buttons,--> hero images, resume (html, pdf, plain)
+Hire Me: hero img, updated resume image, updated skills
+Resume: hero images, resume (html, pdf, plain)
 Portfolio: hero image, projects content
 
-PHP-Finale (project completed): <!--presentation page and content-->, images, video, <!--description, skills and languages used-->
+PHP-Finale (project completed): one more image (mobile)
 
-Rachel Yamagiwa Massage (presentation written):_prototype: mobile styles, polish presentation content, images, video, skills and languages used, links to design docs, add links back to portfolio
+The-Book-Shelf.xyz: links to asana, docs, etc, mobile image
 
-The-Book-Shelf.xyz (project completed, presentation written): polish presentation content, images, video, skills and languages used, links to asana, docs, etc, screenshots
+Rachel Yamagiwa Massage (presentation written):_prototype: mobile styles, hero images, add links back to portfolio
 
+------
+Needed content:
+images of mobile sites, other content
+notices on sites ie not a real shop
+database design projects
+shop design project
+
+Dream Content:
+videos demonstrating each site
+mobile styles
+process and documentation links
+each site links back to portfolio
+complete python/JS apps and share
+documentation, tutorials, notes
+
+------
 Rory's Stories Database Design (project completed, presentation written): polish/shorten content, skills and languages used, links to design docs, screenshots etc.
 
-Rory's Stories Shop Design (/rorystories): mobile styles, complete checkout process, add notice that this is not a real shop, add links back to portfolio
-
-Other projects: Adv. JavaScript ie Dinosaur DB App (MongoDB, Mongoose, Mocha...)
-Adv. Python is Club App and Half Finished Goals App (React, Python, confusing)
-Can probably pull up stuff from Google Cloud, etc for stacks, software dev but tbh i dont like doing it and its confusing so like, not sure I should even include the app stuff
-
-G drive documentation, notes, tutorials, case studies
+Rory's Stories Shop Design (/rorystories): mobile styles, complete checkout process styles, add notice that this is not a real shop, add links back to portfolio

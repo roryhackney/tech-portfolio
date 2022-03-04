@@ -8,6 +8,7 @@
                     <source media="(min-width:481px)" srcset="assets/home-hero-medium.jpg">
                     <img src="assets/home-hero-small.jpg" alt="">
                 </picture>
+                <div class="is-overlay"></div>
                 <p class="hero-text">I’m a web developer passionate about making the web more accessible by creating intuitive, mobile friendly, quality websites that combine functionality with creativity.</p>
             </div>
             <div class="main-content">

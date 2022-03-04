@@ -8,6 +8,7 @@
                     <source media="(min-width:481px)" srcset="assets/php-finale-hero-medium.jpg">
                     <img src="assets/php-finale-hero-small.jpg" alt="Screenshot of a website built with PHP, showing a photo of Rory and links to various pages.">
                 </picture>
+                <div class="is-overlay"></div>
                 <p class="hero-text">My very first PHP project, recently updated with the skills and knowledge I've gained since. Features include daily content, database usage, user login and registration, kittens, form validation and submission, calculators, and more.</p>
                 <a class="button" href="portfolio.php">Portfolio</a>
                 <a class="button" href="resume.php">Resume</a>
@@ -34,66 +35,59 @@
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/home-body-medium.jpg 760w">
-                            <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                            srcset="assets/php-finale-daily-coffee-medium.jpg 760w">
+                            <img src="assets/php-finale-daily-coffee-small.jpg" alt="Webpage displaying daily coffee, in this case iced tea, using PHP to dynamically change content.">
                         </picture>
                         <div class="block">
                             <p>I recently updated it to make the project mobile friendly and more streamlined, upgrading the code and removing distractions, and making the site easier to navigate. If you'd like to poke around, check out the live site at <a href="portfolio/php-finale">PHP Finale</a>, view my code on <a href="https://github.com/roryhackney/php-finale">GitHub</a>, or check out the video below.</p>
                         </div>
-                        <div class="columns">
-                            <div class="column is-half">
-                                <picture class="small-image">
-                                    <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
-                                </picture>
-                            </div>
-                            <div class="column">
-                                <picture class="small-image">
-                                    <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
-                                </picture>
-                            </div>
-                        </div>
-                        <p>INSERT VIDEO HERE</p>
+                        <picture class="small-image"> <!--TODO: INSERT MOBILE IMG-->
+                            <source media="(min-width: 401px)"
+                            srcset="assets/php-finale-mobile-medium.jpg 760w">
+                            <img src="assets/php-finale-mobile-small.jpg" alt="">
+                        </picture>
+                        <picture class="small-image">
+                            <source media="(min-width: 401px)"
+                            srcset="assets/php-finale-fuel-calculator-medium.jpg 760w">
+                            <img src="assets/php-finale-fuel-calculator-small.jpg" alt="Webpage displaying a mileage calculator form that checks for input errors, then displays information.">
+                        </picture>
                         <div class="block">
                             <ul>
                                 <h3 class="title is-6 mb-0">List of Features</h3>
                                 <li>Contact form with input validation, saved input, and emailed data</li>
                                 <li>Kitten gallery</li>
+                                <li>Artist portfolio and contact form using databases and validation</li>
                                 <picture class="small-image">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                    srcset="assets/php-finale-art-site-medium.jpg 760w">
+                                    <img src="assets/php-finale-art-site-small.jpg" alt="Webpage displaying art and links to other pages for an artist blog. Login required.">
                                 </picture>
-                                <li>Artist portfolio and contact form using databases and validation</li>
                                 <li>Daily art challenges, best practices, and daily coffee</li>
                                 <li>Currency conversion form, and mileage calculator</li>
                                 <li>Responsive (device friendly) design</li>
+                                <li>Dinosaur database integration and detail page made with SQL and PHP</li>
                                 <picture class="small-image">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
+                                    srcset="assets/php-finale-dinosaur-database-medium.jpg 760w">
+                                    <img src="assets/php-finale-dinosaur-database-small.jpg" alt="Web page showing dinosaur information and images using PHP and SQL to connect a database.">
                                 </picture>
-                                <li>Dinosaur database integration and detail page made with SQL and PHP</li>
                                 <li>User login and registration database integration and secure forms</li>
                                 <li>Lots of styles, with multiple mobile friendly designs</li>
                                 <li>PHP variables, arrays, includes, and functions, including randomImages() and makeNav()</li>
-                                <picture class="small-image">
-                                    <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-medium.jpg 760w">
-                                    <img src="assets/home-body-small.jpg" alt="Website design displayed on mobile, tablet, and desktop, from wireframe to full site.">
-                                </picture>
                             </ul>
+                            <picture class="small-image"> <!--TODO: insert final PHP img-->
+                                <source media="(min-width: 401px)"
+                                srcset="assets/php-finale-kitten-gallery-medium.jpg 760w">
+                                <img src="assets/php-finale-kitten-gallery-small.jpg" alt="Website showing various kitten pictures and text displayed using PHP and with a random kitten shown on the side.">
+                            </picture>
                         </div>
+                        <p class="has-text-centered">Thanks for checking out my project!</p>
                         <div class="buttons-row three">
                             <a class="button" href="portfolio/php-finale">Live Site</a>
                             <a class="button" href="https://github.com/roryhackney/php-finale" target="_blank">GitHub</a>
                             <a class="button urgent" href="hire-me.php">Hire Now</a>
                         </div>
                         <a href="portfolio.php" class="has-text-centered">Back to Portfolio</a>
-                        <p class="has-text-centered is-hidden-touch">Thanks for dropping by!</p>
                     </div>
                     <?php include 'includes/sidebar.php'; ?> <!-- aside-->
                 </div>

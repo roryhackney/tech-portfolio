@@ -8,6 +8,7 @@
                     <source media="(min-width:481px)" srcset="assets/home-hero-medium.jpg">
                     <img src="assets/home-hero-small.jpg" alt="Photo of Rory Hackney over a background of a computer displaying code next to a sketchbook filled with design work.">
                 </picture>
+                <div class="is-overlay"></div>
                 <p class="hero-text">Check out my recent work - web development, design, and mixed projects, along with peeks into my process and case studies.</p>
             </div>
             <div class="main-content">
@@ -48,6 +49,23 @@
                                     </div>
                                     <a href="the-book-shelf.php">
                                         <p class="content">A book search and review search site built in a three-person team using Bulma, JavaScript, PHP, and SQL. Features include user accounts, forms that add to the database, dark mode, search, and a clean, mobile friendly design.</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="column is-half">
+                                <div class="project-card">
+                                    <a href="yamagiwa-massage.php"><h3 class="title is-6 mb-0">Yamagiwa Massage</h3></a>
+                                    <a href="yamagiwa-massage.php"><picture class="small-image">
+                                        <source media="(min-width: 401px)"
+                                        srcset="assets/yamagiwa-massage-card-medium.jpg 760w">
+                                        <img src="assets/yamagiwa-massage-card-small.jpg" alt="Screenshot of a website built with PHP, showing a photo of Rory and links to various pages.">
+                                    </picture></a>
+                                    <div>
+                                        <span>Web Design, Project Documentation</span>
+                                        <span class="is-pulled-right">Apr 2021</span>
+                                    </div>
+                                    <a href="php-finale.php">
+                                        <p class="content">A massage provider's website, planned and refined through a web design project, wireframed and designed in Photoshop, and then prototyped using HTML, CSS, and JavaScript.</p>
                                     </a>
                                 </div>
                             </div>

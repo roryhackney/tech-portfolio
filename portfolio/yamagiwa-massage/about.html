@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="robots" content="noindex" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>About - Rachel Yamagiwa Massage</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body id="about">
+        <header id="header">
+            <div class="heading">
+                <a class="jump" href="#main">Jump to content</a>
+                <a href="index.html"><img class="logo" src="images/logowhite.png" alt="Logo reads 'Rachel'"></img></a>
+                <a id="toggle" href="javascript:void(0);" onclick="toggle()">MENU</a>
+                <p>Your local, independent massage therapist.</p>
+                <form action="search.php" method="GET">
+                    <input type="text" placeholder="Search">
+                    <button type="submit"><img class="searchicon" src="images/search.png" alt="search"></button>
+                </form>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="here"><a href="about.html">About</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="FAQs.html">FAQs</a></li>
+                    <li><a href="policies.html">Policies</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="#main">
+            <div class="wrapper">
+                <h1>About</h1>
+                <div id="aboutflex">
+                    <img id="rachel" src="images/rachelwide.jpg" alt="photo of Rachel Yamagiwa, LMP">
+                    <h2 id="title">Rachel Yamagiwa, LMP</h2>
+                    <div id="bio">
+                        <p>Rachel Yamagiwa has been a practicing massage therapist in Seattle, WA since XXXX, when she received her credentials as a Licensed Massage Therapist (LMP) from XXXX. After further building her skills at XXXX, she started her own independent massage business, where she continues to treat patients today.</p>
+                        <p>Rachel specializes in XXXX and XXXX, and has received XXXX awards for her work due to her compassion and skill with helping clients to recover from injury, sustain healthy habits, decrease pain, and increase flexibility.</p>
+                        <p>She is not taking new clients at this time.</p>
+                    </div>
+                </div>
+                <picture>
+                    <source media=" (min-width: 321px) " srcset="images/waterbottom.jpg" alt="Ocean waves">
+                    <source media=" (max-width: 320px) " srcset="images/empty.png" alt="No image">
+                    <img src="images/waterbottom.jpg" alt="Ocean waves">
+                </picture>
+            </div>
+        </main>
+
+        <footer>
+            <div class="wrapper">
+                <div class="footerdiv">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="FAQs.html">FAQs</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footerdiv">
+                    <h3>More Info</h3>
+                    <ul>
+                        <li class="here"><a href="about.html">About</a></li>
+                        <li><a href="policies.html">Policies</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+                <div class="footerdiv">
+                    <h3>Business Info</h3>
+                    <ul>
+                        <li>4511 Densmore Ave N</li>
+                        <li>Seattle WA 98103</li>
+                        <li class="directions"><a href="https://goo.gl/maps/1hqm3JpKNeRXDgNe9" target="_blank">Directions</a></li>
+                    </ul>                    
+                </div>
+                <p>Copyright &copy; Rachel Yamagiwa 2021. All rights reserved. Web design by <a href="https://www.linkedin.com/in/roryhackney" target="_blank">Rory Hackney</a>.</p>
+            </div>
+        </footer>
+        <script src="toggle.js"></script>
+    </body>
+</html>

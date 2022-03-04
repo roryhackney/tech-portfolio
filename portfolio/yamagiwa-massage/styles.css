@@ -1,0 +1,865 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Palatino', 'Baskerville', serif;
+}
+
+:root {
+    --darkneutral: rgb(13, 13, 24);
+    --lighthover:  rgb(180, 236, 255);
+    --lightlinks: rgb(130, 207, 233);
+    --lightvisited: rgb(151, 169, 175);
+    --grayneutral: rgb(183, 201, 212);
+    --yellow: rgb(255, 223, 136);
+    --yellowgray: rgb(218, 195, 132);
+    --yellowhover: rgb(255, 250, 180);
+    --gray: rgb(190, 190, 190);
+    --tan: rgb(243, 228, 186);
+    --darklinks: rgb(0, 84, 112);
+    --darkhover: rgb(0, 148, 197);
+
+
+}
+
+body {
+    background-color: var(--darkneutral);
+    font-family: 'Palatino', 'Baskerville', serif;
+}
+
+p, a , li, dl, #home #herotext div, #alert {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+a:hover {
+    color: var(--lighthover);
+}
+
+header {
+    height: 200px;
+    color: white;
+    background-color: var(--darkneutral);
+}
+
+header a, footer a {
+    color: var(--lightlinks);
+}
+
+.heading {
+    height: 150px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 100px;
+    margin: 25px 0;
+    float: left;
+}
+
+#toggle {display: none;}
+
+.heading form {
+    float: right;
+    margin-top: 85px;
+}
+
+.heading input {
+    height: 30px;
+    font-size: 1rem;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.heading input:focus {
+    outline: 0;
+}
+
+.heading button {
+    float: right;
+    height: 30px;
+    width: 30px;
+    background-color: var(--lightlinks);
+    border: 1px solid black;
+}
+
+.heading button:hover {
+    background-color: var(--lighthover);
+}
+
+.searchicon {
+    height: 25px;
+    padding: 2px 0 0 0;
+}
+
+.heading p {
+    float: left;
+    margin-top: 85px;
+}
+
+.jump {
+    display: inline-block;
+    margin: 85px 5px 5px 20px;
+}
+
+.jump:focus {
+    color: var(--lighthover);
+}
+
+nav {
+    background-color: var(--grayneutral);
+    height: 50px;
+    clear: both;
+}
+
+nav ul {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav li {
+    background-color: var(--yellow);
+    float: left;
+    width: 190px;
+    list-style-type: none;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    display: block;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav .here {
+    background-color: var(--yellowgray);
+    background-image: url("images/arrow.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+
+nav li:hover {
+    background-color: var(--yellowhover);
+}
+
+main {
+    background-color: var(--grayneutral);
+    text-align: center;
+}
+
+main .wrapper {
+    min-height: 500px;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+footer {
+    background-color: var(--darkneutral);
+    padding: 15px;
+    color: white;
+}
+
+footer .wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.footerdiv {
+    width: 380px;
+    text-align: center;
+    float: left;
+}
+
+footer h3 {
+    font-size: 1.3rem;
+    font-weight: 100; 
+}
+
+footer li {
+    list-style-type: none;
+    margin: 5px;
+}
+
+footer .here {
+    background-image: url("images/arrowwhite.png");
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 145px center;
+}
+
+footer .here a {
+    color: var(--lighthover);
+}
+
+footer p {
+    clear: both;
+    text-align: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-image: url("images/external.png");
+    background-position: 920px bottom;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+footer .directions {
+    background-image: url("images/external.png");
+    background-position: 230px top;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+/* HOME PAGE */
+
+#herotext {
+    position: relative;
+}
+
+#home h1 {
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    text-align: center;
+}
+
+#hero img {
+    max-width: 100%;
+}
+
+#top {
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    text-shadow: 1px 1px white, 2px 2px white;
+}
+
+#home #alert {
+    background-color: var(--yellowhover);
+    border: 2px solid black;
+    border-radius: 2px;
+    font-size: 1.1rem;
+    width: 350px;
+    position: absolute;
+    top: 150px;
+    right: 395px;
+    padding: 2px;
+}
+
+#left, #right {
+    position: absolute;
+    top: 300px;
+    background-color: var(--yellow);
+    border: 2px solid black;
+    border-radius: 2px;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+}
+
+#left:hover, #right:hover {
+    background-color: var(--yellowhover);
+}
+
+#left a, #right a {
+    color: black;
+    display: block;
+}
+
+#left {
+    left: 170px;
+}
+
+#right {
+    right: 170px;
+}
+
+#blurb {
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+/*PRICING*/
+
+#pricing h1, #about h1, #policies h1, #faq h1, #contact h1 {
+    padding: 20px 0 10px 0;
+}
+
+#pricing #subnav {
+    background-color: var(--gray);
+    width: 900px;
+    margin: 30px auto;
+    border: 3px solid white;
+    height: 40px;
+}
+
+#subnav ul {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#subnav li {
+    width: 140px;
+    margin: 0 30px;
+    border: 2px solid black;
+    height: 45px;
+    line-height: 42px;
+    position: relative;
+    top: -5px;
+}
+
+#subnav a {
+    display: block;
+}
+
+#subnav .here {
+    background-position: 5px center;
+    background-size: 15px;
+}
+
+#standard, #senior {
+    background-color: var(--tan);
+    float: left;
+    width: 510px;
+    margin: 20px 30px 20px 30px;
+    padding: 10px 10px 20px 10px;
+
+}
+
+#standard h3, #senior h3 {
+    padding: 5px;
+}
+
+#standard p:nth-of-type(even), #senior p:nth-of-type(even) {
+    float: right;
+    padding: 2px;
+}
+
+#standard p:nth-of-type(odd), #senior p:nth-of-type(odd) {
+    clear: both;
+    float: left;
+    padding: 2px;
+}
+
+/*ABOUT PAGE*/
+
+#about .wrapper img, #policies .wrapper img, #pricing .wrapper img, #faq .wrapper img, #contact .wrapper img {
+    max-width: 1140px;
+    display: block;
+    padding-top: 15px;
+}
+
+#about .wrapper #rachel {
+    float: right;
+    width: 350px;
+    margin-right: 40px;
+    padding-top: 0;
+}
+
+#bio {
+    float: left;
+    width: 350px;
+    text-align: left;
+    height: 400px;
+    padding: 25px 5px;
+    background-color: var(--tan);
+    margin-left: 40px;
+}
+
+#bio p {
+    padding: 5px;
+}
+
+#title {
+    float: right;
+    height: 400px;
+    width: 350px;
+    margin: 0 auto;
+    line-height: 300px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.3rem;
+}
+
+#pricing #alert, #policies #alert, #faq #alert, #contact #alert {
+    background-color: var(--yellowhover);
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 2px;
+    font-size: 1.1rem;
+    width: 350px;
+    margin: 0 auto;
+}
+
+/*POLICIES PAGE*/
+
+dl {
+    max-width: 900px;
+    margin: 20px auto;
+    font-size: 1rem;
+}
+
+dd {
+    font-weight: bold;
+    font-family: 'Palatino', 'Baskerville', serif;
+    font-size: 1.7rem;
+    padding: 5px 0 2px 0;
+}
+
+dt {
+    padding-bottom: 10px;
+    text-align: left;
+    font-family: Verdana, Arial, sans-serif;
+
+}
+
+#policies footer .here, #contact footer .here {
+    background-position: 138px center;
+}
+
+/*CONTACT PAGE*/
+
+#contact main a {
+    color: var(--darklinks);
+}
+
+#contact main a:hover {
+    color: var(--darkhover);
+}
+
+#office {
+    float: left;
+    width: 540px;
+    height: 400px;
+    margin: 30px 0 0 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+#office a img {
+    position: absolute;
+    width: 270px;
+    top: -15px;
+    left: 0;
+}
+
+#office a:hover {
+    opacity: 80%;
+}
+
+#offtext {
+    position: absolute;
+    width: 270px;
+    height: 100px;
+    margin: 50px 0;
+    right: 0;
+    
+}
+
+#offimg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 270px;
+}
+
+#mobiledir {
+    display: none;
+}
+
+#subcontact {
+    background-color: var(--tan);
+    float: right;
+    width: 510px;
+    height: 400px;
+    margin: 30px 30px 0 30px;
+    padding: 90px 0;
+}
+
+#subcontact p {
+    padding: 2px 0;
+}
+
+#subcontact p:nth-of-type(6) {
+    padding: 10px 0 0 0;
+    font-size: 1.1rem;
+}
+
+#subcontact a[href^="tel:"] {
+    font-size: 1.3rem;
+    display: block;
+    margin: 10px;
+}
+
+/*INSURANCE PAGE*/
+
+#ins li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+#ins {
+    margin: 20px 0 0 0;
+}
+
+#ins h3 {
+    font-size: 1.3rem;
+}
+
+#pricing main p a {
+    color: var(--darklinks);
+}
+
+#pricing main p a:hover {
+    color: var(--darkhover);
+}
+
+/*MOBILE*/
+
+@media (max-width: 320px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        background-color: white;
+    }
+
+    header {
+        height: 250px;
+    }
+
+    .heading {
+        height: 250px;
+        max-width: 100%;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    #toggle {
+        display: block;
+        font-size: 2rem;
+        position: absolute;
+        top: 45px; right: 15px;
+        border: 2px solid var(--lightlinks);
+        width: 125px;
+        height: 90px;
+        line-height: 90px;
+        text-align: center;
+        background-color: black;
+    }
+
+    #toggle:hover {
+        border-color: var(--lighthover);
+    }
+    
+    nav {
+        height: 300px;
+        display: none;
+        background-color: white;
+    }
+
+    nav ul {
+        max-width: 100%;
+    }
+
+    nav li {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        height: 50px;
+        border: none;
+    }
+
+    nav .here {
+        background-position: 100px center;
+    }
+
+    .heading form {
+        float: none;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .heading input {
+        float: left;
+        margin-left: 20%;
+    }
+
+    .heading button {
+        float: left;
+    }
+
+    .jump {
+        margin: 0;
+        padding: 10px 0;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+
+    .heading p {
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+        float: none;
+        clear: both;
+    }
+
+    main .wrapper {
+        max-width: 100%;
+        min-height: 0;
+    }
+
+    #hero {display: none;}
+
+    footer {
+        padding: 20px 2px 20px 2px;
+        margin-top: 30px;
+    }
+
+    footer .wrapper {
+        max-width: 100%;
+    }
+
+    .footerdiv {
+        max-width: 100%;
+        float: none;
+        padding-bottom: 10px;
+    }
+
+    footer .here {
+        background-position: 110px center;
+    }
+
+    footer p {
+        max-width: 100%;
+        background-position: 220px bottom;
+        padding: 0;
+    }
+
+    footer a {
+        display: inline-block;
+        padding: 2px;
+    }
+
+    footer .directions {
+        background-position: 200px top;
+    }
+
+    /*HOME*/
+    #home h1 {
+    position: static;
+    margin-top: 20px;
+    }
+
+    #home #alert , #pricing #alert, #policies #alert, #faq #alert, #contact #alert{
+        max-width: 280px;
+        position: static;
+        margin: 20px auto 0 auto;
+    }
+
+    #top {
+        position: static;
+        text-shadow: none;
+    }
+
+    #left, #right {
+        position: static;
+        margin: 30px auto;
+    }
+
+    #blurb {
+        max-width: 100%;
+        padding: 0 5px;
+    }
+
+    /*ABOUT*/
+
+    picture img {
+        display: none;
+    }
+
+    #about .wrapper #rachel {
+        float: none;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #bio {
+        float: none;
+        max-width: 100%;
+        padding: 0 5px;
+        margin: 20px 0 0 0;
+        background-color: white;
+        text-align: center;
+    }
+
+    #title {
+        float: none;
+        height: 50px;
+        max-width: 100%;
+        line-height: 50px;
+        order: -1;
+    }
+
+    #aboutflex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about footer {
+        margin-top: 10px;
+    }
+
+    /*PRICING*/
+
+    #pricing #subnav {
+        max-width: 100%;
+        background-color: white;
+        display: block;
+        border: none;
+    }
+
+    #subnav ul {
+        max-width: 100%;
+    }
+
+    #subnav li {
+        max-width: 33%;
+        border: none;
+        float: left;
+        margin: 0;
+        position: static;
+    }
+
+    #subnav .here {
+        background-image: none;
+    }
+
+    #standard, #senior {
+        float: none;
+        max-width: 100%;
+        margin: 20px 0 20px 0;
+        height: 150px;
+    }
+
+    #standard p, #senior p {
+        float: none;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    #pricing main p {
+        padding: 10px;
+    }
+
+    #pricing footer {
+        margin-top: 10px;
+    }
+
+    #packages #standard, #packages #senior {
+        height: 240px;
+    }
+
+    /*FAQs*/
+
+    dl {
+        padding: 0 8px;
+        max-width: 100%;
+        margin: 20px 0 0 0;
+    }
+
+    dt {
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    dt:last-of-type {
+        padding-bottom: 0;
+    }
+
+    #faq footer {
+        margin-top: 10px;
+    }
+
+    /*POLICIES*/
+
+    #policies footer .here, #contact footer .here {
+        background-position: 105px center;
+    }
+
+    /*CONTACT*/
+
+    #office a img {
+       position: static;
+       display: none;
+       width: 1px;
+    }
+
+    #mobiledir {
+        display: block;
+    }
+
+    #office {
+        float: none;
+        max-width: 100%;
+        margin: 30px 0 0 0;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #offtext {
+        position: static;
+        width: 100%;
+        order: -2;
+        margin: 0;
+    }
+
+    #offimg {
+        position: static;
+        width: 320px;
+        order: -1;
+    }
+
+    #subcontact {
+        float: none;
+        width: 320px;
+        margin: 10px 0 0 0;
+        padding: 0;
+        height: auto;
+        background-color: white;
+    }
+
+    #subcontact p {
+        padding: 2px 8px;
+    }
+
+    #contact footer {
+        margin-top: 10px;
+    }
+
+}

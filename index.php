@@ -1,6 +1,5 @@
-<?php include 'includes/header.php'; ?>
+<?php include "includes/header.php"; ?>
             <div class="hero-container">
-                <div class="hero-overlay">
                     <picture class="hero">
                         <!--2000px, 1600px, 1200px, 800px, 480px-->
                         <source media="(min-width:1601px)" srcset="assets/home-hero-largest.jpg">
@@ -9,7 +8,7 @@
                         <source media="(min-width:481px)" srcset="assets/home-hero-medium.jpg">
                         <img src="assets/home-hero-small.jpg" alt="Photo of Rory Hackney over a background of a computer displaying code next to a sketchbook filled with design work.">
                     </picture>
-                </div>
+                    <div class="is-overlay"></div>
                 <p class="hero-text">Web developer passionate about making the web more accessible by creating intuitive, mobile friendly, quality websites that combine functionality with creativity.</p>
                 <a class="button" href="portfolio.php">Portfolio</a>
                 <a class="button" href="hire-me.php">Hire Now</a>
@@ -371,9 +370,6 @@ Here’s the highlights!
 Technology
 I designed my database diagram (ERD) using Figma. I used Google Cloud to host my MariaDB database, which I managed in phpMyAdmin using SQL.
 
-Resources
-I’d like to thank Stack Overflow, W3Schools, and Database Design For Mere Mortals by Michael Hernandez, without which this project
-would have been a whole lot harder.
 
 Background
 Rory’s Stories is a small art business I run that promotes my art via social media and other sites (such as Patreon), as well as

@@ -9,6 +9,7 @@
                     <source media="(min-width:350px)" srcset="assets/home-hero-small.jpg">
                     <img src="assets/resume-hero-tiny.jpg" alt="">
                 </picture>
+                <div class="is-overlay"></div>
                 <div class="absolute">
                     <p class="hero-text">My recently updated resume is available as HTML, plain text, and a print-ready PDF. If you have questions about my experience, skills, education, or want to reach out, please use my contact form, email <a href="mailto:roryhackney@gmail.com">roryhackney@gmail.com</a>, or check out my <a href="htttps://www.linkedin.com/in/roryhackney" target="_blank">LinkedIn</a>.</p>
                     <div class="columns is-mobile">

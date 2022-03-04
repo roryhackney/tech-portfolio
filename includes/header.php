@@ -61,6 +61,18 @@ switch($page) {
         $currentPage = 'portfolio';
         $h1 = 'The Book Shelf';
         break;
+    case '/yamagiwa-massage.php':
+        $bodyClass = 'portfolio-detail';
+        $title = 'Massage Website Design';
+        $currentPage = 'portfolio';
+        $h1 = "Massage Website Design";
+        break;
+    case '/database-design.php':
+        $bodyClass = 'portfolio-detail';
+        $title = 'Database Design';
+        $currentPage = 'portfolio';
+        $h1 = 'Database Design: Art Business';
+        break;
 }
 
 /*contact form validation*/

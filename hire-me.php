@@ -8,6 +8,7 @@
                     <source media="(min-width:481px)" srcset="assets/home-hero-medium.jpg">
                     <img src="assets/home-hero-small.jpg" alt="Photo of Rory Hackney over a background of a computer displaying code next to a sketchbook filled with design work.">
                 </picture>
+                <div class="is-overlay"></div>
                 <p class="hero-text">If you’re looking for a web developer passionate about both design and development, who works hard and loves to learn, prioritizing quality and deadlines...</p>
             </div>
             <div class="main-content">

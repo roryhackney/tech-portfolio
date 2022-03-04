@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="robots" content="noindex" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home - Rachel Yamagiwa Massage</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body id="home">
+        <header id="header">
+            <div class="heading">
+                <a class="jump" href="#main">Jump to content</a>
+                <a href="index.html"><img class="logo" src="images/logowhite.png" alt="Logo reads 'Rachel'"></img></a>
+                <a id="toggle" href="javascript:void(0);" onclick="toggle()">MENU</a>
+                <p>Your local, independent massage therapist.</p>
+                <form action="search.php" method="GET">
+                    <input type="text" placeholder="Search">
+                    <button type="submit"><img class="searchicon" src="images/search.png" alt="search"></button>
+                </form>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li class="here"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="FAQs.html">FAQs</a></li>
+                    <li><a href="policies.html">Policies</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="#main">
+            <div class="wrapper">
+                <div id="herotext">
+                    <picture id="hero">
+                        <source media=" (min-width: 321px) " srcset="images/stones.jpg" alt="stones by water">
+                        <source media=" (max-width: 320px) " srcset="images/empty.png" alt="no image">
+                        <img src="images/stones.jpg" alt="stones by water">
+                    </picture>
+                    <h1>Home</h1>
+                    <div id="top">Rachel Yamagiwa, LMP</div>
+                    <div id="alert">Not accepting new clients.</div>
+                    <div id="left"><a href="contact.html">Make An Appointment</a></div>
+                    <div id="right"><a href="tel:123-456-7890">Call 123-456-7890</a></div>
+                </div>
+                <p id="blurb">Rachel Yamagiwa is a fully licensed massage therapist who has been practicing in Seattle, Washington for over 20 years. She specializes in naturopathic, human centered massage that acknowledges the effects of mental health and trauma on the body.</p>
+            </div>
+        </main>
+
+        <footer>
+            <div class="wrapper">
+                <div class="footerdiv">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="FAQs.html">FAQs</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footerdiv">
+                    <h3>More Info</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="policies.html">Policies</a></li>
+                        <li class="here"><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+                <div class="footerdiv">
+                    <h3>Business Info</h3>
+                    <ul>
+                        <li>4511 Densmore Ave N</li>
+                        <li>Seattle WA 98103</li>
+                        <li class="directions"><a href="https://goo.gl/maps/1hqm3JpKNeRXDgNe9" target="_blank">Directions</a></li>
+                    </ul>                    
+                </div>
+                <p>Copyright &copy; Rachel Yamagiwa 2021. All rights reserved. Web design by <a href="https://www.linkedin.com/in/roryhackney" target="_blank">Rory Hackney</a>.</p>
+            </div>
+        </footer>
+        <script src="toggle.js"></script>
+    </body>
+</html>
