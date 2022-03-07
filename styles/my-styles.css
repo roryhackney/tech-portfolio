@@ -750,6 +750,10 @@ footer p {
         margin-top: 20px;
     }
 
+    .portfolio-detail .desktop-margin-small {
+        margin-top: 10px;
+    }
+
     .resume .hero-text {
         margin: 0 auto;
     }
@@ -844,5 +848,9 @@ footer p {
 
     .portfolio-detail .desktop-margin {
         margin-top: 50px;
+    }
+
+    .portfolio-detail .desktop-margin-small {
+        margin-top: 25px;
     }
 }
