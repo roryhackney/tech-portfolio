@@ -2,14 +2,14 @@
             <div class="hero-container">
                 <picture class="hero">
                     <!--2000px, 1600px, 1200px, 800px, 480px-->
-                    <source media="(min-width:1601px)" srcset="assets/php-finale-hero-largest.jpg">
-                    <source media="(min-width:1201px)" srcset="assets/php-finale-hero-larger.jpg">
-                    <source media="(min-width:801px)" srcset="assets/php-finale-hero-large.jpg">
-                    <source media="(min-width:481px)" srcset="assets/php-finale-hero-medium.jpg">
-                    <img src="assets/php-finale-hero-small.jpg" alt="Screenshot of a website built with PHP, showing a photo of Rory and links to various pages.">
+                    <source media="(min-width:1601px)" srcset="assets/database-erd-hero-largest.jpg">
+                    <source media="(min-width:1201px)" srcset="assets/database-erd-hero-larger.jpg">
+                    <source media="(min-width:801px)" srcset="assets/database-erd-hero-large.jpg">
+                    <source media="(min-width:481px)" srcset="assets/database-erd-hero-medium.jpg">
+                    <img src="assets/database-erd-hero-small.jpg" alt="Entity relationship diagram (ERD) generated from the finished database, showing various customer, product, and business tables and views.">
                 </picture>
                 <div class="is-overlay"></div>
-                <p class="hero-text">A database I designed and built for a small art business, tracking projects, clients, products, cash flow, and more. This shows my process conceptualizing, normalizing, and implementing the database.</p>
+                <p class="hero-text">A database I designed and built for a small art business, tracking projects, clients, and cash flow. See my process conceptualizing, normalizing, and implementing the database.</p>
                 <a class="button" href="portfolio.php">Portfolio</a>
                 <a class="button" href="resume.php">Resume</a>
             </div>
@@ -18,7 +18,7 @@
                     <div class="column is-full-tablet is-two-thirds-desktop my-main"> <!--main-->
                         <h2 class="title is-5 has-text-centered mb-2">Art Projects and Products Database</h2>
                         <p class="has-text-centered">Launched Aug. 2021</p>
-                        <p class="process-steps">Mission Objectives <i class='fas fa-caret-right'></i> Business Rules <i class='fas fa-caret-right'></i> Fields and Tables <i class='fas fa-caret-right'></i> Normalization <i class='fas fa-caret-right'></i> Users and Security <i class='fas fa-caret-right'></i> Implementation <i class='fas fa-caret-right'></i> Views and Testing</p>
+                        <p class="process-steps">Conceptualization <i class="fas fa-caret-right"></i> Mission Objectives <i class='fas fa-caret-right'></i> Business Rules <i class='fas fa-caret-right'></i> Fields and Tables <i class='fas fa-caret-right'></i> Normalization <i class='fas fa-caret-right'></i> Users and Security <i class='fas fa-caret-right'></i> Implementation <i class='fas fa-caret-right'></i> Views and Testing</p>
                         <div class="tags-div">
                             <h3 class="title is-6 mb-2">Tags</h3>
                             <ul>
@@ -85,37 +85,39 @@
                         <div class="block">
                             <p>I then thought up fields I would need, then grouped them into tables, added relationships between them, and finally built a Crow's Foot Entity Relationship Diagram (ERD) to finalize my database structure.</p>
                         </div>
-                        <!-- <picture class="small-image"> //ERD
+                        <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/yamagiwa-massage-wireframe-design-medium.jpg 760w">
-                            <img src="assets/yamagiwa-massage-wireframe-design-small.jpg" alt="Wireframe diagram for the pricing page built on a 960 pixel grid for a massage website.">
-                        </picture> -->
+                            srcset="assets/database-crows-foot-erd-medium.jpg 760w">
+                            <img src="assets/database-crows-foot-erd-small.jpg" alt="Crow's Foot Entity Relationship Diagram (ERD) for my art business database design.">
+                        </picture>
+                        <a class="has-text-centered" target="_blank" href="https://www.figma.com/file/7dRQrE9mgc2eIRUWUe2VIu/ERD---Normalization-Exercise?node-id=121%3A270">View on Figma</a>
                         <div class="block">
                             <p>I then ran each table, field, and relationship through normalization, and made changes to improve data integrity.</p>
                         </div>
                         <div class="block">
                             <p>After that, I made a list of different users, what tasks they would perform, and what data they would be able to access. I then created a security diagram.</p>
                         </div>
-                        <!-- <picture class="small-image"> //SECURITY DIAGRAM
+                        <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/yamagiwa-massage-contact-page-medium.jpg 760w">
-                            <img src="assets/yamagiwa-massage-contact-page-small.jpg" alt="The refined final website built with HTML and CSS, showing the information on the contact page.">
-                        </picture> -->
+                            srcset="assets/database-users-security-diagram-medium.jpg 760w">
+                            <img src="assets/database-users-security-diagram-small.jpg" alt="Table displaying user privileges, broken down by user, table, and access types: select, insert, update, delete, and references.">
+                        </picture>
+                        <a class="has-text-centered" target="_blank" href="https://docs.google.com/spreadsheets/d/1XDH7NwFknA1SnAM8ayiq2rtg0KQ_pPxArLTSUgC0vSo/edit?usp=sharing">View on Google Sheets</a>
                         <div class="block">
                             <p>After making some final changes, I built the database using SQL code, including tables, data, users, and views. I also tested the database against my mission objectives to make sure it fulfilled the goals of the project. Finally, I logged in as each user and made sure their access levels were correct.</p>
                         </div>
-                        <!-- <picture class="small-image">
+                        <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/yamagiwa-massage-pricing-page-medium.jpg 760w">
-                            <img src="assets/yamagiwa-massage-pricing-page-small.jpg" alt="The refined final website, showing pricing and package information for uninsured clients.">
-                        </picture> -->
+                            srcset="assets/database-sql-code-view-medium.jpg 760w">
+                            <img src="assets/database-sql-code-view-small.jpg" alt="Screenshot of a view using a big block of SQL code, resulting in a report displaying information on portfolio pieces.">
+                        </picture>
                         <div class="block">
                             <p>Once I was sure the database was sound, I generated an ERD from the actual database and compared it with my original design to be sure they matched.</p>
-                        <!-- <picture class="small-image">
+                        <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/yamagiwa-massage-pricing-page-medium.jpg 760w">
-                            <img src="assets/yamagiwa-massage-pricing-page-small.jpg" alt="The refined final website, showing pricing and package information for uninsured clients.">
-                        </picture> -->
+                            srcset="assets/database-generated-erd-medium.jpg 760w">
+                            <img src="assets/database-generated-erd-small.jpg" alt="Entity relationship diagram (ERD) generated from the finished database, showing various customer, product, and business tables and views.">
+                        </picture>
                         </div>
                         <div class="block">
                             <p>I then exported the database, documented the project thoroughly, and declared the project finished. In creating this database, I learned a lot

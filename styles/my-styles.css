@@ -22,6 +22,7 @@
     --red-lighter: #FF9078;
     --red-lightest: #ffa883;
     --orange: #ffb375;
+    --orange-dark: #42240c;
     --brown-dark: #250B02;
     --brown-light: #6E4128;
     --gray: #55433E;
@@ -576,6 +577,10 @@ footer p {
     background-color: var(--orange);
     border-radius: 5px;
     padding: 10px;
+}
+
+.dark-mode .portfolio-detail .process-steps {
+    background-color: var(--orange-dark);
 }
 
 .portfolio-detail .my-main .small-image img {

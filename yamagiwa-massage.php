@@ -2,11 +2,11 @@
             <div class="hero-container">
                 <picture class="hero">
                     <!--2000px, 1600px, 1200px, 800px, 480px-->
-                    <source media="(min-width:1601px)" srcset="assets/php-finale-hero-largest.jpg">
-                    <source media="(min-width:1201px)" srcset="assets/php-finale-hero-larger.jpg">
-                    <source media="(min-width:801px)" srcset="assets/php-finale-hero-large.jpg">
-                    <source media="(min-width:481px)" srcset="assets/php-finale-hero-medium.jpg">
-                    <img src="assets/php-finale-hero-small.jpg" alt="Screenshot of a website built with PHP, showing a photo of Rory and links to various pages.">
+                    <source media="(min-width:1601px)" srcset="assets/yamagiwa-massage-hero-largest.jpg">
+                    <source media="(min-width:1201px)" srcset="assets/yamagiwa-massage-hero-larger.jpg">
+                    <source media="(min-width:801px)" srcset="assets/yamagiwa-massage-hero-large.jpg">
+                    <source media="(min-width:481px)" srcset="assets/yamagiwa-massage-hero-medium.jpg">
+                    <img src="assets/yamagiwa-massage-hero-small.jpg" alt="Screenshot of a website I built for a massage therapist, featuring serene water and stone imagery and easy to find information for clients.">
                 </picture>
                 <div class="is-overlay"></div>
                 <p class="hero-text">A massage provider's website, planned and refined through a web design project, wireframed and designed in Photoshop, and then prototyped using HTML, CSS, and JavaScript.</p>

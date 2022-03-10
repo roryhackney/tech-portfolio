@@ -69,6 +69,23 @@
                                     </a>
                                 </div>
                             </div>
+                            <div class="column is-half">
+                                <div class="project-card">
+                                    <a href="database-design.php"><h3 class="title is-6 mb-0">Database Design</h3></a>
+                                    <a href="database-design.php"><picture class="small-image">
+                                        <source media="(min-width: 401px)"
+                                        srcset="assets/database-erd-diagram-card-medium.jpg 760w">
+                                        <img src="assets/database-erd-diagram-card-small.jpg" alt="Entity relationship diagram (ERD) generated from the finished database, showing various customer, product, and business tables and views.">
+                                    </picture></a>
+                                    <div>
+                                        <span>Database Design, Project Documentation</span>
+                                        <span class="is-pulled-right">Aug 2021</span>
+                                    </div>
+                                    <a href="php-finale.php">
+                                        <p class="content">A database I designed and built for a small art business, tracking projects, clients, and cash flow. See my process conceptualizing, normalizing, and implementing the database.</p>
+                                    </a>
+                                </div>
+                            </div>
                             <div class="column is-full">
                                 <div class="buttons-row">
                                     <a class="button" href="assets/resume.php">Resume</a>
