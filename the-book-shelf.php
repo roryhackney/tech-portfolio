@@ -9,10 +9,12 @@
                     <img src="assets/book-shelf-hero-small.jpg" alt="Screenshot of a website with books and reviews, currently displaying a form to save favorite searches.">
                 </picture>
                 <div class="is-overlay"></div>
-                <p class="hero-text">A book search and review search site built in a three-person team
-                using Bulma, JavaScript, PHP, and SQL. Features include user
-                accounts, forms, a database, dark mode, search, and a clean, mobile
-                friendly design made with a CSS framework.</p>
+                <div class="hero-text-container">
+                    <p class="hero-text">A book search and review search site built in a three-person team
+                    using Bulma, JavaScript, PHP, and SQL. Features include user
+                    accounts, forms, a database, dark mode, search, and a clean, mobile
+                    friendly design made with a CSS framework.</p>
+                </div>
                 <a class="button" href="portfolio.php">Portfolio</a>
                 <a class="button" href="resume.php">Resume</a>
             </div>
@@ -51,7 +53,7 @@
                         <div class="block">
                             <p>In the end, we had an awesome digital bookshelf we could all be proud of.</p>
                         </div>
-                        <picture class="small-image"> <!--TODO: MOBILE VIEW HERE-->
+                        <picture class="small-image">
                             <source media="(min-width: 401px)"
                             srcset="assets/home-body-medium.jpg 760w">
                             <img src="assets/home-body-small.jpg" alt="">

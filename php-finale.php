@@ -9,7 +9,9 @@
                     <img src="assets/php-finale-hero-small.jpg" alt="Screenshot of a website built with PHP, showing a photo of Rory and links to various pages.">
                 </picture>
                 <div class="is-overlay"></div>
-                <p class="hero-text">My very first PHP project, recently updated with the skills and knowledge I've gained since. Features include daily content, database usage, user login and registration, kittens, form validation and submission, calculators, and more.</p>
+                <div class="hero-text-container">
+                    <p class="hero-text">My very first PHP project, recently updated with the skills and knowledge I've gained since. Features include daily content, database usage, user login and registration, kittens, form validation and submission, calculators, and more.</p>
+                </div>
                 <a class="button" href="portfolio.php">Portfolio</a>
                 <a class="button" href="resume.php">Resume</a>
             </div>

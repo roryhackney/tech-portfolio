@@ -9,7 +9,9 @@
                     <img src="assets/home-hero-small.jpg" alt="">
                 </picture>
                 <div class="is-overlay"></div>
-                <p class="hero-text">I’m a web developer passionate about making the web more accessible by creating intuitive, mobile friendly, quality websites that combine functionality with creativity.</p>
+                <div class="hero-text-container">
+                    <p class="hero-text">I’m a web developer passionate about making the web more accessible by creating intuitive, mobile friendly, quality websites that combine functionality with creativity.</p>
+                </div>
             </div>
             <div class="main-content">
                 <div class="columns is-multiline">
@@ -48,6 +50,7 @@
                                             <li>HTML</li>
                                             <li>CSS</li>
                                             <li title="CSS Framework">Bulma</li>
+                                            <li>Visual Studio Code</li>
                                         </ul>
                                     </div>
                                     <div class="column is-one-third pb-0">
@@ -63,7 +66,7 @@
                                             <li>Figma</li>
                                             <li>Photoshop</li>
                                             <li title="Project Management">Asana</li>
-                                            <li>GitHub</li>
+                                            <li>Git, GitHub</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -90,10 +93,10 @@
                             <div class="column is-full">
                                 <p class="content">In addition to coding, I enjoy producing diagrams, design documents, and case studies. I spend my free time making art for fun, petting cats, and learning more about web development and design.</p>
                                 <picture class="large-image">
-                                    <source media="(min-width:961px)" srcset="assets/home-body-larger.jpg"> <!--961 - max 2000-->
-                                    <source media="(min-width:791px)" srcset="assets/home-body-large.jpg"> <!--791 - 960-->
-                                    <source media="(min-width: 421px)" srcset="assets/home-body-medium.jpg"> <!--421 to 791-->
-                                    <img src="assets/home-body-small.jpg" alt="Rory Hackney standing in front of two graduation certificates framed on a wall.">
+                                    <source media="(min-width:961px)" srcset="assets/home-figma-website-design-larger.jpg"> <!--961 - max 2000-->
+                                    <source media="(min-width:791px)" srcset="assets/home-figma-website-design-large.jpg"> <!--791 - 960-->
+                                    <source media="(min-width: 421px)" srcset="assets/home-figma-website-design-medium.jpg"> <!--421 to 791-->
+                                    <img src="assets/home-figma-website-design-small.jpg" alt="Wireframes and visual designs built in Figma for an indie art shop.">
                                 </picture>
                             </div>
                             <div class="column is-full">

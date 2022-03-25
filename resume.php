@@ -11,7 +11,9 @@
                 </picture>
                 <div class="is-overlay"></div>
                 <div class="absolute">
-                    <p class="hero-text">My recently updated resume is available as HTML, plain text, and a print-ready PDF. If you have questions or want to reach out, please use my contact form, email <a href="mailto:roryhackney@gmail.com">roryhackney@gmail.com</a>, or check out my <a href="htttps://www.linkedin.com/in/roryhackney" target="_blank">LinkedIn</a>.</p>
+                    <div class="hero-text-container">
+                        <p class="hero-text">My recently updated resume is available as HTML, plain text, and a print-ready PDF. If you have questions or want to reach out, please use my contact form, email <a href="mailto:roryhackney@gmail.com">roryhackney@gmail.com</a>, or check out my <a href="htttps://www.linkedin.com/in/roryhackney" target="_blank">LinkedIn</a>.</p>
+                    </div>
                     <div class="columns is-mobile">
                         <div class="column is-half">
                             <a class="button" href="assets/resume.pdf" target="_blank">Print/PDF</a>
@@ -36,7 +38,7 @@
                                 <li>CSS</li>
                                 <li>JavaScript</li>
                                 <li>PHP</li>
-                                <li>GitHub</li>
+                                <li>Git, GitHub</li>
                             </ul>
                         </div>
                         <div class="column is-full">

@@ -9,7 +9,9 @@
                     <img src="assets/home-hero-small.jpg" alt="Photo of Rory Hackney over a background of a computer displaying code next to a sketchbook filled with design work.">
                 </picture>
                 <div class="is-overlay"></div>
-                <p class="hero-text">If you’re looking for a web developer passionate about both design and development, who works hard and loves to learn, prioritizing quality and deadlines...</p>
+                <div class="hero-text-container">
+                    <p class="hero-text">If you’re looking for a web developer passionate about both design and development, who works hard and loves to learn, prioritizing quality and deadlines...</p>
+                </div>
             </div>
             <div class="main-content">
                 <div class="columns is-multiline">
@@ -39,6 +41,7 @@
                                                     <li>HTML</li>
                                                     <li>CSS</li>
                                                     <li title="CSS Framework">Bulma</li>
+                                                    <li>Visual Studio Code</li>
                                                 </ul>
                                             </div>
                                             <div class="column is-one-third pb-0">
@@ -54,7 +57,7 @@
                                                     <li>Figma</li>
                                                     <li>Photoshop</li>
                                                     <li title="Project Management">Asana</li>
-                                                    <li>GitHub</li>
+                                                    <li>Git, GitHub</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -74,8 +77,8 @@
                                             <div class="column pb-0">
                                                 <ul>
                                                     <li>Web Design <br/> and Development</li>
-                                                    <li>Programming</li>
                                                     <li>Database Design <br/> and Development</li>
+                                                    <li>Programming</li>
                                                 </ul>
                                             </div>
                                         </div>

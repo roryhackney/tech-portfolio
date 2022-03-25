@@ -9,7 +9,9 @@
                     <img src="assets/yamagiwa-massage-hero-small.jpg" alt="Screenshot of a website I built for a massage therapist, featuring serene water and stone imagery and easy to find information for clients.">
                 </picture>
                 <div class="is-overlay"></div>
-                <p class="hero-text">A massage provider's website, planned and refined through a web design project, wireframed and designed in Photoshop, and then prototyped using HTML, CSS, and JavaScript.</p>
+                <div class="hero-text-container">
+                    <p class="hero-text">A massage provider's website, planned and refined through a web design project, wireframed and designed in Photoshop, and then prototyped using HTML, CSS, and JavaScript.</p>
+                </div>
                 <a class="button" href="portfolio.php">Portfolio</a>
                 <a class="button" href="resume.php">Resume</a>
             </div>

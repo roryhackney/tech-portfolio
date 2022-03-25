@@ -2,14 +2,16 @@
             <div class="hero-container">
                 <picture class="hero">
                     <!--2000px, 1600px, 1200px, 800px, 480px-->
-                    <source media="(min-width:1601px)" srcset="assets/home-hero-largest.jpg">
-                    <source media="(min-width:1201px)" srcset="assets/home-hero-larger.jpg">
-                    <source media="(min-width:801px)" srcset="assets/home-hero-large.jpg">
-                    <source media="(min-width:481px)" srcset="assets/home-hero-medium.jpg">
-                    <img src="assets/home-hero-small.jpg" alt="Photo of Rory Hackney over a background of a computer displaying code next to a sketchbook filled with design work.">
+                    <source media="(min-width:1601px)" srcset="assets/portfolio-hero-various-project-examples-largest.jpg">
+                    <source media="(min-width:1201px)" srcset="assets/portfolio-hero-various-project-examples-larger.jpg">
+                    <source media="(min-width:801px)" srcset="assets/portfolio-hero-various-project-examples-large.jpg">
+                    <source media="(min-width:481px)" srcset="assets/portfolio-hero-various-project-examples-medium.jpg">
+                    <img src="assets/portfolio-hero-various-project-examples-small.jpg" alt="Various images of projects, including HTML and PHP code, visual web design made in Figma, tables from a relational database, and SQL code.">
                 </picture>
                 <div class="is-overlay"></div>
-                <p class="hero-text">Check out my recent work - web development, design, and mixed projects, along with peeks into my process and case studies.</p>
+                <div class="hero-text-container">
+                    <p class="hero-text">Check out my recent work - web development, design, and mixed projects, along with peeks into my process and case studies.</p>
+                </div>
             </div>
             <div class="main-content">
                 <div class="columns is-multiline">
@@ -75,7 +77,7 @@
                                     <a href="the-book-shelf.php"><picture class="small-image">
                                         <source media="(min-width: 401px)"
                                         srcset="assets/book-shelf-card-medium.jpg 760w">
-                                        <img src="book-shelf-card-small.jpg" alt="Screenshot of a website with books and reviews, currently displaying a form to save favorite searches.">
+                                        <img src="assets/book-shelf-card-small.jpg" alt="Screenshot of a website with books and reviews, currently displaying a form to save favorite searches.">
                                     </picture></a>
                                     <div>
                                         <span>Bulma, Frontend Web Development</span>

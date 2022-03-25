@@ -346,9 +346,16 @@ main {
     margin: 0 auto;
 }
 
-.hero-text {
+.hero-text-container {
+    width: 100%;
     position: absolute;
     top: 0;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.hero-text {
+    /* position: absolute; */
+    /* top: 0; */
     padding: 10px;
     max-width: 100%;
     color: var(--white);
@@ -611,8 +618,9 @@ footer p {
     width: 100%;
 }
 
-.resume .hero-text {
+.resume .hero-text-container {
     position: static;
+    margin-bottom: 10px;
 }
 
 .resume .hero-container .button {
@@ -711,8 +719,7 @@ footer p {
     }
 
     .hero-text:not(.resume .hero-text) {
-        left: 50%;
-        transform: translate(-50%, 0);
+        margin: 0 auto;
     }
 
     main .main-content {

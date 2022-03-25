@@ -1,15 +1,17 @@
 <?php include "includes/header.php"; ?>
             <div class="hero-container">
-                    <picture class="hero">
-                        <!--2000px, 1600px, 1200px, 800px, 480px-->
-                        <source media="(min-width:1601px)" srcset="assets/home-hero-largest.jpg">
-                        <source media="(min-width:1201px)" srcset="assets/home-hero-larger.jpg">
-                        <source media="(min-width:801px)" srcset="assets/home-hero-large.jpg">
-                        <source media="(min-width:481px)" srcset="assets/home-hero-medium.jpg">
-                        <img src="assets/home-hero-small.jpg" alt="Photo of Rory Hackney over a background of a computer displaying code next to a sketchbook filled with design work.">
-                    </picture>
-                    <div class="is-overlay"></div>
-                <p class="hero-text">Web developer passionate about making the web more accessible by creating intuitive, mobile friendly, quality websites that combine functionality with creativity.</p>
+                <picture class="hero">
+                    <!--2000px, 1600px, 1200px, 800px, 480px-->
+                    <source media="(min-width:1601px)" srcset="working_files/home-hero-largest-rough.jpg">
+                    <source media="(min-width:1201px)" srcset="assets/home-hero-larger.jpg">
+                    <source media="(min-width:801px)" srcset="assets/home-hero-large.jpg">
+                    <source media="(min-width:481px)" srcset="assets/home-hero-medium.jpg">
+                    <img src="working_files/home-hero-largest-rough.jpg" alt="Photo of Rory Hackney over a background of a computer displaying code next to a sketchbook filled with design work.">
+                </picture>
+                <div class="is-overlay"></div>
+                <div class="hero-text-container">
+                    <p class="hero-text">Web developer passionate about making the web more accessible by creating intuitive, mobile friendly, quality websites that combine functionality with creativity.</p>
+                </div>
                 <a class="button" href="portfolio.php">Portfolio</a>
                 <a class="button" href="hire-me.php">Hire Now</a>
             </div>
@@ -67,6 +69,7 @@
                                             <li>HTML</li>
                                             <li>CSS</li>
                                             <li title="CSS Framework">Bulma</li>
+                                            <li>Visual Studio Code</li>
                                         </ul>
                                     </div>
                                     <div class="column is-one-third pb-0">
@@ -82,7 +85,7 @@
                                             <li>Figma</li>
                                             <li>Photoshop</li>
                                             <li title="Project Management">Asana</li>
-                                            <li>GitHub</li>
+                                            <li>Git, GitHub</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -107,8 +110,8 @@
                                     <div class="column is-half pb-0">
                                         <ul>
                                             <li>Web Design <br/> and Development</li>
-                                            <li>Programming</li>
                                             <li>Database Design <br/> and Development</li>
+                                            <li>Programming</li>
                                         </ul>
                                     </div>
                                 </div>

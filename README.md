@@ -1,6 +1,9 @@
 # tech-portfolio
 Code for my web development and design portfolio
 
+Credits:
+Home hero background photo by Alexandru Acea https://unsplash.com/@alexacea on Unsplash (edited)
+
 ---------------------------------------------------------------
 TODO:
 
@@ -27,10 +30,10 @@ Image content - home hero, education, hobbies
 Content needed
 
 Home Page: hero images
-About Page: hero img, education and certifications image, free time/other skills img.
+About Page: hero img, education and certifications image
 Hire Me: hero img, updated resume image, updated skills
 Resume: hero images, resume (html, pdf, plain)
-Portfolio: hero image, projects content
+
 Rory's Stories Shop Portfolio Project
 
 PHP-Finale (project completed): image of mobile design

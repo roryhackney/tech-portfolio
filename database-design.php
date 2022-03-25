@@ -9,7 +9,9 @@
                     <img src="assets/database-erd-hero-small.jpg" alt="Entity relationship diagram (ERD) generated from the finished database, showing various customer, product, and business tables and views.">
                 </picture>
                 <div class="is-overlay"></div>
-                <p class="hero-text">A database I designed and built for a small art business, tracking projects, clients, and cash flow. See my process conceptualizing, normalizing, and implementing the database.</p>
+                <div class="hero-text-container">
+                    <p class="hero-text">A database I designed and built for a small art business, tracking projects, clients, and cash flow. See my process conceptualizing, normalizing, and implementing the database.</p>
+                </div>
                 <a class="button" href="portfolio.php">Portfolio</a>
                 <a class="button" href="resume.php">Resume</a>
             </div>
