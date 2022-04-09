@@ -538,6 +538,10 @@ footer p {
     bottom: 30px;
 }
 
+.about .is-overlay {
+    opacity: 40%;
+}
+
 .portfolio-detail .hero-container .button {
     position: absolute;
     bottom: 30px;

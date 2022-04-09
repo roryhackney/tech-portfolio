@@ -1,22 +1,5 @@
 <div class="column is-half">
     <div class="project-card">
-        <a href="yamagiwa-massage.php"><h3 class="title is-6 mb-0">Yamagiwa Massage</h3></a>
-        <a href="yamagiwa-massage.php"><picture class="small-image">
-            <source media="(min-width: 401px)"
-            srcset="assets/yamagiwa-massage-card-medium.jpg 760w">
-            <img src="assets/yamagiwa-massage-card-small.jpg" alt="Screenshot of a website built with PHP, showing a photo of Rory and links to various pages.">
-        </picture></a>
-        <div>
-            <span>Web Design, Project Documentation</span>
-            <span class="is-pulled-right">Apr 2021</span>
-        </div>
-        <a href="php-finale.php">
-            <p class="content">A massage provider's website, planned and refined through a web design project, wireframed and designed in Photoshop, and then prototyped using HTML, CSS, and JavaScript.</p>
-        </a>
-    </div>
-</div>
-<div class="column is-half">
-    <div class="project-card">
         <a href="php-finale.php"><h3 class="title is-6 mb-0">PHP Finale</h3></a>
         <a href="php-finale.php"><picture class="small-image dark-image">
             <source media="(min-width: 401px)"
@@ -25,7 +8,7 @@
         </picture></a>
         <div>
             <span>PHP, Backend Web Development</span>
-            <span class="is-pulled-right">Dec 2020</span>
+            <span class="is-pulled-right">Jan 2022</span>
         </div>
         <a href="php-finale.php">
             <p class="content">My very first PHP project, recently updated with the skills and knowledge I've gained since. Features include daily content, database usage, user login and registration, kittens, form validation and submission, calculators, and more.</p>
@@ -46,6 +29,23 @@
         </div>
         <a href="php-finale.php">
             <p class="content">A database I designed and built for a small art business, tracking projects, clients, and cash flow. See my process conceptualizing, normalizing, and implementing the database.</p>
+        </a>
+    </div>
+</div>
+<div class="column is-half">
+    <div class="project-card">
+        <a href="yamagiwa-massage.php"><h3 class="title is-6 mb-0">Yamagiwa Massage</h3></a>
+        <a href="yamagiwa-massage.php"><picture class="small-image">
+            <source media="(min-width: 401px)"
+            srcset="assets/yamagiwa-massage-card-medium.jpg 760w">
+            <img src="assets/yamagiwa-massage-card-small.jpg" alt="Screenshot of a website built with PHP, showing a photo of Rory and links to various pages.">
+        </picture></a>
+        <div>
+            <span>Web Design, Project Documentation</span>
+            <span class="is-pulled-right">Apr 2021</span>
+        </div>
+        <a href="php-finale.php">
+            <p class="content">A massage provider's website, planned and refined through a web design project, wireframed and designed in Photoshop, and then prototyped using HTML, CSS, and JavaScript.</p>
         </a>
     </div>
 </div>

@@ -2,11 +2,11 @@
             <div class="hero-container">
                 <picture class="hero">
                     <!--2000px, 1600px, 1200px, 800px, 480px-->
-                    <source media="(min-width:1601px)" srcset="assets/home-hero-largest.jpg">
-                    <source media="(min-width:1201px)" srcset="assets/home-hero-larger.jpg">
-                    <source media="(min-width:801px)" srcset="assets/home-hero-large.jpg">
-                    <source media="(min-width:481px)" srcset="assets/home-hero-medium.jpg">
-                    <img src="assets/home-hero-small.jpg" alt="">
+                    <source media="(min-width:1601px)" srcset="assets/about-hero-largest.jpg">
+                    <source media="(min-width:1201px)" srcset="assets/about-hero-larger.jpg">
+                    <source media="(min-width:801px)" srcset="assets/about-hero-large.jpg">
+                    <source media="(min-width:481px)" srcset="assets/about-hero-medium.jpg">
+                    <img src="assets/about-hero-small.jpg" alt="Photo of Rory Hackney with code and diagrams overlaying some trees">
                 </picture>
                 <div class="is-overlay"></div>
                 <div class="hero-text-container">
