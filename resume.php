@@ -26,29 +26,87 @@
             </div>
             <div class="main-content">
                 <div id="resume-div" class="resume-div">
-                    <h2 class="title is-5 has-text-centered">Rory Hackney</h2>
-                    <p>Web Developer and Designer</p>
-                    <h3 class="title is-6 mb-0">Objective</h3>
-                    <p>Web Developer seeking job with lots to do and even more to learn.</p>
-                    <h3 class="title is-6 mb-0">Skills</h3>
-                    <div class="columns is-multiline is-mobile">
-                        <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>PHP</li>
-                                <li>Git, GitHub</li>
-                            </ul>
-                        </div>
-                        <div class="column is-full">
-                            <p>Professional Summary</p>
-                            <p>Full stack web developer passionate about using design and code to build accessible websites that help small businesses to save time
-                                and increase profits. Passionate about challenging projects, learning new skills, and improving every day. 5+ years experience assisting
-                                customers, as well as 2 years experience with precise bookkeeping and FUCK and background in design, BFA in Art, and Certificate in Web Dev
-                                focusing on coding skills, usability, and database development.
-                                Precise, detail-oriented, organized, teamwork, takes direction well, eager to learn, hardworking, efficient, determined</p>  
-                        </div>
+                    <h2 class="has-text-centered is-uppercase">Rory Hackney</h2>
+                    <p class="sub-title has-text-centered is-uppercase">Web Developer and Designer</p>
+                    <p class="contact-info has-text-centered">roryhackney.com | 206-488-5437 | roryhackney@gmail.com | linkedin.com/in/roryhackney | github.com/roryhackney</p>
+                    <div class="narrow-column">
+                        <h3 class="is-uppercase">Education</h3>
+                        <h4 class="is-uppercase">Web Development</h4>
+                        <p>Certificate</p>
+                        <p class="is-italic">President's List</p>
+                        <p>Seattle Central College</p>
+                        <p>Sep 2020 - Aug 2021</p>
+                        <h5 class="is-italic">Relevant courses:</h4>
+                        <p>PHP Web App Programming</p>
+                        <p>Database Development (SQL)</p>
+                        <p>Web Design Theory</p>
+                        <h4 class="is-uppercase">Web Development</h4>
+                        <p>Portland Community College</p>
+                        <p>Sep 2019 - Aug 2019</p>
+                        <h4 class="is-uppercase">Comic Art</h4>
+                        <p>Bachelor's of Fine Arts (BFA)</p>
+                        <p>Aug 2012 - May 2016</p>
+                        <h3 class="is-uppercase">Skills</h3>
+                        <h4 class="is-uppercase">Software</h4>
+                        <ul>
+                            <li>HTML, CSS</li>
+                            <li>PHP, Python</li>
+                            <li>SQL, phpMyAdmin</li>
+                            <li>JavaScript</li>
+                            <li>Git, Github, VS Code</li>
+                            <li>Bulma (CSS Framework)</li>
+                            <li>Figma, Photoshop</li>
+                        </ul>
+                        <h4 class="is-uppercase">Expertise</h4>
+                        <ul>
+                            <li>Web development and design</li>
+                            <li>Database development</li>
+                            <li>Project documentation</li>
+                            <li>Teamwork, independence</li>
+                            <li>Attention to detail, accuracy</li>
+                            <li>Version control</li>
+                            <li>Frontend, backend development</li>
+                            <li>Image editing, production</li>
+                        </ul>
+                    </div>
+                    <div class="wide-column">
+                        <h3 class="is-uppercase">Projects</h3>
+                        <h4 class="is-uppercase">Full Stack PHP Web App</h4>
+                        <p class="is-italics"><a href="php-finale.php">Portfolio Page</a> | <a href="portfolio/php-finale/index.php">Live Site</a> | <a href="https://github.com/roryhackney/tech-portfolio/tree/main/portfolio/php-finale" target="_blank">GitHub</a> | Relaunched 01 / 2022, from 12 / 2020</p>
+                        <ul>
+                            <li>Built a full stack web application using PHP, SQL, HTML, and CSS.</li>
+                            <li>Developed forms with input validation and database manipulation, including a mileage calculator, currency converter, contact form, login, and registration.</li>
+                            <li>Created mobile-friendly styles, daily changing content, multiple database pages, a secure art site with login, and a kitten gallery with random images.</li>
+                        </ul>
+                        <h4 class="is-uppercase">Database Development: Art Business</h4>
+                        <p class="is-italics"><a href="database-design.php">Portfolio Page</a> | <a href="https://docs.google.com/document/d/1O8fc5k2SLcmZ9kQCUMatPqzGali2mw5xb8ceF3jUook/edit?usp=sharing" target="_blank">Documentation</a> | Completed 08 / 2021</p>
+                        <ul>
+                            <li>Developed a relational database using SQL, Figma,  and phpMyAdmin to track cash flow, clients, products, and creative projects for a small art business.</li>
+                            <li>Designed the database by documenting mission objectives, business rules, Crow’s Foot Entity Relationship Diagrams (ERD), normalization, and more.</li>
+                            <li>Once data entry is completed, accuracy and time saved will increase by 15%.</li>
+                        </ul>
+                        <h4 class="is-uppercase">Website Design: Yamagiwa Massage</h4>
+                        <p class="is-italics"><a href="yamagiwa-massage.php">Portfolio Page</a> | <a href="portfolio/yamagiwa-massage/">Live Site</a> | <a href="https://github.com/roryhackney/MassageWebsite/tree/main/prototype" target="_blank">GitHub</a> | Launched 04 / 2021</p>
+                        <ul>
+                            <li>Developed a client-facing front end web application from scratch, including business analysis, project documentation, design, and implementation.</li>
+                            <li>Built HTML, CSS, and JavaScript code to implement the full website, improving accuracy and availability of online business information for clients by 23%.</li>
+                            <li>Created content and refined design based on client and peer feedback.</li>
+                        </ul>
+                        <h3 class="is-uppercase">Experience</h3>
+                        <h4 class="is-uppercase">Web Development / IT Tutor</h4>
+                        <p class="is-italics">Seattle Central College | Seattle, WA | 09 / 2021 - present</p>
+                        <ul>
+                            <li>Strengthens knowledge and skills by explaining concepts and troubleshooting code with students seeking help, particularly with PHP, SQL, HTML, and CSS.</li>
+                            <li>Shows students how to use browser inspector tools, search, Stack Overflow, syntax highlighters, and other tools to troubleshoot their code independently.</li>
+                            <li>Finds tutorials, examples, community events, and resources for students.</li>
+                        </ul>
+                        <h4 class="is-uppercase">Support Specialist, Sales Associate</h4>
+                        <p class="is-italics">Michaels Art Supply Store | Seattle, WA | 08 /2021 - present</p>
+                        <ul>
+                            <li>Reconciles daily bank deposits, cash registers, and safe funds quickly and accurately, prepares tills for the day’s sales, and documents as required.</li>
+                            <li>Updates price labels, inventory amounts, overstock, and item locations.</li>
+                            <li>Assists customers, shelves freight, fills orders, and works to improve every day.</li>
+                        </ul>
                     </div>
                 </div>
             </div>

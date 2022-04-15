@@ -6,7 +6,7 @@
                     <source media="(min-width:1201px)" srcset="assets/home-hero-me-larger.jpg">
                     <source media="(min-width:801px)" srcset="assets/home-hero-me-large.jpg">
                     <source media="(min-width:481px)" srcset="assets/home-hero-me-medium.jpg">
-                    <img src="working_files/home-hero-me-small.jpg" alt="Photo of Rory Hackney over a background of a nice desk setup with a computer displaying code and a website design.">
+                    <img src="assets/home-hero-me-small.jpg" alt="Photo of Rory Hackney over a background of a nice desk set up with a computer displaying code and a website design.">
                 </picture>
                 <div class="is-overlay"></div>
                 <div class="hero-text-container">
