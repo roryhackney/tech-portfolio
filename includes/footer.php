@@ -16,6 +16,7 @@
                 </div>
             </div>
         </footer>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
         <script src="script.js" type="text/javascript" defer></script>
     </body>
 </html>

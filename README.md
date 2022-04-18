@@ -21,16 +21,15 @@ Resume
 Image content - home hero, education, hobbies
 
 //TODO: Complete resume page
-    //Using info from portfolio pieces, brainstorm skills etc
-    //Utilizing feedback, build a current resume and develop final branding
+
     //Export a new plain text, PDF, and image of resume for the site
-    //Recreate resume in HTML, mobile friendly
+    // mobile friendly
     //Complete responsiveness and dark mode, test all buttons
 
 Content needed
 
-Home Page: hero images
-About Page: hero img, education and certifications image
+Home Page: hero images 800px and below; move img content down to make room for text
+About Page: education and certifications image
 Hire Me: hero img, updated resume image, updated skills
 Resume: hero images, resume (html, pdf, plain)
 

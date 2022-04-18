@@ -1,5 +1,7 @@
 <?php
 
+include 'server.php';
+
 /*copyright logic*/
 $currentYear = date("Y");
 $copyYear = "";
@@ -24,6 +26,12 @@ switch($page) {
         $title = 'Thank You';
         $currentPage = '';
         $h1 = 'Thank You';
+        break;
+    case '/error.php':
+        $bodyClass = '';
+        $title = 'Something Went Wrong';
+        $currentPage = '';
+        $h1 = 'Something Went Wrong';
         break;
     case '/about-me.php':
         $bodyClass = 'about';
@@ -109,31 +117,67 @@ if($_SERVER["REQUEST_METHOD"] === "POST") {
         $message = validate($_POST["message"]);
     }
 
-    if(!empty($_POST["name"]) && !empty($_POST["email"]) && filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) && !empty($_POST["message"])) {
-        /*email contact*/
-        $to = "roryhackney@gmail.com";
-        if(empty($_POST["subject"])) {
-            $mySubject = "Contact Form from roryhackney.com (tech portfolio)";
+    // $recaptchaResponse = $_POST["g-recaptcha-response"];
+    $response = $_POST["g-recaptcha-response"];
+    // $recaptchaURL = 'https://www.google.com/recaptcha/api/siteverify';
+    $url = 'https://www.google.com/recaptcha/api/siteverify';
+    // $recaptchaData = array(
+    //     'secret' => $recaptchaSecretKey,
+    //     'response' => $_POST["g-recaptcha-response"]
+    // );
+    $data = array(
+		'secret' => $recaptchaSecretKey,
+		'response' => $_POST["g-recaptcha-response"]
+	);
+    // $recaptchaOptions = array(
+    //     'http' => array(
+    //         'method' => 'POST',
+    //         'content' => http_build_query($recaptchaData);
+    //     );
+    // );
+    $options = array(
+		'http' => array (
+			'method' => 'POST',
+			'content' => http_build_query($data)
+		)
+	);
+    // $recaptchaContext = stream_context_create($recaptchaOptions);
+    $context  = stream_context_create($options);
+    // $recaptchaVerification = file_get_contents($recaptchaURL, false, $recaptchaContext);
+    $verify = file_get_contents($url, false, $context);
+    // $recaptchaSuccess = json_decode($recaptchaVerification);
+    $captcha_success=json_decode($verify);
+    if ($captcha_success->success==false) {
+    // if($recaptchaSuccess->success == false) {
+        header("Location: error.php");
+    } else if ($captcha_success->success==true) {
+    // } else if($recaptchaSuccess->success == true) {
+        if(!empty($_POST["name"]) && !empty($_POST["email"]) && filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) && !empty($_POST["message"])) {
+            /*email contact*/
+            $to = "roryhackney@gmail.com";
+            if(empty($_POST["subject"])) {
+                $mySubject = "Contact Form from roryhackney.com (tech portfolio)";
+            } else {
+                $mySubject = $subject . " | Contact Form (tech portfolio)";
+            }
+            $headers = "From: admin@roryhackney.com" . "\r\n" . "Reply-To: " . $email;
+            $message .= "\n" . "From: " . $name;
+            $message = wordwrap($message, 70);
+            mail($to, $mySubject, $message, $headers);
+            header("Location: thanks.php");
         } else {
-            $mySubject = $subject . " | Contact Form (tech portfolio)";
+            echo '
+            <script type="text/javascript">
+                "use strict";
+                window.addEventListener("load", function(event) {
+                    scrollToForm();
+                    function scrollToForm() {
+                        let form = document.getElementById("form");
+                        form.scrollIntoView();
+                    }
+                });
+            </script>';
         }
-        $headers = "From: admin@roryhackney.com" . "\r\n" . "Reply-To: " . $email;
-        $message .= "\n" . "From: " . $name;
-        $message = wordwrap($message, 70);
-        mail($to, $mySubject, $message, $headers);
-        header("Location: thanks.php");
-    } else {
-        echo '
-        <script type="text/javascript">
-            "use strict";
-            window.addEventListener("load", function(event) {
-                scrollToForm();
-                function scrollToForm() {
-                    let form = document.getElementById("form");
-                    form.scrollIntoView();
-                }
-            });
-        </script>';
     }
 }
 
