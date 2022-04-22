@@ -33,6 +33,9 @@
     --resume-text-dark:  #4a4a4a;
     --resume-text-mid: #6c6c6c;
     --resume-text-links: #1155cc;
+    --resume-text-links-light: #4f90ff;
+    --resume-text-light: #c9c9c9;
+    --resume-text-lightest: #eeeeee;
 
 
 
@@ -668,7 +671,7 @@ footer p {
 
 .dark-mode .resume-div {
     background-color: var(--brown-dark);
-    color: var(--off-white);
+    color: var(--resume-text-light);
 }
 
 .resume .resume-div h2 {
@@ -678,9 +681,17 @@ footer p {
     font-weight: bold;
 }
 
+.dark-mode .resume-div h2 {
+    color: var(--resume-text-lightest);
+}
+
 .resume .resume-div .sub-title {
     font-size: 1.5rem;
     margin-bottom: 5px;
+}
+
+.dark-mode .resume-div .sub-title {
+    color: var(--resume-text-light);
 }
 
 .resume .resume-div .contact-info {
@@ -690,6 +701,10 @@ footer p {
     border-width: 1px 0;
     border-style: solid;
     padding: 2px;
+}
+
+.dark-mode .resume-div .contact-info {
+    border-color: var(--resume-text-light);
 }
 
 .resume .resume-div .narrow-column {
@@ -710,8 +725,16 @@ footer p {
     padding: 10px 0;
 }
 
+.dark-mode .resume-div h3 {
+    color: var(--resume-text-lightest);
+}
+
 .resume .resume-div h4 {
     font-weight: bold;
+}
+
+.dark-mode .resume-div h4 {
+    color: var(--resume-text-light);
 }
 
 .resume .resume-div h4:not(.first) {
@@ -726,9 +749,15 @@ footer p {
     color: var(--resume-text-links);
 }
 
+.dark-mode .resume-div a {
+    color: var(--resume-text-links-light);
+}
+
 .resume .resume-div ul {
     list-style-type: square;
 }
+
+
 
 @media only screen and (min-width: 500px) {
     .portfolio-detail .tags-div {
@@ -867,6 +896,10 @@ footer p {
         border-left: 1px solid var(--resume-text-mid);
         text-align: left;
         margin: 0;
+    }
+
+    .dark-mode .resume-div .wide-column {
+        border-left-color: var(--resume-text-light);
     }
 }
 

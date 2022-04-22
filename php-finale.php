@@ -41,9 +41,9 @@
                             <img src="assets/php-finale-daily-coffee-small.jpg" alt="Webpage displaying daily coffee, in this case iced tea, using PHP to dynamically change content.">
                         </picture>
                         <div class="block">
-                            <p>I recently updated it to make the project mobile friendly and more streamlined, upgrading the code and removing distractions, and making the site easier to navigate. If you'd like to poke around, check out the live site at <a href="portfolio/php-finale">PHP Finale</a>, or view my code on <a href="https://github.com/roryhackney/tech-portfolio/tree/main/portfolio/php-finale">GitHub</a>.</p>
+                            <p>I recently updated it to make the project mobile friendly and more streamlined, upgrading the code and removing distractions, and making the site easier to navigate. If you'd like to poke around, check out the live site at <a href="portfolio/php-finale">PHP Finale</a>, or view my code on <a href="https://github.com/roryhackney/tech-portfolio/tree/main/portfolio/php-finale" target="_blank">GitHub</a>.</p>
                         </div>
-                        <picture class="small-image"> <!--TODO: INSERT MOBILE IMG-->
+                        <picture class="small-image">
                             <source media="(min-width: 401px)"
                             srcset="assets/php-finale-mobile-medium.jpg 760w">
                             <img src="assets/php-finale-mobile-small.jpg" alt="">
@@ -77,11 +77,19 @@
                                 <li>Lots of styles, with multiple mobile friendly designs</li>
                                 <li>PHP variables, arrays, includes, and functions, including randomImages() and makeNav()</li>
                             </ul>
-                            <picture class="small-image"> <!--TODO: insert final PHP img-->
+                            <picture class="small-image">
                                 <source media="(min-width: 401px)"
                                 srcset="assets/php-finale-kitten-gallery-medium.jpg 760w">
                                 <img src="assets/php-finale-kitten-gallery-small.jpg" alt="Website showing various kitten pictures and text displayed using PHP and with a random kitten shown on the side.">
                             </picture>
+                            <div class="block">
+                                <p>There's a lot to look at, so feel free to poke around on whatever device you prefer!</p>
+                                <picture class="small-image">
+                                    <source media="(min-width: 401px)"
+                                    srcset="assets/php-finale-mobile-medium.jpg 760w">
+                                    <img src="assets/php-finale-mobile-small.jpg" alt="Mobile view of a fuel calculator displayed on a small iPhone sitting on some painted wood.">
+                                </picture>
+                            </div>
                         </div>
                         <p class="has-text-centered">Thanks for checking out my project!</p>
                         <div class="buttons-row three">

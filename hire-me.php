@@ -41,7 +41,7 @@
                                                     <li>HTML</li>
                                                     <li>CSS</li>
                                                     <li title="CSS Framework">Bulma</li>
-                                                    <li>Visual Studio Code</li>
+                                                    <li>VS Code</li>
                                                 </ul>
                                             </div>
                                             <div class="column is-one-third pb-0">

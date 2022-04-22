@@ -7,8 +7,6 @@ Home hero background photo by Alexandru Acea https://unsplash.com/@alexacea on U
 ---------------------------------------------------------------
 TODO:
 
-Shop portfolio piece
-
 Mobile styles, backlinks, validation
 
 -Test in different browsers, different screens
@@ -17,33 +15,21 @@ Mobile styles, backlinks, validation
 
 VITAL:
 
-Resume
-Image content - home hero, education, hobbies
-
-//TODO: Complete resume page
-
-    //Export a new plain text, PDF, and image of resume for the site
-    // mobile friendly
-    //Complete responsiveness and dark mode, test all buttons
-
-Content needed
-
-Home Page: hero images 800px and below; move img content down to make room for text
 About Page: education and certifications image
-Hire Me: hero img, updated resume image, updated skills
-Resume: hero images, resume (html, pdf, plain)
+Hire Me: hero imgs
+Resume: hero images
+
+MOBILE IMGS
+PHP Finale: "php-finale-mobile-medium.jpg" and small
+
+Retake BookShelf mobile imgs
 
 Rory's Stories Shop Portfolio Project
-
-PHP-Finale (project completed): image of mobile design
-
-The-Book-Shelf.xyz: link to asana, docs, etc, mobile image
-
-Rachel Yamagiwa Massage (presentation written):_prototype: mobile styles, add links back to portfolio
-
 shop design project notice - this is not a real shop
 
-block bots from contact form
+The-Book-Shelf.xyz: link to asana, docs, etc
+
+Rachel Yamagiwa Massage (presentation written):_prototype: mobile styles, add links back to portfolio
 
 Dream Content:
 videos demonstrating each site
@@ -59,7 +45,7 @@ Rory's Stories Shop Design (/rorystories): mobile styles, complete checkout proc
 -----
 PRIORITIES
 1 Images that are missing
-2 Resume
+<!-- 2 Resume -->
 3 Complete text content
 4 LinkedIn, etc
 5 Add more projects, dream content and features eg mobile

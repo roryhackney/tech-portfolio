@@ -21,10 +21,10 @@
                                 <h2 class="title is-5 mb-0">My education and certifications</h2>
                                 <p class="content">For the past few years I’ve been studying web development in school and out. I recently graduated with a Certificate in Web Development and Design from Seattle Central College. In 2016, I received my BFA from the Minneapolis College of Art and Design.</p>
                                 <picture class="large-image">
-                                    <source media="(min-width:961px)" srcset="assets/home-body-larger.jpg"> <!--961 - max 2000-->
-                                    <source media="(min-width:791px)" srcset="assets/home-body-large.jpg"> <!--791 - 960-->
-                                    <source media="(min-width: 421px)" srcset="assets/home-body-medium.jpg"> <!--421 to 791-->
-                                    <img src="assets/home-body-small.jpg" alt="Rory Hackney standing in front of two graduation certificates framed on a wall.">
+                                    <source media="(min-width:961px)" srcset="assets/about-education-diplomas-larger.jpg"> <!--961 - max 2000-->
+                                    <source media="(min-width:791px)" srcset="assets/about-education-diplomas-large.jpg"> <!--791 - 960-->
+                                    <source media="(min-width: 421px)" srcset="assets/about-education-diplomas-medium.jpg"> <!--421 to 791-->
+                                    <img src="assets/about-education-diplomas-small.jpg" alt="Two framed diplomas in dark brown frames hung on a white wall.">
                                 </picture>
                             </div>
                             <div class="column is-half">
@@ -50,7 +50,7 @@
                                             <li>HTML</li>
                                             <li>CSS</li>
                                             <li title="CSS Framework">Bulma</li>
-                                            <li>Visual Studio Code</li>
+                                            <li>VS Code</li>
                                         </ul>
                                     </div>
                                     <div class="column is-one-third pb-0">
@@ -93,10 +93,10 @@
                             <div class="column is-full">
                                 <p class="content">In addition to coding, I enjoy producing diagrams, design documents, and case studies. I spend my free time making art for fun, petting cats, and learning more about web development and design.</p>
                                 <picture class="large-image">
-                                    <source media="(min-width:961px)" srcset="assets/home-figma-website-design-larger.jpg"> <!--961 - max 2000-->
-                                    <source media="(min-width:791px)" srcset="assets/home-figma-website-design-large.jpg"> <!--791 - 960-->
-                                    <source media="(min-width: 421px)" srcset="assets/home-figma-website-design-medium.jpg"> <!--421 to 791-->
-                                    <img src="assets/home-figma-website-design-small.jpg" alt="Wireframes and visual designs built in Figma for an indie art shop.">
+                                    <source media="(min-width:961px)" srcset="assets/about-figma-website-design-larger.jpg"> <!--961 - max 2000-->
+                                    <source media="(min-width:791px)" srcset="assets/about-figma-website-design-large.jpg"> <!--791 - 960-->
+                                    <source media="(min-width: 421px)" srcset="assets/about-figma-website-design-medium.jpg"> <!--421 to 791-->
+                                    <img src="assets/about-figma-website-design-small.jpg" alt="Wireframes and visual designs built in Figma for an indie art shop.">
                                 </picture>
                             </div>
                             <div class="column is-full">

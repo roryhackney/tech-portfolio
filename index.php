@@ -60,6 +60,7 @@
                                     <a class="button" href="portfolio.php">Portfolio</a>
                                 </div>
                                 <h2 class="title is-5 has-text-centered">My Skills</h2>
+                                <p>I use Figma for design and prototyping, Photoshop and Clip Studio Paint for image editing, HTML, CSS, and JavaScript for the front end, Bulma for my CSS framework, PHP for backend development, Dreamhost for web hosting, Git and GitHub for version control, Visual Studio Code as my code editor and IDE, and SQL, phpMyAdmin, and mariaDB for database management.</p>
                             </div>
                             <div class="column is-half">
                                 <h3 class="title is-6 mb-0">Languages and Software</h3>
@@ -69,7 +70,7 @@
                                             <li>HTML</li>
                                             <li>CSS</li>
                                             <li title="CSS Framework">Bulma</li>
-                                            <li>Visual Studio Code</li>
+                                            <li>VS Code</li>
                                         </ul>
                                     </div>
                                     <div class="column is-one-third pb-0">
