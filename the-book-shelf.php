@@ -55,8 +55,8 @@
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/book-shelf-mobile-medium.jpg 760w">
-                            <img src="assets/book-shelf-mobile-small.jpg" alt="Mobile view of The Book Shelf on a small iPhone sitting on a patterned background.">
+                            srcset="assets/book-shelf-mobile-view-medium.jpg 760w">
+                            <img src="assets/book-shelf-mobile-view-small.jpg" alt="Mobile view of The Book Shelf on a small iPhone sitting on a patterned background.">
                         </picture>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"

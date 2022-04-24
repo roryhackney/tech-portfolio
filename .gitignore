@@ -1,18 +1,10 @@
 assets
-styles/styles.css.map
-testing.html
-bulma
-resources
 server.php
 !portfolio/php-finale/final/server.php
-working_files
 credentials.php
 .idea
 images
 adminer.php
-cut-js.js
-index-old.php
-styles/old-styles.css
 android-chrome-96x96.png
 android-chrome-192x192.png
 android-chrome-512x512.png
@@ -22,5 +14,4 @@ favicon-32x32.png
 apple-touch-icon.png
 mstile-150x150.png
 safari-pinned-tab.svg
-project-notes.txt
 !portfolio/rorystories/assets

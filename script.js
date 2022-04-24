@@ -5,6 +5,12 @@ window.addEventListener("DOMContentLoaded", function(event) {
         if(localStorage.getItem("storedDarkMode") == "dark") {
             let html = document.getElementsByTagName("html")[0];
             html.classList.add("dark-mode");
+            let dmToggle = document.getElementById("dark-mode-toggle");
+            if(dmToggle) {
+                if(dmToggle.innerHTML == "Dark Mode") {
+                    dmToggle.innerHTML = "Light Mode";
+                }
+            }
         }
     }
     //Nav mobile menu toggle and submenu toggle

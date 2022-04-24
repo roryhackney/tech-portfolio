@@ -45,13 +45,8 @@
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/php-finale-mobile-medium.jpg 760w">
-                            <img src="assets/php-finale-mobile-small.jpg" alt="">
-                        </picture>
-                        <picture class="small-image">
-                            <source media="(min-width: 401px)"
-                            srcset="assets/php-finale-fuel-calculator-medium.jpg 760w">
-                            <img src="assets/php-finale-fuel-calculator-small.jpg" alt="Webpage displaying a mileage calculator form that checks for input errors, then displays information.">
+                            srcset="assets/php-finale-mobile-mileage-calculator-medium.jpg 760w">
+                            <img src="assets/php-finale-mobile-mileage-calculator-small.jpg" alt="Mobile version of a mileage calculator form that checks for input errors, then displays information.">
                         </picture>
                         <div class="block">
                             <ul>
@@ -84,11 +79,6 @@
                             </picture>
                             <div class="block">
                                 <p>There's a lot to look at, so feel free to poke around on whatever device you prefer!</p>
-                                <picture class="small-image">
-                                    <source media="(min-width: 401px)"
-                                    srcset="assets/php-finale-mobile-medium.jpg 760w">
-                                    <img src="assets/php-finale-mobile-small.jpg" alt="Mobile view of a fuel calculator displayed on a small iPhone sitting on some painted wood.">
-                                </picture>
                             </div>
                         </div>
                         <p class="has-text-centered">Thanks for checking out my project!</p>
