@@ -513,6 +513,10 @@ form .input, form .textarea {
     color: var(--black);
 }
 
+form .is-danger {
+    color: var(--red-dark);
+}
+
 form .label {
     color: var(--brown);
 }
@@ -560,7 +564,7 @@ footer p {
     bottom: 30px;
 }
 
-.about .is-overlay, .home .is-overlay {
+.about .is-overlay, .home .is-overlay, .hire .is-overlay {
     opacity: 40%;
 }
 
@@ -637,7 +641,21 @@ footer p {
     margin: 0 auto;
 }
 
-.resume .absolute {
+.resume h1.title {
+    margin-bottom: 0;
+}
+
+.resume .main-content {
+    margin-top: 0;
+}
+
+.resume .my-text-column {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/* .resume .absolute {
     position: absolute;
     top: 0;
     left: 0;
@@ -647,12 +665,12 @@ footer p {
 .resume .hero-text-container {
     position: static;
     margin-bottom: 10px;
-}
+} */
 
-.resume .hero-container .button {
+.resume .my-text-column .button {
     display: block;
     margin: 0 auto 10px auto;
-    width: 100px;
+    width: 125px;
     padding: 0;
     text-align: center;
     height: 44px;
@@ -756,8 +774,6 @@ footer p {
 .resume .resume-div ul {
     list-style-type: square;
 }
-
-
 
 @media only screen and (min-width: 500px) {
     .portfolio-detail .tags-div {

@@ -227,6 +227,12 @@ footer .directions {
     background-size: 20px;
 }
 
+footer .backlink {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+}
+
 /* HOME PAGE */
 
 #herotext {

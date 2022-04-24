@@ -1,31 +1,20 @@
 <?php include 'includes/header.php'; ?>
-            <div class="hero-container">
-                <picture class="hero">
-                    <!--2000px, 1600px, 1200px, 800px, 480px-->
-                    <source media="(min-width:1601px)" srcset="assets/home-hero-largest.jpg">
-                    <source media="(min-width:1201px)" srcset="assets/home-hero-larger.jpg">
-                    <source media="(min-width:801px)" srcset="assets/home-hero-large.jpg">
-                    <source media="(min-width:481px)" srcset="assets/home-hero-medium.jpg">
-                    <source media="(min-width:350px)" srcset="assets/home-hero-small.jpg">
-                    <img src="assets/resume-hero-tiny.jpg" alt="">
-                </picture>
-                <div class="is-overlay"></div>
-                <div class="absolute">
-                    <div class="hero-text-container">
-                        <p class="hero-text">My recently updated resume is available as HTML, plain text, and a print-ready PDF. If you have questions or want to reach out, please use my contact form, email <a href="mailto:roryhackney@gmail.com">roryhackney@gmail.com</a>, or check out my <a href="htttps://www.linkedin.com/in/roryhackney" target="_blank">LinkedIn</a>.</p>
-                    </div>
-                    <div class="columns is-mobile">
-                        <div class="column is-half">
-                            <a class="button" href="assets/resume.pdf" target="_blank">Print/PDF</a>
-                        </div>
-                        <div class="column is-half">
-                            <a class="button" href="assets/resume.txt" target="_blank">Plain Text</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="main-content">
                 <div class="columns is-multiline">
+                    <div class="my-text-column">
+                        <p class="mb-4">My recently updated resume is available as HTML, emailable PDF, printable PDF, and plain text. If you have questions or want to reach out, please use my contact form, email <a href="mailto:roryhackney@gmail.com">roryhackney@gmail.com</a>, or check out my <a href="htttps://www.linkedin.com/in/roryhackney" target="_blank">LinkedIn</a>.</p>
+                        <div class="columns is-mobile">
+                            <div class="column is-one-third">
+                                <a class="button" href="assets/resume.pdf" target="_blank">Emailable PDF</a>
+                            </div>
+                            <div class="column is-one-third">
+                                <a class="button" href="assets/resume-printable.pdf" target="_blank">Print Friendly</a>
+                            </div>
+                            <div class="column is-one-third">
+                                <a class="button" href="assets/resume.txt" target="_blank">Plain Text</a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="column is-full-tablet is-two-thirds-desktop">
                         <div id="resume-div" class="resume-div">
                             <h2 class="has-text-centered is-uppercase">Rory Hackney</h2>

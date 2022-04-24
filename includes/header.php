@@ -27,12 +27,6 @@ switch($page) {
         $currentPage = '';
         $h1 = 'Thank You';
         break;
-    case '/error.php':
-        $bodyClass = '';
-        $title = 'Something Went Wrong';
-        $currentPage = '';
-        $h1 = 'Something Went Wrong';
-        break;
     case '/about-me.php':
         $bodyClass = 'about';
         $title = 'About Me';
@@ -91,6 +85,7 @@ $message = "";
 $nameError = "";
 $emailError = "";
 $messageError = "";
+$recaptchaError = "";
 
 if($_SERVER["REQUEST_METHOD"] === "POST") {
     if(empty($_POST["name"])) {
@@ -117,55 +112,24 @@ if($_SERVER["REQUEST_METHOD"] === "POST") {
         $message = validate($_POST["message"]);
     }
 
-    // $recaptchaResponse = $_POST["g-recaptcha-response"];
-    $response = $_POST["g-recaptcha-response"];
-    // $recaptchaURL = 'https://www.google.com/recaptcha/api/siteverify';
-    $url = 'https://www.google.com/recaptcha/api/siteverify';
-    // $recaptchaData = array(
-    //     'secret' => $recaptchaSecretKey,
-    //     'response' => $_POST["g-recaptcha-response"]
-    // );
-    $data = array(
-		'secret' => $recaptchaSecretKey,
-		'response' => $_POST["g-recaptcha-response"]
-	);
-    // $recaptchaOptions = array(
-    //     'http' => array(
-    //         'method' => 'POST',
-    //         'content' => http_build_query($recaptchaData);
-    //     );
-    // );
-    $options = array(
-		'http' => array (
-			'method' => 'POST',
-			'content' => http_build_query($data)
-		)
-	);
-    // $recaptchaContext = stream_context_create($recaptchaOptions);
-    $context  = stream_context_create($options);
-    // $recaptchaVerification = file_get_contents($recaptchaURL, false, $recaptchaContext);
-    $verify = file_get_contents($url, false, $context);
-    // $recaptchaSuccess = json_decode($recaptchaVerification);
-    $captcha_success=json_decode($verify);
-    if ($captcha_success->success==false) {
-    // if($recaptchaSuccess->success == false) {
-        header("Location: error.php");
-    } else if ($captcha_success->success==true) {
-    // } else if($recaptchaSuccess->success == true) {
-        if(!empty($_POST["name"]) && !empty($_POST["email"]) && filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) && !empty($_POST["message"])) {
-            /*email contact*/
-            $to = "roryhackney@gmail.com";
-            if(empty($_POST["subject"])) {
-                $mySubject = "Contact Form from roryhackney.com (tech portfolio)";
-            } else {
-                $mySubject = $subject . " | Contact Form (tech portfolio)";
-            }
-            $headers = "From: admin@roryhackney.com" . "\r\n" . "Reply-To: " . $email;
-            $message .= "\n" . "From: " . $name;
-            $message = wordwrap($message, 70);
-            mail($to, $mySubject, $message, $headers);
-            header("Location: thanks.php");
-        } else {
+    $recaptchaResponse = $_POST["g-recaptcha-response"];
+    $recaptchaURL = 'https://www.google.com/recaptcha/api/siteverify';
+    $recaptchaData = array(
+        'secret' => $recaptchaSecretKey,
+        'response' => $_POST["g-recaptcha-response"]
+    );
+    $recaptchaOptions = array(
+        'http' => array(
+            'method' => 'POST',
+            'content' => http_build_query($recaptchaData)
+        )
+    );
+    $recaptchaContext = stream_context_create($recaptchaOptions);
+    $recaptchaVerification = file_get_contents($recaptchaURL, false, $recaptchaContext);
+    $recaptchaSuccess = json_decode($recaptchaVerification);
+    if(!empty($_POST["name"]) && !empty($_POST["email"]) && filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) && !empty($_POST["message"])) {
+        if($recaptchaSuccess->success == false) {
+            $recaptchaError = "Please check the recaptcha box.";
             echo '
             <script type="text/javascript">
                 "use strict";
@@ -177,7 +141,32 @@ if($_SERVER["REQUEST_METHOD"] === "POST") {
                     }
                 });
             </script>';
+        } else if($recaptchaSuccess->success == true) {
+        /*email contact*/
+            $to = "roryhackney@gmail.com";
+            if(empty($_POST["subject"])) {
+                $mySubject = "Contact Form from roryhackney.com (tech portfolio)";
+            } else {
+                $mySubject = $subject . " | Contact Form (tech portfolio)";
+            }
+            $headers = "From: admin@roryhackney.com" . "\r\n" . "Reply-To: " . $email;
+            $message .= "\n" . "From: " . $name;
+            $message = wordwrap($message, 70);
+            mail($to, $mySubject, $message, $headers);
+            header("Location: thanks.php");
         }
+    } else {
+        echo '
+        <script type="text/javascript">
+            "use strict";
+            window.addEventListener("load", function(event) {
+                scrollToForm();
+                function scrollToForm() {
+                    let form = document.getElementById("form");
+                    form.scrollIntoView();
+                }
+            });
+        </script>';
     }
 }
 
@@ -203,7 +192,8 @@ function validate($input) {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
-        <link rel="stylesheet" href="styles/styles.css">
+        <!-- <link rel="stylesheet" href="styles/styles.css"> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
         <link rel="stylesheet" href="styles/my-styles.css">
         <title><?php echo $title . ' | Rory Hackney, Web Developer and Designer'; ?></title>
     </head>

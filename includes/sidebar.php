@@ -36,6 +36,7 @@
                                         <div class="control">
                                             <div class="g-recaptcha" data-sitekey="6LdQbH8fAAAAAK-0EELREPd1hStjBMzpv4a9mut1"></div>
                                         </div>
+                                        <span class="error help is-danger"><?php echo $recaptchaError;?></span>
                                     </div>
                                     <div class="field">
                                         <div class="control">
