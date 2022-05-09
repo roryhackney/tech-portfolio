@@ -37,7 +37,7 @@
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/php-finale-daily-coffee-medium.jpg 760w">
+                            srcset="assets/php-finale-daily-coffee-medium.jpg">
                             <img src="assets/php-finale-daily-coffee-small.jpg" alt="Webpage displaying daily coffee, in this case iced tea, using PHP to dynamically change content.">
                         </picture>
                         <div class="block">
@@ -45,18 +45,18 @@
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/php-finale-mobile-mileage-calculator-medium.jpg 760w">
+                            srcset="assets/php-finale-mobile-mileage-calculator-medium.jpg">
                             <img src="assets/php-finale-mobile-mileage-calculator-small.jpg" alt="Mobile version of a mileage calculator form that checks for input errors, then displays information.">
                         </picture>
                         <div class="block">
+                            <h3 class="title is-6 mb-0">List of Features</h3>
                             <ul>
-                                <h3 class="title is-6 mb-0">List of Features</h3>
                                 <li>Contact form with input validation, saved input, and emailed data</li>
                                 <li>Kitten gallery</li>
                                 <li>Artist portfolio and contact form using databases and validation</li>
                                 <picture class="small-image">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/php-finale-art-site-medium.jpg 760w">
+                                    srcset="assets/php-finale-art-site-medium.jpg">
                                     <img src="assets/php-finale-art-site-small.jpg" alt="Webpage displaying art and links to other pages for an artist blog. Login required.">
                                 </picture>
                                 <li>Daily art challenges, best practices, and daily coffee</li>
@@ -65,7 +65,7 @@
                                 <li>Dinosaur database integration and detail page made with SQL and PHP</li>
                                 <picture class="small-image">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/php-finale-dinosaur-database-medium.jpg 760w">
+                                    srcset="assets/php-finale-dinosaur-database-medium.jpg">
                                     <img src="assets/php-finale-dinosaur-database-small.jpg" alt="Web page showing dinosaur information and images using PHP and SQL to connect a database.">
                                 </picture>
                                 <li>User login and registration database integration and secure forms</li>
@@ -74,7 +74,7 @@
                             </ul>
                             <picture class="small-image">
                                 <source media="(min-width: 401px)"
-                                srcset="assets/php-finale-kitten-gallery-medium.jpg 760w">
+                                srcset="assets/php-finale-kitten-gallery-medium.jpg">
                                 <img src="assets/php-finale-kitten-gallery-small.jpg" alt="Website showing various kitten pictures and text displayed using PHP and with a random kitten shown on the side.">
                             </picture>
                             <div class="block">
@@ -92,4 +92,5 @@
                     <?php include 'includes/sidebar.php'; ?> <!-- aside-->
                 </div>
             </div>
+        </div>
 <?php include 'includes/footer.php'; ?>

@@ -39,7 +39,7 @@
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/book-shelf-design-reviews-medium.jpg 760w">
+                            srcset="assets/book-shelf-design-reviews-medium.jpg">
                             <img src="assets/book-shelf-design-reviews-small.jpg" alt="The Book Shelf website displays several book reviews over a light blue and yellow design.">
                         </picture>
                         <div class="block">
@@ -47,7 +47,7 @@
                         </div>
                         <picture class="small-image dark-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/book-shelf-dark-form-medium.jpg 760w">
+                            srcset="assets/book-shelf-dark-form-medium.jpg">
                             <img src="assets/book-shelf-dark-form-small.jpg" alt="Form for submitting a book to the database in dark mode.">
                         </picture>
                         <div class="block">
@@ -55,12 +55,12 @@
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/book-shelf-mobile-view-medium.jpg 760w">
+                            srcset="assets/book-shelf-mobile-view-medium.jpg">
                             <img src="assets/book-shelf-mobile-view-small.jpg" alt="Mobile view of The Book Shelf on a small iPhone sitting on a patterned background.">
                         </picture>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/book-shelf-light-books-medium.jpg 760w">
+                            srcset="assets/book-shelf-light-books-medium.jpg">
                             <img src="assets/book-shelf-light-books-small.jpg" alt="The Book Shelf displaying saved searches and book listings on a light color scheme.">
                         </picture>
                         <div class="block">
@@ -70,7 +70,7 @@
                                 <li>Persistent dark mode</li>
                                 <picture class="small-image">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/book-shelf-dark-home-medium.jpg 760w">
+                                    srcset="assets/book-shelf-dark-home-medium.jpg">
                                     <img src="assets/book-shelf-dark-home-small.jpg" alt="The Book Shelf in dark mode displaying recently added books with reviews.">
                                 </picture>
                                 <li>Logo animation</li>
@@ -79,7 +79,7 @@
                                 <li>Search by keyword, author, genre, title, or all</li>
                                 <picture class="small-image">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/book-shelf-search-books-medium.jpg 760w">
+                                    srcset="assets/book-shelf-search-books-medium.jpg">
                                     <img src="assets/book-shelf-search-books-small.jpg" alt="The Book Shelf books search page displaying Fiction books via the Genre search filter.">
                                 </picture>
                                 <li>Responsive (device friendly) design</li>
@@ -89,7 +89,7 @@
                             </ul>
                             <picture class="small-image">
                                 <source media="(min-width: 401px)"
-                                srcset="assets/book-shelf-dark-footer-medium.jpg 760w">
+                                srcset="assets/book-shelf-dark-footer-medium.jpg">
                                 <img src="assets/book-shelf-dark-footer-small.jpg" alt="The Bookshelf footer in dark mode, displaying credits, login and registration links, and a page timer.">
                             </picture>
                         </div>
@@ -104,4 +104,5 @@
                     <?php include 'includes/sidebar.php'; ?> <!-- aside-->
                 </div>
             </div>
+        </div>
 <?php include 'includes/footer.php'; ?>

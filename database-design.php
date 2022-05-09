@@ -39,7 +39,7 @@
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/forest-art-medium.jpg 760w">
+                            srcset="assets/forest-art-medium.jpg">
                             <img src="assets/forest-art-small.jpg" alt="Digitally drawn art of a forest">
                         </picture>
                         <div class="block">
@@ -48,7 +48,7 @@
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/database-concept-projects-diagram-medium.jpg 760w">
+                            srcset="assets/database-concept-projects-diagram-medium.jpg">
                             <img src="assets/database-concept-projects-diagram-small.jpg" alt="Diagram of projects with arrows down to portfolio pieces and then products.">
                         </picture>
                         <div class="block">
@@ -61,7 +61,7 @@
                         <div class="block">
                             <div class="columns">
                                 <div class="column is-half">
-                                    <h3 class="title is-6 mb-0">Mission Objectives</h4>
+                                    <h3 class="title is-6 mb-0">Mission Objectives</h3>
                                     <ul>
                                         <li>Track products (both physical and digital)</li>
                                         <li>Track projects and portfolio pieces</li>
@@ -70,16 +70,16 @@
                                         <li>Track expenses</li>
                                         <li>Track incomes</li>
                                         <li>Track orders</li>
-                                        <p>(and so on...)</p>
+                                        <li class="no-bullet">(and so on...)</li>
                                     </ul>
                                 </div>
                                 <div class="column">
-                                    <h3 class="title is-6 mb-0">Business Rules</h4>
+                                    <h3 class="title is-6 mb-0">Business Rules</h3>
                                     <ul>
                                         <li>If all items in an order are digital, shipping should not be charged.</li>
                                         <li>Patreon members should receive a 15% discount on digital items and commissions.</li>
-                                        <li>Products and portfolio pieces should be filterable and sortable by project, category, format, tags, year made, and price.</p>
-                                        <p>(and so on...)</p>
+                                        <li>Products and portfolio pieces should be filterable and sortable by project, category, format, tags, year made, and price.</li>
+                                        <li class="no-bullet">(and so on...)</li>
                                     </ul>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/database-crows-foot-erd-medium.jpg 760w">
+                            srcset="assets/database-crows-foot-erd-medium.jpg">
                             <img src="assets/database-crows-foot-erd-small.jpg" alt="Crow's Foot Entity Relationship Diagram (ERD) for my art business database design.">
                         </picture>
                         <a class="has-text-centered" target="_blank" href="https://www.figma.com/file/7dRQrE9mgc2eIRUWUe2VIu/ERD---Normalization-Exercise?node-id=121%3A270">View on Figma</a>
@@ -101,7 +101,7 @@
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/database-users-security-diagram-medium.jpg 760w">
+                            srcset="assets/database-users-security-diagram-medium.jpg">
                             <img src="assets/database-users-security-diagram-small.jpg" alt="Table displaying user privileges, broken down by user, table, and access types: select, insert, update, delete, and references.">
                         </picture>
                         <a class="has-text-centered" target="_blank" href="https://docs.google.com/spreadsheets/d/1XDH7NwFknA1SnAM8ayiq2rtg0KQ_pPxArLTSUgC0vSo/edit?usp=sharing">View on Google Sheets</a>
@@ -110,14 +110,14 @@
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/database-sql-code-view-medium.jpg 760w">
+                            srcset="assets/database-sql-code-view-medium.jpg">
                             <img src="assets/database-sql-code-view-small.jpg" alt="Screenshot of a view using a big block of SQL code, resulting in a report displaying information on portfolio pieces.">
                         </picture>
                         <div class="block">
                             <p>Once I was sure the database was sound, I generated an ERD from the actual database and compared it with my original design to be sure they matched.</p>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/database-generated-erd-medium.jpg 760w">
+                            srcset="assets/database-generated-erd-medium.jpg">
                             <img src="assets/database-generated-erd-small.jpg" alt="Entity relationship diagram (ERD) generated from the finished database, showing various customer, product, and business tables and views.">
                         </picture>
                         </div>
@@ -138,4 +138,5 @@
                     <?php include 'includes/sidebar.php'; ?> <!-- aside-->
                 </div>
             </div>
+        </div>
 <?php include 'includes/footer.php'; ?>

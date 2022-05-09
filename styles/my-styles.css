@@ -177,6 +177,10 @@ a.button {
     text-decoration: none;
 }
 
+.no-bullet {
+    list-style-type: none !important;
+}
+
 header {
     padding: 10px;
     overflow: hidden;
@@ -725,16 +729,6 @@ footer p {
     border-color: var(--resume-text-light);
 }
 
-.resume .resume-div .narrow-column {
-    width: fit-content;
-    margin: 0 auto;
-}
-
-.resume .resume-div .wide-column {
-    width: fit-content;
-    margin: 0 auto;
-}
-
 .resume .resume-div h3 {
     font-size: 1.5rem;
     color: var(--resume-text-dark);
@@ -773,6 +767,7 @@ footer p {
 
 .resume .resume-div ul {
     list-style-type: square;
+    margin-left: 25px;
 }
 
 @media only screen and (min-width: 500px) {
@@ -897,25 +892,6 @@ footer p {
 
     .resume .hero-text {
         margin: 0 auto;
-    }
-
-    .resume .resume-div .narrow-column {
-        width: 30%;
-        float: left;
-        margin: 0;
-    }
-
-    .resume .resume-div .wide-column {
-        width: 70%;
-        float: right;
-        padding-left: 40px;
-        border-left: 1px solid var(--resume-text-mid);
-        text-align: left;
-        margin: 0;
-    }
-
-    .dark-mode .resume-div .wide-column {
-        border-left-color: var(--resume-text-light);
     }
 }
 

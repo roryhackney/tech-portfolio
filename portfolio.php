@@ -25,7 +25,7 @@
                                     <a href="php-finale.php"><h3 class="title is-6 mb-0">PHP Finale</h3></a>
                                     <a href="php-finale.php"><picture class="small-image dark-image">
                                         <source media="(min-width: 401px)"
-                                        srcset="assets/php-finale-card-medium.jpg 760w">
+                                        srcset="assets/php-finale-card-medium.jpg">
                                         <img src="assets/php-finale-card-small.jpg" alt="Screenshot of a website built with PHP, showing a photo of Rory and links to various pages.">
                                     </picture></a>
                                     <div>
@@ -42,7 +42,7 @@
                                     <a href="database-design.php"><h3 class="title is-6 mb-0">Database Design</h3></a>
                                     <a href="database-design.php"><picture class="small-image">
                                         <source media="(min-width: 401px)"
-                                        srcset="assets/database-erd-diagram-card-medium.jpg 760w">
+                                        srcset="assets/database-erd-diagram-card-medium.jpg">
                                         <img src="assets/database-erd-diagram-card-small.jpg" alt="Entity relationship diagram (ERD) generated from the finished database, showing various customer, product, and business tables and views.">
                                     </picture></a>
                                     <div>
@@ -59,7 +59,7 @@
                                     <a href="the-book-shelf.php"><h3 class="title is-6 mb-0">The Book Shelf</h3></a>
                                     <a href="the-book-shelf.php"><picture class="small-image">
                                         <source media="(min-width: 401px)"
-                                        srcset="assets/book-shelf-card-medium.jpg 760w">
+                                        srcset="assets/book-shelf-card-medium.jpg">
                                         <img src="assets/book-shelf-card-small.jpg" alt="Screenshot of a website with books and reviews, currently displaying a form to save favorite searches.">
                                     </picture></a>
                                     <div>
@@ -76,7 +76,7 @@
                                     <a href="yamagiwa-massage.php"><h3 class="title is-6 mb-0">Yamagiwa Massage</h3></a>
                                     <a href="yamagiwa-massage.php"><picture class="small-image">
                                         <source media="(min-width: 401px)"
-                                        srcset="assets/yamagiwa-massage-card-medium.jpg 760w">
+                                        srcset="assets/yamagiwa-massage-card-medium.jpg">
                                         <img src="assets/yamagiwa-massage-card-small.jpg" alt="Screenshot of a website built with PHP, showing a photo of Rory and links to various pages.">
                                     </picture></a>
                                     <div>
@@ -101,4 +101,5 @@
                     <?php include 'includes/sidebar.php'; ?>
                 </div>
             </div>
+        </div>
 <?php include 'includes/footer.php'; ?>

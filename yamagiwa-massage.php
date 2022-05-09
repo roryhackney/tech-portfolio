@@ -39,7 +39,7 @@
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/yamagiwa-massage-screen-clients-medium.jpg 760w">
+                            srcset="assets/yamagiwa-massage-screen-clients-medium.jpg">
                             <img src="assets/yamagiwa-massage-screen-clients-small.jpg" alt="A message is displayed on the contact page to screen new clients in order to save Rachel time and labor.">
                         </picture>
                         <div class="block">
@@ -49,7 +49,7 @@
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/yamagiwa-massage-information-architecture-medium.jpg 760w">
+                            srcset="assets/yamagiwa-massage-information-architecture-medium.jpg">
                             <img src="assets/yamagiwa-massage-information-architecture-small.jpg" alt="Information architecture diagram for a client's massage website.">
                         </picture>
                         <div class="block">
@@ -58,12 +58,12 @@
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/yamagiwa-massage-wireframe-design-medium.jpg 760w">
+                            srcset="assets/yamagiwa-massage-wireframe-design-medium.jpg">
                             <img src="assets/yamagiwa-massage-wireframe-design-small.jpg" alt="Wireframe diagram for the pricing page built on a 960 pixel grid for a massage website.">
                         </picture>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/yamagiwa-massage-visual-design-medium.jpg 760w">
+                            srcset="assets/yamagiwa-massage-visual-design-medium.jpg">
                             <img src="assets/yamagiwa-massage-visual-design-small.jpg" alt="Visual design of the massage website's pricing pagea with the blue and yellow color scheme that was chosen.">
                         </picture>
                         <div class="block">
@@ -72,12 +72,12 @@
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/yamagiwa-massage-pricing-page-medium.jpg 760w">
+                            srcset="assets/yamagiwa-massage-pricing-page-medium.jpg">
                             <img src="assets/yamagiwa-massage-pricing-page-small.jpg" alt="The refined final website, showing pricing and package information for uninsured clients.">
                         </picture>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
-                            srcset="assets/yamagiwa-massage-contact-page-medium.jpg 760w">
+                            srcset="assets/yamagiwa-massage-contact-page-medium.jpg">
                             <img src="assets/yamagiwa-massage-contact-page-small.jpg" alt="The refined final website built with HTML and CSS, showing the information on the contact page.">
                         </picture>
                         <p class="has-text-centered">Thanks for checking out my project!</p>
@@ -94,4 +94,5 @@
                     <?php include 'includes/sidebar.php'; ?> <!-- aside-->
                 </div>
             </div>
+        </div>
 <?php include 'includes/footer.php'; ?>

@@ -20,85 +20,59 @@
                             <h2 class="has-text-centered is-uppercase">Rory Hackney</h2>
                             <p class="sub-title has-text-centered is-uppercase">Full Stack Web Developer</p>
                             <p class="contact-info has-text-centered"><a href="index.php">roryhackney.com</a> | <a href="tel:206-488-5437">206-488-5437</a> | <a href="mailto:roryhackney@gmail.com">roryhackney@gmail.com</a> | <a href="https://wwww.linkedin.com/in/roryhackney" target="_blank">linkedin.com/in/roryhackney</a> | <a href="https://github.com/roryhackney" target="_blank">github.com/roryhackney</a></p>
-                            <div class="narrow-column">
-                                <h3 class="is-uppercase">Education</h3>
-                                <h4 class="is-uppercase first">Web Development</h4>
-                                <p>Certificate</p>
-                                <p class="is-italic">President's List</p>
-                                <p>Seattle Central College</p>
-                                <p>Sep 2020 - Aug 2021</p>
-                                <h5 class="is-italic">Relevant courses:</h4>
-                                <p>PHP Web App Programming</p>
-                                <p>Database Development (SQL)</p>
-                                <p>Web Design Theory</p>
-                                <h4 class="is-uppercase">Web Development</h4>
-                                <p>Portland Community College</p>
-                                <p>Sep 2019 - Aug 2019</p>
-                                <h4 class="is-uppercase">Comic Art</h4>
-                                <p>Bachelor's of Fine Arts (BFA)</p>
-                                <p>Aug 2012 - May 2016</p>
-                                <h3 class="is-uppercase">Skills</h3>
-                                <h4 class="is-uppercase first">Software</h4>
-                                <ul>
-                                    <li>HTML, CSS</li>
-                                    <li>PHP, Python</li>
-                                    <li>SQL, phpMyAdmin</li>
-                                    <li>JavaScript</li>
-                                    <li>Git, Github, VS Code</li>
-                                    <li>Bulma (CSS Framework)</li>
-                                    <li>Figma, Photoshop</li>
-                                </ul>
-                                <h4 class="is-uppercase">Expertise</h4>
-                                <ul>
-                                    <li>Web development and design</li>
-                                    <li>Database development</li>
-                                    <li>Project documentation</li>
-                                    <li>Teamwork, independence</li>
-                                    <li>Attention to detail, accuracy</li>
-                                    <li>Version control</li>
-                                    <li>Frontend, backend development</li>
-                                    <li>Image editing, production</li>
-                                </ul>
-                            </div>
-                            <div class="wide-column">
-                                <h3 class="is-uppercase">Projects</h3>
-                                <h4 class="is-uppercase first">Full Stack PHP Web App</h4>
-                                <p class="is-italic"><a href="php-finale.php">Portfolio Page</a> | <a href="portfolio/php-finale/index.php">Live Site</a> | <a href="https://github.com/roryhackney/tech-portfolio/tree/main/portfolio/php-finale" target="_blank">GitHub</a> | Relaunched 01 / 2022, from 12 / 2020</p>
-                                <ul>
-                                    <li>Built a full stack web application using PHP, SQL, HTML, and CSS.</li>
-                                    <li>Developed forms with input validation and database manipulation, including a mileage calculator, currency converter, contact form, login, and registration.</li>
-                                    <li>Created mobile-friendly styles, daily changing content, multiple database pages, a secure art site with login, and a kitten gallery with random images.</li>
-                                </ul>
-                                <h4 class="is-uppercase">Database Development: Art Business</h4>
-                                <p class="is-italic"><a href="database-design.php">Portfolio Page</a> | <a href="https://docs.google.com/document/d/1O8fc5k2SLcmZ9kQCUMatPqzGali2mw5xb8ceF3jUook/edit?usp=sharing" target="_blank">Documentation</a> | Completed 08 / 2021</p>
-                                <ul>
-                                    <li>Developed a relational database using SQL, Figma,  and phpMyAdmin to track cash flow, clients, products, and creative projects for a small art business.</li>
-                                    <li>Designed the database by documenting mission objectives, business rules, Crow’s Foot Entity Relationship Diagrams (ERD), normalization, and more.</li>
-                                    <li>Once data entry is completed, accuracy and time saved will increase by 15%.</li>
-                                </ul>
-                                <h4 class="is-uppercase">Website Design: Yamagiwa Massage</h4>
-                                <p class="is-italic"><a href="yamagiwa-massage.php">Portfolio Page</a> | <a href="portfolio/yamagiwa-massage/">Live Site</a> | <a href="https://github.com/roryhackney/MassageWebsite/tree/main/prototype" target="_blank">GitHub</a> | Launched 04 / 2021</p>
-                                <ul>
-                                    <li>Developed a client-facing front end web application from scratch, including business analysis, project documentation, design, and implementation.</li>
-                                    <li>Built HTML, CSS, and JavaScript code to implement the full website, improving accuracy and availability of online business information for clients by 23%.</li>
-                                    <li>Created content and refined design based on client and peer feedback.</li>
-                                </ul>
-                                <h3 class="is-uppercase">Experience</h3>
-                                <h4 class="is-uppercase first">Web Development / IT Tutor</h4>
-                                <p class="is-italic">Seattle Central College | Seattle, WA | 09 / 2021 - present</p>
-                                <ul>
-                                    <li>Strengthens knowledge and skills by explaining concepts and troubleshooting code with students seeking help, particularly with PHP, SQL, HTML, and CSS.</li>
-                                    <li>Shows students how to use browser inspector tools, search, Stack Overflow, syntax highlighters, and other tools to troubleshoot their code independently.</li>
-                                    <li>Finds tutorials, examples, community events, and resources for students.</li>
-                                </ul>
-                                <h4 class="is-uppercase">Support Specialist, Sales Associate</h4>
-                                <p class="is-italic">Michaels Art Supply Store | Seattle, WA | 08 /2021 - present</p>
-                                <ul>
-                                    <li>Reconciles daily bank deposits, cash registers, and safe funds quickly and accurately, prepares tills for the day’s sales, and documents as required.</li>
-                                    <li>Updates price labels, inventory amounts, overstock, and item locations.</li>
-                                    <li>Assists customers, shelves freight, fills orders, and works to improve every day.</li>
-                                </ul>
-                            </div>
+                            <h3 class="is-uppercase">Summary</h3>
+                            <ul>
+                                <li>Full stack web developer proficient in PHP, SQL, HTML, CSS, JavaScript, Bulma, Git / GitHub, and Photoshop</li>
+                                <li>Passionate about semantic HTML, web accessibility, user friendly design, and learning new systems</li>
+                                <li>Background in art and design with a BFA, customer service experience, and project documentation skills</li>
+                            </ul>
+                            <h3 class="is-uppercase">Education</h3>
+                            <h4 class="is-uppercase first">Web Development</h4>
+                            <p>Certificate | Seattle Central College | 3.99 GPA | President's List <span class="is-pulled-right">Sep 2020 - Aug 2021</span></p>
+                            <p class="ml-3 is-italic">Relevant courses: PHP Web App Programming, Database Development (SQL), Web Design Theory, JavaScript 2</p>
+                            <p>Courses | Portland Community College <span class="is-pulled-right">Sep 2018 - Aug 2019</span></p>
+                            <h4 class="is-uppercase">Comic Art</h4>
+                            <p>Bachelor's of Fine Arts (BFA) | Minneapolis College of Art and Design <span class="is-pulled-right">Aug 2012 - May 2016</span></p>
+                            <h3 class="is-uppercase">Projects</h3>
+                            <h4 class="is-uppercase first">Full Stack PHP Web App</h4>
+                            <p><a href="php-finale.php">Portfolio Page</a> | <a href="portfolio/php-finale/index.php">Live Site</a> | <a href="https://github.com/roryhackney/tech-portfolio/tree/main/portfolio/php-finale" target="_blank">GitHub</a> <span class="is-pulled-right">Updated Dec 2021 - Jan 2022</span></p>
+                            <ul>
+                                <li>Built a full stack web application with forms and database integration using PHP, SQL, HTML, and CSS</li>
+                                <li>Validated user input and manipulated databases to create a mileage calculator, contact form, and login</li>
+                                <li>Created mobile-friendly styles, daily changing content, database pages, registration, and a kitten gallery</li>
+                            </ul>
+                            <h4 class="is-uppercase">Database Development: Art Business</h4>
+                            <p><a href="database-design.php">Portfolio Page</a> | <a href="https://docs.google.com/document/d/1O8fc5k2SLcmZ9kQCUMatPqzGali2mw5xb8ceF3jUook/edit?usp=sharing" target="_blank">Documentation</a> <span class="is-pulled-right">Jun 2021 - Aug 2021</span></p>
+                            <ul>
+                                <li>Developed a relational database to track cash flow, clients, products, and projects for a small art business</li>
+                                <li>Designed and documented the database with mission objectives, ERD diagrams, normalization, and more</li>
+                                <li>Created diagrams in Figma, wrote SQL code, and used phpMyAdmin to build, populate, and test the database</li>
+                            </ul>
+                            <h4 class="is-uppercase">Website Design: Yamagiwa Massage</h4>
+                            <p><a href="yamagiwa-massage.php">Portfolio Page</a> | <a href="portfolio/yamagiwa-massage/">Live Site</a> | <a href="https://github.com/roryhackney/MassageWebsite/tree/main/prototype" target="_blank">GitHub</a> <span class="is-pulled-right">Jan 2021 - April 2021</span></p>
+                            <ul>
+                                <li>Developed a client-facing front end web application from scratch, including project planning, design, and code</li>
+                                <li>Built HTML, CSS, and JavaScript code to implement the website, improving accuracy of information for clients</li>
+                                <li>Analyzed business, conducted competitive analyses, created content, and refined design based on feedback</li>
+                            </ul>
+                            <h3 class="is-uppercase">Experience</h3>
+                            <h4 class="is-uppercase first">Web Development / IT Tutor</h4>
+                            <p>Seattle Central College | Seattle, WA <span class="is-pulled-right">Sep 2021 - present</span></p>
+                            <ul>
+                                <li>Strengthens knowledge by explaining and troubleshooting PHP, SQL, HTML, and CSS code with students</li>
+                                <li>Teaches students to troubleshoot code independently using browser inspectors, Stack Overflow, and other tools</li>
+                            </ul>
+                            <h4 class="is-uppercase">Support Specialist, Sales Associate</h4>
+                            <p>Michaels Art Supply Store | Seattle, WA | May 2022 Ace Award Recipient <span class="is-pulled-right">Aug 2021 - present</span></p>
+                            <ul>
+                                <li>Leverages speed, knowledge, teamwork, and accuracy to support the store, working alone or with others to complete daily cash deposits, price changes, product placement, sales, and excellent customer service</li>
+                            </ul>
+                            <h4 class="is-uppercase">Additional Experience</h4>
+                            <ul>
+                                <li><span class="is-italic">Assistant Bookkeeper</span> | Yamagiwa Massage, Broberg Acupuncture | Seattle, WA <span class="is-pulled-right">Sep 2021 - present</span></li>
+                                <li><span class="is-italic">Barista, Cashier</span> | Ballard Fred Meyer | Seattle, WA <span class="is-pulled-right">Mar 2020 - April 2021</span></li>
+                                <li><span class="is-italic">Library Access Services Assistant</span> | Multnomah County Library | Portland, OR <span class="is-pulled-right">Jun 2018 - Feb 2020</span></li>
+                            </ul>
                         </div>
                     </div>
                     <?php include 'includes/sidebar.php'; ?>
@@ -113,4 +87,5 @@
                     <a href="" class="is-block has-text-centered is-hidden-touch pb-3">Back to top</a>
                 </div>
             </div>
+        </div>
 <?php include 'includes/footer.php'; ?>

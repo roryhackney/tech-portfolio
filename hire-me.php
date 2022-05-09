@@ -23,11 +23,11 @@
                             </div>
                             <div class="column is-half">
                                 <h2 class="title is-5 has-text-centered">My Resume</h2>
-                                <a href="resume.php"><img class="resume-img" src="assets/resume.jpg"></a>
+                                <a href="resume.php"><img class="resume-img" src="assets/resume.jpg" alt="Rory Hackney's Web Developer Resume, showing education, projects, and experience"></a>
                                 <div class="level mt-4 is-mobile">
+                                    <a class="level-item" href="assets/resume.pdf" target="_blank">Emailable PDF</a>
+                                    <a class="level-item" href="assets/resume-printable.pdf" target="_blank">Printable PDF</a>
                                     <a class="level-item" href="resume.php">HTML Resume</a>
-                                    <a class="level-item" href="assets/resume.pdf" target="_blank">Print/PDF</a>
-                                    <a class="level-item" href="assets/resume.txt" target="_blank">Plain Text</a>
                                 </div>
                             </div>
                             <div class="column is-half">
@@ -122,4 +122,5 @@
                     <?php include 'includes/sidebar.php'; ?>
                 </div>
             </div>
+        </div>
 <?php include 'includes/footer.php'; ?>
