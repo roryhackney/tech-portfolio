@@ -55,13 +55,13 @@
                                 </div>
                                 <div class="level is-mobile">
                                     <div class="level-left">
-                                        <a href="https://www.linkedin.com/in/roryhackney" target="_blank"><span class="level-item"><i class="fab fa-2x fa-linkedin"></i></span></a>
+                                        <a href="https://www.linkedin.com/in/roryhackney" target="_blank" class="no-ext"><span class="level-item"><i class="fab fa-2x fa-linkedin"></i></span></a>
                                         <span class="level-item pl-3"><a href="https://www.linkedin.com/in/roryhackney" target="_blank">LinkedIn</a></span>
                                     </div>
                                 </div>
                                 <div class="level is-mobile">
                                     <div class="level-left">
-                                        <a href="https://github.com/roryhackney" target="_blank"><span class="level-item"><i class="fab fa-2x fa-github-square"></i></span></a>
+                                        <a href="https://github.com/roryhackney" target="_blank" class="no-ext"><span class="level-item"><i class="fab fa-2x fa-github-square"></i></span></a>
                                         <span class="level-item pl-3"><a href="https://github.com/roryhackney" target="_blank">GitHub</a></span>
                                     </div>
                                 </div>
@@ -73,5 +73,5 @@
                                 </div>
                             </div>
                         <p class="has-text-centered is-hidden-desktop mx-3">Thanks for dropping by!</p>
-                        <a href="" class="is-block has-text-centered is-hidden-desktop mx-3">Back to top</a>
+                        <a href="" class="is-block has-text-centered is-hidden-desktop mx-3" role="button">Back to top</a>
                     </div>

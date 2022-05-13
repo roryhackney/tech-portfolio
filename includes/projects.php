@@ -57,7 +57,8 @@
         <a href="the-book-shelf.php"><h3 class="title is-6 mb-0">The Book Shelf</h3></a>
         <a href="the-book-shelf.php">
             <picture class="small-image">
-                <source media="(min-width: 401px)" srcset="assets/book-shelf-card-medium.jpg">
+                <source media="(min-width: 401px)" srcset="assets/book-shelf-card-medium.jpg
+                ">
                 <img src="assets/book-shelf-card-small.jpg" alt="Screenshot of a website with books and reviews, currently displaying a form to save favorite searches.">
             </picture>
         </a>

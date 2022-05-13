@@ -59,7 +59,5 @@ include 'includes/header.php';
     @mysqli_close($connect);
   ?>
 </aside>
-</div>
-
 <?php
   include 'includes/footer.php';

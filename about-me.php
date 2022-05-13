@@ -105,7 +105,7 @@
                                     <a class="button" href="hire-me.php">Hire Now</a>
                                 </div>
                                 <p class="has-text-centered is-hidden-touch">Thanks for dropping by!</p>
-                                <a href="" class="is-block has-text-centered is-hidden-touch pb-3">Back to top</a>
+                                <a href="" class="is-block has-text-centered is-hidden-touch pb-3" role="button">Back to top</a>
                             </div>
                         </div>
                     </div>

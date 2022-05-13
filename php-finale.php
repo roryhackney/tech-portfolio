@@ -54,20 +54,24 @@
                                 <li>Contact form with input validation, saved input, and emailed data</li>
                                 <li>Kitten gallery</li>
                                 <li>Artist portfolio and contact form using databases and validation</li>
-                                <picture class="small-image">
-                                    <source media="(min-width: 401px)"
-                                    srcset="assets/php-finale-art-site-medium.jpg">
-                                    <img src="assets/php-finale-art-site-small.jpg" alt="Webpage displaying art and links to other pages for an artist blog. Login required.">
-                                </picture>
+                            </ul>
+                            <picture class="small-image">
+                                <source media="(min-width: 401px)"
+                                srcset="assets/php-finale-art-site-medium.jpg">
+                                <img src="assets/php-finale-art-site-small.jpg" alt="Webpage displaying art and links to other pages for an artist blog. Login required.">
+                            </picture>
+                            <ul>
                                 <li>Daily art challenges, best practices, and daily coffee</li>
                                 <li>Currency conversion form, and mileage calculator</li>
                                 <li>Responsive (device friendly) design</li>
                                 <li>Dinosaur database integration and detail page made with SQL and PHP</li>
-                                <picture class="small-image">
-                                    <source media="(min-width: 401px)"
-                                    srcset="assets/php-finale-dinosaur-database-medium.jpg">
-                                    <img src="assets/php-finale-dinosaur-database-small.jpg" alt="Web page showing dinosaur information and images using PHP and SQL to connect a database.">
-                                </picture>
+                            </ul>
+                            <picture class="small-image">
+                                <source media="(min-width: 401px)"
+                                srcset="assets/php-finale-dinosaur-database-medium.jpg">
+                                <img src="assets/php-finale-dinosaur-database-small.jpg" alt="Web page showing dinosaur information and images using PHP and SQL to connect a database.">
+                            </picture>
+                            <ul>
                                 <li>User login and registration database integration and secure forms</li>
                                 <li>Lots of styles, with multiple mobile friendly designs</li>
                                 <li>PHP variables, arrays, includes, and functions, including randomImages() and makeNav()</li>

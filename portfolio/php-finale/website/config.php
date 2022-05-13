@@ -37,6 +37,12 @@
       $center = 'center';
       $bodyClass = 'dinos inner';
       break;
+    case 'dino-view.php':
+      $title = 'Dinosaur Detail Page';
+      $pageHeading = 'Welcome to the Dinosaur Detail Page';
+      $center = '';
+      $bodyClass = '';
+      break;
     case 'contact.php':
     //emailable form here
       $title = 'Contact Us';

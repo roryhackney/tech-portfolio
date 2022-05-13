@@ -424,14 +424,14 @@ dl {
     font-size: 1rem;
 }
 
-dd {
+dt {
     font-weight: bold;
     font-family: 'Palatino', 'Baskerville', serif;
     font-size: 1.7rem;
     padding: 5px 0 2px 0;
 }
 
-dt {
+dd {
     padding-bottom: 10px;
     text-align: left;
     font-family: Verdana, Arial, sans-serif;

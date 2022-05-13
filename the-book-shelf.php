@@ -64,24 +64,28 @@
                             <img src="assets/book-shelf-light-books-small.jpg" alt="The Book Shelf displaying saved searches and book listings on a light color scheme.">
                         </picture>
                         <div class="block">
+                            <h3 class="title is-6 mb-0">List of Features</h3>
                             <ul>
-                                <h3 class="title is-6 mb-0">List of Features</h3>
                                 <li>Add, search, or view books and reviews</li>
                                 <li>Persistent dark mode</li>
-                                <picture class="small-image">
-                                    <source media="(min-width: 401px)"
-                                    srcset="assets/book-shelf-dark-home-medium.jpg">
-                                    <img src="assets/book-shelf-dark-home-small.jpg" alt="The Book Shelf in dark mode displaying recently added books with reviews.">
-                                </picture>
+                            </ul>
+                            <picture class="small-image">
+                                <source media="(min-width: 401px)"
+                                srcset="assets/book-shelf-dark-home-medium.jpg">
+                                <img src="assets/book-shelf-dark-home-small.jpg" alt="The Book Shelf in dark mode displaying recently added books with reviews.">
+                            </picture>
+                            <ul>
                                 <li>Logo animation</li>
                                 <li>User login and registration</li>
                                 <li>Modal popup to save favorites</li>
                                 <li>Search by keyword, author, genre, title, or all</li>
-                                <picture class="small-image">
-                                    <source media="(min-width: 401px)"
-                                    srcset="assets/book-shelf-search-books-medium.jpg">
-                                    <img src="assets/book-shelf-search-books-small.jpg" alt="The Book Shelf books search page displaying Fiction books via the Genre search filter.">
-                                </picture>
+                            </ul>
+                            <picture class="small-image">
+                                <source media="(min-width: 401px)"
+                                srcset="assets/book-shelf-search-books-medium.jpg">
+                                <img src="assets/book-shelf-search-books-small.jpg" alt="The Book Shelf books search page displaying Fiction books via the Genre search filter.">
+                            </picture>
+                            <ul>
                                 <li>Responsive (device friendly) design</li>
                                 <li>10% chance of a 'prize' popup</li>
                                 <li>Page timer in footer</li>

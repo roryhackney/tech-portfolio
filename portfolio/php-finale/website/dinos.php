@@ -34,11 +34,12 @@
       </main>
       <aside>
         <h3>Always remember that dinosaurs are cool.</h3>
-        <p>Additional note: <ul>
+        <p>Additional note:</p>
+        <ul>
           <li>Birds are dinosaurs.</li>
           <li>Many dinosaurs had feathers and they were very pretty.</li>
           <li>Source: <a href="https://www.nhm.ac.uk/discover/dino-directory.html">Museum Website</a></li>
-        </ul></p>
+        </ul>
       </aside>
 
       <?php include('includes/footer.php'); ?>

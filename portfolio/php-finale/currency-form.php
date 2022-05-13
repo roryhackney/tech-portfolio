@@ -74,7 +74,7 @@
 
     <div class="main-wrapper">
       <h1>Currency Form</h1>
-      <form action="" method="post">
+      <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
         <fieldset>
           <label>Name</label>
           <input type="text" name="name" value="<?php
@@ -172,9 +172,11 @@
                 echo '<h1 class="green">More than $750</h1>';
                 echo '<h2 class="green">That\'s awesome!</h2>';
               }
+              ?>
+              </div>
+              <?php
               } //end if isset
         ?>
-      </div>
     </div> <!--end main wrapper-->
     <footer>
       <div class="copyright">
