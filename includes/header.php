@@ -65,9 +65,9 @@ switch($page) {
         break;
     case '/yamagiwa-massage.php':
         $bodyClass = 'portfolio-detail';
-        $title = 'Massage Website Design';
+        $title = 'Yamagiwa Massage Website Design';
         $currentPage = 'portfolio';
-        $h1 = "Massage Website Design";
+        $h1 = "Yamagiwa Massage Website Design";
         break;
     case '/database-design.php':
         $bodyClass = 'portfolio-detail';
@@ -199,6 +199,7 @@ function validate($input) {
     </head>
     <body class="<?php echo $bodyClass;?>">
         <header>
+            <a class="screen-reader-skip-link" href="#h1">Skip to content</a>
             <a href="index.php"><img class="logo"
             alt="Rory Hackney's logo: yellow letters RH over a dark blue circle."
             src="assets/logo-small.png"
@@ -226,7 +227,7 @@ function validate($input) {
                     <li <?php if($currentPage == 'home') {echo 'class="active-page"';}?>><a href="index.php">Home</a></li>
                     <li <?php if($currentPage == 'portfolio') {echo 'class="active-page"';}?>><a href="portfolio.php">Portfolio</a></li>
                     <li <?php if($currentPage == 'hire') {echo 'class="active-page"';}?> id="submenu-toggle">
-                        <a href="hire-me.php">Hire Me <span class="is-hidden-mobile"><i class="fas fa-angle-down"></i></span></a>
+                        <a href="hire-me.php" aria-haspopup="true">Hire Me <span class="is-hidden-mobile"><i class="fas fa-angle-down"></i></span></a>
                         <ul id="nav-dropitem-tablet" class="is-hidden-mobile">
                             <li><a href="resume.php">Resume</a></li>
                         </ul>
@@ -239,4 +240,4 @@ function validate($input) {
             </nav>
         </header>
         <main>
-            <h1 class="title is-3 has-text-centered"><?php echo $h1;?></h1>
+            <h1 class="title is-3 has-text-centered" id="h1"><?php echo $h1;?></h1>

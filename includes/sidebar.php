@@ -2,7 +2,7 @@
                         <h2 class="title is-5 has-text-centered">Thank you!</h2>
                         <div class="columns is-multiline">
                             <div class="column is-half-tablet is-full-desktop">
-                                <p class="content">Thanks for checking out my work! If you've got a project or job you think suits me, contact me here, by <a href="mailto:roryhackney@gmail.com">email</a>, or on <a href="https://www.linkedin.com/in/roryhackney" target="_blank">LinkedIn</a>.</p>
+                                <p class="content">Thanks for checking out my work! If you've got a project or job you think suits me, contact me here, by <a href="mailto:roryhackney@gmail.com" target="_blank" aria-label="Email - link opens in new tab">email</a>, or on <a href="https://www.linkedin.com/in/roryhackney" target="_blank" aria-label="LinkedIn - link opens in new tab">LinkedIn</a>.</p>
                                 <h2 id="contact" class="title is-5 has-text-centered mb-1 mt-3">Contact Me</h2>
                                 <form id="form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
                                     <div class="field">
@@ -49,20 +49,20 @@
                                 <h2 class="title is-5 has-text-centered">Find Me</h2>
                                 <div class="level is-mobile">
                                     <div class="level-left">
-                                        <a href="mailto:roryhackney@gmail.com"><span class="level-item"><i class="fas fa-2x fa-envelope"></i></span></a>
-                                        <span class="level-item pl-3"><a href="mailto:roryhackney@gmail.com">roryhackney@gmail.com</a></span>
+                                        <a href="mailto:roryhackney@gmail.com" target="_blank" class="no-ext" aria-label="email (icon) - opens in new tab"><span class="level-item"><i class="fas fa-2x fa-envelope"></i></span></a>
+                                        <span class="level-item pl-3"><a href="mailto:roryhackney@gmail.com" target="_blank" aria-label="roryhackney@gmail.com - link opens in new tab">roryhackney@gmail.com</a></span>
                                     </div>
                                 </div>
                                 <div class="level is-mobile">
                                     <div class="level-left">
-                                        <a href="https://www.linkedin.com/in/roryhackney" target="_blank" class="no-ext"><span class="level-item"><i class="fab fa-2x fa-linkedin"></i></span></a>
-                                        <span class="level-item pl-3"><a href="https://www.linkedin.com/in/roryhackney" target="_blank">LinkedIn</a></span>
+                                        <a href="https://www.linkedin.com/in/roryhackney" target="_blank" class="no-ext" aria-label="LinkedIn (icon) - opens in new tab"><span class="level-item"><i class="fab fa-2x fa-linkedin"></i></span></a>
+                                        <span class="level-item pl-3"><a href="https://www.linkedin.com/in/roryhackney" target="_blank" aria-label="LinkedIn - opens in new tab">LinkedIn</a></span>
                                     </div>
                                 </div>
                                 <div class="level is-mobile">
                                     <div class="level-left">
-                                        <a href="https://github.com/roryhackney" target="_blank" class="no-ext"><span class="level-item"><i class="fab fa-2x fa-github-square"></i></span></a>
-                                        <span class="level-item pl-3"><a href="https://github.com/roryhackney" target="_blank">GitHub</a></span>
+                                        <a href="https://github.com/roryhackney" target="_blank" class="no-ext" aria-label="GitHub (icon) - link opens in new tab"><span class="level-item"><i class="fab fa-2x fa-github-square"></i></span></a>
+                                        <span class="level-item pl-3"><a href="https://github.com/roryhackney" target="_blank" aria-label="GitHub - link opens in new tab">GitHub</a></span>
                                     </div>
                                 </div>
                                 <div class="level is-mobile">

@@ -24,9 +24,9 @@
                             <div class="column is-half">
                                 <h2 class="title is-5 has-text-centered">My Resume</h2>
                                 <a href="resume.php"><img class="resume-img" src="assets/resume.jpg" alt="Rory Hackney's Web Developer Resume, showing education, projects, and experience"></a>
-                                <div class="level mt-4 is-mobile">
-                                    <a class="level-item" href="assets/resume.pdf" target="_blank">Emailable PDF</a>
-                                    <a class="level-item" href="assets/resume-printable.pdf" target="_blank">Printable PDF</a>
+                                <div class="level mt-4">
+                                    <a class="level-item" href="assets/resume.pdf" target="_blank" aria-label="Emailable PDF - file opens in new tab">Emailable PDF</a>
+                                    <a class="level-item" href="assets/resume-printable.pdf" target="_blank" aria-label="Printable PDF - file opens in new tab">Printable PDF</a>
                                     <a class="level-item" href="resume.php">HTML Resume</a>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@
                                 <div class="buttons-row three">
                                     <a class="button is-hidden-desktop" href="#contact">Contact</a>
                                     <a class="button is-hidden-touch" href="mailto:roryhackney@gmail.com">Email</a>
-                                    <a class="button" href="https://www.linkedin.com/in/roryhackney" target="_blank">LinkedIn</a>
+                                    <a class="button unset-width" href="https://www.linkedin.com/in/roryhackney" target="_blank" aria-label="LinkedIn - link opens in new tab">LinkedIn<span class="icon button-external"><img src="assets/arrow-up-right-from-square-solid.svg" alt="opens in new tab"></span></a>
                                     <a class="button" href="resume.php">Resume</a>
                                 </div>
                             </div>

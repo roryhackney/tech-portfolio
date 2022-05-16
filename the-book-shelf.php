@@ -35,7 +35,7 @@
                             </ul>
                         </div>
                         <div class="block">
-                            <p class="desktop-margin">I launched The Book Shelf (a book search and reviews site) together with <a href="https://www.linkedin.com/in/hannah-eberts" target="_blank">Hannah Eberts</a>, designer, and <a href="https://www.linkedin.com/in/dominick-nelson-a96758a6" target="_blank">Dominick Nelson</a>, back end developer. As the front end developer, I combined their work with a nice UI aided by Bulma, which helped us to complete the project on time without sacrificing the quality or consistency of the design.</p>
+                            <p class="desktop-margin">I launched The Book Shelf (a book search and reviews site) together with <a href="https://www.linkedin.com/in/hannah-eberts" target="_blank" aria-label="Hannah Eberts - link opens in new tab">Hannah Eberts</a>, designer, and <a href="https://www.linkedin.com/in/dominick-nelson-a96758a6" target="_blank" aria-label="Dominick Nelson - link opens in new tab">Dominick Nelson</a>, back end developer. As the front end developer, I combined their work with a nice UI aided by Bulma, which helped us to complete the project on time without sacrificing the quality or consistency of the design.</p>
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
@@ -99,8 +99,8 @@
                         </div>
                         <p class="has-text-centered">Thanks for checking out my project!</p>
                         <div class="buttons-row three">
-                            <a class="button" href="http://the-book-shelf.xyz" target="_blank">Live Site</a>
-                            <a class="button" href="https://github.com/nicknelson97/IT163-Group-1" target="_blank">GitHub</a>
+                            <a class="button unset-width" href="http://the-book-shelf.xyz" target="_blank" aria label="Live Site - link opens in new tab">Live Site<span class="icon button-external"><img src="assets/arrow-up-right-from-square-solid.svg" alt="opens in new tab"></span></a>
+                            <a class="button unset-width" href="https://github.com/nicknelson97/IT163-Group-1" target="_blank" aria-label="GitHub - link opens in new tab">GitHub<span class="icon button-external"><img src="assets/arrow-up-right-from-square-solid.svg" alt="opens in new tab"></span></a>
                             <a class="button urgent" href="hire-me.php">Hire Now</a>
                         </div>
                         <a href="portfolio.php" class="has-text-centered">Back to Portfolio</a>

@@ -82,11 +82,11 @@
                         </picture>
                         <p class="has-text-centered">Thanks for checking out my project!</p>
                         <div class="block">
-                            <p class="has-text-centered">If you'd like to see the full documentation for this project, feel free to view it <a href="https://docs.google.com/document/d/1n5GXkGc5fWb1lIZqrXXhsdXqYgVKI6SiniGlFhxKbO4/edit?usp=sharing" target="_blank">here</a>!</p>
+                            <p class="has-text-centered">If you'd like to see the full documentation for this project, feel free to view it <a href="https://docs.google.com/document/d/1n5GXkGc5fWb1lIZqrXXhsdXqYgVKI6SiniGlFhxKbO4/edit?usp=sharing" target="_blank" aria-label="Documentation on Google Drive - link opens in new tab">here</a>!</p>
                         </div>
                         <div class="buttons-row three">
-                            <a class="button" href="portfolio/yamagiwa-massage" target="_blank">Live Site</a>
-                            <a class="button" href="https://github.com/roryhackney/MassageWebsite/tree/main/prototype" target="_blank">GitHub</a>
+                            <a class="button" href="portfolio/yamagiwa-massage">Live Site</a>
+                            <a class="button unset-width" href="https://github.com/roryhackney/MassageWebsite/tree/main/prototype" target="_blank" aria-label="GitHub - link opens in new tab">GitHub<span class="icon button-external"><img src="assets/arrow-up-right-from-square-solid.svg" alt="opens in new tab"></span></a>
                             <a class="button urgent" href="hire-me.php">Hire Now</a>
                         </div>
                         <a href="portfolio.php" class="has-text-centered mb-3">Back to Portfolio</a>

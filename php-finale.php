@@ -41,7 +41,7 @@
                             <img src="assets/php-finale-daily-coffee-small.jpg" alt="Webpage displaying daily coffee, in this case iced tea, using PHP to dynamically change content.">
                         </picture>
                         <div class="block">
-                            <p>I recently updated it to make the project mobile friendly and more streamlined, upgrading the code and removing distractions, and making the site easier to navigate. If you'd like to poke around, check out the live site at <a href="portfolio/php-finale">PHP Finale</a>, or view my code on <a href="https://github.com/roryhackney/tech-portfolio/tree/main/portfolio/php-finale" target="_blank">GitHub</a>.</p>
+                            <p>I recently updated it to make the project mobile friendly and more streamlined, upgrading the code and removing distractions, and making the site easier to navigate. If you'd like to poke around, check out the live site at <a href="portfolio/php-finale">PHP Finale</a>, or view my code on <a href="https://github.com/roryhackney/tech-portfolio/tree/main/portfolio/php-finale" target="_blank" aria-label="GitHub - link opens in new tab">GitHub</a>.</p>
                         </div>
                         <picture class="small-image">
                             <source media="(min-width: 401px)"
@@ -88,7 +88,7 @@
                         <p class="has-text-centered">Thanks for checking out my project!</p>
                         <div class="buttons-row three">
                             <a class="button" href="portfolio/php-finale">Live Site</a>
-                            <a class="button" href="https://github.com/roryhackney/php-finale" target="_blank">GitHub</a>
+                            <a class="button unset-width" href="https://github.com/roryhackney/php-finale" target="_blank" aria-label="GitHub - link opens in new tab">GitHub<span class="icon button-external"><img src="assets/arrow-up-right-from-square-solid.svg" alt="opens in new tab"></span></a>
                             <a class="button urgent" href="hire-me.php">Hire Now</a>
                         </div>
                         <a href="portfolio.php" class="has-text-centered">Back to Portfolio</a>

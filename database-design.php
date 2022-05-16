@@ -92,7 +92,7 @@
                             srcset="assets/database-crows-foot-erd-medium.jpg">
                             <img src="assets/database-crows-foot-erd-small.jpg" alt="Crow's Foot Entity Relationship Diagram (ERD) for my art business database design.">
                         </picture>
-                        <a class="has-text-centered" target="_blank" href="https://www.figma.com/file/7dRQrE9mgc2eIRUWUe2VIu/ERD---Normalization-Exercise?node-id=121%3A270">View on Figma</a>
+                        <a class="has-text-centered" target="_blank" href="https://www.figma.com/file/7dRQrE9mgc2eIRUWUe2VIu/ERD---Normalization-Exercise?node-id=121%3A270" aria-label="View on Figma - diagram opens in new tab">View on Figma</a>
                         <div class="block">
                             <p>I then ran each table, field, and relationship through normalization, and made changes to improve data integrity.</p>
                         </div>
@@ -104,7 +104,7 @@
                             srcset="assets/database-users-security-diagram-medium.jpg">
                             <img src="assets/database-users-security-diagram-small.jpg" alt="Table displaying user privileges, broken down by user, table, and access types: select, insert, update, delete, and references.">
                         </picture>
-                        <a class="has-text-centered" target="_blank" href="https://docs.google.com/spreadsheets/d/1XDH7NwFknA1SnAM8ayiq2rtg0KQ_pPxArLTSUgC0vSo/edit?usp=sharing">View on Google Sheets</a>
+                        <a class="has-text-centered" target="_blank" href="https://docs.google.com/spreadsheets/d/1XDH7NwFknA1SnAM8ayiq2rtg0KQ_pPxArLTSUgC0vSo/edit?usp=sharing" aria-label="View on Google Sheets - file opens in new tab">View on Google Sheets</a>
                         <div class="block">
                             <p>After making some final changes, I built the database using SQL code, including tables, data, users, and views. I also tested the database against my mission objectives to make sure it fulfilled the goals of the project. Finally, I logged in as each user and made sure their access levels were correct.</p>
                         </div>
@@ -128,7 +128,7 @@
                         </div>
                         <p class="has-text-centered">Thanks for checking out my project!</p>
                         <div class="block">
-                            <p class="has-text-centered">If you'd like to see the full documentation for this project, feel free to view it <a href="https://docs.google.com/document/d/1O8fc5k2SLcmZ9kQCUMatPqzGali2mw5xb8ceF3jUook/edit?usp=sharing" target="_blank">here</a>!</p>
+                            <p class="has-text-centered">If you'd like to see the full documentation for this project, feel free to view it <a href="https://docs.google.com/document/d/1O8fc5k2SLcmZ9kQCUMatPqzGali2mw5xb8ceF3jUook/edit?usp=sharing" target="_blank" aria-label="here - Google Drive file opens in new tab">here</a>!</p>
                         </div>
                         <div class="buttons-row">
                             <a class="button" href="portfolio.php">Portfolio</a>

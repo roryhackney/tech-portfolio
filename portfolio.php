@@ -49,7 +49,7 @@
                                         <span>Database Design, Project Documentation</span>
                                         <span class="is-pulled-right">Aug 2021</span>
                                     </div>
-                                    <a href="php-finale.php">
+                                    <a href="database-design.php">
                                         <p class="content">A database I designed and built for a small art business, tracking projects, clients, and cash flow. See my process conceptualizing, normalizing, and implementing the database.</p>
                                     </a>
                                 </div>
