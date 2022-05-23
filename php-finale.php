@@ -88,7 +88,7 @@
                         <p class="has-text-centered">Thanks for checking out my project!</p>
                         <div class="buttons-row three">
                             <a class="button" href="portfolio/php-finale">Live Site</a>
-                            <a class="button unset-width" href="https://github.com/roryhackney/php-finale" target="_blank" aria-label="GitHub - link opens in new tab">GitHub<span class="icon button-external"><img src="assets/arrow-up-right-from-square-solid.svg" alt="opens in new tab"></span></a>
+                            <a class="button unset-width" href="https://github.com/roryhackney/tech-portfolio/tree/main/portfolio/php-finale" target="_blank" aria-label="GitHub - link opens in new tab">GitHub<span class="icon button-external"><img src="assets/arrow-up-right-from-square-solid.svg" alt="opens in new tab"></span></a>
                             <a class="button urgent" href="hire-me.php">Hire Now</a>
                         </div>
                         <a href="portfolio.php" class="has-text-centered">Back to Portfolio</a>

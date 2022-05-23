@@ -83,14 +83,14 @@
                                         <span>Web Design, Project Documentation</span>
                                         <span class="is-pulled-right">Apr 2021</span>
                                     </div>
-                                    <a href="php-finale.php">
+                                    <a href="yamagiwa-massage.php">
                                         <p class="content">A massage provider's website, planned and refined through a web design project, wireframed and designed in Photoshop, and then prototyped using HTML, CSS, and JavaScript.</p>
                                     </a>
                                 </div>
                             </div>
                             <div class="column is-full">
                                 <div class="buttons-row">
-                                    <a class="button" href="assets/resume.php">Resume</a>
+                                    <a class="button" href="resume.php">Resume</a>
                                     <a class="button" href="hire-me.php">Hire Now</a>
                                 </div>
                                 <p class="has-text-centered is-hidden-touch">Thanks for dropping by!</p>

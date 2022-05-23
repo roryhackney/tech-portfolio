@@ -75,6 +75,12 @@ switch($page) {
         $currentPage = 'portfolio';
         $h1 = 'Database Design: Art Business';
         break;
+    case '/tech-portfolio.php':
+        $bodyClass = 'portfolio-detail';
+        $title = 'Tech Portfolio';
+        $currentPage = 'portfolio';
+        $h1 = 'Tech Portfolio';
+        break;
 }
 
 /*contact form validation*/

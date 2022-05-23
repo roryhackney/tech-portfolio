@@ -19,7 +19,7 @@
                         <div id="resume-div" class="resume-div">
                             <h2 class="has-text-centered is-uppercase">Rory Hackney</h2>
                             <p class="sub-title has-text-centered is-uppercase" role="heading">Full Stack Web Developer</p>
-                            <p class="contact-info has-text-centered"><a href="index.php">roryhackney.com</a> | <a href="tel:206-488-5437">206-488-5437</a> | <a href="mailto:roryhackney@gmail.com" target="_blank" aria-label="roryhackney@gmail.com - email link opens in new tab">roryhackney@gmail.com</a> | <a href="https://wwww.linkedin.com/in/roryhackney" target="_blank" aria-label="LinkedIn - link opens in new tab">linkedin.com/in/roryhackney</a> | <a href="https://github.com/roryhackney" target="_blank" aria-label="github.com/roryhackney - opens in new tab">github.com/roryhackney</a></p>
+                            <p class="contact-info has-text-centered"><a href="index.php">roryhackney.com</a> | <a href="tel:206-488-5437">206-488-5437</a> | <a href="mailto:roryhackney@gmail.com" target="_blank" aria-label="roryhackney@gmail.com - email link opens in new tab">roryhackney@gmail.com</a> | <a href="https://www.linkedin.com/in/roryhackney" target="_blank" aria-label="LinkedIn - link opens in new tab">linkedin.com/in/roryhackney</a> | <a href="https://github.com/roryhackney" target="_blank" aria-label="github.com/roryhackney - opens in new tab">github.com/roryhackney</a></p>
                             <h3 class="is-uppercase">Summary</h3>
                             <ul>
                                 <li>Full stack web developer proficient in PHP, SQL, HTML, CSS, JavaScript, Bulma, Git / GitHub, and Photoshop</li>

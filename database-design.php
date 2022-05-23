@@ -92,7 +92,7 @@
                             srcset="assets/database-crows-foot-erd-medium.jpg">
                             <img src="assets/database-crows-foot-erd-small.jpg" alt="Crow's Foot Entity Relationship Diagram (ERD) for my art business database design.">
                         </picture>
-                        <a class="has-text-centered" target="_blank" href="https://www.figma.com/file/7dRQrE9mgc2eIRUWUe2VIu/ERD---Normalization-Exercise?node-id=121%3A270" aria-label="View on Figma - diagram opens in new tab">View on Figma</a>
+                        <a class="has-text-centered" target="_blank" href="https://www.figma.com/file/Jgc279JCazvk5x3d8cgOt2/Art-Shop-ERD?node-id=0%3A1" aria-label="View on Figma - diagram opens in new tab">View on Figma</a>
                         <div class="block">
                             <p>I then ran each table, field, and relationship through normalization, and made changes to improve data integrity.</p>
                         </div>
