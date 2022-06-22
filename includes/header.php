@@ -51,6 +51,18 @@ switch($page) {
         $currentPage = 'resume';
         $h1 = 'Resume';
         break;
+    case '/blog.php':
+        $bodyClass = 'portfolio-detail blog';
+        $title = 'Web Development Blog';
+        $currentPage = 'blog';
+        $h1 = 'Web Development Blog';
+        break;
+    case '/how-to-use-filezilla.php':
+        $bodyClass = 'portfolio-detail blog';
+        $title = 'Blog: How To Use FileZilla';
+        $currentPage = 'blog';
+        $h1 = 'How To Use FileZilla';
+        break;
     case '/php-finale.php':
         $bodyClass = 'portfolio-detail dark-hero';
         $title = 'PHP Finale';
@@ -187,6 +199,14 @@ function validate($input) {
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XMR0TXB2CV"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XMR0TXB2CV');
+        </script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -242,6 +262,7 @@ function validate($input) {
                         <a href="resume.php">Resume</a>
                     </li>
                     <li <?php if($currentPage == 'about') {echo 'class="active-page"';}?>><a href="about-me.php">About Me</a></li>
+                    <li <?php if($currentPage == 'blog') {echo 'class="active-page"';}?>><a href="blog.php">Blog</a></li>
                 </ul>
             </nav>
         </header>

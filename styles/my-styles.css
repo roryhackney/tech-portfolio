@@ -388,6 +388,10 @@ main {
     overflow: hidden;
 }
 
+ol li {
+    padding: 10px 0;
+}
+
 .hero-container {
     width: 100%;
     position: relative;
@@ -498,12 +502,12 @@ a picture:hover, .resume-img {
     margin: 0 auto;
 }
 
-.project-card span {
+.project-card span, .tags-span {
     font-size: .875rem;
     color: var(--gray);
 }
 
-.dark-mode .project-card span {
+.dark-mode .project-card span, .dark-mode .tags-span {
     color: var(--gray-light);
 }
 
@@ -601,7 +605,7 @@ footer p {
     bottom: 30px;
 }
 
-.about .is-overlay, .home .is-overlay, .hire .is-overlay {
+.about .is-overlay, .home .is-overlay, .hire .is-overlay, .blog .is-overlay {
     opacity: 40%;
 }
 

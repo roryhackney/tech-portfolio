@@ -12,5 +12,6 @@ Rory Hackney
 
 Credits:
 Home hero background photo by Alexandru Acea https://unsplash.com/@alexacea on Unsplash (edited)
+Blog hero background by Scott Webb on Unsplash https://unsplash.com/@scottwebb (edited)
 
 All other images are my own, other than stock images used in projects which are credited there.

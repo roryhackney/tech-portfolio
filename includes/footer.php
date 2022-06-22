@@ -7,7 +7,9 @@
                             <li class="is-pulled-left mx-2"><a href="index.php">Home</a></li>
                             <li class="is-pulled-left mx-2"><a href="portfolio.php">Portfolio</a></li>
                             <li class="is-pulled-left mx-2"><a href="hire-me.php">Hire Me</a></li>
+                            <li class="is-pulled-left mx-2"><a href="resume.php">Resume</a></li>
                             <li class="is-pulled-left mx-2"><a href="about-me.php">About Me</a></li>
+                            <li class="is-pulled-left mx-2"><a href="blog.php">Blog</a></li>
                         </ul>
                     </nav>
                 </div>
