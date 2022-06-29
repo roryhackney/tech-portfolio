@@ -22,6 +22,23 @@
                             </div>
                             <div class="column is-half">
                                 <div class="project-card">
+                                    <a href="tech-portfolio.php"><h3 class="title is-6 mb-0">Tech Portfolio</h3></a>
+                                    <a href="tech-portfolio.php"><picture class="small-image dark-image">
+                                        <source media="(min-width: 401px)"
+                                        srcset="assets/tech-portfolio-code-examples-medium.jpg">
+                                        <img src="assets/tech-portfolio-code-examples-small.jpg" alt="Website design in Figma which was turned into the site you're on now!">
+                                    </picture></a>
+                                    <div>
+                                        <span>Mobile Friendly, Full Stack Web Development</span>
+                                        <span class="is-pulled-right">May 2022</span>
+                                    </div>
+                                    <a href="php-finale.php">
+                                        <p class="content">My web development and design portfolio (this website)! Optimized for mobile, with features including dark mode, a secure contact form, and passing HTML, CSS, and web accessibility standards.</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="column is-half">
+                                <div class="project-card">
                                     <a href="php-finale.php"><h3 class="title is-6 mb-0">PHP Finale</h3></a>
                                     <a href="php-finale.php"><picture class="small-image dark-image">
                                         <source media="(min-width: 401px)"
