@@ -53,9 +53,9 @@
             break;
         case '/blog.php':
             $bodyClass = 'portfolio-detail blog';
-            $title = 'Web Development Blog';
+            $title = 'Software and Web Development Blog';
             $currentPage = 'blog';
-            $h1 = 'Web Development Blog';
+            $h1 = 'Software and Web Development Blog';
             break;
         case '/how-to-use-filezilla.php':
             $bodyClass = 'portfolio-detail blog';

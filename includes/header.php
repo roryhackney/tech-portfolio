@@ -27,13 +27,13 @@
         <!-- <link rel="stylesheet" href="styles/styles.css"> -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
         <link rel="stylesheet" href="styles/my-styles.css">
-        <title><?php echo $title . ' | Rory Hackney, Web Developer and Designer'; ?></title>
+        <title><?php echo $title . ' | Rory Hackney, Software and Web Developer'; ?></title>
     </head>
     <body class="<?php echo $bodyClass;?>">
         <header>
             <a class="screen-reader-skip-link" href="#h1">Skip to content</a>
             <a href="index.php"><img class="logo"
-            alt="Rory Hackney's logo: yellow letters RH over a dark blue circle."
+            alt="Rory Hackney's logo: RH"
             src="assets/logo-small.png"
             srcset="assets/logo-small.png 64w,
             assets/logo-medium.png 100w,
@@ -44,7 +44,7 @@
             ></a>
             <div class="mobile-hidden left">
                 <a class="no-underline" href="index.php"><p class="site-title">Rory Hackney</p></a>
-                <p class="site-tagline">Web Developer and Designer</p>
+                <p class="site-tagline">Software and Web Developer</p>
             </div>
             <a href="index.php"><p class="site-title mobile-only">Rory Hackney</p></a>
             <div class="menu-toggle mobile-only" id="menu-toggle">
@@ -52,7 +52,7 @@
                 <hr />
                 <hr />
             </div>
-            <p class="site-tagline mobile-only">Web Developer and Designer</p>
+            <p class="site-tagline mobile-only">Software and Web Developer</p>
             <nav>
                 <ul id="nav">
                     <li id="dark-mode-toggle">Dark Mode</li>

@@ -10,7 +10,7 @@
                 </picture>
                 <div class="is-overlay"></div>
                 <div class="hero-text-container">
-                    <p class="hero-text">I’m a web developer passionate about making the web more accessible by creating intuitive, mobile friendly, quality websites that combine functionality with creativity.</p>
+                    <p class="hero-text">I’m a software and web developer currently studying Computer Science at North Seattle College. I also have a certificate in web development and a passion for art and design.</p>
                 </div>
             </div>
             <div class="main-content">
@@ -19,7 +19,7 @@
                         <div class="columns is-multiline">
                             <div class="column is-full">
                                 <h2 class="title is-5 mb-0">My education and certifications</h2>
-                                <p class="content">For the past few years I’ve been studying web development in school and out. I recently graduated with a Certificate in Web Development and Design from Seattle Central College. In 2016, I received my BFA from the Minneapolis College of Art and Design.</p>
+                                <p class="content">I'm currently studying Computer Science at North Seattle College, and plan to graduate with my BS June 2025. I also have a certificate in Web Development from Seattle Central from 2021, and received my BFA from the Minneapolis College of Art and Design in 2016. I enjoy learning, and after taking my first coding class in 2015, have steadily explored different areas of technology, from developing simple games and interactive stories, designing and building websites, to creating software and programming using Computer Science theory. I'm excited to complete my education and build a career developing software while leveraging my experience with web applications and design.</p>
                                 <picture class="large-image">
                                     <source media="(min-width:961px)" srcset="assets/about-education-diplomas-larger.jpg"> <!--961 - max 2000-->
                                     <source media="(min-width:791px)" srcset="assets/about-education-diplomas-large.jpg"> <!--791 - 960-->
@@ -50,23 +50,23 @@
                                             <li>HTML</li>
                                             <li>CSS</li>
                                             <li title="CSS Framework">Bulma</li>
-                                            <li>VS Code</li>
+                                            <li>JavaScript</li>
                                         </ul>
                                     </div>
                                     <div class="column is-one-third pb-0">
                                         <ul>
-                                            <li>JavaScript</li>
                                             <li>PHP</li>
                                             <li>SQL</li>
                                             <li>Python</li>
+                                            <li>Java</li>
                                         </ul>
                                     </div>
                                     <div class="column is-one-third pb-0">
                                         <ul>
-                                            <li>Figma</li>
-                                            <li>Photoshop</li>
-                                            <li title="Project Management">Asana</li>
+                                            <li>IntelliJ, VS Code</li>
                                             <li>Git, GitHub</li>
+                                            <li>DrawIO, Figma</li>
+                                            <li>Pixlr, Clip Studio Paint</li>
                                         </ul>
                                     </div>
                                 </div>
