@@ -1,0 +1,37 @@
+To do:
+
+Home
+* Update hero text
+* Update code in image
+* Change "What I Do" and "My Skills" to be about software and web dev, include current skills and education. Add some software images.
+* Add at least the stuff on your resume to the Recent Work block.
+
+Portfolio
+* Update hero text
+* Add real code to the hero image and maybe the fractal?
+* Again, add recent projects to the Recent Work block.
+
+Hire Me
+* Replace hero text, image
+* Update main text
+* Replace resume
+* Update skills
+* Replace files
+
+Resume
+* Replace resume content
+* Replace files
+
+About Me
+* Replace that godawful image, you're so much cuter than that
+* Update priorities, fav langs
+* Update images, include software screenshots
+
+Blog
+* Copy a few tutorials out of your Docs or Notes so it doesn't look so bare
+
+CSS (stretch goal)
+* Make hero buttons bigger on large screens
+* Make main column smaller/more towards center on large screens
+* Change heading font size to be larger, maybe different font
+* Make header items more towards center on large screens

@@ -1,4 +1,5 @@
-<?php include 'includes/header.php'; ?>
+<?php
+    include 'includes/header.php'; ?>
             <div class="hero-container">
                 <picture class="hero">
                     <!--2000px, 1600px, 1200px, 800px, 480px-->
@@ -20,91 +21,11 @@
                             <div class="column is-full">
                                 <h2 class="title is-5 has-text-centered">Recent Projects</h2>
                             </div>
-                            <div class="column is-half">
-                                <div class="project-card">
-                                    <a href="tech-portfolio.php"><h3 class="title is-6 mb-0">Tech Portfolio</h3></a>
-                                    <a href="tech-portfolio.php"><picture class="small-image dark-image">
-                                        <source media="(min-width: 401px)"
-                                        srcset="assets/tech-portfolio-code-examples-medium.jpg">
-                                        <img src="assets/tech-portfolio-code-examples-small.jpg" alt="Website design in Figma which was turned into the site you're on now!">
-                                    </picture></a>
-                                    <div>
-                                        <span>Mobile Friendly, Full Stack Web Development</span>
-                                        <span class="is-pulled-right">May 2022</span>
-                                    </div>
-                                    <a href="php-finale.php">
-                                        <p class="content">My web development and design portfolio (this website)! Optimized for mobile, with features including dark mode, a secure contact form, and passing HTML, CSS, and web accessibility standards.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="column is-half">
-                                <div class="project-card">
-                                    <a href="php-finale.php"><h3 class="title is-6 mb-0">PHP Finale</h3></a>
-                                    <a href="php-finale.php"><picture class="small-image dark-image">
-                                        <source media="(min-width: 401px)"
-                                        srcset="assets/php-finale-card-medium.jpg">
-                                        <img src="assets/php-finale-card-small.jpg" alt="Screenshot of a website built with PHP, showing a photo of Rory and links to various pages.">
-                                    </picture></a>
-                                    <div>
-                                        <span>PHP, Backend Web Development</span>
-                                        <span class="is-pulled-right">Jan 2022</span>
-                                    </div>
-                                    <a href="php-finale.php">
-                                        <p class="content">My very first PHP project, recently updated with the skills and knowledge I've gained since. Features include daily content, database usage, user login and registration, kittens, form validation and submission, calculators, and more.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="column is-half">
-                                <div class="project-card">
-                                    <a href="database-design.php"><h3 class="title is-6 mb-0">Database Design</h3></a>
-                                    <a href="database-design.php"><picture class="small-image">
-                                        <source media="(min-width: 401px)"
-                                        srcset="assets/database-erd-diagram-card-medium.jpg">
-                                        <img src="assets/database-erd-diagram-card-small.jpg" alt="Entity relationship diagram (ERD) generated from the finished database, showing various customer, product, and business tables and views.">
-                                    </picture></a>
-                                    <div>
-                                        <span>Database Design, Project Documentation</span>
-                                        <span class="is-pulled-right">Aug 2021</span>
-                                    </div>
-                                    <a href="database-design.php">
-                                        <p class="content">A database I designed and built for a small art business, tracking projects, clients, and cash flow. See my process conceptualizing, normalizing, and implementing the database.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="column is-half">
-                                <div class="project-card">
-                                    <a href="the-book-shelf.php"><h3 class="title is-6 mb-0">The Book Shelf</h3></a>
-                                    <a href="the-book-shelf.php"><picture class="small-image">
-                                        <source media="(min-width: 401px)"
-                                        srcset="assets/book-shelf-card-medium.jpg">
-                                        <img src="assets/book-shelf-card-small.jpg" alt="Screenshot of a website with books and reviews, currently displaying a form to save favorite searches.">
-                                    </picture></a>
-                                    <div>
-                                        <span>Bulma, Frontend Web Development</span>
-                                        <span class="is-pulled-right">Jun 2021</span>
-                                    </div>
-                                    <a href="the-book-shelf.php">
-                                        <p class="content">A book search and review search site built in a three-person team using Bulma, JavaScript, PHP, and SQL. Features include user accounts, forms that add to the database, dark mode, search, and a clean, mobile friendly design.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="column is-half">
-                                <div class="project-card">
-                                    <a href="yamagiwa-massage.php"><h3 class="title is-6 mb-0">Yamagiwa Massage</h3></a>
-                                    <a href="yamagiwa-massage.php"><picture class="small-image">
-                                        <source media="(min-width: 401px)"
-                                        srcset="assets/yamagiwa-massage-card-medium.jpg">
-                                        <img src="assets/yamagiwa-massage-card-small.jpg" alt="Screenshot of a website built with PHP, showing a photo of Rory and links to various pages.">
-                                    </picture></a>
-                                    <div>
-                                        <span>Web Design, Project Documentation</span>
-                                        <span class="is-pulled-right">Apr 2021</span>
-                                    </div>
-                                    <a href="yamagiwa-massage.php">
-                                        <p class="content">A massage provider's website, planned and refined through a web design project, wireframed and designed in Photoshop, and then prototyped using HTML, CSS, and JavaScript.</p>
-                                    </a>
-                                </div>
-                            </div>
+                            <?php
+                                foreach($projects as $project) {
+                                    $project->displayProject();
+                                }
+                            ?>
                             <div class="column is-full">
                                 <div class="buttons-row">
                                     <a class="button" href="resume.php">Resume</a>

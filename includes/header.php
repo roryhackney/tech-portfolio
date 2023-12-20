@@ -1,4 +1,5 @@
 <?php
+    include 'helper.php';
     include 'includes/config.php';
 ?>
 
@@ -27,7 +28,7 @@
         <!-- <link rel="stylesheet" href="styles/styles.css"> -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
         <link rel="stylesheet" href="styles/my-styles.css">
-        <title><?php echo $title . ' | Rory Hackney, Software and Web Developer'; ?></title>
+        <title><?php echo $title . ' | Rory Hackney: Software Engineer, Web Developer, and Artist'; ?></title>
     </head>
     <body class="<?php echo $bodyClass;?>">
         <header>
@@ -44,7 +45,7 @@
             ></a>
             <div class="mobile-hidden left">
                 <a class="no-underline" href="index.php"><p class="site-title">Rory Hackney</p></a>
-                <p class="site-tagline">Software and Web Developer</p>
+                <p class="site-tagline">Software Engineer, Web Developer, and Artist</p>
             </div>
             <a href="index.php"><p class="site-title mobile-only">Rory Hackney</p></a>
             <div class="menu-toggle mobile-only" id="menu-toggle">
@@ -52,7 +53,7 @@
                 <hr />
                 <hr />
             </div>
-            <p class="site-tagline mobile-only">Software and Web Developer</p>
+            <p class="site-tagline mobile-only">Software Engineer, Web Developer, and Artist</p>
             <nav>
                 <ul id="nav">
                     <li id="dark-mode-toggle">Dark Mode</li>

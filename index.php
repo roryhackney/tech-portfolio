@@ -10,7 +10,7 @@
                 </picture>
                 <div class="is-overlay"></div>
                 <div class="hero-text-container">
-                    <p class="hero-text">Web developer passionate about making the web more accessible by creating intuitive, mobile friendly, quality websites that combine functionality with creativity.</p>
+                    <p class="hero-text">Software engineer, web developer, and artist passionate about accessibility, making the web more accessible by creating intuitive, mobile friendly, quality websites that combine functionality with creativity.</p>
                 </div>
                 <a class="button" href="portfolio.php">Portfolio</a>
                 <a class="button" href="hire-me.php">Hire Now</a>
