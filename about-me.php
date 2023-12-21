@@ -28,13 +28,12 @@
                                 </picture>
                             </div>
                             <div class="column is-half">
-                                <h2 class="title is-5 mb-0">My top priorities when building websites</h2>
+                                <h2 class="title is-5 mb-0">Priorities when developing software/web apps</h2>
                                 <ul>
-                                    <li>Accessible, user friendly design</li>
-                                    <li>Responsive, mobile first layouts</li>
-                                    <li>High quality code and best practices</li>
-                                    <li>Useful, creative, consistent design</li>
-                                    <li>Improving and learning every day</li>
+                                    <li>Writing high performance, reliable, well tested, and fully documented code</li>
+                                    <li>Improving my skills and learning about new technologies</li>
+                                    <li>Accessible, responsive, mobile-first, user centered design</li>
+                                    <li>Applying what I'm learning in school to real software or websites I would want to use</li>
                                 </ul>
                                 <picture class="small-image is-hidden-tablet">
                                     <source media="(min-width: 401px)"
@@ -45,28 +44,26 @@
                             <div class="column is-half">
                                 <h2 class="title is-5 mb-0">My favorite languages and software</h2>
                                 <div class="columns is-mobile">
-                                    <div class="column is-one-third pb-0">
+                                    <div class="column is-half pb-0">
                                         <ul>
-                                            <li>HTML</li>
-                                            <li>CSS</li>
-                                            <li title="CSS Framework">Bulma</li>
-                                            <li>JavaScript</li>
-                                        </ul>
-                                    </div>
-                                    <div class="column is-one-third pb-0">
-                                        <ul>
+                                            <li>Java</li>
+                                            <li>Python</li>
                                             <li>PHP</li>
                                             <li>SQL</li>
-                                            <li>Python</li>
-                                            <li>Java</li>
+                                            <li>JavaScript</li>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
                                         </ul>
                                     </div>
-                                    <div class="column is-one-third pb-0">
+                                    <div class="column is-half pb-0">
                                         <ul>
-                                            <li>IntelliJ, VS Code</li>
+                                            <li>Bulma</li>
+                                            <li>Draw.io</li>
+                                            <li>Figma</li>
+                                            <li>Clip Studio Paint, Pixlr</li>
+                                            <li>FileZilla</li>
                                             <li>Git, GitHub</li>
-                                            <li>DrawIO, Figma</li>
-                                            <li>Pixlr, Clip Studio Paint</li>
+                                            <li>IntelliJ, Visual Studio Code</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -93,10 +90,10 @@
                             <div class="column is-full">
                                 <p class="content">In addition to coding, I enjoy producing diagrams, design documents, and case studies. I spend my free time making art for fun, petting cats, and learning more about web development and design.</p>
                                 <picture class="large-image">
-                                    <source media="(min-width:961px)" srcset="assets/about-figma-website-design-larger.jpg"> <!--961 - max 2000-->
-                                    <source media="(min-width:791px)" srcset="assets/about-figma-website-design-large.jpg"> <!--791 - 960-->
-                                    <source media="(min-width: 421px)" srcset="assets/about-figma-website-design-medium.jpg"> <!--421 to 791-->
-                                    <img src="assets/about-figma-website-design-small.jpg" alt="Wireframes and visual designs built in Figma for an indie art shop.">
+                                    <source media="(min-width:961px)" srcset="assets/about-java-project-larger.jpg"> <!--961 - max 2000-->
+                                    <source media="(min-width:791px)" srcset="assets/about-java-project-large.jpg"> <!--791 - 960-->
+                                    <source media="(min-width: 421px)" srcset="assets/about-java-project-medium.jpg"> <!--421 to 791-->
+                                    <img src="assets/about-figma-website-design-small.jpg" alt="UML diagram and Java code for a graph-based social media project.">
                                 </picture>
                             </div>
                             <div class="column is-full">

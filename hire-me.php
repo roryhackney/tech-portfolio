@@ -10,7 +10,7 @@
                 </picture>
                 <div class="is-overlay"></div>
                 <div class="hero-text-container">
-                    <p class="hero-text">If you’re looking for a web developer passionate about both design and development, who works hard and loves to learn, prioritizing quality and deadlines...</p>
+                    <p class="hero-text">If you’re looking for a creative software and web app developer with a strong technical background who works hard at all aspects of software development, from learning new tech, to designing, to coding, to testing...</p>
                 </div>
             </div>
             <div class="main-content">
@@ -19,11 +19,11 @@
                         <div class="columns is-multiline">
                             <div class="column is-full">
                                 <h2 class="title is-5 has-text-centered">You've found them.</h2>
-                                <p class="content">Rory Hackney is a web developer passionate about making the web more accessible by creating intuitive, mobile friendly, high quality websites that combine functionality with creativity.</p>
+                                <p class="content">Rory Hackney is a software engineer, web developer, and artist passionate about building well tested and documented software and web applications that are accessible, intuitive, mobile friendly, beautiful, and high performance regardless of device.</p>
                             </div>
                             <div class="column is-half">
                                 <h2 class="title is-5 has-text-centered">My Resume</h2>
-                                <a href="resume.php"><img class="resume-img" src="assets/resume.jpg" alt="Rory Hackney's Web Developer Resume, showing education, projects, and experience"></a>
+                                <a href="resume.php"><img class="resume-img" src="assets/resume.jpg" alt="Rory Hackney's Software Developer Resume, showing education, projects, and experience"></a>
                                 <div class="level mt-4">
                                     <a class="level-item" href="assets/resume.pdf" target="_blank" aria-label="Emailable PDF - file opens in new tab">Emailable PDF</a>
                                     <a class="level-item" href="assets/resume-printable.pdf" target="_blank" aria-label="Printable PDF - file opens in new tab">Printable PDF</a>
@@ -36,28 +36,26 @@
                                     <div class="column is-full">
                                         <h3 class="title is-6 mb-0">Languages and Software</h3>
                                         <div class="columns is-mobile">
-                                            <div class="column is-one-third pb-0">
+                                            <div class="column is-half pb-0">
                                                 <ul>
-                                                    <li>HTML</li>
-                                                    <li>CSS</li>
-                                                    <li title="CSS Framework">Bulma</li>
-                                                    <li>VS Code</li>
-                                                </ul>
-                                            </div>
-                                            <div class="column is-one-third pb-0">
-                                                <ul>
-                                                    <li>JavaScript</li>
+                                                    <li>Java</li>
+                                                    <li>Python</li>
                                                     <li>PHP</li>
                                                     <li>SQL</li>
-                                                    <li>Python</li>
+                                                    <li>JavaScript</li>
+                                                    <li>HTML</li>
+                                                    <li>CSS</li>
                                                 </ul>
                                             </div>
-                                            <div class="column is-one-third pb-0">
+                                            <div class="column is-half pb-0">
                                                 <ul>
+                                                    <li>Bulma</li>
+                                                    <li>Draw.io</li>
                                                     <li>Figma</li>
-                                                    <li>Photoshop</li>
-                                                    <li title="Project Management">Asana</li>
+                                                    <li>Clip Studio Paint, Pixlr</li>
+                                                    <li>FileZilla</li>
                                                     <li>Git, GitHub</li>
+                                                    <li>IntelliJ, Visual Studio Code</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -67,31 +65,27 @@
                                         <div class="columns is-mobile">
                                             <div class="column is-half pb-0">
                                                 <ul>
-                                                    <li>Info Architecture</li>
-                                                    <li>Wireframing</li>
-                                                    <li>Visual Design</li>
-                                                    <li>Prototyping</li>
-                                                    <li>Version Control</li>
+                                                    <li>Data Structures</li>
+                                                    <li>Algorithms</li>
+                                                    <li>Logic and Problem Solving</li>
+                                                    <li>UML Diagramming</li>
+                                                    <li>Software Development</li>
+                                                    <li>Programming</li>
+                                                    <li>Testing</li>
                                                 </ul>
                                             </div>
-                                            <div class="column pb-0">
+                                            <div class="column is-half pb-0">
                                                 <ul>
-                                                    <li>Web Design <br/> and Development</li>
-                                                    <li>Database Design <br/> and Development</li>
-                                                    <li>Programming</li>
+                                                    <li>Documentation</li>
+                                                    <li>Web Design</li>
+                                                    <li>Web Development</li>
+                                                    <li>Database Manipulation</li>
+                                                    <li>Version Control</li>
+                                                    <li>Communication</li>
+                                                    <li>Collaboration</li>
                                                 </ul>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="column is-full">
-                                        <h3 class="title is-6 mb-0">Design Priorities</h3>
-                                        <ul>
-                                            <li>Accessible, user friendly websites</li>
-                                            <li>Responsive, mobile first layouts</li>
-                                            <li>High quality code and best practices</li>
-                                            <li>Useful, creative, consistent design</li>
-                                            <li>Improving and learning every day</li>
-                                        </ul>
                                     </div>
                                 </div>
                             </div> <!--ends half-column of skills, right of resume-->

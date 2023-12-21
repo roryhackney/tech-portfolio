@@ -11,7 +11,7 @@
                 </picture>
                 <div class="is-overlay"></div>
                 <div class="hero-text-container">
-                    <p class="hero-text">Check out my recent work - web development, design, and mixed projects, along with peeks into my process and case studies.</p>
+                    <p class="hero-text">Check out my recent work - software development and programming, web development and design, and mixed projects, along with peeks into my process.</p>
                 </div>
             </div>
             <div class="main-content">

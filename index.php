@@ -10,7 +10,7 @@
                 </picture>
                 <div class="is-overlay"></div>
                 <div class="hero-text-container">
-                    <p class="hero-text">Software engineer, web developer, and artist passionate about accessibility, making the web more accessible by creating intuitive, mobile friendly, quality websites that combine functionality with creativity.</p>
+                    <p class="hero-text">Software engineer, web developer, and artist passionate about building well tested and documented software and web applications that are accessible, intuitive, mobile friendly, beautiful, and high performance regardless of device.</p>
                 </div>
                 <a class="button" href="portfolio.php">Portfolio</a>
                 <a class="button" href="hire-me.php">Hire Now</a>
@@ -23,35 +23,35 @@
                                 <h2 class="title is-5 has-text-centered">What I Do</h2>
                             </div>
                             <div class="column is-half">
-                                <h3 class="title is-6 mb-0">Web Design</h3>
-                                <p>I analyze business needs and design websites to match. Deliverables: wireframes, visual designs, interactive prototypes, site structure, content planning, and project documentation.</p>
+                                <h3 class="title is-6 mb-0">Software Development</h3>
+                                <p>When developing software, either collaboratively or independently, I define the requirements before designing the software, including UML diagrams of the code to be implemented. I think carefully to find the most efficient and maintainable design, and ensure the code is well documented and tested so the software is reliable and easy to update even months later.</p>
                                 <picture class="small-image is-hidden-tablet">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-web-design-medium.jpg">
-                                    <img src="assets/home-body-web-design-small.jpg" alt="Website designs for an online shop's product and checkout pages, created using Figma.">
+                                    srcset="assets/home-body-software-medium.jpg">
+                                    <img src="assets/home-body-software-small.jpg" alt="Partial UML design for a Graph package on the left and Java code using a graph on the right.">
                                 </picture>
                             </div>
                             <div class="column is-half">
-                                <h3 class="title is-6 mb-0">Web Development</h3>
-                                <p>I implement web design and functionality using code. Deliverables: accessible web pages, responsive styles, forms, databases, HTML, CSS, JavaScript, PHP, and SQL files, which combine to create a full website.</p>
+                                <h3 class="title is-6 mb-0">Web Development/Design</h3>
+                                <p>When creating websites, I first plan out the required features and content, then design mobile-first wireframes, images, and color schemes. I then develop the code, including HTML, CSS, JavaScript (front end), PHP (back end), and SQL (database). I also ensure the website passes accessibility and other standards of quality before publishing.</p>
                                 <picture class="small-image is-hidden-tablet">
                                     <source media="(min-width: 401px)"
                                     srcset="assets/home-body-web-development-medium.jpg">
-                                    <img src="assets/home-body-web-development-small.jpg" alt="HTML code on a white background next to a finished website for a massage therapist.">
+                                    <img src="assets/home-body-web-development-small.jpg" alt="A grayscale website design in Figma on the left and PHP and HTML code on a black background on the right.">
                                 </picture>
                             </div>
                             <div class="column is-half is-hidden-mobile">
                                 <picture class="small-image">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-web-design-medium.jpg">
-                                    <img src="assets/home-body-web-design-small.jpg" alt="Website designs for an online shop's product and checkout pages, created using Figma.">
+                                    srcset="assets/home-body-software-medium.jpg">
+                                    <img src="assets/home-body-software-small.jpg" alt="Partial UML design for a Graph package on the left and Java code using a graph on the right.">
                                 </picture>
                             </div>
                             <div class="column is-half is-hidden-mobile">
                                 <picture class="small-image">
                                     <source media="(min-width: 401px)"
                                     srcset="assets/home-body-web-development-medium.jpg">
-                                    <img src="assets/home-body-web-development-small.jpg" alt="HTML code on a white background next to a finished website for a massage therapist.">
+                                    <img src="assets/home-body-web-development-small.jpg" alt="A grayscale website design in Figma on the left and PHP and HTML code on a black background on the right.">
                                 </picture>
                             </div>
                             <div class="column is-full">
@@ -60,40 +60,38 @@
                                     <a class="button" href="portfolio.php">Portfolio</a>
                                 </div>
                                 <h2 class="title is-5 has-text-centered">My Skills</h2>
-                                <p>I use Figma for design and prototyping, Photoshop and Clip Studio Paint for image editing, HTML, CSS, and JavaScript for the front end, Bulma for my CSS framework, PHP for backend development, Dreamhost for web hosting, Git and GitHub for version control, Visual Studio Code as my code editor and IDE, and SQL, phpMyAdmin, and mariaDB for database management.</p>
+                                <p>Thanks to my background, I have a wide range of tools and skills that I use in my projects. Currently, I do most of my software programming in Java using IntelliJ as my IDE and draw.io for diagrams, or Python. For non-Java projects, I use Visual Studio Code. I design websites using Figma, develop the front end using HTML, CSS, Bulma, and JavaScript, and the backend using PHP and SQL. I also use Clip Studio Paint and Pixlr for image creation, and Git / GitHub for version control.</p>
                             </div>
                             <div class="column is-half">
                                 <h3 class="title is-6 mb-0">Languages and Software</h3>
                                 <div class="columns is-mobile">
-                                    <div class="column is-one-third pb-0">
+                                    <div class="column is-half pb-0">
                                         <ul>
-                                            <li>HTML</li>
-                                            <li>CSS</li>
-                                            <li title="CSS Framework">Bulma</li>
-                                            <li>VS Code</li>
-                                        </ul>
-                                    </div>
-                                    <div class="column is-one-third pb-0">
-                                        <ul>
-                                            <li>JavaScript</li>
+                                            <li>Java</li>
+                                            <li>Python</li>
                                             <li>PHP</li>
                                             <li>SQL</li>
-                                            <li>Python</li>
+                                            <li>JavaScript</li>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
                                         </ul>
                                     </div>
-                                    <div class="column is-one-third pb-0">
+                                    <div class="column is-half pb-0">
                                         <ul>
+                                            <li>Bulma</li>
+                                            <li>Draw.io</li>
                                             <li>Figma</li>
-                                            <li>Photoshop</li>
-                                            <li title="Project Management">Asana</li>
+                                            <li>Clip Studio Paint, Pixlr</li>
+                                            <li>FileZilla</li>
                                             <li>Git, GitHub</li>
+                                            <li>IntelliJ, Visual Studio Code</li>
                                         </ul>
                                     </div>
                                 </div>
                                 <picture class="small-image is-hidden-tablet">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-skills-php-code-medium.jpg">
-                                    <img src="assets/home-body-skills-php-code-small.jpg" alt="PHP code for random images and dynamically generated navigation.">
+                                    srcset="assets/home-body-skills-java-code-medium.jpg">
+                                    <img src="assets/home-body-skills-java-code-small.jpg" alt="Java code posted on GitHub that adds / removes friendships between profiles in a graph.">
                                 </picture>
                             </div>
                             <div class="column is-half pb-0">
@@ -101,18 +99,24 @@
                                 <div class="columns is-mobile">
                                     <div class="column is-half pb-0">
                                         <ul>
-                                            <li>Info Architecture</li>
-                                            <li>Wireframing</li>
-                                            <li>Visual Design</li>
-                                            <li>Prototyping</li>
-                                            <li>Version Control</li>
+                                            <li>Data Structures</li>
+                                            <li>Algorithms</li>
+                                            <li>Logic and Problem Solving</li>
+                                            <li>UML Diagramming</li>
+                                            <li>Software Development</li>
+                                            <li>Programming</li>
+                                            <li>Testing</li>
                                         </ul>
                                     </div>
                                     <div class="column is-half pb-0">
                                         <ul>
-                                            <li>Web Design <br/> and Development</li>
-                                            <li>Database Design <br/> and Development</li>
-                                            <li>Programming</li>
+                                            <li>Documentation</li>
+                                            <li>Web Design</li>
+                                            <li>Web Development</li>
+                                            <li>Database Manipulation</li>
+                                            <li>Version Control</li>
+                                            <li>Communication</li>
+                                            <li>Collaboration</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -125,8 +129,8 @@
                             <div class="column is-half is-hidden-mobile">
                                 <picture class="small-image">
                                     <source media="(min-width: 401px)"
-                                    srcset="assets/home-body-skills-php-code-medium.jpg">
-                                    <img src="assets/home-body-skills-php-code-small.jpg" alt="PHP code for random images and dynamically generated navigation.">
+                                    srcset="assets/home-body-skills-java-code-medium.jpg">
+                                    <img src="assets/home-body-skills-java-code-small.jpg" alt="Java code posted on GitHub that adds / removes friendships between profiles in a graph.">
                                 </picture>
                             </div>
                             <div class="column is-half is-hidden-mobile">

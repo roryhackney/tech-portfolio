@@ -1,26 +1,14 @@
 To do:
 
-Home
-* Update hero text
-* Update code in image
-* Change "What I Do" and "My Skills" to be about software and web dev, include current skills and education. Add some software images.
+All
 * Add at least the stuff on your resume to the Recent Work block.
 
-Portfolio
-* Update hero text
-* Add real code to the hero image and maybe the fractal?
-* Again, add recent projects to the Recent Work block.
-
 Hire Me
-* Replace hero text, image
-* Update main text
-* Replace resume
-* Update skills
-* Replace files
+* Replace hero image
+* Replace resume image, files
 
 Resume
 * Replace resume content
-* Replace files
 
 About Me
 * Replace that godawful image, you're so much cuter than that
