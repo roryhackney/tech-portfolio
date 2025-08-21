@@ -1,4 +1,6 @@
 <?php 
+    include("./database-credentials.php");
+
     //TODO: remove this when done testing (error reporting)
     function console_log($var) {
         echo "<script>console.log(". json_encode($var, JSON_HEX_TAG) .");</script>";
@@ -7,7 +9,7 @@
     ini_set("display_errors", 1);
 
 
-    $link = mysqli_connect("mysql.roryhackney.com", "tech_portfolio", "BUHDdKvcak%ra7YbHRWC", "tech_portfolio");
+    $link = mysqli_connect(HOST, USER, PASS, DB);
     if (mysqli_connect_errno()) {
         //it's not connecting....
         echo "<p>Failed to connect</p>";

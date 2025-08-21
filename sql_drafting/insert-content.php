@@ -1,4 +1,7 @@
 <?php
+
+include("./database-credentials.php");
+
 //Before running this script, head over to roryhackney.com/form.php and add the post. Use the same title here.
 //Nested lists (ul/ol) should be entered as HTML and be inside div.block and have the class content for ul
 //Text with links should be entered as HTML inside a p tag
@@ -15,7 +18,7 @@ error_reporting(E_ALL);
 ini_set("display_errors", 1);
 
 
-$link = mysqli_connect("mysql.roryhackney.com", "tech_portfolio", "BUHDdKvcak%ra7YbHRWC", "tech_portfolio");
+$link = mysqli_connect(HOST, USER, PASS, DB);
 if (mysqli_connect_errno()) {
     //it's not connecting....
     console_log("Failed to connect");

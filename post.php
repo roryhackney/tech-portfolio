@@ -1,7 +1,7 @@
 <?php
-    
+    include("./database-credentials.php");
     //connect to the database
-    $link = mysqli_connect("mysql.roryhackney.com", "tech_portfolio", "BUHDdKvcak%ra7YbHRWC", "tech_portfolio");
+    $link = mysqli_connect(HOST, USER, PASS, DB);
     if (mysqli_connect_errno()) {
         //it's not connecting....
         console_log("Failed to connect");
