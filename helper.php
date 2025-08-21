@@ -45,6 +45,9 @@
     } //end class
 
     $projects = array(
+        new Project("Java Menu Drawing Sine", "sine-curve-card", "A menu in the console showing various options for user input", "Java, Backend Software Development", "Feb 2023",
+        "Java project that scans user input, validates it, and uses it to select options from a menu, calculate a sine curve area, and draw the sine curve when requested using Graphics. One of my first Java projects.")
+    ,
         new Project("Tech Portfolio", "tech-portfolio-code-examples", "Website design in Figma which was turned into the site you're on now!", "Mobile Friendly, Full Stack Web Development", "May 2022",
         "My software and web development/design portfolio (this website)! Optimized for mobile, with features including dark mode, a secure contact form, and passing HTML, CSS, and web accessibility standards.")
     ,
@@ -57,7 +60,7 @@
         new Project("The Book Shelf", "book-shelf-card", "Screenshot of a website with books and reviews, currently displaying a form to save favorite searches.", "Bulma, Frontend Web Development", "Jun 2021",
         "A book search and review search site built in a three-person team using Bulma, JavaScript, PHP, and SQL. Features include user accounts, forms that add to the database, dark mode, search, and a clean, mobile friendly design.")
     ,
-        new Project("Yamagiwa Massage", "yamagiwa-massage-card", "Screenshot of a massage therapist's website, displaying a tranquil image of water near a rocky shore.", "Web Design, Project Documentation", "Apr 2021",
+        new Project("Yamagiwa Massage Website Design", "yamagiwa-massage-card", "Screenshot of a massage therapist's website, displaying a tranquil image of water near a rocky shore.", "Web Design, Project Documentation", "Apr 2021",
         "A massage provider's website, planned and refined through a web design project, wireframed and designed in Photoshop, and then prototyped using HTML, CSS, and JavaScript.")
     );
 ?>

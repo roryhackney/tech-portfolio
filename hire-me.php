@@ -23,7 +23,7 @@
                             </div>
                             <div class="column is-half">
                                 <h2 class="title is-5 has-text-centered">My Resume</h2>
-                                <a href="resume.php"><img class="resume-img" src="assets/resume.jpg" alt="Rory Hackney's Software Developer Resume, showing education, projects, and experience"></a>
+                                <a class="resume-link" href="resume.php"><img class="resume-img" src="assets/resume.jpg" alt="Rory Hackney's Software Developer Resume, showing education, projects, and experience"></a>
                                 <div class="level mt-4">
                                     <a class="level-item" href="assets/resume.pdf" target="_blank" aria-label="Emailable PDF - file opens in new tab">Emailable PDF</a>
                                     <a class="level-item" href="assets/resume-printable.pdf" target="_blank" aria-label="Printable PDF - file opens in new tab">Printable PDF</a>

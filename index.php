@@ -24,7 +24,7 @@
                             </div>
                             <div class="column is-half">
                                 <h3 class="title is-6 mb-0">Software Development</h3>
-                                <p>When developing software, either collaboratively or independently, I define the requirements before designing the software, including UML diagrams of the code to be implemented. I think carefully to find the most efficient and maintainable design, and ensure the code is well documented and tested so the software is reliable and easy to update even months later.</p>
+                                <p>When developing software, collaboratively or independently, I define the requirements before designing the software, including UML diagrams of the code to be implemented. I think carefully to find the most efficient and maintainable design, and ensure the code is well documented and tested so the software is reliable and easy to update even months later.</p>
                                 <picture class="small-image is-hidden-tablet">
                                     <source media="(min-width: 401px)"
                                     srcset="assets/home-body-software-medium.jpg">
@@ -33,7 +33,7 @@
                             </div>
                             <div class="column is-half">
                                 <h3 class="title is-6 mb-0">Web Development/Design</h3>
-                                <p>When creating websites, I first plan out the required features and content, then design mobile-first wireframes, images, and color schemes. I then develop the code, including HTML, CSS, JavaScript (front end), PHP (back end), and SQL (database). I also ensure the website passes accessibility and other standards of quality before publishing.</p>
+                                <p>When creating websites, I first plan out the required features and content, then design mobile-first wireframes, images, and color schemes. I then develop the code, including HTML, CSS, JavaScript (front end), PHP (back end), and SQL (database). I also ensure the website passes accessibility and other standards of quality before deploying.</p>
                                 <picture class="small-image is-hidden-tablet">
                                     <source media="(min-width: 401px)"
                                     srcset="assets/home-body-web-development-medium.jpg">

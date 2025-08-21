@@ -636,20 +636,27 @@ footer p {
     margin: 0 auto;    
 }
 
-.portfolio-detail .tags-div {
+.tags-div {
     margin: 10px auto;
-    width: fit-content;
     background-color: var(--yellow);
     text-align: center;
     max-width: 100%;
     padding: 10px;
     border-radius: 5px;
+    width: 100%;
 }
 
-.dark-mode .portfolio-detail .tags-div {
+.dark-mode .tags-div {
     background-color: var(--brown);
     color: var(--off-white);
 }
+
+.tags-div ul {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+}
+
 
 .portfolio-detail .process-steps {
     background-color: var(--orange);
@@ -675,11 +682,11 @@ footer p {
     color: var(--off-white);
 }
 
-.hire .resume-img {
+.hire .resume-link {
     display: block;
-    height: 394px;
     width: 300px;
     margin: 0 auto;
+    height: 394px;
 }
 
 .resume h1.title {
@@ -695,18 +702,6 @@ footer p {
     max-width: 850px;
     margin: 0 auto;
 }
-
-/* .resume .absolute {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.resume .hero-text-container {
-    position: static;
-    margin-bottom: 10px;
-} */
 
 .resume .my-text-column .button {
     display: block;
@@ -807,10 +802,15 @@ footer p {
     margin-left: 25px;
 }
 
-@media only screen and (min-width: 500px) {
-    .portfolio-detail .tags-div {
-        float: left;
-        margin: 10px;
+@media only screen and (min-width: 400px) {
+    .tags-div ul {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .tags-div ul {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 

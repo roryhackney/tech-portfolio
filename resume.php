@@ -18,43 +18,83 @@
                     <div class="column is-full-tablet is-two-thirds-desktop">
                         <div id="resume-div" class="resume-div">
                             <h2 class="has-text-centered is-uppercase">Rory Hackney</h2>
-                            <p class="sub-title has-text-centered is-uppercase" role="heading">Full Stack Web Developer</p>
-                            <p class="contact-info has-text-centered"><a href="index.php">roryhackney.com</a> | <a href="tel:206-488-5437">206-488-5437</a> | <a href="mailto:roryhackney@gmail.com" target="_blank" aria-label="roryhackney@gmail.com - email link opens in new tab">roryhackney@gmail.com</a> | <a href="https://www.linkedin.com/in/roryhackney" target="_blank" aria-label="LinkedIn - link opens in new tab">linkedin.com/in/roryhackney</a> | <a href="https://github.com/roryhackney" target="_blank" aria-label="github.com/roryhackney - opens in new tab">github.com/roryhackney</a></p>
-                            <h3 class="is-uppercase">Summary</h3>
-                            <ul>
-                                <li>Full stack web developer proficient in PHP, SQL, HTML, CSS, JavaScript, Bulma, Git / GitHub, and Photoshop</li>
-                                <li>Passionate about semantic HTML, web accessibility, user friendly design, and learning new systems</li>
-                                <li>Background in art and design with a BFA, customer service experience, and project documentation skills</li>
-                            </ul>
-                            <h3 class="is-uppercase">Education</h3>
-                            <h4 class="is-uppercase first">Web Development</h4>
-                            <p>Certificate | Seattle Central College | 3.99 GPA | President's List <span class="is-pulled-right">Sep 2020 - Aug 2021</span></p>
-                            <p class="ml-3 is-italic">Relevant courses: PHP Web App Programming, Database Development (SQL), Web Design Theory, JavaScript 2</p>
-                            <p>Courses | Portland Community College <span class="is-pulled-right">Sep 2018 - Aug 2019</span></p>
-                            <h4 class="is-uppercase">Comic Art</h4>
-                            <p>Bachelor's of Fine Arts (BFA) | Minneapolis College of Art and Design <span class="is-pulled-right">Aug 2012 - May 2016</span></p>
+                            <p class="contact-info has-text-centered">
+                                <a href="roryhackney.com">roryhackney.com</a> | 
+                                <a href="https://github.com/roryhackney" target="_blank" aria-label="github.com/roryhackney - opens in new tab">github.com/roryhackney</a> | 
+                                <a href="mailto:roryhackney@gmail.com" target="_blank" aria-label="roryhackney@gmail.com - email link opens in new tab">roryhackney@gmail.com</a>
+                                <!-- <a href="tel:206-488-5437">206-488-5437</a> |  -->
+                                <!-- <a href="https://www.linkedin.com/in/roryhackney" target="_blank" aria-label="LinkedIn - link opens in new tab">linkedin.com/in/roryhackney</a> |  -->
+                            </p>
+                            <p>Computer Science BS junior graduating in 2025. Software / web developer and artist, currently studying data structures, algorithms, and Java, with experience in Python, JavaScript, SQL, HTML, CSS, and PHP.</p>
+                            
                             <h3 class="is-uppercase">Projects</h3>
-                            <h4 class="is-uppercase first">Full Stack PHP Web App</h4>
-                            <p><a href="php-finale.php">Portfolio Page</a> | <a href="portfolio/php-finale/index.php">Live Site</a> | <a href="https://github.com/roryhackney/tech-portfolio/tree/main/portfolio/php-finale" target="_blank" aria-label="GitHub - link opens in new tab">GitHub</a> <span class="is-pulled-right">Updated Dec 2021 - Jan 2022</span></p>
+
+                            <h4 class="is-uppercase first">Java Social Media Graph</h4>
+                            <p>
+                                <a href="roryhackney.com/java-social-media-graph.php">Portfolio Page</a> | 
+                                <a href="https://github.com/roryhackney/AD325-Project4" target="_blank" aria-label="GitHub - link opens in new tab">GitHub</a>
+                                <span class="is-pulled-right">Dec 2023</span>
+                            </p>
+                            <ul><li>Collaboratively designed with UML and developed software that uses a graph implementation to display a social media menu, validating input to create accounts, add friends, and delete accounts.</li></ul>
+                            
+                            <h4 class="is-uppercase first">Java Fractal Drawing Project</h4>
+                            <p>
+                                <a href="roryhackney.com/java-fractal-gui.php">Portfolio Page</a> | 
+                                <a href="https://github.com/roryhackney/GUI_fractal" target="_blank" aria-label="GitHub - link opens in new tab">GitHub</a>
+                                <span class="is-pulled-right">Jun 2023</span>
+                            </p>
+                            <ul><li>Implemented a graphical user interface using Java Swing that gathers user’s settings in real time and draws a custom fractal using recursion. Users can select color / theme, opacity, and recursion depth.</li></ul>
+
+                            <h4 class="is-uppercase first">Java Sine Curve Area Program</h4>
+                            <p>
+                                <a href="https://roryhackney.com/java-menu-drawing-sine.php">Portfolio Page</a> | 
+                                <a href="https://github.com/roryhackney/csc142-Java/tree/main/calcDrawSineCurveArea" target="_blank" aria-label="GitHub - link opens in new tab">GitHub</a>
+                                <span class="is-pulled-right">Feb 2023</span>
+                            </p>
+                            <ul><li>Built a Java program that displays a menu, validates and processes user input, calculates the area of a sine curve using math, and draws the curve using rectangles and Graphics depending on input.</li></ul>
+
+                            <h4 class="is-uppercase">Full Stack Web App</h4>
+                            <p>
+                                <a href="php-finale.php">Portfolio Page</a> | 
+                                <a href="portfolio/php-finale/index.php">Live Site</a> | 
+                                <a href="https://github.com/roryhackney/tech-portfolio/tree/main/portfolio/php-finale" target="_blank" aria-label="GitHub - link opens in new tab">GitHub</a> 
+                                <span class="is-pulled-right">Updated Jan 2022</span>
+                            </p>
                             <ul>
-                                <li>Built a full stack web application with forms and database integration using PHP, SQL, HTML, and CSS</li>
-                                <li>Validated user input and manipulated databases to create a mileage calculator, contact form, and login</li>
-                                <li>Created mobile-friendly styles, daily changing content, database pages, registration, and a kitten gallery</li>
+                                <li>Built a mobile first full stack web application with forms and database using PHP, SQL, HTML, CSS.</li>
+                                <li>Validated user input and manipulated databases to create mileage calculator, contact form, and login.</li>
+                                <li>Created responsive styles, daily changing content, database pages, registration, and kitten gallery.</li>
                             </ul>
+
                             <h4 class="is-uppercase">Database Development: Art Business</h4>
-                            <p><a href="database-design.php">Portfolio Page</a> | <a href="https://docs.google.com/document/d/1O8fc5k2SLcmZ9kQCUMatPqzGali2mw5xb8ceF3jUook/edit?usp=sharing" target="_blank" aria-label="Documentation - Google Drive link opens in new tab">Documentation</a> <span class="is-pulled-right">Jun 2021 - Aug 2021</span></p>
+                            <p><a href="database-design.php">Portfolio Page</a> | 
+                            <a href="https://docs.google.com/document/d/1O8fc5k2SLcmZ9kQCUMatPqzGali2mw5xb8ceF3jUook/edit?usp=sharing" target="_blank" aria-label="Documentation - Google Drive link opens in new tab">Documentation</a> | 
+                            <a href="roryhackney.com/assets/RoryStories_export.sql">Download</a>
+                            <span class="is-pulled-right">Jun - Aug 2021</span></p>
                             <ul>
-                                <li>Developed a relational database to track cash flow, clients, products, and projects for a small art business</li>
-                                <li>Designed and documented the database with mission objectives, ERD diagrams, normalization, and more</li>
-                                <li>Created diagrams in Figma, wrote SQL code, and used phpMyAdmin to build, populate, and test the database</li>
+                                <li>Implemented relational database to track clients, products, projects for potential small art business.</li>
+                                <li>Documented the database design with mission objectives, ERD diagrams (Figma), and normalization.</li>
+                                <li>Implemented database using SQL code in phpMyAdmin, added data, and tested queries and views.</li>
                             </ul>
-                            <h4 class="is-uppercase">Website Design: Yamagiwa Massage</h4>
+
+                            <!-- <h4 class="is-uppercase">Website Design: Yamagiwa Massage</h4>
                             <p><a href="yamagiwa-massage.php">Portfolio Page</a> | <a href="portfolio/yamagiwa-massage/">Live Site</a> | <a href="https://github.com/roryhackney/MassageWebsite/tree/main/prototype" target="_blank" aria-label="GitHub - link opens in new tab">GitHub</a> <span class="is-pulled-right">Jan 2021 - April 2021</span></p>
                             <ul>
                                 <li>Developed a client-facing front end web application from scratch, including project planning, design, and code</li>
                                 <li>Built HTML, CSS, and JavaScript code to implement the website, improving accuracy of information for clients</li>
                                 <li>Analyzed business, conducted competitive analyses, created content, and refined design based on feedback</li>
-                            </ul>
+                            </ul> -->
+
+                            <h3 class="is-uppercase">Education</h3>
+
+                            <!-- <h4 class="is-uppercase first">Web Development</h4> -->
+                            <p>Computer Science BS</p>
+                            <p>Certificate | Seattle Central College | 3.99 GPA | President's List <span class="is-pulled-right">Sep 2020 - Aug 2021</span></p>
+                            <p class="ml-3 is-italic">Relevant courses: PHP Web App Programming, Database Development (SQL), Web Design Theory, JavaScript 2</p>
+                            <p>Courses | Portland Community College <span class="is-pulled-right">Sep 2018 - Aug 2019</span></p>
+                            <h4 class="is-uppercase">Comic Art</h4>
+                            <p>Bachelor's of Fine Arts (BFA) | Minneapolis College of Art and Design <span class="is-pulled-right">Aug 2012 - May 2016</span></p>
+
                             <h3 class="is-uppercase">Experience</h3>
                             <h4 class="is-uppercase first">Web Development / IT Tutor</h4>
                             <p>Seattle Central College | Seattle, WA <span class="is-pulled-right">Sep 2021 - present</span></p>

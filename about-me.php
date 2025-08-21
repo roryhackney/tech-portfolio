@@ -88,7 +88,11 @@
                                 </picture>
                             </div>
                             <div class="column is-full">
-                                <p class="content">In addition to coding, I enjoy producing diagrams, design documents, and case studies. I spend my free time making art for fun, petting cats, and learning more about web development and design.</p>
+                                <h2 class="title is-5 mb-0">My Story</h2>
+                                <p class="content">While getting my art degree, I took a JavaScript course and fell in love with programming. Since then, I've explored various areas of technology, obtained a certificate in web development, and now I'm working towards my BS in Computer Science.
+                                I hope to work on software that connects to my arts background, but enjoy building all kinds of tech projects. Right now I'm working on an art supply collection tracker with types defined by users. I also enjoy mixing code and art to study interactive storytelling and game development.</p>
+                                <p class="content">As a junior in my program, I'm looking for an internship in Computer Science for Summer 2024, and am open to part time work that can accommodate my evening courses during the school year.
+                                In addition to coding, I enjoy producing diagrams and designs, planning out overambitious projects, and learning more about computer science, whether that's improving current skills or discovering new technologies. I spend my free time making art, petting cats, and playing games.</p>
                                 <picture class="large-image">
                                     <source media="(min-width:961px)" srcset="assets/about-java-project-larger.jpg"> <!--961 - max 2000-->
                                     <source media="(min-width:791px)" srcset="assets/about-java-project-large.jpg"> <!--791 - 960-->

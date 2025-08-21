@@ -93,6 +93,18 @@
             $currentPage = 'portfolio';
             $h1 = 'Tech Portfolio';
             break;
+        case '/java-menu-drawing-sine.php':
+            $bodyClass = 'portfolio-detail';
+            $title = 'Java Menu Drawing Sine';
+            $currentPage = 'portfolio';
+            $h1 = 'Java Menu Drawing Sine';
+            break;
+        case '/post.php':
+            $bodyClass = 'portfolio-detail';
+            $title = $_GET["title"];
+            $currentPage = 'portfolio';
+            $h1 = $_GET["title"];
+            break;
     }
 
     /*contact form validation*/
