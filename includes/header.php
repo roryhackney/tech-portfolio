@@ -1,6 +1,7 @@
 <?php
     include 'helper.php';
-    include 'includes/config.php';
+    include 'current-page.php';
+    include 'includes/contact-handler.php';
 ?>
 
 <!DOCTYPE html>

@@ -100,7 +100,6 @@
                             <div class="column is-full">
                                 <h2 class="title is-5 has-text-centered">My Recent Work</h2>
                             </div>
-                            <?php include "includes/projects.php"; ?>
                             <div class="column is-full">
                                 <div class="buttons-row three">
                                     <a class="button" href="portfolio.php">Portfolio</a>

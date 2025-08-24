@@ -1,4 +1,4 @@
-</main>
+        </main>
         <footer>
             <div class="columns">
                 <div class="column is-half-tablet is-two-thirds-desktop">
@@ -18,7 +18,6 @@
                 </div>
             </div>
         </footer>
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-        <script src="script.js" defer></script>
+        <script src="scripts/script.js" defer></script>
     </body>
 </html>
