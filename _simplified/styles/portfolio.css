@@ -1,0 +1,102 @@
+/* Tags block */
+.portfolio #tags {
+    background-color: var(--medium);
+    padding: 25px;
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.portfolio #tags h2 {
+    margin-top: 0;
+}
+
+.portfolio #tags li {
+    list-style-type: none;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.portfolio #tags a {
+    color: black;
+}
+
+.portfolio #tags ul {
+    width: 100%;
+}
+
+/* Projects */
+.portfolio #posts {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio #posts h2 {
+    width: 100%;
+}
+
+.portfolio .project-card {
+    width: 100%;
+    max-width: 760px;
+    margin: 5px 25px;
+}
+
+/* if there's a single item at the end, align it to the left rather than centering */
+.portfolio .project-card:last-of-type:nth-of-type(odd) {
+    margin-right: auto;
+}
+
+.portfolio .project-card a {
+    text-decoration: none;
+}
+
+.portfolio .project-card h3 {
+    text-align: left;
+    color: var(--black);
+    margin: 0;
+}
+
+.portfolio .project-card picture {
+    border: 1px solid black;
+    max-width: 760px;
+    width: 100%;
+    height: auto;
+}
+
+.portfolio .project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio .project-card p {
+    margin: 5px;
+}
+
+.portfolio .project-card p:first-of-type {
+    font-style: italic;
+}
+
+/* two column */
+@media screen and (width > 700px) { 
+    .portfolio #tags li {
+        width: 50%;
+    }
+}
+
+/* 3 column */
+@media screen and (width > 900px) { 
+    .portfolio #tags li {
+        width: 33.333%;
+    }
+
+    .portfolio .project-card {
+        width: calc(50% - 50px);
+    }
+}

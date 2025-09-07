@@ -1,0 +1,25 @@
+/* Variables referenced in other CSS files */
+:root {
+    /* Colors */
+    --gray: #cacaca;
+    --white: #ffffff;
+    --off-white: #ddfff7;
+    --medium: #93e1d8;
+    --dark: #135695;
+    --off-black: #1b264f;
+    --black: #000000;
+    --accent: #ffd1ba;
+    --error: rgb(255, 53, 66);
+
+    /* Fonts */
+    --headingFont: "Teachers", "Times New Roman", serif;
+    --paragraphFont: "Montserrat", "Arial", sans-serif;
+    --titleFont: "Belleza", "Teachers", "Times New Roman", serif;
+    --font-size-medium: 1.125rem; /*18px on 16px base font size*/
+    --font-size-large: 1.5rem; /*24px on 16px base font size*/
+    --font-size-x-large: 2.25rem; /*36px on 16px base font size*/
+    --font-size-xx-large: 4rem; /*64px on 16px base font size*/
+    --font-size-normal: 1rem;
+    --line-height: 1.5;
+    --desktop-width: 1200px;
+}

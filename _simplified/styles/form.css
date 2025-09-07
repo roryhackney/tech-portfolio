@@ -1,0 +1,83 @@
+footer #form-container {
+    background-color: var(--medium);
+    padding: 25px;
+}
+
+footer #form-container p {
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+footer form h2 {
+    font-size: var(--font-size-x-large);
+}
+
+footer #form-container a {
+    color: var(--black);
+}
+
+footer form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+footer form label {
+    display: block;
+    align-self: flex-start;
+    font-family: var(--headingFont);
+    font-size: var(--font-size-medium);
+    font-weight: bold;
+}
+
+footer form input, footer form textarea {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    border: 1px solid var(--dark);
+    background-color: var(--off-white);
+    border-radius: 15px;
+    margin: 0 25px 5px 25px;
+    padding: 10px;
+}
+
+footer form textarea {
+    height: 100px;
+}
+
+/* No error visible by default */
+footer form .error {
+    display: none;
+    align-self: flex-start;
+    margin-bottom: 5px;
+}
+
+footer form .hidden {
+    display: none;
+}
+
+footer form button.button {
+    background-color: var(--off-black);
+    margin: 15px;
+    padding: 15px 50px;
+}
+
+footer form button.button:hover {
+    background-color: var(--black);
+}
+
+@media screen and (width > 800px) {
+    footer #form-container {
+        background-image: linear-gradient(to right, #79C5CB, 10%, var(--medium), 90%, #79C5CB);
+    }
+}

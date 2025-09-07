@@ -23,11 +23,11 @@
     if (isset($_GET["tag"])) {
         //input validation: check that the selected tag is valid
         $filter = htmlspecialchars($_GET["tag"]);
+        $filter = mysqli_real_escape_string($link, $filter);
         if (in_array($filter, $tags)) {
             //filter to url param (tag) if present
             $query = "SELECT * FROM posts WHERE title IN (SELECT post FROM post_tags WHERE tag = \"$filter\" ORDER BY order_index DESC);";
         }
-
     }
 
     //final array of html content

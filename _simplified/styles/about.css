@@ -1,0 +1,122 @@
+.about .row {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.about #skills .row, .about #client-work .row {
+    flex-direction: column;
+}
+
+#education, #skills, #work-experience, #client-work {
+    width: 1600px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.about #education ol li {
+    list-style-type: disc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 325px;
+}
+
+.about #skills .row > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.about #skills ul {
+    width: 100%;
+    max-width: 500px;
+    padding-left: 25px;
+}
+
+.about li {
+    max-width: 750px;
+}
+
+.about #skills li {
+    list-style-type: none;
+}
+
+.about #skills div > ul > li {
+    list-style-type: disc;
+}
+
+.about li h3 {
+    font-size: var(--font-size-medium);
+    font-family: var(--paragraphFont);
+    text-align: left;
+}
+
+.about #skills li h3 {
+    margin: 25px 0 0 0;
+}
+
+.about #education li h3 {
+    margin: 0 25px 0 0;
+    min-width: 200px;
+}
+
+.about #education li p {
+    min-width: 100px;
+    text-align: right;
+}
+
+.about .row img {
+    max-width: 800px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.about #work-experience li h3, .about #client-work li h3 {
+    margin: 0;
+}
+
+.about #work-experience ol, .about #client-work ol {
+    padding-bottom: 15px;
+}
+
+.about #work-experience ul, .about #client-work ul {
+    padding-left: 25px;
+}
+
+.about #work-experience li, .about #client-work li {
+    list-style-type: disc;
+}
+
+.about #work-experience ol > li, .about #client-work ol > li {
+    list-style-type: none;
+}
+
+.about #work-experience li div, .about #client-work li div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    padding: 0;
+}
+
+.about #work-experience li p, .about #client-work li p {
+    margin: 0;
+}
+
+@media screen and (width > 1000px) {
+    .about .row {
+        flex-direction: row !important;
+    }
+
+    .about .row img {
+        width: 50%;
+    }
+
+    .about .row div {
+        padding: 25px;
+    }
+}

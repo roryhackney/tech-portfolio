@@ -1,0 +1,17 @@
+/* CSS for main content (from hero to before contact form) */
+
+main {
+    padding-bottom: 25px;
+}
+
+main > section {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main p {
+    max-width: 750px;
+    margin: 15px 0;
+}

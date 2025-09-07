@@ -1,0 +1,177 @@
+/* Header styles (logo, site title, nav, etc) */
+
+/* hide from non screen readers */
+#screen-reader-skip-link {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* make the link visible if navigated to with the keyboard */
+#screen-reader-skip-link:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+/* logo */
+#logo {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+}
+#site-title {
+    font-family: var(--titleFont);
+    font-weight: bold;
+    font-size: var(--font-size-x-large);
+    white-space: nowrap;
+}
+#site-title + div {
+    margin-bottom: 10px;
+    font-size: var(--font-size-medium);
+    white-space: nowrap;
+}
+
+/* font awesome icons in header */
+#brand-icons {
+    display: flex;
+}
+
+#brand-icons .fa-2x {
+    margin: 10px 5px;
+    color: var(--white);
+}
+
+header nav {
+    margin: 10px 0;
+}
+header nav a {
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 5px;
+    color: var(--white);
+    font-size: var(--font-size-medium);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav .active-page {
+    text-decoration: underline;
+}
+
+/*****************/
+/*DARK MODE TOGGLE*/
+/*****************/
+.dark-mode-option label {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+/* Default checkbox should be hidden */
+.dark-mode-option input {
+    visibility: hidden;
+}
+.dark-mode-option input:checked ~ div {
+    background-color: var(--medium);
+}
+.dark-mode-option input:checked + div span {
+    transform: translateX(23px);
+}
+/* Visible toggle styled instead */
+.dark-mode-option div {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    background-color: var(--gray);
+    border: 1px solid var(--white);
+    border-radius: 25px;
+    margin: 10px 0;
+}
+/* Circle part of toggle */
+.dark-mode-option span {
+    position: absolute;
+    left: 3px;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: var(--off-black);
+}
+
+/*****************************/
+/*RESPONSIVE COLUMNS HANDLING*/
+/*****************************/
+header {
+    background-color: var(--off-black);
+    background-image: linear-gradient(to right, var(--black) -10%, 0%, var(--off-black), 100%, var(--black) 110%);
+    color: var(--white);
+    text-align: center;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* hide blocks based on screen size (desktop vs everything else) */
+header .column.desktop-only {
+    display: none;
+}
+
+@media screen and (width > 600px) {
+    #logo {
+        max-width: 200px;
+    }
+
+    #site-title, #site-title + div {
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    header .column {
+        flex-direction: row;
+    }
+
+    header .column:last-of-type {
+        justify-content: space-between;
+    }
+
+    header .column > div {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (width > 1446px) {
+    header .column {
+        width: 482px;
+    }
+
+    header .column.desktop-only {
+        display: flex;
+    }
+
+    header .column.desktop-hidden {
+        display: none;
+    }
+
+    header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,104 @@
+/* General styles that apply to all elements */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--paragraphFont);
+    background-color: var(--off-white);
+    color: var(--black);
+    -webkit-font-smoothing: antialiased;
+}
+
+body .light-hide {
+    display: none;
+}
+
+body .dark-hide {
+    display: block;
+}
+
+body.dark-mode {
+    background-color: var(--black);
+    color: var(--gray);
+}
+
+body.dark-mode .light-hide {
+    display: block;
+}
+
+body.dark-mode .dark-hide {
+    display: none;
+}
+
+img, picture {
+    display: block;
+    height: auto;
+}
+
+
+h1, h2, h3 {
+    font-family: var(--headingFont);
+    text-wrap: balance;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+h1 {
+    font-size: var(--font-size-x-large);
+    font-weight: bold;
+}
+
+h2, h3 {
+    font-size: var(--font-size-large);
+}
+
+p {
+    text-wrap: pretty;
+    line-height: var(--line-height);
+}
+
+a, label {
+    white-space: nowrap;
+}
+
+a:not(.button):hover {
+    text-decoration: underline !important;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+
+/* links styled as buttons */
+.buttons-row {
+    display: flex;
+}
+.button {
+    margin-right: 25px;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: var(--black);
+    display: block;
+    color: var(--white);
+    border-radius: 5px;
+    border: 1px solid var(--white);
+    text-decoration: none;
+}
+.buttons-row .button:nth-of-type(2) {
+    background-color: var(--off-black);
+}
+.buttons-row .button:nth-of-type(3) {
+    background-color: var(--dark);
+}

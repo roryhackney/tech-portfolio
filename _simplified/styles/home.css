@@ -1,0 +1,26 @@
+/* Rounds the corners of the profile image */
+.home #profile {
+    border-radius: 100%;
+    width: 400px;
+}
+
+.home #row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home picture.dark-hide, .home picture.light-hide {
+    margin: 0 25px;
+}
+
+@media screen and (width > 1200px) {
+    .home #row {
+        flex-direction: row;
+    }
+
+    .home #row img {
+        margin: 25px 25px 25px 0;
+    };
+
+}

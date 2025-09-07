@@ -1,0 +1,17 @@
+.hire iframe {
+    width: 100%;
+    max-width: 850px;
+    aspect-ratio: 85 / 107;
+    margin: 15px 0;
+    background-color: var(--white);
+}
+
+.hire .row {
+    width: 100%;
+}
+
+.hire .row div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

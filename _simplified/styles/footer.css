@@ -1,0 +1,62 @@
+footer section {
+    background-color: var(--off-black);
+    padding: 25px;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* font awesome icons in header */
+footer #footer-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer #footer-icons div {
+    display: flex;
+}
+
+footer #footer-icons a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+}
+
+footer #footer-icons .fa-2x {
+    margin: 0 5px 0 15px;
+    color: var(--white);
+}
+
+footer section p, footer section a, footer section nav {
+    padding: 10px;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: white;
+}
+
+footer nav .active-page {
+    text-decoration: underline;
+}
+
+@media screen and (width > 1000px) {
+    footer section {
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    footer section p {
+        text-wrap: nowrap;
+    }
+    
+}

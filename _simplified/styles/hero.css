@@ -1,0 +1,47 @@
+#hero {
+    position: relative;
+}
+
+#hero picture {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+#hero-text {
+    position: absolute;
+    top: 65%;
+    padding: 0 25px;
+    font-size: var(--font-size-medium);
+    color: var(--white);
+}
+
+.portfolio #hero-text {
+    top: 50%;
+}
+
+#hero-text p:first-of-type {
+    font-size: var(--font-size-xx-large);
+    font-weight: bold;
+    line-height: 1;
+}
+
+@media screen and (width > 480px) {
+    #hero-text {
+        top: 70%;
+    }
+}
+
+@media screen and (width > 800px) {
+    #hero-text {
+        top: 50%;
+        left: 55%;
+        transform: translateY(-50%);
+    }
+}
+
+@media screen and (width > 2000px) {
+    #hero {
+        background-color: var(--off-black);
+        border-bottom: 10px solid var(--off-black);
+    }
+}
