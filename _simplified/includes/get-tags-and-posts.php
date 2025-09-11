@@ -42,8 +42,8 @@
                 <section class="project-card">
                     <a href="` . $href . `"><h3>` . $curr["title"] . `</h3></a>
                     <picture>
-                        <source media="(min-width: 401px)" srcset="assets/` . $curr["preview-filename-base"] . `-card-medium.jpg">
-                        <img src="assets/` . $curr["preview-filename-base"] . `-card-small.jpg" alt="` . $curr["preview_alt"] . `"/>
+                        <source media="(min-width: 401px)" srcset="assets/posts/` . $curr["preview-filename-base"] . `-card-medium.jpg">
+                        <img src="assets/posts/` . $curr["preview-filename-base"] . `-card-small.jpg" alt="` . $curr["preview_alt"] . `"/>
                     </picture>
                     <p>Completed ` . $curr["complete_data"] . `</p>
                     <p>` . $curr["summary"] . `</p>

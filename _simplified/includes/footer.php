@@ -36,14 +36,14 @@
                 <p>Site content &copy; Rory Hackney <?= $copyYear ?>.</p>
                 <address id="footer-icons">
                     <a href="<?php echo $email; ?>" target="_blank">
-                        <span class="fa fa-envelope fa-2x"></span>
+                        <span class="fa fa-envelope fa-2x" title="Email"></span>
                     <?= $email ?></a>
                     <div>
                         <a href="<?php echo $linkedin; ?>" target="_blank">
-                            <span class="fab fa-linkedin fa-2x"></span>
+                            <span class="fab fa-linkedin fa-2x" title="LinkedIn"></span>
                         LinkedIn</a>
                         <a href="<?php echo $github; ?>" target="_blank">
-                            <span class="fab fa-github fa-2x"></span>
+                            <span class="fab fa-github fa-2x" title="GitHub"></span>
                         GitHub</a>
                     </div>
                 </address>

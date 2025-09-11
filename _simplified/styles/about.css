@@ -71,8 +71,7 @@
 .about .row img {
     max-width: 800px;
     width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px;
 }
 
 .about #work-experience li h3, .about #client-work li h3 {
@@ -114,6 +113,7 @@
 
     .about .row img {
         width: 50%;
+        margin: 25px 2%;
     }
 
     .about .row div {

@@ -74,6 +74,7 @@ a, label {
 
 a:not(.button):hover {
     text-decoration: underline !important;
+    font-weight: 500;
 }
 
 input, button, textarea, select {

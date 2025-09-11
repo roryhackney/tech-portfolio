@@ -13,7 +13,7 @@
                     <source media="(min-width:1201px)" srcset="assets/general-hero-me-larger.jpg">
                     <source media="(min-width:801px)" srcset="assets/general-hero-me-large.jpg">
                     <source media="(min-width:481px)" srcset="assets/general-hero-me-medium.jpg">
-                    <img src="assets/home-hero-me-small.jpg" alt="Photo of Rory Hackney smiling on the left next to abstract computer imagery on the right.">
+                    <img src="assets/general-hero-me-small.jpg" alt="Photo of Rory Hackney smiling on the left next to abstract computer imagery on the right.">
                 </picture>
             </div>
             <section>

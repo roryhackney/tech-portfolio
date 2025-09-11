@@ -47,20 +47,20 @@
             $type = $row["html_type"];
             switch ($type) {
                 case "h2":
-                    array_push($html,"<h2>" . $row["text_content"] . "</h2>");
+                    array_push($html,"<h2 class=\"" . $row["class"] . "\">" . $row["text_content"] . "</h2>");
                     break;
                 case "h3":
-                    array_push($html,"<h3>" . $row["text_content"] . "</h3>");
+                    array_push($html,"<h3 class=\"" . $row["class"] . "\">" . $row["text_content"] . "</h3>");
                     break;
                 case "p":
-                    array_push($html, "<p>" . $row["text_content"] . "</p>");
+                    array_push($html, "<p class=\"" . $row["class"] . "\">" . $row["text_content"] . "</p>");
                     break;
                 case "picture":
                     array_push($html,
-                    "<picture>
+                    "<picture class=\"" . $row["class"] . "\">
                                 <source media=\"(min-width: 401px)\"
-                                srcset=\"assets/" . $row["file_name_base"] . "-medium.jpg\">
-                                <img src=\"assets/" . $row["file_name_base"] . "-small.jpg\" alt=\"" . $row["alt"] . "\">
+                                srcset=\"assets/posts/" . $row["file_name_base"] . "-medium.jpg\">
+                                <img src=\"assets/posts/" . $row["file_name_base"] . "-small.jpg\" alt=\"" . $row["alt"] . "\">
                             </picture>");
                     break;
                 case "html":

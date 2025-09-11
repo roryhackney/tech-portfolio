@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Logo Testing</title>
+        <style>
+            button, label, input {
+                display: block;
+                margin: 5px;
+            }
+            input[type=range] {
+                width: 80%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Logo Testing</h1>
+        <canvas id="logo"></canvas>
+        <form>
+            <label for="logo_size">Logo Size</label>
+            <input id="logo_size" type="range" min="100" max="800" onchange="v1.innerHTML = value">
+            <span id="v1">200</span>px
+
+            <label for="padding">Padding</label>
+            <input type="range" min="0" max="100" id="padding" default="20" step="1" onchange="v2.innerHTML = value">
+            <span id="v2">20</span>%
+
+            <label for="vbar_width">Vertical Bars Width</label>
+            <input id="vbar_width" type="range" min="1" max="50" default="10" onchange="v3.innerHTML = value">
+            <span id="v3">10</span>%
+
+            <label for="vbar_color">Vertical Bars Color</label>
+            <input type="color" id="vbar_color">
+
+            <label for="hbar_height">Horizontal Bars Height</label>
+            <input id="hbar_height" type="range" min="1" max="33" default="5" onchange="v4.innerHTML = value">
+            <span id="v4">5</span>%
+
+            <label for="space_between">Spacing Between Bars</label>
+            <input id="space_between" type="range" min="0" max="49" default="5" onchange="v7.innerHTML = value">
+            <span id="v7"></span>
+
+            <label for="hbar_color">Horizontal Bars Color</label>
+            <input id="hbar_color" type="color">
+
+            <label for="circle_qty">Circle Quantity</label>
+            <input id="circle_qty" type="range" min="1" max="7" default="5" onchange="v5.innerHTML = value">
+            <span id="v5">5</span>
+            
+
+            <label for="circle_size">Circle Size</label>
+            <input id="circle_size" type="range" min="1" max="33" default="5" onchange="v6.innerHTML = value">
+            <span id="v6">5</span>%
+
+            <label for="row1colors">Row 1 Colors</label>
+            <select id="row1colors">
+                <option value="black" selected="selected">Black</option>
+                <option value="gray">Gray</option>
+                <option value="rainbow">Rainbow</option>
+                <option value="rainbow-dark">Dark Rainbow</option>
+                <option value="rainbow-light">Light Rainbow</option>
+                <option value="site-colors">Site Colors</option>
+            </select>
+
+            <label for="row2colors">Row 2 Colors</label>
+            <select id="row2colors">
+                <option value="black">Black</option>
+                <option value="gray">Gray</option>
+                <option value="rainbow" selected="selected">Rainbow</option>
+                <option value="rainbow-dark">Dark Rainbow</option>
+                <option value="rainbow-light">Light Rainbow</option>
+                <option value="site-colors">Site Colors</option>
+            </select>
+
+            <label for="row3colors">Row 3 Colors</label>
+            <select id="row3colors">
+                <option value="black" selected="selected">Black</option>
+                <option value="gray">Gray</option>
+                <option value="rainbow">Rainbow</option>
+                <option value="rainbow-dark">Dark Rainbow</option>
+                <option value="rainbow-light">Light Rainbow</option>
+                <option value="site-colors">Site Colors</option>
+            </select>
+
+            <button id="update" type="button">Update</button>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>

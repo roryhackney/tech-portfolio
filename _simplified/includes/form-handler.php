@@ -19,11 +19,8 @@
                 $message .= $_POST["message"];
                 $message = wordwrap($message, 70, "\r\n", true);
 
-                if (mail($to, $subject, $message, $headers)) {
-                    header("Location: thanks.php");
-                } else {
-                    header("Location: nothanks.php");
-                }
+                mail($to, $subject, $message, $headers);
+                header("Location: thanks.php");
             }
         } else {
             //I'm not sending that email you filled out the bot field or altered something client side so you didn't have to provide a valid email or required fields

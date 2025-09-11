@@ -10,6 +10,8 @@
     --black: #000000;
     --accent: #ffd1ba;
     --error: rgb(255, 53, 66);
+    --link: #00478A;
+    --link-dark-mode: #5FA8EC;
 
     /* Fonts */
     --headingFont: "Teachers", "Times New Roman", serif;

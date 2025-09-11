@@ -15,3 +15,11 @@ main p {
     max-width: 750px;
     margin: 15px 0;
 }
+
+main a {
+    color: var(--link);
+}
+
+.dark-mode main a:not(.button) {
+    color: var(--link-dark-mode);
+}

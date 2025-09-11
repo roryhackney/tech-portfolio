@@ -53,8 +53,8 @@
                     </label>
                 </div>
                 <div id="brand-icons">
-                    <a href="<?php echo $linkedin; ?>" target="_blank"><span class="fab fa-linkedin fa-2x"></span></a>
-                    <a href="<?php echo $github; ?>" target="_blank"><span class="fab fa-github fa-2x"></span></a>
+                    <a href="<?php echo $linkedin; ?>" target="_blank"><span class="fab fa-linkedin fa-2x" title="LinkedIn"></span></a>
+                    <a href="<?php echo $github; ?>" target="_blank"><span class="fab fa-github fa-2x" title="GitHub"></span></a>
                 </div>
             </div>
 
@@ -76,8 +76,8 @@
                     </label>
                 </div>
                 <div id="brand-icons">
-                    <a href="<?php echo $linkedin; ?>" target="_blank"><span class="fab fa-linkedin fa-2x"></span></a>
-                    <a href="<?php echo $github; ?>" target="_blank"><span class="fab fa-github fa-2x"></span></a>
+                    <a href="<?php echo $linkedin; ?>" target="_blank"><span class="fab fa-linkedin fa-2x" title="LinkedIn"></span></a>
+                    <a href="<?php echo $github; ?>" target="_blank"><span class="fab fa-github fa-2x" title="GitHub"></span></a>
                 </div>
             </div>
         </header>

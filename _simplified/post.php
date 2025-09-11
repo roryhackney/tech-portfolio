@@ -14,11 +14,11 @@
             <div id="hero">
                 <picture>
                     <!--2000px, 1600px, 1200px, 800px, 480px-->
-                    <source media="(min-width:1601px)" srcset="assets/<?= $file?>-hero-largest.jpg">
-                    <source media="(min-width:1201px)" srcset="assets/<?= $file?>-hero-larger.jpg">
-                    <source media="(min-width:801px)" srcset="assets/<?= $file?>-hero-large.jpg">
-                    <source media="(min-width:481px)" srcset="assets/<?= $file?>-hero-medium.jpg">
-                    <img src="assets/<?= $file?>-hero-small.jpg" alt="<?= $alt ?>">
+                    <source media="(min-width:1601px)" srcset="assets/posts/<?= $file?>-hero-largest.jpg">
+                    <source media="(min-width:1201px)" srcset="assets/posts/<?= $file?>-hero-larger.jpg">
+                    <source media="(min-width:801px)" srcset="assets/posts/<?= $file?>-hero-large.jpg">
+                    <source media="(min-width:481px)" srcset="assets/posts/<?= $file?>-hero-medium.jpg">
+                    <img src="assets/posts/<?= $file?>-hero-small.jpg" alt="<?= $alt ?>">
                 </picture>
             </div>
             <section>

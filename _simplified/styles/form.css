@@ -1,5 +1,6 @@
 footer #form-container {
     background-color: var(--medium);
+    color: var(--black);
     padding: 25px;
 }
 

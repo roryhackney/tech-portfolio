@@ -22,11 +22,8 @@
                 <div class="row">
                     <div>
                         <h2>My Resume</h2>
-                        <!-- docs file, lines are broken on narrow screens -->
-                        <iframe src="https://docs.google.com/document/d/17sbJVu88oK2qRVqSXO44_UdRUy3v37v9Zv0rKu0Y3PQ/preview" title="Resume"></iframe>
-                        <!-- pdf file, unnecessary thick black border on some widths -->
-                        <!-- <iframe src="https://drive.google.com/file/d/11AR3rTmh-DwMtPNx5Q-OQryiM3TIB57x/preview" title="Resume"></iframe> -->
-                        <a href="https://docs.google.com/document/d/17sbJVu88oK2qRVqSXO44_UdRUy3v37v9Zv0rKu0Y3PQ/preview" target="_blank">View Resume (Drive)</a>
+                        <img id="resume" src="https://drive.google.com/thumbnail?id=17sbJVu88oK2qRVqSXO44_UdRUy3v37v9Zv0rKu0Y3PQ&amp;sz=s4000" alt="Resume preview" width="500" height="647">
+                        <a href="https://drive.google.com/file/d/11AR3rTmh-DwMtPNx5Q-OQryiM3TIB57x/preview" target="_blank">Resume (PDF) <span class="fas fa-up-right-from-square" title="opens in new tab"></span></a>
                     </div>
                 </div>
                 <div class="buttons-row">
@@ -37,7 +34,8 @@
             </section>
             <section>
                 <h2>Web Design Services</h2>
-                <p>I've been designing and developing websites since 2020, with past client projects including <a href="post.php?title=EllePower%20Website%20-%20Capstone">EllePower</a> and <a href="https://www.linkedin.com/pulse/my-first-open-source-project-rory-hackney-s5wqc" target="_blank">Licton Springs Review</a>. I enjoy working directly with clients to create custom websites that help small businesses make a big impact. I develop websites using platforms such as WordPress, Systeme.IO, and SquareSpace, and static websites using HTML, CSS, and other coding languages.</p>
-                <p>My current rate is 40$ per hour. A small, simple website may range from 15-30 hours, with more complex websites, including features like custom design with revisions, a large number of pages or content, and database development adding additional hours. In general, using templates will cost less than unique, customized designs. Please reach out if you'd like an estimate for your project.</p>
+                <p>I've been designing and developing websites since 2020, with past client projects including <a href="post.php?title=EllePower%20Website%20-%20Capstone">EllePower</a> and <a href="https://www.linkedin.com/pulse/my-first-open-source-project-rory-hackney-s5wqc" target="_blank">Licton Springs Review</a>. I enjoy working directly with clients to create custom websites that help small businesses make a big impact.</p>
+                
+                <p>I develop websites using platforms such as WordPress, Systeme.IO, and SquareSpace, and static websites using HTML, CSS, JavaScript, and other coding languages. I also enjoy creating unique website and UX designs in Figma, and customizing templates to create designs. Please reach out if you'd like an estimate for your project.</p>
             </section>
 <?php include 'includes/footer.php';
