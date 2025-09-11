@@ -25,11 +25,8 @@
         $alt = $row["preview_alt"];
 
         //fetch all the tags for the post
-        $getTags = "SELECT * FROM tags
-                    INNER JOIN post_tags ON tags.tag_name = post_tags.tag
-                    WHERE post_tags.post = \"$title\"
-                    ORDER BY tags.tag_name;";
-        $rows = mysqli_query($link, $query);
+        $getTags = "SELECT * FROM tags INNER JOIN post_tags ON tags.tag_name = post_tags.tag WHERE post_tags.post = \"$title\" ORDER BY tags.tag_name;";
+        $rows = mysqli_query($link, $getTags);
         $tags = [];
         while ($row = mysqli_fetch_assoc($rows)) {
             array_push($tags, $row["tag_name"]);
@@ -41,7 +38,7 @@
                         ON content.image_content = images.file_name_base
                         WHERE content.post = \"$title\" 
                         ORDER BY content.order_index;";
-        $contents = mysqli_query($link, $query);
+        $contents = mysqli_query($link, $getContent);
         $html = [];
         while ($row = mysqli_fetch_assoc($contents)) {
             $type = $row["html_type"];
@@ -64,7 +61,7 @@
                             </picture>");
                     break;
                 case "html":
-                    array_push($row["text_content"]);
+                    array_push($html, $row["text_content"]);
                     break;
                 default:
                     array_push($html, "<p class=\"error\">Error: $type</p>");

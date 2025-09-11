@@ -1,33 +1,4 @@
-/* Tags block */
-.portfolio #tags {
-    background-color: var(--medium);
-    padding: 25px;
-    margin: 0 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    max-width: 1200px;
-}
-
-.portfolio #tags h2 {
-    margin-top: 0;
-}
-
-.portfolio #tags li {
-    list-style-type: none;
-    width: 100%;
-    float: left;
-    text-align: center;
-}
-
-.portfolio #tags a {
-    color: black;
-}
-
-.portfolio #tags ul {
-    width: 100%;
-}
+@import url("tags.css");
 
 /* Projects */
 .portfolio #posts {
@@ -64,7 +35,6 @@
 }
 
 .portfolio .project-card picture {
-    border: 1px solid black;
     max-width: 760px;
     width: 100%;
     height: auto;
@@ -83,19 +53,7 @@
     font-style: italic;
 }
 
-/* two column */
-@media screen and (width > 700px) { 
-    .portfolio #tags li {
-        width: 50%;
-    }
-}
-
-/* 3 column */
 @media screen and (width > 900px) { 
-    .portfolio #tags li {
-        width: 33.333%;
-    }
-
     .portfolio .project-card {
         width: calc(50% - 50px);
     }
