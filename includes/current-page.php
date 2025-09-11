@@ -13,32 +13,32 @@ $page = $_SERVER["PHP_SELF"];
 $page = validate($page);
 
 switch($page) {
-    case '/_simplified/index.php':
+    case '/index.php':
         $bodyClass = 'home';
         $title = 'Home';
         $currentPage = 'home';
         break;
-    case '/_simplified/about.php':
+    case '/about.php':
         $bodyClass = 'about';
         $title = 'About Me';
         $currentPage = 'about';
         break;
-    case '/_simplified/hire-me.php':
+    case '/hire-me.php':
         $bodyClass = 'hire';
         $title = 'Hire Me';
         $currentPage = 'hire';
         break;
-    case '/_simplified/portfolio.php':
+    case '/portfolio.php':
         $bodyClass = 'portfolio';
         $title = 'Portfolio';
         $currentPage = 'portfolio';
         break;
-    case '/_simplified/post.php':
+    case '/post.php':
         $bodyClass = 'portfolio-detail';
         $title = $_GET["title"];
         $currentPage = 'portfolio';
         break;
-    case '/_simplified/thanks.php':
+    case '/thanks.php':
         $bodyClass = 'thanks';
         $title = 'Thank You';
         $currentPage = '';
