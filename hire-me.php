@@ -1,119 +1,41 @@
-<?php include 'includes/header.php'; ?>
-            <div class="hero-container">
-                <picture class="hero">
+<?php 
+    //title, class, h1, etc for the current page
+    include 'includes/current-page.php';
+    //contact form submission handling
+    include 'includes/form-handler.php';
+    //header, nav, main opener etc
+    include 'includes/header.php';
+?>
+            <div id="hero">
+                <picture>
                     <!--2000px, 1600px, 1200px, 800px, 480px-->
-                    <source media="(min-width:1601px)" srcset="assets/hire-me-hero-largest.jpg">
-                    <source media="(min-width:1201px)" srcset="assets/hire-me-hero-larger.jpg">
-                    <source media="(min-width:801px)" srcset="assets/hire-me-hero-large.jpg">
-                    <source media="(min-width:481px)" srcset="assets/hire-me-hero-medium.jpg">
-                    <img src="assets/hire-me-hero-small.jpg" alt="Photo of Rory Hackney holding a JavaScript textbook and thinking about code in one thought bubble and design diagrams in another.">
+                    <source media="(min-width:1601px)" srcset="assets/general-hero-me-largest.jpg">
+                    <source media="(min-width:1201px)" srcset="assets/general-hero-me-larger.jpg">
+                    <source media="(min-width:801px)" srcset="assets/general-hero-me-large.jpg">
+                    <source media="(min-width:481px)" srcset="assets/general-hero-me-medium.jpg">
+                    <img src="assets/home-hero-me-small.jpg" alt="Photo of Rory Hackney smiling on the left next to abstract computer imagery on the right.">
                 </picture>
-                <div class="is-overlay"></div>
-                <div class="hero-text-container">
-                    <p class="hero-text">If you’re looking for a creative software and web app developer with a strong technical background who works hard at all aspects of software development, from learning new tech, to designing, to coding, to testing...</p>
-                </div>
             </div>
-            <div class="main-content">
-                <div class="columns is-multiline">
-                    <div class="column is-full-tablet is-two-thirds-desktop">
-                        <div class="columns is-multiline">
-                            <div class="column is-full">
-                                <h2 class="title is-5 has-text-centered">You've found them.</h2>
-                                <p class="content">Rory Hackney is a software engineer, web developer, and artist passionate about building well tested and documented software and web applications that are accessible, intuitive, mobile friendly, beautiful, and high performance regardless of device.</p>
-                            </div>
-                            <div class="column is-half">
-                                <h2 class="title is-5 has-text-centered">My Resume</h2>
-                                <a class="resume-link" href="resume.php"><img class="resume-img" src="assets/resume.jpg" alt="Rory Hackney's Software Developer Resume, showing education, projects, and experience"></a>
-                                <div class="level mt-4">
-                                    <a class="level-item" href="assets/resume.pdf" target="_blank" aria-label="Emailable PDF - file opens in new tab">Emailable PDF</a>
-                                    <a class="level-item" href="assets/resume-printable.pdf" target="_blank" aria-label="Printable PDF - file opens in new tab">Printable PDF</a>
-                                    <a class="level-item" href="resume.php">HTML Resume</a>
-                                </div>
-                            </div>
-                            <div class="column is-half">
-                                <h2 class="title is-5 has-text-centered">My Skills</h2>
-                                <div class="columns is-multiline">
-                                    <div class="column is-full">
-                                        <h3 class="title is-6 mb-0">Languages and Software</h3>
-                                        <div class="columns is-mobile">
-                                            <div class="column is-half pb-0">
-                                                <ul>
-                                                    <li>Java</li>
-                                                    <li>Python</li>
-                                                    <li>PHP</li>
-                                                    <li>SQL</li>
-                                                    <li>JavaScript</li>
-                                                    <li>HTML</li>
-                                                    <li>CSS</li>
-                                                </ul>
-                                            </div>
-                                            <div class="column is-half pb-0">
-                                                <ul>
-                                                    <li>Bulma</li>
-                                                    <li>Draw.io</li>
-                                                    <li>Figma</li>
-                                                    <li>Clip Studio Paint, Pixlr</li>
-                                                    <li>FileZilla</li>
-                                                    <li>Git, GitHub</li>
-                                                    <li>IntelliJ, Visual Studio Code</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="column is-full">
-                                        <h3 class="title is-6 mb-0">Knowledge and Skills</h3>
-                                        <div class="columns is-mobile">
-                                            <div class="column is-half pb-0">
-                                                <ul>
-                                                    <li>Data Structures</li>
-                                                    <li>Algorithms</li>
-                                                    <li>Logic and Problem Solving</li>
-                                                    <li>UML Diagramming</li>
-                                                    <li>Software Development</li>
-                                                    <li>Programming</li>
-                                                    <li>Testing</li>
-                                                </ul>
-                                            </div>
-                                            <div class="column is-half pb-0">
-                                                <ul>
-                                                    <li>Documentation</li>
-                                                    <li>Web Design</li>
-                                                    <li>Web Development</li>
-                                                    <li>Database Manipulation</li>
-                                                    <li>Version Control</li>
-                                                    <li>Communication</li>
-                                                    <li>Collaboration</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> <!--ends half-column of skills, right of resume-->
-                            <div class="column is-full">
-                                <div class="buttons-row three">
-                                    <a class="button is-hidden-desktop" href="#contact">Contact</a>
-                                    <a class="button is-hidden-touch" href="mailto:roryhackney@gmail.com">Email</a>
-                                    <a class="button unset-width" href="https://www.linkedin.com/in/roryhackney" target="_blank" aria-label="LinkedIn - link opens in new tab">LinkedIn<span class="icon button-external"><img src="assets/arrow-up-right-from-square-solid.svg" alt="opens in new tab"></span></a>
-                                    <a class="button" href="resume.php">Resume</a>
-                                </div>
-                            </div>
-                            <div class="column is-full">
-                                <h2 class="title is-5 has-text-centered">My Recent Work</h2>
-                            </div>
-                            <div class="column is-full">
-                                <div class="buttons-row three">
-                                    <a class="button" href="portfolio.php">Portfolio</a>
-                                    <a class="button is-hidden-desktop" href="mailto:roryhackney@gmail.com">Email</a>
-                                    <a class="button is-hidden-touch" href="#contact">Contact</a>
-                                    <a class="button" href="resume.php">Resume</a>
-                                </div>
-                                <p class="has-text-centered is-hidden-touch">Thanks for dropping by!</p>
-                                <a href="" class="is-block has-text-centered is-hidden-touch pb-3" role="button">Back to top</a>
-                            </div>
-                        </div>
+            <section>
+                <h1 id="h1">Hire Me</h1>
+                <p>I'm a web developer and software developer from Seattle, Washington with a design background, currently open to junior roles in web development, software development, or cloud computing. If you have a job or project in mind, or you'd like a resume highlighting the skills most relevant to your role, please reach out to me through my <a href="#form-container">contact form</a>, on <a href="<?= $linkedin ?>">LinkedIn</a>, or via email at <a href="mailto:"<?= $email ?>><?= $email ?></a>.</p>
+                <div class="row">
+                    <div>
+                        <h2>My Resume</h2>
+                        <img id="resume" src="https://drive.google.com/thumbnail?id=17sbJVu88oK2qRVqSXO44_UdRUy3v37v9Zv0rKu0Y3PQ&amp;sz=s4000" alt="Resume preview" width="500" height="647">
+                        <a href="https://drive.google.com/file/d/11AR3rTmh-DwMtPNx5Q-OQryiM3TIB57x/preview" target="_blank">Resume (PDF) <span class="fas fa-up-right-from-square" title="opens in new tab"></span></a>
                     </div>
-                    <?php include 'includes/sidebar.php'; ?>
                 </div>
-            </div>
-        </div>
-<?php include 'includes/footer.php'; ?>
+                <div class="buttons-row">
+                    <a href="/portfolio.php" class="button">Portfolio</a>
+                    <a href="<?= $github ?>" target="_blank" class="button">GitHub</a>
+                    <a href="<?= $linkedin ?>" target="_blank" class="button">LinkedIn</a>
+                </div>
+            </section>
+            <section>
+                <h2>Web Design Services</h2>
+                <p>I've been designing and developing websites since 2020, with past client projects including <a href="post.php?title=EllePower%20Website%20-%20Capstone">EllePower</a> and <a href="https://www.linkedin.com/pulse/my-first-open-source-project-rory-hackney-s5wqc" target="_blank">Licton Springs Review</a>. I enjoy working directly with clients to create custom websites that help small businesses make a big impact.</p>
+                
+                <p>I develop websites using platforms such as WordPress, Systeme.IO, and SquareSpace, and static websites using HTML, CSS, JavaScript, and other coding languages. I also enjoy creating unique website and UX designs in Figma, and customizing templates to create designs. Please reach out if you'd like an estimate for your project.</p>
+            </section>
+<?php include 'includes/footer.php';
