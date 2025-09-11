@@ -10,10 +10,8 @@
                 <h1 id="h1">Thank You</h1>
                 <p>You have successfully contacted me. I'll respond as fast as possible. Thank you!</p>
                 <div class="buttons-row">
-                    <a class="button" href="portfolio/yamagiwa-massage">Live Site</a>
-                    <a class="button" href="https://github.com/roryhackney/MassageWebsite/tree/main/prototype" target="_blank">GitHub   <span class="fas fa-up-right-from-square" title="opens in new tab"></span>
-                    </a>
-                    <a class="button" href="hire-me.php">Hire Now</a>
+                    <a class="button" href="<?= $linkedin ?>" target="_blank">LinkedIn <span class="fas fa-up-right-from-square" title="opens in new tab"></span></a>
+                    <a class="button" href="<?= $github ?>" target="_blank">GitHub  <span class="fas fa-up-right-from-square" title="opens in new tab"></span></a>
                 </div>
             </section>
 
