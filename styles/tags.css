@@ -1,0 +1,44 @@
+/* Tags block */
+#tags {
+    background-color: var(--medium);
+    padding: 25px;
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+#tags h2 {
+    margin-top: 0;
+}
+
+#tags li {
+    list-style-type: none;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+#tags a {
+    color: black;
+}
+
+#tags ul {
+    width: 100%;
+}
+
+/* two column */
+@media screen and (width > 700px) { 
+    #tags li {
+        width: 50%;
+    }
+}
+
+/* 3 column */
+@media screen and (width > 900px) { 
+    #tags li {
+        width: 33.333%;
+    }
+}
