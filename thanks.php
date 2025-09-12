@@ -14,5 +14,6 @@
                     <a class="button" href="<?= $github ?>" target="_blank">GitHub  <span class="fas fa-up-right-from-square" title="opens in new tab"></span></a>
                 </div>
             </section>
+            
 
 <?php include './includes/footer.php';

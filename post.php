@@ -23,7 +23,7 @@
             </div>
             <section>
                 <h1 id="h1"><?= $h1 ?></h1>
-                <p><?= $row["create_date"] ?> - <?= $row["complete_date"] ?></p>
+                <p><?php if ($createDate === $completeDate) {echo($createDate);} else {echo($createDate . " - " . $completeDate);} ?></p>
                 <section id="tags">
                     <h2>Tags</h2>
                         <ul>
@@ -32,6 +32,7 @@
                             } ?>
                         </ul>
                 </section>
+                <p><?= $summary ?></p>
                 <?php
                     foreach($html as $element) {
                         echo $element;

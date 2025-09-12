@@ -1,6 +1,7 @@
 /* Tags block */
 #tags {
     background-color: var(--medium);
+    color: var(--black);
     padding: 25px;
     margin: 0 25px;
     display: flex;

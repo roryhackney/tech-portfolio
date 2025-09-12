@@ -23,6 +23,10 @@
         $row = mysqli_fetch_assoc($result);
         $file = $row["preview_filename_base"];
         $alt = $row["preview_alt"];
+        $h1 = $row["title"];
+        $createDate = $row["create_date"];
+        $completeDate = $row["complete_date"];
+        $summary = $row["summary"];
 
         //fetch all the tags for the post
         $getTags = "SELECT * FROM tags INNER JOIN post_tags ON tags.tag_name = post_tags.tag WHERE post_tags.post = \"$title\" ORDER BY tags.tag_name;";

@@ -1,5 +1,9 @@
 @import url("tags.css");
 
+.portfolio-detail ol {
+    padding: 25px 50px;
+}
+
 .portfolio-detail li.no-bullet {
     list-style-type: none;
 }
@@ -33,7 +37,7 @@
 
 .portfolio-detail .post-row-two section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     max-width: 600px;
     width: 100%;
