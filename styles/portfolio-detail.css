@@ -43,6 +43,11 @@
     width: 100%;
 }
 
+.portfolio-detail main ul:not(#tags ul) {
+    margin: 25px 50px;
+    max-width: 750px;
+}
+
 @media screen and (width > 1000px) {
     .portfolio-detail .post-row-two {
         flex-direction: row;
