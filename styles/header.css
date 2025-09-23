@@ -23,12 +23,14 @@
     width: 100%;
     max-width: 250px;
 }
+
 #site-title {
     font-family: var(--titleFont);
     font-weight: bold;
     font-size: var(--font-size-x-large);
     white-space: nowrap;
 }
+
 #site-title + div {
     margin-bottom: 10px;
     font-size: var(--font-size-medium);
@@ -46,8 +48,9 @@
 }
 
 header nav {
-    margin: 10px 0;
+    margin: 10px 15px;
 }
+
 header nav a {
     text-decoration: none;
     padding: 5px;
@@ -116,62 +119,56 @@ header {
     padding: 15px;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-header .column {
+header #logo-block {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-/* hide blocks based on screen size (desktop vs everything else) */
-header .column.desktop-only {
-    display: none;
+header #logo-text {
+    padding: 0 15px;
 }
 
-@media screen and (width > 600px) {
-    #logo {
-        max-width: 200px;
+header #toggle-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+header #toggle-icons > div {
+    margin: 5px 15px;
+}
+
+header #full-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (width > 547px) {
+    header #logo-block {
+        flex-direction: row;
     }
 
-    #site-title, #site-title + div {
+    header #logo-block p {
         text-align: left;
-        margin-left: 15px;
-    }
-
-    header .column {
-        flex-direction: row;
-    }
-
-    header .column:last-of-type {
-        justify-content: space-between;
-    }
-
-    header .column > div {
-        margin-left: 15px;
-        margin-right: 15px;
     }
 }
 
-@media screen and (width > 1446px) {
-    header .column {
-        width: 482px;
-    }
-
-    header .column.desktop-only {
-        display: flex;
-    }
-
-    header .column.desktop-hidden {
-        display: none;
-    }
-
-    header {
-        flex-direction: row;
-        justify-content: space-around;
+@media screen and (width > 673px) {
+    header #toggle-icons {
+        margin-right: 5vw;
     }
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
+        <!-- TODO: remember to to change back: all-styles.css to import header.css, index.php to import header.php -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,9 +33,20 @@
     <body class="<?php echo $bodyClass;?>">
         <a id="screen-reader-skip-link" href="#h1">Skip to content</a>
         <header>
-            <div class="column">
+            <!-- logo -->
+                <!-- DONE stacks left when there's room -->
+            <!-- Rory Hackney -->
+            <!-- Software Developer -->
+            <!-- Web Developer / Designer -->
+                        <!-- stacks left when there's room-->
+            <!-- Dark Mode Toggle -->
+                <!-- stacks left when there's room -->
+            <!-- LinkedIn/GitHub icons -->
+                    <!-- stacks left when there's room and reverses order -->
+            <!-- Menu -->
+            <div id="logo-block">
                 <img id="logo" alt="Logo with the letters RH" src="assets/logo.png" width="300" height="300"/>
-                <div>
+                <div id="logo-text">
                     <p id="site-title">Rory Hackney</p>
                     <div>
                         <p>Software Developer</p>
@@ -43,42 +55,24 @@
                 </div>
             </div>
 
-            <!-- changes order based on screen size -->
-            <div class="column desktop-hidden">
-                <div class="dark-mode-option">
-                    <label for="dark-mode-checkbox-mobile">
-                        Dark Mode
-                        <input id="dark-mode-checkbox-mobile" name="dark-mode-checkbox" type="checkbox"/>
-                        <div><span></span></div>
-                    </label>
+            <div id="full-menu">
+                <div id="toggle-icons">
+                    <div class="dark-mode-option">
+                        <label for="dark-mode-checkbox">
+                            Dark Mode
+                            <input id="dark-mode-checkbox" name="dark-mode-checkbox" type="checkbox"/>
+                            <!-- style this as toggle rather than input itself -->
+                            <div><span></span></div>
+                        </label>
+                    </div>
+                    <div id="brand-icons">
+                        <a href="<?php echo $linkedin; ?>" target="_blank"><span class="fab fa-linkedin fa-2x" title="LinkedIn"></span></a>
+                        <a href="<?php echo $github; ?>" target="_blank"><span class="fab fa-github fa-2x" title="GitHub"></span></a>
+                    </div>
                 </div>
-                <div id="brand-icons">
-                    <a href="<?php echo $linkedin; ?>" target="_blank"><span class="fab fa-linkedin fa-2x" title="LinkedIn"></span></a>
-                    <a href="<?php echo $github; ?>" target="_blank"><span class="fab fa-github fa-2x" title="GitHub"></span></a>
-                </div>
-            </div>
 
-            <div class="column desktop-hidden">
                 <?php include 'includes/nav.php'; ?>
             </div>
 
-            <!-- changes order based on screen size -->
-            <div class="column desktop-only">
-                <?php include 'includes/nav.php'; ?>
-            </div>
-
-            <div class="column desktop-only">
-                <div class="dark-mode-option">
-                    <label for="dark-mode-checkbox-desktop">
-                        Dark Mode
-                        <input id="dark-mode-checkbox-desktop" name="dark-mode-checkbox" type="checkbox"/>
-                        <div><span></span></div>
-                    </label>
-                </div>
-                <div id="brand-icons">
-                    <a href="<?php echo $linkedin; ?>" target="_blank"><span class="fab fa-linkedin fa-2x" title="LinkedIn"></span></a>
-                    <a href="<?php echo $github; ?>" target="_blank"><span class="fab fa-github fa-2x" title="GitHub"></span></a>
-                </div>
-            </div>
         </header>
         <main>
