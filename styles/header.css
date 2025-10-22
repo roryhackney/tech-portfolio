@@ -21,13 +21,13 @@
 #logo {
     display: block;
     width: 100%;
-    max-width: 250px;
+    max-width: 200px;
 }
 
 #site-title {
     font-family: var(--titleFont);
     font-weight: bold;
-    font-size: var(--font-size-x-large);
+    font-size: var(--font-size-xx-large);
     white-space: nowrap;
 }
 
@@ -35,6 +35,10 @@
     margin-bottom: 10px;
     font-size: var(--font-size-medium);
     white-space: nowrap;
+}
+
+body.dark-mode #site-title + div {
+    color: var(--gray);
 }
 
 /* font awesome icons in header */
@@ -45,6 +49,10 @@
 #brand-icons .fa-2x {
     margin: 10px 5px;
     color: var(--white);
+}
+
+body.dark-mode #brand-icons .fa-2x {
+    color: var(--gray);
 }
 
 header nav {
@@ -59,13 +67,18 @@ header nav a {
     font-size: var(--font-size-medium);
 }
 
+body.dark-mode header nav a {
+    color: var(--gray);
+}
+
 header nav ul {
     list-style: none;
     display: flex;
 }
 
-header nav .active-page {
+header nav .active-page a {
     text-decoration: underline;
+    color: var(--white) !important;
 }
 
 /*****************/
@@ -76,6 +89,11 @@ header nav .active-page {
     flex-direction: row-reverse;
     align-items: center;
 }
+
+body.dark-mode .dark-mode-option label {
+    color: var(--gray);
+}
+
 /* Default checkbox should be hidden */
 .dark-mode-option input {
     visibility: hidden;
@@ -97,6 +115,10 @@ header nav .active-page {
     border-radius: 25px;
     margin: 10px 0;
 }
+body.dark-mode .dark-mode-option div {
+    border-color: var(--gray);
+}
+
 /* Circle part of toggle */
 .dark-mode-option span {
     position: absolute;
@@ -158,6 +180,10 @@ header #full-menu {
 }
 
 @media screen and (width > 547px) {
+    header #logo {
+        max-width: 150px;
+    }
+
     header #logo-block {
         flex-direction: row;
     }

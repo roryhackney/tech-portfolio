@@ -32,6 +32,7 @@
                 <section id="tags">
                     <h2>Tags</h2>
                         <ul>
+                            <li><a href="portfolio.php#posts">All projects</a></li>
                             <?php foreach($tags as $tag) {
                                 echo "<li><a href=\"portfolio.php?tag=$tag#posts\">$tag</a></li>";
                             } ?>

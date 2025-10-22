@@ -33,19 +33,9 @@
     <body class="<?php echo $bodyClass;?>">
         <a id="screen-reader-skip-link" href="#h1">Skip to content</a>
         <header>
-            <!-- logo -->
-                <!-- DONE stacks left when there's room -->
-            <!-- Rory Hackney -->
-            <!-- Software Developer -->
-            <!-- Web Developer / Designer -->
-                        <!-- stacks left when there's room-->
-            <!-- Dark Mode Toggle -->
-                <!-- stacks left when there's room -->
-            <!-- LinkedIn/GitHub icons -->
-                    <!-- stacks left when there's room and reverses order -->
-            <!-- Menu -->
             <div id="logo-block">
-                <img id="logo" alt="Logo with the letters RH" src="assets/logo.png" width="300" height="300"/>
+                <a href="/"><img id="logo" class="dark-hide" alt="Logo with the letters RH" src="assets/logo.png" width="300" height="300"/></a>
+                <a href="/"><img id="logo" class="light-hide" alt="Logo with the letters RH" src="assets/logo-dark.png" width="300" height="300"/></a>
                 <div id="logo-text">
                     <p id="site-title">Rory Hackney</p>
                     <div>

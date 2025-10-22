@@ -38,18 +38,34 @@
     if ($numRows > 0) {
         for ($i = 0; $i < $numRows; $i++) {
             $curr = mysqli_fetch_assoc($posts);
+
+            //get this post's tags for display
+            $postTags = mysqli_query($link, "SELECT tag FROM post_tags JOIN tags ON tag = tag_name WHERE post = \"" . $curr["title"] . "\" ORDER BY order_index;");
+            $tagsArr = [];
+            
+            $n = mysqli_num_rows($postTags);
+            for ($j = 0; $j < $n; $j++) {
+                $tagJ = mysqli_fetch_assoc($postTags)["tag"];
+                $tagsArr[$j] = "<li><a href=\"portfolio.php?tag=$tagJ#post-" . $curr["title"] . "\">" . $tagJ . "</a></li>";
+            }
+
+            // html for this post
             $href = "post.php?title=" . $curr["title"];
             $html[$i] = "
-                <section class=\"project-card\">
+                <section class=\"project-card\" id=\"post-" . $curr["title"] . "\">
                     <a href=\"" . $href . "\"><h3>" . $curr["title"] . "</h3></a>
                     <picture>
                         <source media=\"(min-width: 401px)\" srcset=\"assets/posts/" . $curr["preview_filename_base"] . "-card-medium.jpg\">
                         <img src=\"assets/posts/" . $curr["preview_filename_base"] . "-card-small.jpg\" alt=\"" . $curr["preview_alt"] . "\"/>
                     </picture>
                     <p>Completed " . $curr["complete_date"] . "</p>
+                    <div id=\"card-tags\"><h4>Tags</h4>: <ul>" . implode(", ", $tagsArr) . "</ul></div>
                     <p>" . $curr["summary"] . "</p>
                 </section>
             ";
+        }
+        if ($numRows % 2 !== 0) {
+            $html[$numRows] = "<section class=\"project-card hidden-but-affects-layout\"></section>";
         }
     } else {
         $html[0] = "<p>No posts found</p>";

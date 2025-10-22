@@ -1,7 +1,9 @@
 @import url("tags.css");
 
 .portfolio-detail ol {
-    padding: 25px 50px;
+    max-width: 750px;
+    padding: 0;
+    margin: 25px 50px;
 }
 
 .portfolio-detail li.no-bullet {

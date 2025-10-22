@@ -49,6 +49,10 @@ footer nav .active-page {
     text-decoration: underline;
 }
 
+body.dark-mode footer section * {
+    color: var(--gray);
+}
+
 @media screen and (width > 1000px) {
     footer section {
         flex-direction: row-reverse;

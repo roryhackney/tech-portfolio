@@ -31,10 +31,11 @@
                 <div id="row">
                     <img id="profile" src="assets/rory-hackney.jpg" alt="Rory Hackney, a white person in a blue jacket, is smiling in front of some trees." width="500" height="600"/>
                     <div>
-                        <p>As a full stack web developer and software developer, I have consistently combined my technical expertise with my strong design background and communication skills to develop technology that makes a positive impact.</p>
-                        <p>Towards the end of my art degree, I took my first coding class and realized how much I enjoyed programming. After moving to Seattle, I completed a web development and design certificate, and began studying for my Computer Science BS. Despite working multiple jobs while in school, I was able to persevere and graduated June 2025 with a 3.99 GPA.</p>
-                        <p>During the program, I found my passion for helping others both personally and professionally. I had the opportunity to complete an internship, practicum, and capstone working with small businesses helping their communities, and to help other students as a tutor. These projects allowed me to make a positive impact using the technical skills I developed during my degree, together with my design and communication skills.</p>
-                        <p>Since graduating with my BS in Computer Science, I've continued to develop my skills by contributing to open source projects, improving my understanding of cloud computing, and working on websites for small businesses and nonprofits. As I begin my new career, I'm excited to continue learning, working hard, and making a positive impact with technology.</p>
+                        <p>While earning my bachelor's degree in Computer Science after completing my web development certificate, I learned to create websites, algorithms, databases, and software using Java, Python, SQL, PHP, JavaScript, React, HTML, CSS, and AI, while reinforcing my new knowledge by working as an IT tutor.</p>
+
+                        <p>During my CS program, I had the opportunity to complete an AI internship, web development practicum, cloud computing projects, security practicum, and capstone designing a website for EllePower supporting survivors of abuse. These projects allowed me to make a positive impact as a software and web developer while leveraging my design and communication skills on real world projects.</p>
+                        
+                        <p>Now, having graduated with my BS in Computer Science, I'm excited to continue learning, working hard, and contributing to technology that makes a difference in the world.</p>
                     </div>
                 </div>
                 <picture class="dark-hide">

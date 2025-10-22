@@ -13,16 +13,13 @@ window.addEventListener("DOMContentLoaded", function(event) {
     }
     localStorage.setItem("theme", theme);
 
-    const toggle = window.innerWidth > 1446 ?
-                    document.getElementById("dark-mode-checkbox-desktop") : 
-                    document.getElementById("dark-mode-checkbox-mobile");
+    const toggle = document.getElementById("dark-mode-checkbox");
     if (theme == "dark") {
         toggle.checked = true;
         document.body.classList.add("dark-mode");
     } else {
         toggle.checked = false;
         document.body.classList.remove("dark-mode");
-
     }
 
     toggle.addEventListener("change", (event) => {

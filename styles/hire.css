@@ -2,12 +2,24 @@
     width: 100%;
 }
 
-.hire .row div {
+.hire .row {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
-.hire #resume {
+.hire .resume {
     margin: 15px;
+}
+
+.hire .resume + a {
+    display: block;
+    text-align: center;
+}
+
+@media screen and (width > 1000px) {
+    .hire .row {
+        flex-direction: row;
+    }
 }

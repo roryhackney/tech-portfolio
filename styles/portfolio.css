@@ -19,13 +19,30 @@
     margin: 5px 25px;
 }
 
-/* if there's a single item at the end, align it to the left rather than centering */
-.portfolio .project-card:last-of-type:nth-of-type(odd) {
-    margin-right: auto;
-}
-
 .portfolio .project-card a {
     text-decoration: none;
+}
+
+.portfolio .project-card #card-tags {
+    margin: 5px;
+}
+
+.portfolio .project-card #card-tags h4 {
+    display: inline;
+    margin: 0;
+}
+
+.portfolio .project-card #card-tags ul {
+    display: inline;
+}
+
+.portfolio .project-card #card-tags li {
+    list-style-type: none;
+    display: inline;
+}
+
+.portfolio .project-card #card-tags li a {
+    color: var(--off-black);
 }
 
 .portfolio .project-card h3 {

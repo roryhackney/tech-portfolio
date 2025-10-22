@@ -62,6 +62,7 @@
                                 <li><h3>Software Development</h3>
                                     <ul>
                                         <li>Java, SQL, Python, APIs</li>
+                                        <li>Artificial Intelligence (AI), Copilot, OpenAI API</li>
                                         <li>Relational, NoSQL, Key/Value Databases</li>
                                         <li>Unit Testing, Software Design, Data Structures</li>
                                     </ul>

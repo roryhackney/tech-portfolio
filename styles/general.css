@@ -19,11 +19,11 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-body .light-hide {
+body .light-hide, #logo.light-hide {
     display: none;
 }
 
-body .dark-hide {
+body .dark-hide, #logo.dark-hide {
     display: block;
 }
 
@@ -32,11 +32,11 @@ body.dark-mode {
     color: var(--gray);
 }
 
-body.dark-mode .light-hide {
+body.dark-mode .light-hide, body.dark-mode #logo.light-hide {
     display: block;
 }
 
-body.dark-mode .dark-hide {
+body.dark-mode .dark-hide, body.dark-mode #logo.dark-hide {
     display: none;
 }
 
@@ -55,11 +55,15 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: var(--font-size-x-large);
+    font-size: var(--font-size-xx-large);
     font-weight: bold;
 }
 
-h2, h3 {
+h2 {
+    font-size: var(--font-size-x-large);
+}
+
+h3 {
     font-size: var(--font-size-large);
 }
 
@@ -102,4 +106,8 @@ input, button, textarea, select {
 }
 .buttons-row .button:nth-of-type(3) {
     background-color: var(--dark);
+}
+
+.hidden-but-affects-layout {
+    visibility: hidden;
 }

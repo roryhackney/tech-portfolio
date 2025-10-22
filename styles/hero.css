@@ -20,9 +20,17 @@
 }
 
 #hero-text p:first-of-type {
-    font-size: var(--font-size-xx-large);
+    font-size: var(--font-size-xxx-large);
     font-weight: bold;
     line-height: 1;
+}
+
+#hero-text p:nth-of-type(2) {
+    text-shadow:
+        -1px -1px 0 var(--off-black), /* Top-left shadow */
+         1px -1px 0 var(--off-black),  /* Top-right shadow */
+        -1px 1px  0 var(--off-black),  /* Bottom-left shadow */
+         1px 1px  0 var(--off-black);   /* Bottom-right shadow */
 }
 
 @media screen and (width > 480px) {
