@@ -1,0 +1,65 @@
+@import url("tags.css");
+
+.blog-detail ol {
+    max-width: 750px;
+    padding: 0;
+    margin: 25px 50px;
+}
+
+.blog-detail li.no-bullet {
+    list-style-type: none;
+}
+
+.blog-detail .process-steps {
+    background-color: var(--medium);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.blog-detail .small-image {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.blog-detail .small-image img {
+    max-width: 760px;
+    margin: 15px auto;
+}
+
+.blog-detail .small-image img {
+    margin: 5px auto;
+}
+
+.blog-detail .post-row-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog-detail .post-row-two section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.blog-detail main ul:not(#tags ul) {
+    margin: 25px 50px;
+    max-width: 750px;
+}
+
+@media screen and (width > 1000px) {
+    .blog-detail .post-row-two {
+        flex-direction: row;
+    }
+    .blog-detail .post-row-two section {
+        width: 50%;
+    }
+
+    .blog-detail img:not(picture img) {
+        max-width: 1000px;
+        margin: 25px auto;
+    }
+}

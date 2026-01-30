@@ -46,6 +46,11 @@ function addPicture($base, $alt) {
     addContent("picture", "small-image", $base, $alt);
 }
 
+//adds a single image, not a responsive picture. More flexible, can be any size.
+function addStaticImage($src, $alt, $width, $height) {
+    addHTML('<img src="assets/posts/' . $src . '" alt="' . $alt .'" width="' . $width . '" height="' . $height . '"/>');
+}
+
 function addHTML($html) {
     addContent("html", null, $html, null);
 }
@@ -72,42 +77,35 @@ function addList($items, $ordered = false) {
     addHTML($html);
 }
 
-function addStaticImage($src, $alt, $width, $height) {
-    addHTML('<img src="assets/posts/' . $src . '" alt="' . $alt .'" width="' . $width . '" height="' . $height . '"/>');
-}
-
 //MAKE CHANGES HERE
-$title = "Ecommerce SQL Database";
+$title = "LSR Web Development Practicum";
 
-addHTML('<p>For this project, I worked with <a href="https://github.com/KenCage1007\" target="_blank">Ken <span class="fas fa-up-right-from-square" title="opens in new tab"></span></a> to design and implement a relational SQL database for a fictional crystal shop called The Dragon\'s Hoard in order to develop our database skills. We wanted to track products, current inventory, transactions, reviews for products, and users who signed up for an account on the fictional shop\'s website.</p>');
+addText("LSR has published art, writing, and video submissions by students and alumni of North Seattle College in various formats since 2000. It was exciting getting to work on a new website for a real world client.");
 
-addContent("h2", null, "Features", null);
+addText("As part of the project, I had the opportunity to participate in sprints, improve my Git skills, collaborate with peer developers, project managers, and technical leads, practice designing websites, improve my web development and React skills, learn TypeScript, and work with the WordPress API on a real world project.");
 
-addList([
-    "List which products we currently have in inventory",
-    "Create new products",
-    "Modify the amount of a particular product that we have in inventory",
-    "Delete a product from inventory",
-    "Get a list of the most popular products for a given time range",
-    "Get a list of the least popular products for a given time range",
-    "Get a list of users who haven't purchased something in a few months to send promotional emails to, this should also include products that these users normally purchase"
-]);
+addText("The practicum I was a part of had great documentation and established processes, which helped me learn Git skills in a more realistic work environment. I participated in sprint planning meetings, task estimation, and retrospectives, created issues and pull requests according to established templates, locally tested the work of other developers, and improved my own work based on feedback.");
 
-addContent("h2", null, "Design", null);
-addHTML('<p>We began by analyzing and collecting requirements. As part of this process, we developed a <a href="https://github.com/roryhackney/ecommerceDatabase/blob/main/Glossary.pdf" target="_blank">glossary <span class="fas fa-up-right-from-square" title="opens in new tab"></span></a> which defined entities, naming conventions, and descriptions of various properties. We then developed an <a href="https://github.com/roryhackney/ecommerceDatabase/blob/main/design.png" target="_blank">entity relationship diagram (ERD) <span class="fas fa-up-right-from-square" title="opens in new tab"></span></a> using Crow\'s Foot notation to plan our logical model, defining each entity, its properties, and its relationships with other entities (eg, one to many). After normalization, we worked on the final <a href="https://github.com/roryhackney/ecommerceDatabase/blob/main/tableDiagram.png" target="_blank">table diagram <span class="fas fa-up-right-from-square" title="opens in new tab"></span></a> to define precisely how to implement each table in SQL, creating additional join tables for many to many relationships.</p>');
+addStaticImage("lsr-website-pull-request.png", "Screenshot of my PR in Git that fetches multiple posts of a given category and displays them in a list.", 1488, 837);
 
-addContent("h2", null, "Implementation", null);
-addText("Once the design was complete, we split up the tasks to write SQL to implement each table, allowing us to make progress on different independent tables at the same time. We also wrote SQL to insert data into each table. Finally, we developed SQL to create procedures and triggers. Once done, we combined our separate files, fixed bugs, and ensured everything worked together and successfully created the database when run in the correct order.");
+addHTML('<p>I had the opportunity to develop a <a href="https://www.figma.com/design/lQdedg8eq6pw4QMRWoyLAw/LSR-Design">design for the website</a> in Figma, which reinforced my skills in responsive web design. Once the client picked their favorite design, I began implementing the website using React. During the project, I ran into merge conflicts and other Git issues when merging multiple PRs from different developers, which gave me a lot of practice resolving problems in the web editor and CLI, and carefully testing PRs before approval. I found TypeScript helpful for improving the reliability of submitted code and catching type errors.</p>');
 
-addStaticImage("ecommerce-sql-db-tables.png", "Screenshot of the database tables after implementation", "1482", "892");
+addText("After the website structure was created using React components, my primary role was to work on fetching content from the original site using the WordPress API. During this task, I became very familiar with Postman, which allowed me to test WordPress API calls, analyze the responses, and parse them in order to display and style extracted content. Although I’d only used them briefly before, after greater understanding I found them extremely valuable, and could already see how I could use the API to allow non technical clients to manage content using the GUI while allowing developers programmatic access.");
 
-addContent("h2", null, "Application", null);
-addText("We then created a Java application which calls into the locally running database, using print statements for a menu and gathering user input in the terminal to demonstrate the functionality of the database.");
+addStaticImage("lsr-website-react-component.png", "Detail component, which retrieves a post's content from WordPress using the GET title parameter and turns it into valid HTML.", 1488, 837);
 
-addStaticImage("ecommerce-sql-db-application.png", "The Java program shows the menu: View Inventory, Add Product, Change Quantity, Delete Product, Get Most/Least Popular Products, Get Users Favorite Products For Promo", "1920", "1080");
+addText("One challenge I ran into was that some posts had different types of content, like images, videos, and text. I got a lot of practice handling edge cases and ensuring the website could handle all kinds of content gracefully with helpful feedback rather than errors being displayed to the user. I also was able to implement fetching and displaying posts by category, parsing the returned JSON into HTML and React code in reusable components in order to create web pages. I learned a lot about writing reusable, generic functions and components that allowed us to reduce duplication and improve code quality and maintainability.");
+
+addStaticImage("lsr-website-category-posts.png", "PostsByCategory component, which takes a category and returns a list of posts in HTML/React code.", 1488, 837);
+
+addText("Once the posts were correctly displayed and styled on the new website, we began discussing different approaches to a more permanent migration. While the team was working on an initial database design, the client asked for a completed and launched website for a public launch party - in two weeks, with new 2025 student submissions in different word documents to be added to the site without being accessed through the WordPress API.");
+
+addText("I recommended a simple, rapid approach in order to meet the deadline, creating an array for each post category containing new submissions title and author. The submission objects in the array would be mapped to an HTML list using the existing React components, allowing reuse of the HTML and CSS that had already been developed, displaying the new content above the older WordPress posts seamlessly. On the detail page, titles were used as keys to provide O(1) access to the correct array of paragraphs or other content, fetching the title from the URL's GET parameters, and mapping the content to existing React components. I developed a proof of concept for the Poetry page, after which the team split up the remaining pages, completing the project with time to spare.");
+
+addText("This was a great project that taught me a lot about collaboration and working with clients. I'm looking forward to seeing how the rest of the site develops, as the next generation of students completes the database.");
 
 //Add GitHub and Hire Now buttons
-$g = "https://github.com/roryhackney/ecommerceDatabase";
+$g = "https://github.com/SeattleColleges/licton-springs-review-nextjs";
 $html = '<div class="buttons-row"><a class="button" href=' . $g . ' target="_blank">GitHub <span class="fas fa-up-right-from-square" title="opens in new tab"></span></a><a class="button" href="hire-me.php">Hire Now</a></div>';
 addContent("html", null, $html, null);
 

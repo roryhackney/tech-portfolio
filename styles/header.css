@@ -59,6 +59,14 @@ header nav {
     margin: 10px 15px;
 }
 
+header nav li {
+    margin-bottom: 5px;
+}
+
+header nav li:last-of-type {
+    margin-bottom: 0;
+}
+
 header nav a {
     text-decoration: none;
     padding: 5px;
@@ -74,6 +82,7 @@ body.dark-mode header nav a {
 header nav ul {
     list-style: none;
     display: flex;
+    flex-direction: column;
 }
 
 header nav .active-page a {
@@ -177,6 +186,12 @@ header #full-menu {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (width > 425px) {
+    header nav ul {
+        flex-direction: row;
+    }
 }
 
 @media screen and (width > 547px) {

@@ -3,7 +3,7 @@ USE tech_portfolio;
 
 CREATE TABLE posts (
     title VARCHAR(64) PRIMARY KEY,
-    create_date VARCHAR(64), -- honestly probs won't use but just in case we want to later...
+    create_date VARCHAR(64),
     complete_date VARCHAR(64) NOT NULL,
     summary VARCHAR(512) NOT NULL, -- the excerpt displayed in list of posts
     is_collaborative BOOLEAN NOT NULL, -- was this a group project?

@@ -43,6 +43,16 @@ switch($page) {
         $title = 'Thank You';
         $currentPage = '';
         break;
+    case '/blog.php':
+        $bodyClass = 'blog';
+        $title = 'Blog';
+        $currentPage = 'blog';
+        break;
+    case '/blog-post.php':
+        $bodyClass = 'blog-detail';
+        $title = $_GET["title"];
+        $currentPage = 'blog';
+        break;
     default:
         $bodyClass = "not-found-404";
         $title = "Page Not Found";
